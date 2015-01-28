@@ -11,7 +11,7 @@
 /* button */
 /** GENERAL ****************************/
 /* line 5, _caw_styles.scss */
-body {
+body, .header, .site-main-menu, .main {
   background: #fbfbf9;
 }
 
@@ -36,3 +36,83 @@ body {
 .header .site-logo img {
   max-height: 86px;
 }
+
+/** SEARCH ****************************/
+/** NAVBAR MENU ****************************/
+/** SIDEBAR MENUS ****************************/
+/** HEADERS ****************************/
+/* line 34, _caw_styles.scss */
+h1 {
+  margin-bottom: 0.5em;
+  letter-spacing: -0.02em;
+}
+
+/* line 40, _caw_styles.scss */
+h2, .content h2, body.cke_show_borders h2, .well h2, #sidebar-second .well-sidebar-only h2 {
+  margin-top: 1em;
+}
+
+/* line 43, _caw_styles.scss */
+h3, .content h3, body.cke_show_borders h3 {
+  margin-top: 1em;
+}
+
+/* line 46, _caw_styles.scss */
+h4, .content h4, body.cke_show_borders h4 {
+  margin-top: 1em;
+}
+
+/* line 50, _caw_styles.scss */
+.block h2:first-child,
+.content h2:first-child, .content h3:first-child, .content h4:first-child {
+  margin-top: 0;
+}
+
+/** TEXT ****************************/
+/* line 76, _caw_styles.scss */
+hr {
+  border-color: #e2e2e2;
+}
+
+/** NEW TO CAW ****************************/
+/* line 82, _caw_styles.scss */
+.red-text {
+  color: #8c1515;
+  font-weight: 600;
+}
+
+/** LISTS ****************************/
+/* line 88, _caw_styles.scss */
+ul li {
+  line-height: 1.4em;
+  margin-bottom: 0.25em;
+}
+
+/* line 92, _caw_styles.scss */
+ul, ol {
+  margin-bottom: 1.25em;
+}
+
+/** TABLES ****************************/
+/* line 98, _caw_styles.scss */
+th, td {
+  padding: 1em;
+  border: 1px solid #e6e8ec;
+}
+
+/* line 102, _caw_styles.scss */
+th {
+  background: #e6e8ec;
+}
+
+/** LINKS ****************************/
+/* line 114, _caw_styles.scss */
+.main-bottom a {
+  font-weight: 500;
+}
+
+/** BLOCKS ****************************/
+/** IMAGES ****************************/
+/** CAROUSEL ****************************/
+/** HOMEPAGE ****************************/
+/** IE STYLES ****************************/

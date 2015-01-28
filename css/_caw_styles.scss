@@ -2,7 +2,7 @@
 html {
 }
 
-body {
+body, .header, .site-main-menu, .main {
   background: $beige;
 }
 
@@ -23,3 +23,104 @@ body {
 .header .site-logo img {
   max-height: 86px;
 }
+
+/** SEARCH ****************************/
+
+/** NAVBAR MENU ****************************/
+
+/** SIDEBAR MENUS ****************************/
+
+/** HEADERS ****************************/
+h1 { 
+  margin-bottom: 0.5em;
+  letter-spacing: -0.02em;
+}
+h2, h3, h4 {
+}
+h2, .content h2, body.cke_show_borders h2, .well h2, #sidebar-second .well-sidebar-only h2 {
+  margin-top: 1em;
+}
+h3, .content h3, body.cke_show_borders h3 { 
+  margin-top: 1em;
+}
+h4, .content h4, body.cke_show_borders h4 { 
+  margin-top: 1em;
+}
+.block h2:first-child,
+.content h2:first-child, .content h3:first-child, .content h4:first-child {
+  margin-top: 0;
+}
+.well h2 {
+}
+.normal-link h2, .normal-link h3, h2.normal-link, h3.normal-link {
+}
+
+/** TEXT ****************************/
+
+blockquote {
+}
+.caption, .credits, .descriptor {
+}
+.caption {
+}
+.descriptor {
+}
+.summary {
+}
+.date-month {
+}
+.date-day {
+}
+.alert {
+}
+hr {
+	border-color: $gray-light;
+}
+
+/** NEW TO CAW ****************************/
+
+.red-text {
+  color: #8c1515;
+  font-weight: 600;
+}
+
+/** LISTS ****************************/
+ul li {
+  line-height: 1.4em;
+  margin-bottom: 0.25em;
+}
+ul, ol {
+  margin-bottom: 1.25em;
+}
+
+/** TABLES ****************************/
+
+th, td {
+  padding: 1em;
+  border: 1px solid #e6e8ec;
+}
+th {
+  background: #e6e8ec;
+}
+
+/** LINKS ****************************/
+
+a {
+
+}
+a:hover, a:focus {
+
+}
+.main-bottom a {
+  font-weight: 500;
+}
+
+/** BLOCKS ****************************/
+
+/** IMAGES ****************************/
+
+/** CAROUSEL ****************************/
+
+/** HOMEPAGE ****************************/
+
+/** IE STYLES ****************************/
