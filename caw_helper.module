@@ -32,18 +32,18 @@ function caw_helper_block_view_alter(&$data, $block) {
 function caw_helper_init() {
 
   $file_path = drupal_get_path('module', 'caw_helper') . "/css/caw_helper.css";
-  $conditions[] = "admin";
-  $conditions[] = "admin*";
-  $conditions[] = "node/*/edit";
-  $conditions[] = "block/*/edit*";
-  $conditions[] = "block/add*";
-  $conditions[] = "node/add*";
-  $conditions[] = "user/*/edit";
-  $conditions[] = "node/*/delete";
+  $conditions = "admin
+admin*
+node/*/edit
+block/*/edit*
+block/add*
+node/add*
+user/*/edit
+node/*/delete";
 
   $css_rules = array();
-  $css_rule['rule_conditions'] = $conditions;
-  $css_rule['rule_type'] = CSS_INJECTOR_PAGES_NOTLISTED;
+  $css_rules['rule_conditions'] = $conditions;
+  $css_rules['rule_type'] = CSS_INJECTOR_PAGES_NOTLISTED;
 
   $pass = _css_injector_evaluate_rule($css_rules);
   if ($pass) {
