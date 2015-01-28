@@ -1,0 +1,9 @@
+name = Cardinal at Work Helper
+description = "A bunch of one off code for the CAW website."
+dependencies[] = bean
+dependencies[] = block
+core = 7.x
+package = CAW
+
+
+
