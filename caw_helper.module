@@ -26,3 +26,28 @@ function caw_helper_block_view_alter(&$data, $block) {
   }
 }
 
+/**
+ * Implements hook_init().
+ */
+function caw_helper_init() {
+
+  $file_path = drupal_get_path('module', 'caw_helper') . "/css/caw_helper.css";
+  $conditions = "admin
+admin*
+node/*/edit
+block/*/edit*
+block/add*
+node/add*
+user/*/edit
+node/*/delete";
+
+  $css_rules = array();
+  $css_rules['rule_conditions'] = $conditions;
+  $css_rules['rule_type'] = CSS_INJECTOR_PAGES_NOTLISTED;
+
+  $pass = _css_injector_evaluate_rule($css_rules);
+  if ($pass) {
+    drupal_add_css($file_path, array('type' => 'file', 'group' => CSS_THEME, 'media' => "all", 'preprocess' => TRUE, 'weight' => 300));
+  }
+
+}
