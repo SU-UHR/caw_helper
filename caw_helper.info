@@ -1,5 +1,6 @@
 name = Cardinal at Work Helper
 description = "A bunch of one off code for the CAW website."
+stylesheets[all][] = css/caw_helper.css
 dependencies[] = bean
 dependencies[] = block
 core = 7.x
