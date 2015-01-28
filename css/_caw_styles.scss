@@ -1,27 +1,25 @@
 /** GENERAL ****************************/
-/* line 5, _caw_styles.scss */
-body {
-  background: #fbfbf9;
+html {
 }
 
-/* line 9, _caw_styles.scss */
+body {
+  background: $beige;
+}
+
 #global-header a, #global-footer a {
   font-size: 14px !important;
 }
 
 /** REGIONS ****************************/
-/* line 14, _caw_styles.scss */
 .header {
   padding: 35px 0 40px;
 }
 
 /** LOGO ****************************/
-/* line 20, _caw_styles.scss */
+
 #header #logo img {
   max-width: 220px;
 }
-
-/* line 23, _caw_styles.scss */
 .header .site-logo img {
   max-height: 86px;
 }
