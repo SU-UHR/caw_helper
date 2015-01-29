@@ -59,6 +59,13 @@ body, .header, .site-main-menu, .main {
   }
 }
 
+.main-nav {
+	a.btn, .btn a {
+		background: $turq-dark;
+		@include box-shadow($gray-med3 2px 2px 8px);
+	}
+}
+
 /** SIDEBAR MENUS ****************************/
 
 /** HEADERS ****************************/
