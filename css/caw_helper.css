@@ -77,7 +77,7 @@ body, .header, .site-main-menu, .main {
   }
 }
 /* line 63, _caw_styles.scss */
-.main-nav a.btn, .main-nav .btn a {
+.main-nav a.btn {
   background: #004f5b;
   -webkit-box-shadow: #909499 2px 2px 8px;
   -moz-box-shadow: #909499 2px 2px 8px;
