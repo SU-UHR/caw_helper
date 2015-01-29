@@ -50,7 +50,14 @@ body, .header, .site-main-menu, .main {
 }
 .dropdown-menu > li > a {
 	color: $white;
-	padding: 10px 20px;
+	font-size: 0.95em;
+    letter-spacing: 0.02em;
+	padding: 6px 20px;
+}
+.nolink {
+	font-size: .8em;
+	padding: 6px 20px;
+	display: block;
 }
 .dropdown-menu > li > a:hover, 
 .dropdown-menu > li > a:focus, 
@@ -83,12 +90,6 @@ body, .header, .site-main-menu, .main {
 	margin: 10px 0;
 	border-color: $gray-med1;
 }
-.nolink {
-	font-size: .8em;
-	padding: 10px 20px;
-	display: block;
-}
-
 
 .navbar .nav > .active > a, 
 .navbar .nav > .active > a:hover, 
