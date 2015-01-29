@@ -28,6 +28,37 @@ body, .header, .site-main-menu, .main {
 
 /** NAVBAR MENU ****************************/
 
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar .nav > li > a {
+  color: $black;
+  font-size: 1.3em;
+  font-weight: 400;
+  line-height: 1.3em;
+  background:transparent;
+  padding: 4px 12px;
+  border-radius: 4px;
+  margin-right: 12px;
+}
+.navbar .nav > .active > a, 
+.navbar .nav > .active > a:hover, 
+.navbar .nav > .active > a:focus, 
+.navbar .nav > li > a:focus, 
+.navbar .nav > li > a:hover,
+.navbar .nav li.active-trail > a, 
+.navbar .nav li.active-trail > a:hover, 
+.navbar .nav li.active-trail > a:focus  {
+  color: $black;
+  background: $gray-light2;
+}
+@media (max-width: 767px) {
+  .navbar .nav > li > a {
+    margin-right: 0;
+  }
+}
+
 /** SIDEBAR MENUS ****************************/
 
 /** HEADERS ****************************/
