@@ -43,8 +43,36 @@ body, .header, .site-main-menu, .main {
   margin-right: 12px;
 }
 
+.dropdown-menu {
+	background: $gray-dark;
+	color: $off-white;
+	min-width: 190px;
+}
+.dropdown-menu > li > a {
+	color: $off-white;
+	padding: 10px 20px;
+}
+.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:focus, 
+.dropdown-submenu:hover > a, 
+.dropdown-submenu:focus > a, 
+.dropdown-menu > .active > a, 
+.dropdown-menu > .active > a:hover, 
+.dropdown-menu > .active > a:focus {
+	color: $off-white;
+	background: $gray-med1;
+}
 .dropdown .caret {
 	display: none;
+}
+.dropdown hr {
+	margin: 10px 0;
+	border-color: $gray-med1;
+}
+.nolink {
+	font-size: .8em;
+	padding: 10px 20px;
+	display: block;
 }
 
 .navbar .nav li.dropdown.open > .dropdown-toggle, 
@@ -52,6 +80,7 @@ body, .header, .site-main-menu, .main {
 .navbar .nav li.dropdown.open.active > .dropdown-toggle {
 	color: $off-white;
 	background: $gray-dark;
+	@include box-shadow($gray-med3 2px 2px 8px);
 }
 .navbar .nav > .active > a, 
 .navbar .nav > .active > a:hover, 
