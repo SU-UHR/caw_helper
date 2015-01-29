@@ -32,6 +32,10 @@ body, .header, .site-main-menu, .main {
   margin-bottom: 0;
 }
 
+.dropdown .caret {
+	display: none;
+}
+
 .navbar .nav > li > a {
   color: $black;
   font-size: 1.3em;
