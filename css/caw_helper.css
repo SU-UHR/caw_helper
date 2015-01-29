@@ -1,6 +1,18 @@
+/* light text on dark */
+/* page bkg */
+/* events, wells */
+/* main nav hover */
+/* hover menu */
+/* dots on dark */
+/* dots on light */
+/* dates, descriptor */
+/* carousel, menu */
+/* link on dark */
+/* sweetener cards */
+/* button */
 /** GENERAL ****************************/
 /* line 5, _caw_styles.scss */
-body {
+body, .header, .site-main-menu, .main {
   background: #fbfbf9;
 }
 
@@ -25,3 +37,193 @@ body {
 .header .site-logo img {
   max-height: 86px;
 }
+
+/** SEARCH ****************************/
+/** NAVBAR MENU ****************************/
+/* line 31, _caw_styles.scss */
+.navbar {
+  margin-bottom: 0;
+}
+
+/* line 35, _caw_styles.scss */
+.navbar .nav > li > a {
+  color: black;
+  font-size: 1.3em;
+  font-weight: 400;
+  line-height: 1.3em;
+  background: transparent;
+  padding: 4px 12px;
+  border-radius: 4px;
+  margin-right: 12px;
+}
+
+/* line 46, _caw_styles.scss */
+.dropdown-menu {
+  background: #3d3e42;
+  color: white;
+  min-width: 190px;
+  padding-bottom: 0.5em;
+}
+
+/* line 52, _caw_styles.scss */
+.dropdown-menu > li > a {
+  color: white;
+  font-size: 0.95em;
+  letter-spacing: 0.02em;
+  padding: 6px 20px;
+}
+
+/* line 58, _caw_styles.scss */
+.nolink {
+  font-size: .7em;
+  padding: 10px 20px 3px;
+  display: block;
+  letter-spacing: 0.04em;
+}
+
+/* line 79, _caw_styles.scss */
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-submenu:focus > a,
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus,
+.navbar .nav li.dropdown.open > .dropdown-toggle,
+.navbar .nav li.dropdown.open > .dropdown-toggle:hover,
+.navbar .nav li.dropdown.open > .dropdown-toggle:focus,
+.navbar .nav li.dropdown.active > .dropdown-toggle,
+.navbar .nav li.dropdown.active > .dropdown-toggle:hover,
+.navbar .nav li.dropdown.active > .dropdown-toggle:focus,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle
+.navbar .nav li.dropdown.open.active > .dropdown-toggle:hover,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle:focus {
+  color: white;
+  background: #5a5c61;
+}
+
+/* line 85, _caw_styles.scss */
+.navbar .nav li.dropdown.open > .dropdown-toggle,
+.navbar .nav li.dropdown.active > .dropdown-toggle,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle {
+  -webkit-box-shadow: #909499 2px 2px 8px;
+  -moz-box-shadow: #909499 2px 2px 8px;
+  box-shadow: #909499 2px 2px 8px;
+}
+
+/* line 88, _caw_styles.scss */
+.dropdown .caret {
+  display: none;
+}
+
+/* line 91, _caw_styles.scss */
+.dropdown hr {
+  margin: 6px 0;
+  border-color: #5a5c61;
+  border-top: 0px;
+}
+
+/* line 104, _caw_styles.scss */
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus,
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover,
+.navbar .nav li.active-trail > a,
+.navbar .nav li.active-trail > a:hover,
+.navbar .nav li.active-trail > a:focus {
+  color: black;
+  background: #c2c3c4;
+}
+
+@media (max-width: 767px) {
+  /* line 109, _caw_styles.scss */
+  .navbar .nav > li > a {
+    margin-right: 0;
+  }
+}
+/* line 115, _caw_styles.scss */
+.main-nav a.btn {
+  background: #004f5b;
+  -webkit-box-shadow: #909499 2px 2px 8px;
+  -moz-box-shadow: #909499 2px 2px 8px;
+  box-shadow: #909499 2px 2px 8px;
+}
+
+/** SIDEBAR MENUS ****************************/
+/** HEADERS ****************************/
+/* line 124, _caw_styles.scss */
+h1 {
+  margin-bottom: 0.5em;
+  letter-spacing: -0.02em;
+}
+
+/* line 130, _caw_styles.scss */
+h2, .content h2, body.cke_show_borders h2, .well h2, #sidebar-second .well-sidebar-only h2 {
+  margin-top: 1em;
+}
+
+/* line 133, _caw_styles.scss */
+h3, .content h3, body.cke_show_borders h3 {
+  margin-top: 1em;
+}
+
+/* line 136, _caw_styles.scss */
+h4, .content h4, body.cke_show_borders h4 {
+  margin-top: 1em;
+}
+
+/* line 140, _caw_styles.scss */
+.block h2:first-child,
+.content h2:first-child, .content h3:first-child, .content h4:first-child {
+  margin-top: 0;
+}
+
+/** TEXT ****************************/
+/* line 166, _caw_styles.scss */
+hr {
+  border-color: #e2e2e2;
+}
+
+/** NEW TO CAW ****************************/
+/* line 172, _caw_styles.scss */
+.red-text {
+  color: #8c1515;
+  font-weight: 600;
+}
+
+/** LISTS ****************************/
+/* line 178, _caw_styles.scss */
+ul li {
+  line-height: 1.4em;
+  margin-bottom: 0.25em;
+}
+
+/* line 182, _caw_styles.scss */
+ul, ol {
+  margin-bottom: 1.25em;
+}
+
+/** TABLES ****************************/
+/* line 188, _caw_styles.scss */
+th, td {
+  padding: 1em;
+  border: 1px solid #e6e8ec;
+}
+
+/* line 192, _caw_styles.scss */
+th {
+  background: #e6e8ec;
+}
+
+/** LINKS ****************************/
+/* line 204, _caw_styles.scss */
+.main-bottom a {
+  font-weight: 500;
+}
+
+/** BLOCKS ****************************/
+/** IMAGES ****************************/
+/** CAROUSEL ****************************/
+/** HOMEPAGE ****************************/
+/** IE STYLES ****************************/
