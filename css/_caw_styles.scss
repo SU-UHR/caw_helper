@@ -45,11 +45,11 @@ body, .header, .site-main-menu, .main {
 
 .dropdown-menu {
 	background: $gray-dark;
-	color: $off-white;
+	color: $white;
 	min-width: 190px;
 }
 .dropdown-menu > li > a {
-	color: $off-white;
+	color: $white;
 	padding: 10px 20px;
 }
 .dropdown-menu > li > a:hover, 
@@ -58,9 +58,23 @@ body, .header, .site-main-menu, .main {
 .dropdown-submenu:focus > a, 
 .dropdown-menu > .active > a, 
 .dropdown-menu > .active > a:hover, 
-.dropdown-menu > .active > a:focus {
-	color: $off-white;
+.dropdown-menu > .active > a:focus,
+.navbar .nav li.dropdown.open > .dropdown-toggle, 
+.navbar .nav li.dropdown.open > .dropdown-toggle:hover, 
+.navbar .nav li.dropdown.open > .dropdown-toggle:focus, 
+.navbar .nav li.dropdown.active > .dropdown-toggle, 
+.navbar .nav li.dropdown.active > .dropdown-toggle:hover, 
+.navbar .nav li.dropdown.active > .dropdown-toggle:focus, 
+.navbar .nav li.dropdown.open.active > .dropdown-toggle
+.navbar .nav li.dropdown.open.active > .dropdown-toggle:hover, 
+.navbar .nav li.dropdown.open.active > .dropdown-toggle:focus {
+	color: $white;
 	background: $gray-med1;
+}
+.navbar .nav li.dropdown.open > .dropdown-toggle, 
+.navbar .nav li.dropdown.active > .dropdown-toggle, 
+.navbar .nav li.dropdown.open.active > .dropdown-toggle {
+	@include box-shadow($gray-med3 2px 2px 8px);
 }
 .dropdown .caret {
 	display: none;
@@ -75,13 +89,7 @@ body, .header, .site-main-menu, .main {
 	display: block;
 }
 
-.navbar .nav li.dropdown.open > .dropdown-toggle, 
-.navbar .nav li.dropdown.active > .dropdown-toggle, 
-.navbar .nav li.dropdown.open.active > .dropdown-toggle {
-	color: $off-white;
-	background: $gray-dark;
-	@include box-shadow($gray-med3 2px 2px 8px);
-}
+
 .navbar .nav > .active > a, 
 .navbar .nav > .active > a:hover, 
 .navbar .nav > .active > a:focus, 
