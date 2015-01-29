@@ -62,9 +62,10 @@ body, .header, .site-main-menu, .main {
   background: #3d3e42;
   color: white;
   min-width: 190px;
+  padding-bottom: 0.5em;
 }
 
-/* line 51, _caw_styles.scss */
+/* line 52, _caw_styles.scss */
 .dropdown-menu > li > a {
   color: white;
   font-size: 0.95em;
@@ -72,14 +73,15 @@ body, .header, .site-main-menu, .main {
   padding: 6px 20px;
 }
 
-/* line 57, _caw_styles.scss */
+/* line 58, _caw_styles.scss */
 .nolink {
-  font-size: .8em;
-  padding: 6px 20px;
+  font-size: .7em;
+  padding: 10px 20px 3px;
   display: block;
+  letter-spacing: 0.04em;
 }
 
-/* line 77, _caw_styles.scss */
+/* line 79, _caw_styles.scss */
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus,
 .dropdown-submenu:hover > a,
@@ -100,7 +102,7 @@ body, .header, .site-main-menu, .main {
   background: #5a5c61;
 }
 
-/* line 83, _caw_styles.scss */
+/* line 85, _caw_styles.scss */
 .navbar .nav li.dropdown.open > .dropdown-toggle,
 .navbar .nav li.dropdown.active > .dropdown-toggle,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle {
@@ -109,18 +111,19 @@ body, .header, .site-main-menu, .main {
   box-shadow: #909499 2px 2px 8px;
 }
 
-/* line 86, _caw_styles.scss */
+/* line 88, _caw_styles.scss */
 .dropdown .caret {
   display: none;
 }
 
-/* line 89, _caw_styles.scss */
+/* line 91, _caw_styles.scss */
 .dropdown hr {
-  margin: 10px 0;
+  margin: 6px 0;
   border-color: #5a5c61;
+  border-top: 0px;
 }
 
-/* line 101, _caw_styles.scss */
+/* line 104, _caw_styles.scss */
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus,
@@ -134,12 +137,12 @@ body, .header, .site-main-menu, .main {
 }
 
 @media (max-width: 767px) {
-  /* line 106, _caw_styles.scss */
+  /* line 109, _caw_styles.scss */
   .navbar .nav > li > a {
     margin-right: 0;
   }
 }
-/* line 112, _caw_styles.scss */
+/* line 115, _caw_styles.scss */
 .main-nav a.btn {
   background: #004f5b;
   -webkit-box-shadow: #909499 2px 2px 8px;
@@ -149,72 +152,72 @@ body, .header, .site-main-menu, .main {
 
 /** SIDEBAR MENUS ****************************/
 /** HEADERS ****************************/
-/* line 121, _caw_styles.scss */
+/* line 124, _caw_styles.scss */
 h1 {
   margin-bottom: 0.5em;
   letter-spacing: -0.02em;
 }
 
-/* line 127, _caw_styles.scss */
+/* line 130, _caw_styles.scss */
 h2, .content h2, body.cke_show_borders h2, .well h2, #sidebar-second .well-sidebar-only h2 {
   margin-top: 1em;
 }
 
-/* line 130, _caw_styles.scss */
+/* line 133, _caw_styles.scss */
 h3, .content h3, body.cke_show_borders h3 {
   margin-top: 1em;
 }
 
-/* line 133, _caw_styles.scss */
+/* line 136, _caw_styles.scss */
 h4, .content h4, body.cke_show_borders h4 {
   margin-top: 1em;
 }
 
-/* line 137, _caw_styles.scss */
+/* line 140, _caw_styles.scss */
 .block h2:first-child,
 .content h2:first-child, .content h3:first-child, .content h4:first-child {
   margin-top: 0;
 }
 
 /** TEXT ****************************/
-/* line 163, _caw_styles.scss */
+/* line 166, _caw_styles.scss */
 hr {
   border-color: #e2e2e2;
 }
 
 /** NEW TO CAW ****************************/
-/* line 169, _caw_styles.scss */
+/* line 172, _caw_styles.scss */
 .red-text {
   color: #8c1515;
   font-weight: 600;
 }
 
 /** LISTS ****************************/
-/* line 175, _caw_styles.scss */
+/* line 178, _caw_styles.scss */
 ul li {
   line-height: 1.4em;
   margin-bottom: 0.25em;
 }
 
-/* line 179, _caw_styles.scss */
+/* line 182, _caw_styles.scss */
 ul, ol {
   margin-bottom: 1.25em;
 }
 
 /** TABLES ****************************/
-/* line 185, _caw_styles.scss */
+/* line 188, _caw_styles.scss */
 th, td {
   padding: 1em;
   border: 1px solid #e6e8ec;
 }
 
-/* line 189, _caw_styles.scss */
+/* line 192, _caw_styles.scss */
 th {
   background: #e6e8ec;
 }
 
 /** LINKS ****************************/
-/* line 201, _caw_styles.scss */
+/* line 204, _caw_styles.scss */
 .main-bottom a {
   font-weight: 500;
 }

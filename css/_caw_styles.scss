@@ -47,6 +47,7 @@ body, .header, .site-main-menu, .main {
 	background: $gray-dark;
 	color: $white;
 	min-width: 190px;
+	padding-bottom: 0.5em;
 }
 .dropdown-menu > li > a {
 	color: $white;
@@ -55,9 +56,10 @@ body, .header, .site-main-menu, .main {
 	padding: 6px 20px;
 }
 .nolink {
-	font-size: .8em;
-	padding: 6px 20px;
+	font-size: .7em;
+	padding: 10px 20px 3px;
 	display: block;
+	letter-spacing: 0.04em;
 }
 .dropdown-menu > li > a:hover, 
 .dropdown-menu > li > a:focus, 
@@ -87,8 +89,9 @@ body, .header, .site-main-menu, .main {
 	display: none;
 }
 .dropdown hr {
-	margin: 10px 0;
+	margin: 6px 0;
 	border-color: $gray-med1;
+	border-top: 0px;
 }
 
 .navbar .nav > .active > a, 
