@@ -32,10 +32,6 @@ body, .header, .site-main-menu, .main {
   margin-bottom: 0;
 }
 
-.dropdown .caret {
-	display: none;
-}
-
 .navbar .nav > li > a {
   color: $black;
   font-size: 1.3em;
@@ -45,6 +41,17 @@ body, .header, .site-main-menu, .main {
   padding: 4px 12px;
   border-radius: 4px;
   margin-right: 12px;
+}
+
+.dropdown .caret {
+	display: none;
+}
+
+.navbar .nav li.dropdown.open > .dropdown-toggle, 
+.navbar .nav li.dropdown.active > .dropdown-toggle, 
+.navbar .nav li.dropdown.open.active > .dropdown-toggle {
+	color: $off-white;
+	background: $gray-dark;
 }
 .navbar .nav > .active > a, 
 .navbar .nav > .active > a:hover, 
