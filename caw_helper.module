@@ -27,6 +27,25 @@ function caw_helper_block_view_alter(&$data, $block) {
 }
 
 /**
+ * Implements hook_theme_registry_alter().
+ */
+function caw_helper_theme_registry_alter(&$theme_registry) {
+  if (isset($theme_registry['facetapi_count'])) {
+    $theme_registry['facetapi_count']['function'] = "caw_helper_facetapi_count";
+  }
+}
+
+
+/**
+ * [caw_helper_facetapi_count_alter description]
+ * @param  [type] &$vars [description]
+ * @return [type]        [description]
+ */
+function caw_helper_facetapi_count(&$variables) {
+  return '<span class="facetapi-count">(' . (int) $variables['count'] . ')</span>';
+}
+
+/**
  * Implements hook_init().
  */
 function caw_helper_init() {
