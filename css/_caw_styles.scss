@@ -112,6 +112,11 @@ body, .header, .site-main-menu, .main {
   color: $black;
   background: $gray-light2;
 }
+.navbar .nav li.dropdown li.active-trail > a, 
+.navbar .nav li.dropdown li.active-trail > a:hover {
+  color: $white;
+  background: $gray-med1;
+}
 @media (max-width: 767px) {
   .navbar .nav > li > a {
     margin-right: 0;
@@ -131,6 +136,8 @@ body, .header, .site-main-menu, .main {
   color: $white;
   padding-left: 0;
   padding-right: 0;
+  @include border-radius(3px);
+  @include  box-shadow(3px 3px 10px rgba(0, 0, 0, 0.2));
 }
 .sidebar .block-menu-block h2 a {
   padding: 0px 20px;

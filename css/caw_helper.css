@@ -149,13 +149,20 @@ body, .header, .site-main-menu, .main {
   background: #c2c3c4;
 }
 
+/* line 116, _caw_styles.scss */
+.navbar .nav li.dropdown li.active-trail > a,
+.navbar .nav li.dropdown li.active-trail > a:hover {
+  color: white;
+  background: #5a5c61;
+}
+
 @media (max-width: 767px) {
-  /* line 116, _caw_styles.scss */
+  /* line 121, _caw_styles.scss */
   .navbar .nav > li > a {
     margin-right: 0;
   }
 }
-/* line 122, _caw_styles.scss */
+/* line 127, _caw_styles.scss */
 .main-nav a.btn {
   background: #004f5b;
   -webkit-box-shadow: #909499 2px 2px 8px;
@@ -164,46 +171,54 @@ body, .header, .site-main-menu, .main {
 }
 
 /** SIDEBAR MENUS ****************************/
-/* line 129, _caw_styles.scss */
+/* line 134, _caw_styles.scss */
 .sidebar .block-menu-block {
   background: #3d3e42;
   color: white;
   padding-left: 0;
   padding-right: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* line 135, _caw_styles.scss */
+/* line 142, _caw_styles.scss */
 .sidebar .block-menu-block h2 a {
   padding: 0px 20px;
   font-weight: 400;
   letter-spacing: 0.02em;
 }
 
-/* line 141, _caw_styles.scss */
+/* line 148, _caw_styles.scss */
 .sidebar .block-menu-block h2 a:hover,
 .sidebar .block-menu-block h2 a:focus {
   color: #5fbfc4;
 }
 
-/* line 144, _caw_styles.scss */
+/* line 151, _caw_styles.scss */
 .sidebar .block-menu-block a {
   color: white;
 }
 
-/* line 148, _caw_styles.scss */
+/* line 155, _caw_styles.scss */
 .sidebar .block-menu-block h2 a:hover,
 .sidebar .block-menu-block h2 a:focus {
   text-decoration: none;
 }
 
-/* line 152, _caw_styles.scss */
+/* line 159, _caw_styles.scss */
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li.last > a {
   border: 0;
   padding: 6px 20px;
 }
 
-/* line 158, _caw_styles.scss */
+/* line 165, _caw_styles.scss */
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:hover,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:focus,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a.active {
@@ -212,72 +227,72 @@ body, .header, .site-main-menu, .main {
 }
 
 /** HEADERS ****************************/
-/* line 164, _caw_styles.scss */
+/* line 171, _caw_styles.scss */
 h1 {
   margin-bottom: 0.5em;
   letter-spacing: -0.02em;
 }
 
-/* line 170, _caw_styles.scss */
+/* line 177, _caw_styles.scss */
 h2, .content h2, body.cke_show_borders h2, .well h2, #sidebar-second .well-sidebar-only h2 {
   margin-top: 1em;
 }
 
-/* line 173, _caw_styles.scss */
+/* line 180, _caw_styles.scss */
 h3, .content h3, body.cke_show_borders h3 {
   margin-top: 1em;
 }
 
-/* line 176, _caw_styles.scss */
+/* line 183, _caw_styles.scss */
 h4, .content h4, body.cke_show_borders h4 {
   margin-top: 1em;
 }
 
-/* line 180, _caw_styles.scss */
+/* line 187, _caw_styles.scss */
 .block h2:first-child,
 .content h2:first-child, .content h3:first-child, .content h4:first-child {
   margin-top: 0;
 }
 
 /** TEXT ****************************/
-/* line 206, _caw_styles.scss */
+/* line 213, _caw_styles.scss */
 hr {
   border-color: #e2e2e2;
 }
 
 /** NEW TO CAW ****************************/
-/* line 212, _caw_styles.scss */
+/* line 219, _caw_styles.scss */
 .red-text {
   color: #8c1515;
   font-weight: 600;
 }
 
 /** LISTS ****************************/
-/* line 218, _caw_styles.scss */
+/* line 225, _caw_styles.scss */
 ul li {
   line-height: 1.4em;
   margin-bottom: 0.25em;
 }
 
-/* line 222, _caw_styles.scss */
+/* line 229, _caw_styles.scss */
 ul, ol {
   margin-bottom: 1.25em;
 }
 
 /** TABLES ****************************/
-/* line 228, _caw_styles.scss */
+/* line 235, _caw_styles.scss */
 th, td {
   padding: 1em;
   border: 1px solid #e6e8ec;
 }
 
-/* line 232, _caw_styles.scss */
+/* line 239, _caw_styles.scss */
 th {
   background: #e6e8ec;
 }
 
 /** LINKS ****************************/
-/* line 244, _caw_styles.scss */
+/* line 251, _caw_styles.scss */
 .main-bottom a {
   font-weight: 500;
 }
