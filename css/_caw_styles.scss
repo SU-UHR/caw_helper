@@ -48,6 +48,9 @@ body, .header, .site-main-menu, .main {
 	color: $white;
 	min-width: 190px;
 	padding-bottom: 0.5em;
+  margin-top: -4px;
+  @include border-radius(0px 3px 3px 3px);
+  @include  box-shadow(3px 3px 10px rgba(0, 0, 0, 0.3));
 }
 .dropdown-menu > li > a {
 	color: $white;
@@ -81,9 +84,12 @@ body, .header, .site-main-menu, .main {
 	background: $gray-med1;
 }
 .navbar .nav li.dropdown.open > .dropdown-toggle, 
+.navbar .nav li.dropdown.open > .dropdown-toggle:hover,
+.navbar .nav li.dropdown.open > .dropdown-toggle:focus,
 .navbar .nav li.dropdown.active > .dropdown-toggle, 
 .navbar .nav li.dropdown.open.active > .dropdown-toggle {
 	@include box-shadow($gray-med3 2px 2px 8px);
+  background: $gray-dark;
 }
 .dropdown .caret {
 	display: none;
@@ -119,6 +125,16 @@ body, .header, .site-main-menu, .main {
 }
 
 /** SIDEBAR MENUS ****************************/
+.sidebar .block-menu-block {
+  background: $gray-dark;
+  color: $white;
+}
+.sidebar .block-menu-block a {
+  color: $white;
+}
+.sidebar .block-menu-block h2 a:hover, .sidebar .block-menu-block h2 a:focus {
+
+}
 
 /** HEADERS ****************************/
 h1 { 
