@@ -55,7 +55,7 @@ body, .header, .site-main-menu, .main {
 .dropdown-menu > li > a {
 	color: $white;
 	font-size: 0.95em;
-    letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
 	padding: 6px 20px;
 }
 .nolink {
@@ -94,7 +94,8 @@ body, .header, .site-main-menu, .main {
 .dropdown .caret {
 	display: none;
 }
-.dropdown hr {
+.dropdown hr,
+.sidebar .block-menu-block hr {
 	margin: 6px 0;
 	border-color: $gray-med1;
 	border-top: 0px;
@@ -128,12 +129,35 @@ body, .header, .site-main-menu, .main {
 .sidebar .block-menu-block {
   background: $gray-dark;
   color: $white;
+  padding-left: 0;
+  padding-right: 0;
+}
+.sidebar .block-menu-block h2 a {
+  padding: 0px 20px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+.sidebar .block-menu-block h2 a:hover,
+.sidebar .block-menu-block h2 a:focus {
+  color: $turq-light;
 }
 .sidebar .block-menu-block a {
   color: $white;
 }
-.sidebar .block-menu-block h2 a:hover, .sidebar .block-menu-block h2 a:focus {
-
+.sidebar .block-menu-block h2 a:hover, 
+.sidebar .block-menu-block h2 a:focus {
+  text-decoration: none;
+}
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li.last > a {
+  border: 0;
+  padding: 6px 20px;
+}
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:hover,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:focus,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a.active {
+  background: $gray-med1;
+  color: $white;
 }
 
 /** HEADERS ****************************/
