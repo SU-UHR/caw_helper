@@ -267,32 +267,37 @@ hr {
   font-weight: 600;
 }
 
+/* line 223, _caw_styles.scss */
+.facetapi-count {
+  opacity: 0.8;
+}
+
 /** LISTS ****************************/
-/* line 225, _caw_styles.scss */
+/* line 228, _caw_styles.scss */
 ul li {
   line-height: 1.4em;
   margin-bottom: 0.25em;
 }
 
-/* line 229, _caw_styles.scss */
+/* line 232, _caw_styles.scss */
 ul, ol {
   margin-bottom: 1.25em;
 }
 
 /** TABLES ****************************/
-/* line 235, _caw_styles.scss */
+/* line 238, _caw_styles.scss */
 th, td {
   padding: 1em;
   border: 1px solid #e6e8ec;
 }
 
-/* line 239, _caw_styles.scss */
+/* line 242, _caw_styles.scss */
 th {
   background: #e6e8ec;
 }
 
 /** LINKS ****************************/
-/* line 251, _caw_styles.scss */
+/* line 254, _caw_styles.scss */
 .main-bottom a {
   font-weight: 500;
 }
