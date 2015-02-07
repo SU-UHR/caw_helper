@@ -59,10 +59,10 @@ body, .header, .site-main-menu, .main {
 	padding: 6px 20px;
 }
 .nolink {
-	font-size: .7em;
+	font-size: .65em;
 	padding: 10px 20px 3px;
 	display: block;
-	letter-spacing: 0.04em;
+	letter-spacing: 0.05em;
 }
 .dropdown-menu > li > a:hover, 
 .dropdown-menu > li > a:focus, 
@@ -186,6 +186,9 @@ body, .header, .site-main-menu, .main {
   .nav-collapse .dropdown-menu a:focus {
     background: $gray-med1;
     color: $white;
+  }
+  .nav-collapse .dropdown-menu li+li a {
+    margin-bottom: 0px;
   }
 }
 
