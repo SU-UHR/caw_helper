@@ -127,10 +127,21 @@ body, .header, .site-main-menu, .main {
   }
 }
 
-.main-nav {
+#main-nav {
 	a.btn {
-		background: $turq-dark;
-		@include box-shadow($gray-med3 2px 2px 8px);
+    background: $turq-dark;
+    @include box-shadow($gray-med3 2px 2px 8px);
+  }
+  a.btn:hover, a.btn:focus {
+    background: $black;
+    @include box-shadow($gray-med3 4px 4px 8px);
+  }
+  a.btn, a.btn:hover, a.btn:focus {
+    background-image: url('../img/caw-btn-arrow-right.png');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+    padding-right: 30px;
+    text-align: left;
 	}
 }
 
