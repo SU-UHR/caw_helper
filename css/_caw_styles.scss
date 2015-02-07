@@ -121,10 +121,9 @@ body, .header, .site-main-menu, .main {
   color: $white;
   background: $gray-med1;
 }
-@media (max-width: 767px) {
-  .navbar .nav > li > a {
-    margin-right: 0;
-  }
+
+#block-bean-my-benefits-button {
+  float: right;
 }
 
 #main-nav {
@@ -139,10 +138,21 @@ body, .header, .site-main-menu, .main {
   a.btn, a.btn:hover, a.btn:focus {
     background-image: url('../img/caw-btn-arrow-right.png');
     background-repeat: no-repeat;
+    background-position: 93% center;
     background-position: calc(100% - 10px) center;
+    padding: 0.5em 1em;
     padding-right: 30px;
     text-align: left;
 	}
+}
+
+@media (max-width: 767px) {
+  .navbar .nav > li > a {
+    margin-right: 0;
+  }
+  #block-bean-my-benefits-button {
+    float: none;
+  }
 }
 
 /** SIDEBAR MENUS ****************************/
