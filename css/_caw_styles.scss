@@ -153,6 +153,31 @@ body, .header, .site-main-menu, .main {
   #block-bean-my-benefits-button {
     float: none;
   }
+  .nav-collapse .dropdown-menu {
+    margin: 0;
+  }
+  .navbar .nav li.dropdown.active > .dropdown-toggle, 
+  .navbar .nav li.dropdown.active > .dropdown-toggle:hover, 
+  .navbar .nav li.dropdown.active > .dropdown-toggle:focus,
+  .navbar .nav li.dropdown.open > .dropdown-toggle,
+  .navbar .nav li.dropdown.open > .dropdown-toggle.active,
+  .navbar .nav li.dropdown.open > .dropdown-toggle.active:focus, 
+  .navbar .nav li.dropdown.open > .dropdown-toggle:hover,
+  .navbar .nav li.dropdown.open > .dropdown-toggle:focus, 
+  .navbar .nav li.dropdown.open.active > .dropdown-toggle {
+    @include box-shadow(none);
+  }
+  .navbar .nav li.dropdown.open {
+    background: $gray-dark;
+    @include border-radius(4px);
+  }
+  .nav-collapse .dropdown-menu a {
+    padding: 6px 20px;
+  }
+  .nav-collapse .dropdown-menu a:hover, 
+  .nav-collapse .dropdown-menu a:focus {
+    background: $gray-med1;
+  }
 }
 
 /** SIDEBAR MENUS ****************************/
