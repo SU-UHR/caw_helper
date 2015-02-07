@@ -124,6 +124,10 @@ body, .header, .site-main-menu, .main {
 
 #block-bean-my-benefits-button {
   float: right;
+  max-width: 20%;
+}
+#block-menu-block-7 {
+  max-width: 80%;
 }
 
 #main-nav {
@@ -152,6 +156,10 @@ body, .header, .site-main-menu, .main {
   }
   #block-bean-my-benefits-button {
     float: none;
+    max-width: auto;
+  }
+  #block-menu-block-7 {
+    max-width: auto;
   }
   .nav-collapse .dropdown-menu {
     margin: 0;
