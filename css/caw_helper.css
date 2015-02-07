@@ -205,12 +205,12 @@ body, .header, .site-main-menu, .main {
   /* line 157, _caw_styles.scss */
   #block-bean-my-benefits-button {
     float: none;
-    max-width: auto;
+    max-width: none;
   }
 
   /* line 161, _caw_styles.scss */
   #block-menu-block-7 {
-    max-width: auto;
+    max-width: none;
   }
 
   /* line 164, _caw_styles.scss */
