@@ -83,10 +83,14 @@ body, .header, .site-main-menu, .main {
 	color: $white;
 	background: $gray-med1;
 }
-.navbar .nav li.dropdown.open > .dropdown-toggle, 
-.navbar .nav li.dropdown.open > .dropdown-toggle:hover,
-.navbar .nav li.dropdown.open > .dropdown-toggle:focus,
 .navbar .nav li.dropdown.active > .dropdown-toggle, 
+.navbar .nav li.dropdown.active > .dropdown-toggle:hover, 
+.navbar .nav li.dropdown.active > .dropdown-toggle:focus,
+.navbar .nav li.dropdown.open > .dropdown-toggle,
+.navbar .nav li.dropdown.open > .dropdown-toggle.active,
+.navbar .nav li.dropdown.open > .dropdown-toggle.active:focus, 
+.navbar .nav li.dropdown.open > .dropdown-toggle:hover,
+.navbar .nav li.dropdown.open > .dropdown-toggle:focus, 
 .navbar .nav li.dropdown.open.active > .dropdown-toggle {
 	@include box-shadow($gray-med3 2px 2px 8px);
   background: $gray-dark;
