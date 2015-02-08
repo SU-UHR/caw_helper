@@ -10,6 +10,18 @@ body, .header, .site-main-menu, .main {
   font-size: 14px !important;
 }
 
+#header #logo {
+  border-right: 2px solid $black;
+}
+#site-title-first-line a, 
+#site-title-first-line a:hover,
+#site-title-first-line a:focus {
+  color: $black;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  font-size: 38px;
+}
+
 /** REGIONS ****************************/
 .header {
   padding: 35px 0 40px;
