@@ -26,6 +26,21 @@ body, .header, .site-main-menu, .main {
 
 /** SEARCH ****************************/
 
+.nav-search {
+  max-width: 165px;
+}
+.nav-search .input {
+  border-color: transparent;
+  @include box-shadow(inset 0 0 7px rgba(0,0,0,0.2));
+  @include border-radius(6px);
+}
+.nav-search input.form-submit {
+  background: transparent;
+  border: 0 none;
+  height: 26px;
+  width: 26px;
+}
+
 /** NAVBAR MENU ****************************/
 
 .navbar {
@@ -316,6 +331,17 @@ a:hover, a:focus {
 }
 .main-bottom a {
   font-weight: 500;
+}
+a.btn, a.btn:hover, a.btn:focus {
+  padding: 0.5em 1em;
+}
+a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus {
+  background-image: url('../img/caw-btn-arrow-right.png');
+  background-repeat: no-repeat;
+  background-position: 93% center;
+  background-position: calc(100% - 10px) center;
+  padding-right: 30px;
+  text-align: left;
 }
 
 /** BLOCKS ****************************/
