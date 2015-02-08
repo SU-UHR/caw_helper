@@ -39,6 +39,17 @@ body, .header, .site-main-menu, .main {
   border: 0 none;
   height: 26px;
   width: 26px;
+  font-size: 0;
+  color: transparent;
+  background-image: url('../img/searchbutton.png');
+  opacity: .3;
+  position: relative;
+  float: right;
+  margin-top: -28px;
+}
+.nav-search input.form-submit:hover, 
+.nav-search input.form-submit:focus {
+  opacity: .8;
 }
 
 /** NAVBAR MENU ****************************/
