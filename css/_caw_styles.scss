@@ -31,8 +31,10 @@ body, .header, .site-main-menu, .main {
 }
 .nav-search input[type="text"] {
   border-color: transparent;
+  padding: .5em 30px .5em 1em;
   @include box-shadow(inset 0 0 7px rgba(0,0,0,0.2));
   @include border-radius(6px);
+  @include box-sizing(border-box);
 }
 .nav-search input.form-submit {
   background: transparent;
