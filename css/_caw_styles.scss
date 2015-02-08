@@ -29,7 +29,7 @@ body, .header, .site-main-menu, .main {
 .nav-search {
   max-width: 165px;
 }
-.nav-search .input {
+.nav-search input[type="text"] {
   border-color: transparent;
   @include box-shadow(inset 0 0 7px rgba(0,0,0,0.2));
   @include border-radius(6px);
