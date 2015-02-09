@@ -404,10 +404,12 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
 }
 
 .main-lower .block {
+  font-size: 0.9em;
   h2 {
-    font-size: 1em;
+    font-size: 1.3em;
+    font-weight: 600;
   }
-  a {
+  .content > .menu > li > a {
     font-weight: 400;
   }
 }
