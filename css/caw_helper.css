@@ -50,31 +50,34 @@ body, .header, .site-main-menu, .main {
 
 /* line 33, _caw_styles.scss */
 #wrap {
-  background-color: #fbfbf9;
-  width: 100%;
   background-image: url("../img/caw-bkg-2.png");
   background-repeat: repeat-x;
-  background-position: center bottom;
+  background-position: center 105%;
+}
+
+/* line 38, _caw_styles.scss */
+.main-lower {
+  margin-top: 80px;
 }
 
 /** LOGO ****************************/
-/* line 43, _caw_styles.scss */
+/* line 44, _caw_styles.scss */
 #header #logo img {
   max-width: 220px;
 }
 
-/* line 46, _caw_styles.scss */
+/* line 47, _caw_styles.scss */
 .header .site-logo img {
   max-height: 86px;
 }
 
 /** SEARCH ****************************/
-/* line 52, _caw_styles.scss */
+/* line 53, _caw_styles.scss */
 .nav-search {
   max-width: 165px;
 }
 
-/* line 55, _caw_styles.scss */
+/* line 56, _caw_styles.scss */
 .nav-search input[type="text"] {
   border-color: transparent;
   padding: .5em 30px .5em 1em;
@@ -92,7 +95,7 @@ body, .header, .site-main-menu, .main {
   box-sizing: border-box;
 }
 
-/* line 63, _caw_styles.scss */
+/* line 64, _caw_styles.scss */
 .nav-search input.form-submit {
   background: transparent;
   border: 0 none;
@@ -108,19 +111,19 @@ body, .header, .site-main-menu, .main {
   left: -8px;
 }
 
-/* line 78, _caw_styles.scss */
+/* line 79, _caw_styles.scss */
 .nav-search input.form-submit:hover,
 .nav-search input.form-submit:focus {
   opacity: .8;
 }
 
 /** NAVBAR MENU ****************************/
-/* line 84, _caw_styles.scss */
+/* line 85, _caw_styles.scss */
 .navbar {
   margin-bottom: 0;
 }
 
-/* line 88, _caw_styles.scss */
+/* line 89, _caw_styles.scss */
 .navbar .nav > li > a {
   color: black;
   font-size: 1.3em;
@@ -132,7 +135,7 @@ body, .header, .site-main-menu, .main {
   margin-right: 12px;
 }
 
-/* line 99, _caw_styles.scss */
+/* line 100, _caw_styles.scss */
 .dropdown-menu {
   background: #3d3e42;
   color: white;
@@ -149,7 +152,7 @@ body, .header, .site-main-menu, .main {
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* line 108, _caw_styles.scss */
+/* line 109, _caw_styles.scss */
 .dropdown-menu > li > a {
   color: white;
   font-size: 0.95em;
@@ -157,7 +160,7 @@ body, .header, .site-main-menu, .main {
   padding: 6px 20px;
 }
 
-/* line 114, _caw_styles.scss */
+/* line 115, _caw_styles.scss */
 .nolink {
   font-size: .65em;
   padding: 10px 20px 3px;
@@ -165,7 +168,7 @@ body, .header, .site-main-menu, .main {
   letter-spacing: 0.05em;
 }
 
-/* line 135, _caw_styles.scss */
+/* line 136, _caw_styles.scss */
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus,
 .dropdown-submenu:hover > a,
@@ -186,7 +189,7 @@ body, .header, .site-main-menu, .main {
   background: #5a5c61;
 }
 
-/* line 147, _caw_styles.scss */
+/* line 148, _caw_styles.scss */
 .navbar .nav li.dropdown.active > .dropdown-toggle,
 .navbar .nav li.dropdown.active > .dropdown-toggle:hover,
 .navbar .nav li.dropdown.active > .dropdown-toggle:focus,
@@ -202,12 +205,12 @@ body, .header, .site-main-menu, .main {
   background: #3d3e42;
 }
 
-/* line 151, _caw_styles.scss */
+/* line 152, _caw_styles.scss */
 .dropdown .caret {
   display: none;
 }
 
-/* line 155, _caw_styles.scss */
+/* line 156, _caw_styles.scss */
 .dropdown hr,
 .sidebar .block-menu-block hr {
   margin: 6px 0;
@@ -215,7 +218,7 @@ body, .header, .site-main-menu, .main {
   border-top: 0px;
 }
 
-/* line 168, _caw_styles.scss */
+/* line 169, _caw_styles.scss */
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus,
@@ -228,39 +231,39 @@ body, .header, .site-main-menu, .main {
   background: #c2c3c4;
 }
 
-/* line 173, _caw_styles.scss */
+/* line 174, _caw_styles.scss */
 .navbar .nav li.dropdown li.active-trail > a,
 .navbar .nav li.dropdown li.active-trail > a:hover {
   color: white;
   background: #5a5c61;
 }
 
-/* line 178, _caw_styles.scss */
+/* line 179, _caw_styles.scss */
 #block-bean-my-benefits-button {
   float: right;
   max-width: 20%;
 }
 
-/* line 182, _caw_styles.scss */
+/* line 183, _caw_styles.scss */
 #block-menu-block-7 {
   max-width: 80%;
 }
 
-/* line 187, _caw_styles.scss */
+/* line 188, _caw_styles.scss */
 #main-nav a.btn {
   background: #004f5b;
   -webkit-box-shadow: #909499 2px 2px 8px;
   -moz-box-shadow: #909499 2px 2px 8px;
   box-shadow: #909499 2px 2px 8px;
 }
-/* line 191, _caw_styles.scss */
+/* line 192, _caw_styles.scss */
 #main-nav a.btn:hover, #main-nav a.btn:focus {
   background: black;
   -webkit-box-shadow: #909499 4px 4px 8px;
   -moz-box-shadow: #909499 4px 4px 8px;
   box-shadow: #909499 4px 4px 8px;
 }
-/* line 195, _caw_styles.scss */
+/* line 196, _caw_styles.scss */
 #main-nav a.btn, #main-nav a.btn:hover, #main-nav a.btn:focus {
   background-image: url("../img/caw-btn-arrow-right.png");
   background-repeat: no-repeat;
@@ -272,28 +275,28 @@ body, .header, .site-main-menu, .main {
 }
 
 @media (max-width: 767px) {
-  /* line 207, _caw_styles.scss */
+  /* line 208, _caw_styles.scss */
   .navbar .nav > li > a {
     margin-right: 0;
   }
 
-  /* line 210, _caw_styles.scss */
+  /* line 211, _caw_styles.scss */
   #block-bean-my-benefits-button {
     float: none;
     max-width: none;
   }
 
-  /* line 214, _caw_styles.scss */
+  /* line 215, _caw_styles.scss */
   #block-menu-block-7 {
     max-width: none;
   }
 
-  /* line 217, _caw_styles.scss */
+  /* line 218, _caw_styles.scss */
   .nav-collapse .dropdown-menu {
     margin: 0;
   }
 
-  /* line 228, _caw_styles.scss */
+  /* line 229, _caw_styles.scss */
   .navbar .nav li.dropdown.active > .dropdown-toggle,
   .navbar .nav li.dropdown.active > .dropdown-toggle:hover,
   .navbar .nav li.dropdown.active > .dropdown-toggle:focus,
@@ -308,7 +311,7 @@ body, .header, .site-main-menu, .main {
     box-shadow: none;
   }
 
-  /* line 231, _caw_styles.scss */
+  /* line 232, _caw_styles.scss */
   .navbar .nav li.dropdown.open {
     background: #3d3e42;
     -webkit-border-radius: 4px;
@@ -318,25 +321,25 @@ body, .header, .site-main-menu, .main {
     border-radius: 4px;
   }
 
-  /* line 235, _caw_styles.scss */
+  /* line 236, _caw_styles.scss */
   .nav-collapse .dropdown-menu a {
     padding: 6px 20px;
   }
 
-  /* line 239, _caw_styles.scss */
+  /* line 240, _caw_styles.scss */
   .nav-collapse .dropdown-menu a:hover,
   .nav-collapse .dropdown-menu a:focus {
     background: #5a5c61;
     color: white;
   }
 
-  /* line 243, _caw_styles.scss */
+  /* line 244, _caw_styles.scss */
   .nav-collapse .dropdown-menu li + li a {
     margin-bottom: 0px;
   }
 }
 /** SIDEBAR MENUS ****************************/
-/* line 249, _caw_styles.scss */
+/* line 250, _caw_styles.scss */
 .sidebar .block-menu-block {
   background: #3d3e42;
   color: white;
@@ -352,38 +355,38 @@ body, .header, .site-main-menu, .main {
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* line 257, _caw_styles.scss */
+/* line 258, _caw_styles.scss */
 .sidebar .block-menu-block h2 a {
   padding: 0px 20px;
   font-weight: 400;
   letter-spacing: 0.02em;
 }
 
-/* line 263, _caw_styles.scss */
+/* line 264, _caw_styles.scss */
 .sidebar .block-menu-block h2 a:hover,
 .sidebar .block-menu-block h2 a:focus {
   color: #5fbfc4;
 }
 
-/* line 266, _caw_styles.scss */
+/* line 267, _caw_styles.scss */
 .sidebar .block-menu-block a {
   color: white;
 }
 
-/* line 270, _caw_styles.scss */
+/* line 271, _caw_styles.scss */
 .sidebar .block-menu-block h2 a:hover,
 .sidebar .block-menu-block h2 a:focus {
   text-decoration: none;
 }
 
-/* line 274, _caw_styles.scss */
+/* line 275, _caw_styles.scss */
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li.last > a {
   border: 0;
   padding: 6px 20px;
 }
 
-/* line 280, _caw_styles.scss */
+/* line 281, _caw_styles.scss */
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:hover,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:focus,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a.active {
@@ -392,88 +395,88 @@ body, .header, .site-main-menu, .main {
 }
 
 /** HEADERS ****************************/
-/* line 286, _caw_styles.scss */
+/* line 287, _caw_styles.scss */
 h1 {
   margin-bottom: 0.5em;
   letter-spacing: -0.02em;
 }
 
-/* line 292, _caw_styles.scss */
+/* line 293, _caw_styles.scss */
 h2, .content h2, body.cke_show_borders h2, .well h2, #sidebar-second .well-sidebar-only h2 {
   margin-top: 1em;
 }
 
-/* line 295, _caw_styles.scss */
+/* line 296, _caw_styles.scss */
 h3, .content h3, body.cke_show_borders h3 {
   margin-top: 1em;
 }
 
-/* line 298, _caw_styles.scss */
+/* line 299, _caw_styles.scss */
 h4, .content h4, body.cke_show_borders h4 {
   margin-top: 1em;
 }
 
-/* line 302, _caw_styles.scss */
+/* line 303, _caw_styles.scss */
 .block h2:first-child,
 .content h2:first-child, .content h3:first-child, .content h4:first-child {
   margin-top: 0;
 }
 
 /** TEXT ****************************/
-/* line 328, _caw_styles.scss */
+/* line 329, _caw_styles.scss */
 hr {
   border-color: #e2e2e2;
   border-top: 0;
 }
 
 /** NEW TO CAW ****************************/
-/* line 335, _caw_styles.scss */
+/* line 336, _caw_styles.scss */
 .red-text {
   color: #8c1515;
   font-weight: 600;
 }
 
-/* line 339, _caw_styles.scss */
+/* line 340, _caw_styles.scss */
 .facetapi-count {
   opacity: 0.8;
 }
 
 /** LISTS ****************************/
-/* line 344, _caw_styles.scss */
+/* line 345, _caw_styles.scss */
 ul li {
   line-height: 1.4em;
   margin-bottom: 0.25em;
 }
 
-/* line 348, _caw_styles.scss */
+/* line 349, _caw_styles.scss */
 ul, ol {
   margin-bottom: 1.25em;
 }
 
 /** TABLES ****************************/
-/* line 354, _caw_styles.scss */
+/* line 355, _caw_styles.scss */
 th, td {
   padding: 1em;
   border: 1px solid #e6e8ec;
 }
 
-/* line 358, _caw_styles.scss */
+/* line 359, _caw_styles.scss */
 th {
   background: #e6e8ec;
 }
 
 /** LINKS ****************************/
-/* line 370, _caw_styles.scss */
+/* line 371, _caw_styles.scss */
 .main-bottom a {
   font-weight: 500;
 }
 
-/* line 373, _caw_styles.scss */
+/* line 374, _caw_styles.scss */
 a.btn, a.btn:hover, a.btn:focus {
   padding: 0.5em 1em;
 }
 
-/* line 376, _caw_styles.scss */
+/* line 377, _caw_styles.scss */
 a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus {
   background-image: url("../img/caw-btn-arrow-right.png");
   background-repeat: no-repeat;
@@ -484,7 +487,7 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
 }
 
 /** BLOCKS ****************************/
-/* line 387, _caw_styles.scss */
+/* line 388, _caw_styles.scss */
 .well {
   background: #e2e2e2;
   -webkit-border-radius: 3px;
@@ -499,62 +502,62 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
   font-size: 0.9em;
   padding: 24px 28px;
 }
-/* line 394, _caw_styles.scss */
+/* line 395, _caw_styles.scss */
 .well h2 {
   letter-spacing: 0.02em;
   margin-bottom: 15px;
 }
-/* line 399, _caw_styles.scss */
+/* line 400, _caw_styles.scss */
 .well p:last-child,
 .well ul:last-child {
   margin-bottom: 0;
 }
 
-/* line 403, _caw_styles.scss */
+/* line 404, _caw_styles.scss */
 .well.well-nav {
   background-color: #3d3e42;
   color: #efeae6;
 }
-/* line 406, _caw_styles.scss */
+/* line 407, _caw_styles.scss */
 .well.well-nav h2 {
   color: #efeae6;
 }
-/* line 409, _caw_styles.scss */
+/* line 410, _caw_styles.scss */
 .well.well-nav a {
   color: #efeae6;
 }
-/* line 412, _caw_styles.scss */
+/* line 413, _caw_styles.scss */
 .well.well-nav a:hover, .well.well-nav a:focus {
   color: #5fbfc4;
 }
 
-/* line 417, _caw_styles.scss */
+/* line 418, _caw_styles.scss */
 .main-lower .block {
   font-size: 0.9em;
 }
-/* line 419, _caw_styles.scss */
+/* line 420, _caw_styles.scss */
 .main-lower .block h2 {
   font-size: 1.3em;
   font-weight: 600;
 }
-/* line 423, _caw_styles.scss */
+/* line 424, _caw_styles.scss */
 .main-lower .block h2, .main-lower .block img {
   margin-left: -2px;
 }
-/* line 426, _caw_styles.scss */
+/* line 427, _caw_styles.scss */
 .main-lower .block .content > .menu > li > a {
   font-weight: 400;
 }
-/* line 430, _caw_styles.scss */
+/* line 431, _caw_styles.scss */
 .main-lower .block .content > .menu > li > a:hover,
 .main-lower .block .content > .menu > li > a:focus {
   text-decoration: underline;
 }
-/* line 433, _caw_styles.scss */
+/* line 434, _caw_styles.scss */
 .main-lower .block li a.active {
   color: #8c1515;
 }
-/* line 437, _caw_styles.scss */
+/* line 438, _caw_styles.scss */
 .main-lower .block li a.active:hover,
 .main-lower .block li a.active:focus {
   color: black;
