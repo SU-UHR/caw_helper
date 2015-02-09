@@ -575,12 +575,20 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
   /* cards */
   /* callouts */
 }
-/* line 458, _caw_styles.scss */
+/* line 452, _caw_styles.scss */
+.node-type-stanford-landing-page .view-mode-stanford_medium_square {
+  border-color: #e2e2e2;
+}
+/* line 461, _caw_styles.scss */
 .node-type-stanford-landing-page .stanford-medium-square img {
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+}
+/* line 464, _caw_styles.scss */
+.node-type-stanford-landing-page .stanford-medium-square .postcard-left > div:first-child img {
   margin-right: 25px;
+  margin-bottom: 0;
 }
 
 /** PROGRAM/SERVICE PAGES ****************************/
