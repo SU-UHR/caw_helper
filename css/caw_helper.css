@@ -566,4 +566,22 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
 /** IMAGES ****************************/
 /** CAROUSEL ****************************/
 /** HOMEPAGE ****************************/
+/** LANDING PAGES ****************************/
+/* line 451, _caw_styles.scss */
+.node-type-stanford-landing-page {
+  /* blocks */
+  /* list */
+  /* guide */
+  /* cards */
+  /* callouts */
+}
+/* line 458, _caw_styles.scss */
+.node-type-stanford-landing-page .stanford-medium-square img {
+  -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+  margin-right: 25px;
+}
+
+/** PROGRAM/SERVICE PAGES ****************************/
 /** IE STYLES ****************************/

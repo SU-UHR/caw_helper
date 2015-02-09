@@ -446,4 +446,38 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
 
 /** HOMEPAGE ****************************/
 
+/** LANDING PAGES ****************************/
+
+.node-type-stanford-landing-page {
+  /* blocks */
+  .stanford-4-col-header {
+
+  }
+  /* list */
+  .stanford-medium-square {
+    img {
+      @include box-shadow(1px 1px 6px rgba(0, 0, 0, 0.25));
+      margin-right: 25px;
+    }
+  }
+  /* guide */
+  .numbered-guide {
+
+  }
+  /* cards */
+  .large-landscape {
+    .tile {
+
+    }
+  }
+  /* callouts */
+  .stanford-callout-block {
+    .callout-block {
+
+    }
+  }
+}
+
+/** PROGRAM/SERVICE PAGES ****************************/
+
 /** IE STYLES ****************************/
