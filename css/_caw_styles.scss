@@ -414,7 +414,7 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
   }
   .content > .menu > li > a:hover,
   .content > .menu > li > a:focus {
-    text-decoration;
+    text-decoration: underline;
   }
   li a.active {
     color: $red;
