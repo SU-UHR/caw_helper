@@ -469,6 +469,19 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
 }
 
 /** BLOCKS ****************************/
+/* line 376, _caw_styles.scss */
+.well {
+  background: #e2e2e2;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
 /** IMAGES ****************************/
 /** CAROUSEL ****************************/
 /** HOMEPAGE ****************************/

@@ -373,6 +373,12 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
 
 /** BLOCKS ****************************/
 
+.well {
+  background: $gray-light;
+  @include border-radius(4px);
+  @include box-shadow(3px 3px 10px rgba(0, 0, 0, 0.2)); 
+}
+
 /** IMAGES ****************************/
 
 /** CAROUSEL ****************************/
