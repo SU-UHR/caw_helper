@@ -455,13 +455,15 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
   }
   /* list */
   .stanford-medium-square {
+    .view-mode-stanford_medium_square {
+      border-color: $gray-light;
+    }
     h2 a {
       font-weight: 400;
     }
     .more-link {
       margin-top: 0;
     }
-    border-color: $gray-light;
     img {
       @include box-shadow(1px 1px 6px rgba(0, 0, 0, 0.25));
     }

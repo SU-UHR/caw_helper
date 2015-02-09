@@ -575,35 +575,35 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
   /* cards */
   /* callouts */
 }
-/* line 457, _caw_styles.scss */
-.node-type-stanford-landing-page .stanford-medium-square {
+/* line 458, _caw_styles.scss */
+.node-type-stanford-landing-page .stanford-medium-square .view-mode-stanford_medium_square {
   border-color: #e2e2e2;
 }
-/* line 458, _caw_styles.scss */
+/* line 461, _caw_styles.scss */
 .node-type-stanford-landing-page .stanford-medium-square h2 a {
   font-weight: 400;
 }
-/* line 461, _caw_styles.scss */
+/* line 464, _caw_styles.scss */
 .node-type-stanford-landing-page .stanford-medium-square .more-link {
   margin-top: 0;
 }
-/* line 465, _caw_styles.scss */
+/* line 467, _caw_styles.scss */
 .node-type-stanford-landing-page .stanford-medium-square img {
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
 }
-/* line 468, _caw_styles.scss */
+/* line 470, _caw_styles.scss */
 .node-type-stanford-landing-page .stanford-medium-square .postcard-left > div:first-child img {
   margin-right: 25px;
   margin-bottom: 0;
 }
 @media (max-width: 380px) {
-  /* line 473, _caw_styles.scss */
+  /* line 475, _caw_styles.scss */
   .node-type-stanford-landing-page .stanford-medium-square .postcard-left > div:first-child {
     float: none;
   }
-  /* line 476, _caw_styles.scss */
+  /* line 478, _caw_styles.scss */
   .node-type-stanford-landing-page .stanford-medium-square .postcard-left > div {
     display: block;
     width: 100%;
