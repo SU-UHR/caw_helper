@@ -375,8 +375,21 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
 
 .well {
   background: $gray-light;
-  @include border-radius(4px);
-  @include box-shadow(3px 3px 10px rgba(0, 0, 0, 0.2)); 
+  @include border-radius(3px);
+  @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.2));
+  .well-nav {
+    background-color: #3d3e42;
+    color: #efeae6;
+    h2 {
+      color: #efeae6;
+    }
+    a {
+      color: #efeae6;
+    }
+    a:hover, a:focus {
+      color: #5fbfc4;
+    }
+  }
 }
 
 /** IMAGES ****************************/

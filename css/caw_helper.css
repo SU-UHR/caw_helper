@@ -472,14 +472,31 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
 /* line 376, _caw_styles.scss */
 .well {
   background: #e2e2e2;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px;
-  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+}
+/* line 380, _caw_styles.scss */
+.well .well-nav {
+  background-color: #3d3e42;
+  color: #efeae6;
+}
+/* line 383, _caw_styles.scss */
+.well .well-nav h2 {
+  color: #efeae6;
+}
+/* line 386, _caw_styles.scss */
+.well .well-nav a {
+  color: #efeae6;
+}
+/* line 389, _caw_styles.scss */
+.well .well-nav a:hover, .well .well-nav a:focus {
+  color: #5fbfc4;
 }
 
 /** IMAGES ****************************/
