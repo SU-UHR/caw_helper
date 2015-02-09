@@ -384,7 +384,8 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
     letter-spacing: 0.02em;
     margin-bottom: 15px;
   }
-  p:last-child {
+  p:last-child,
+  ul:last-child {
     margin-bottom: 0;
   }
 }
