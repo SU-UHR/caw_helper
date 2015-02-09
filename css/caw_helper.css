@@ -493,21 +493,22 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
 .well p:last-child {
   margin-bottom: 0;
 }
-/* line 390, _caw_styles.scss */
-.well .well-nav {
+
+/* line 391, _caw_styles.scss */
+.well.well-nav {
   background-color: #3d3e42;
   color: #efeae6;
 }
-/* line 393, _caw_styles.scss */
-.well .well-nav h2 {
+/* line 394, _caw_styles.scss */
+.well.well-nav h2 {
   color: #efeae6;
 }
-/* line 396, _caw_styles.scss */
-.well .well-nav a {
+/* line 397, _caw_styles.scss */
+.well.well-nav a {
   color: #efeae6;
 }
-/* line 399, _caw_styles.scss */
-.well .well-nav a:hover, .well .well-nav a:focus {
+/* line 400, _caw_styles.scss */
+.well.well-nav a:hover, .well.well-nav a:focus {
   color: #5fbfc4;
 }
 

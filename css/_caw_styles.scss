@@ -387,18 +387,18 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
   p:last-child {
     margin-bottom: 0;
   }
-  .well-nav {
-    background-color: #3d3e42;
+}
+.well.well-nav {
+  background-color: #3d3e42;
+  color: #efeae6;
+  h2 {
     color: #efeae6;
-    h2 {
-      color: #efeae6;
-    }
-    a {
-      color: #efeae6;
-    }
-    a:hover, a:focus {
-      color: #5fbfc4;
-    }
+  }
+  a {
+    color: #efeae6;
+  }
+  a:hover, a:focus {
+    color: #5fbfc4;
   }
 }
 
