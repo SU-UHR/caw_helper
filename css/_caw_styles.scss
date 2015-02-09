@@ -449,21 +449,34 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
 /** LANDING PAGES ****************************/
 
 .node-type-stanford-landing-page {
-  .view-mode-stanford_medium_square {
-    border-color: $gray-light;
-  }
   /* blocks */
   .stanford-4-col-header {
 
   }
   /* list */
   .stanford-medium-square {
+    h2 a {
+      font-weight: 400;
+    }
+    .more-link {
+      margin-top: 0;
+    }
+    border-color: $gray-light;
     img {
       @include box-shadow(1px 1px 6px rgba(0, 0, 0, 0.25));
     }
     .postcard-left > div:first-child img {
       margin-right: 25px;
       margin-bottom: 0;
+    }
+    @media (max-width: 380px) {
+      .postcard-left > div:first-child {
+        float: none;
+      }
+      .postcard-left > div {
+        display: block;
+        width: 100%;
+      }
     }
   }
   /* guide */
