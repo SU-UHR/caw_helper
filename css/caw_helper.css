@@ -523,19 +523,23 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
   font-weight: 600;
 }
 /* line 412, _caw_styles.scss */
+.main-lower .block h2, .main-lower .block img {
+  margin-left: -2px;
+}
+/* line 415, _caw_styles.scss */
 .main-lower .block .content > .menu > li > a {
   font-weight: 400;
 }
-/* line 416, _caw_styles.scss */
+/* line 419, _caw_styles.scss */
 .main-lower .block .content > .menu > li > a:hover,
 .main-lower .block .content > .menu > li > a:focus {
   text-decoration: underline;
 }
-/* line 419, _caw_styles.scss */
+/* line 422, _caw_styles.scss */
 .main-lower .block li a.active {
   color: #8c1515;
 }
-/* line 423, _caw_styles.scss */
+/* line 426, _caw_styles.scss */
 .main-lower .block li a.active:hover,
 .main-lower .block li a.active:focus {
   color: black;
