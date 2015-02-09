@@ -377,6 +377,11 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
   background: $gray-light;
   @include border-radius(3px);
   @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.2));
+  color: $gray-dark;
+  font-size: 0.9em;
+  h2 {
+    letter-spacing: 0.02em;
+  }
   .well-nav {
     background-color: #3d3e42;
     color: #efeae6;

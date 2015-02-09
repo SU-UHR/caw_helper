@@ -480,21 +480,27 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
   -webkit-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+  color: #3d3e42;
+  font-size: 0.9em;
 }
-/* line 380, _caw_styles.scss */
+/* line 382, _caw_styles.scss */
+.well h2 {
+  letter-spacing: 0.02em;
+}
+/* line 385, _caw_styles.scss */
 .well .well-nav {
   background-color: #3d3e42;
   color: #efeae6;
 }
-/* line 383, _caw_styles.scss */
+/* line 388, _caw_styles.scss */
 .well .well-nav h2 {
   color: #efeae6;
 }
-/* line 386, _caw_styles.scss */
+/* line 391, _caw_styles.scss */
 .well .well-nav a {
   color: #efeae6;
 }
-/* line 389, _caw_styles.scss */
+/* line 394, _caw_styles.scss */
 .well .well-nav a:hover, .well .well-nav a:focus {
   color: #5fbfc4;
 }
