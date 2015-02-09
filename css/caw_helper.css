@@ -535,6 +535,11 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
 .main-lower .block li a.active {
   color: #8c1515;
 }
+/* line 423, _caw_styles.scss */
+.main-lower .block li a.active:hover,
+.main-lower .block li a.active:focus {
+  color: black;
+}
 
 /** IMAGES ****************************/
 /** CAROUSEL ****************************/

@@ -390,16 +390,16 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
   }
 }
 .well.well-nav {
-  background-color: #3d3e42;
-  color: #efeae6;
+  background-color: $gray-dark;
+  color: $off-white;
   h2 {
-    color: #efeae6;
+    color: $off-white;
   }
   a {
-    color: #efeae6;
+    color: $off-white;
   }
   a:hover, a:focus {
-    color: #5fbfc4;
+    color: $turq-light;
   }
 }
 
@@ -418,6 +418,10 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
   }
   li a.active {
     color: $red;
+  }
+  li a.active:hover,
+  li a.active:focus {
+    color: $black;
   }
 }
 
