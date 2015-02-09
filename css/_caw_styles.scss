@@ -412,6 +412,13 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
   .content > .menu > li > a {
     font-weight: 400;
   }
+  .content > .menu > li > a:hover,
+  .content > .menu > li > a:focus {
+    text-decoration;
+  }
+  li a.active {
+    color: $red;
+  }
 }
 
 /** IMAGES ****************************/
