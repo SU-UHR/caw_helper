@@ -379,8 +379,13 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
   @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.2));
   color: $gray-dark;
   font-size: 0.9em;
+  padding: 24px 28px;
   h2 {
     letter-spacing: 0.02em;
+    margin-bottom: 15px;
+  }
+  p:last-child {
+    margin-bottom: 0;
   }
   .well-nav {
     background-color: #3d3e42;

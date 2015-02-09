@@ -482,25 +482,31 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
   color: #3d3e42;
   font-size: 0.9em;
+  padding: 24px 28px;
 }
-/* line 382, _caw_styles.scss */
+/* line 383, _caw_styles.scss */
 .well h2 {
   letter-spacing: 0.02em;
+  margin-bottom: 15px;
 }
-/* line 385, _caw_styles.scss */
+/* line 387, _caw_styles.scss */
+.well p:last-child {
+  margin-bottom: 0;
+}
+/* line 390, _caw_styles.scss */
 .well .well-nav {
   background-color: #3d3e42;
   color: #efeae6;
 }
-/* line 388, _caw_styles.scss */
+/* line 393, _caw_styles.scss */
 .well .well-nav h2 {
   color: #efeae6;
 }
-/* line 391, _caw_styles.scss */
+/* line 396, _caw_styles.scss */
 .well .well-nav a {
   color: #efeae6;
 }
-/* line 394, _caw_styles.scss */
+/* line 399, _caw_styles.scss */
 .well .well-nav a:hover, .well .well-nav a:focus {
   color: #5fbfc4;
 }
