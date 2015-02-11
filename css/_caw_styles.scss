@@ -406,6 +406,10 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
     background: transparent;
     margin-bottom: 0;
   }
+  .tile-link:hover, .tile-link:focus {
+    opacity: 1;
+    cursor: normal;
+  }
   img {
     @include border-radius(4px 4px 0 0);
   }
@@ -413,14 +417,22 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
 
   }
   h2 a {
-    padding: 15px;
+    padding: 20px;
     color: $red;
   }
+  h2 a:hover, h2 a:focus {
+    color: $black;
+  }
   .field-name-field-s-postcard-body {
-    padding: 0px 15px 10px 15px;
+    padding: 0px 20px 10px 20px;
   }
   p {
     
+  }
+}
+.tile:hover {
+  h2 a {
+    color: $black;
   }
 }
 
