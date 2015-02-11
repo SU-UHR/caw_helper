@@ -385,6 +385,18 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
 
 /** BLOCKS ****************************/
 
+.block-bean {
+  h2 {
+    font-size: 1.5em;
+  }
+  img {
+    @include box-shadow(1px 1px 6px rgba(0, 0, 0, 0.25));
+    margin-bottom: 15px;
+  }
+  a.more-link {
+    margin-top: 0;
+  }
+}
 .well {
   background: $gray-light;
   @include border-radius(3px);
