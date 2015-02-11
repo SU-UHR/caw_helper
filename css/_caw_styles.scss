@@ -397,6 +397,36 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
     margin-top: 0;
   }
 }
+
+.tile {
+  background: $white;
+  @include border-radius(3px);
+  @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.2));
+  .tile-link {
+    background: transparent;
+    margin-bottom: 0;
+  }
+  img {
+
+  }
+  h2 {
+
+  }
+  h2 a {
+    padding: 10px 15px;
+  }
+  .field-name-field-s-postcard-body {
+    padding: 10px 15px;
+  }
+  p {
+    
+  }
+}
+
+.callout-block {
+  text-align: center;
+}
+
 .well {
   background: $gray-light;
   @include border-radius(3px);
