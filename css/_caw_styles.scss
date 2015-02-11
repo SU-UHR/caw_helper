@@ -410,6 +410,9 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
     opacity: 1;
     cursor: normal;
   }
+  .field-name-bean-card-display-image {
+    background: $black;
+  }
   img {
     @include border-radius(4px 4px 0 0);
   }
@@ -433,6 +436,9 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
 .tile:hover {
   h2 a {
     color: $black;
+  }
+  img {
+    opacity: .8;
   }
 }
 
