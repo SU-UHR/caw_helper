@@ -400,23 +400,24 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
 
 .tile {
   background: $white;
-  @include border-radius(3px);
+  @include border-radius(4px);
   @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.2));
   .tile-link {
     background: transparent;
     margin-bottom: 0;
   }
   img {
-
+    @include border-radius(4px 4px 0 0);
   }
   h2 {
 
   }
   h2 a {
-    padding: 10px 15px;
+    padding: 15px;
+    color: $red;
   }
   .field-name-field-s-postcard-body {
-    padding: 10px 15px;
+    padding: 0px 15px 10px 15px;
   }
   p {
     
