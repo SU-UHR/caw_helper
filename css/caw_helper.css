@@ -578,10 +578,11 @@ a.btn.btn-arrow-right:focus {
   opacity: 0.8;
 }
 /* line 455, _caw_styles.scss */
-.tile .field-name-title-wrapper {
+.tile h2 a {
   margin-top: -30px;
-  padding-top: 20px;
   position: relative;
+  padding: 20px;
+  color: #8c1515;
   background: white;
   background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 25%, white 100%);
   /* FF3.6+ */
@@ -598,27 +599,22 @@ a.btn.btn-arrow-right:focus {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
   /* IE6-9 */
 }
-/* line 469, _caw_styles.scss */
-.tile h2 a {
-  padding: 20px;
-  color: #8c1515;
-}
-/* line 473, _caw_styles.scss */
+/* line 471, _caw_styles.scss */
 .tile h2 a:hover, .tile h2 a:focus {
   color: #8c1515;
   text-decoration: underline;
 }
-/* line 477, _caw_styles.scss */
+/* line 475, _caw_styles.scss */
 .tile .field-name-field-s-postcard-body {
   padding: 0px 20px 10px 20px;
 }
 
-/* line 494, _caw_styles.scss */
+/* line 492, _caw_styles.scss */
 .callout-block {
   text-align: center;
 }
 
-/* line 498, _caw_styles.scss */
+/* line 496, _caw_styles.scss */
 .well {
   background: #e2e2e2;
   -webkit-border-radius: 3px;
@@ -633,62 +629,62 @@ a.btn.btn-arrow-right:focus {
   font-size: 0.9em;
   padding: 24px 28px;
 }
-/* line 505, _caw_styles.scss */
+/* line 503, _caw_styles.scss */
 .well h2 {
   letter-spacing: 0.02em;
   margin-bottom: 15px;
 }
-/* line 510, _caw_styles.scss */
+/* line 508, _caw_styles.scss */
 .well p:last-child,
 .well ul:last-child {
   margin-bottom: 0;
 }
 
-/* line 514, _caw_styles.scss */
+/* line 512, _caw_styles.scss */
 .well.well-nav {
   background-color: #3d3e42;
   color: #efeae6;
 }
-/* line 517, _caw_styles.scss */
+/* line 515, _caw_styles.scss */
 .well.well-nav h2 {
   color: #efeae6;
 }
-/* line 520, _caw_styles.scss */
+/* line 518, _caw_styles.scss */
 .well.well-nav a {
   color: #efeae6;
 }
-/* line 523, _caw_styles.scss */
+/* line 521, _caw_styles.scss */
 .well.well-nav a:hover, .well.well-nav a:focus {
   color: #5fbfc4;
 }
 
-/* line 528, _caw_styles.scss */
+/* line 526, _caw_styles.scss */
 .main-lower .block {
   font-size: 0.9em;
 }
-/* line 530, _caw_styles.scss */
+/* line 528, _caw_styles.scss */
 .main-lower .block h2 {
   font-size: 1.3em;
   font-weight: 600;
 }
-/* line 534, _caw_styles.scss */
+/* line 532, _caw_styles.scss */
 .main-lower .block h2, .main-lower .block img {
   margin-left: -2px;
 }
-/* line 537, _caw_styles.scss */
+/* line 535, _caw_styles.scss */
 .main-lower .block .content > .menu > li > a {
   font-weight: 400;
 }
-/* line 541, _caw_styles.scss */
+/* line 539, _caw_styles.scss */
 .main-lower .block .content > .menu > li > a:hover,
 .main-lower .block .content > .menu > li > a:focus {
   text-decoration: underline;
 }
-/* line 544, _caw_styles.scss */
+/* line 542, _caw_styles.scss */
 .main-lower .block li a.active {
   color: #8c1515;
 }
-/* line 548, _caw_styles.scss */
+/* line 546, _caw_styles.scss */
 .main-lower .block li a.active:hover,
 .main-lower .block li a.active:focus {
   color: black;
@@ -698,7 +694,7 @@ a.btn.btn-arrow-right:focus {
 /** CAROUSEL ****************************/
 /** HOMEPAGE ****************************/
 /** LANDING PAGES ****************************/
-/* line 561, _caw_styles.scss */
+/* line 559, _caw_styles.scss */
 .node-type-stanford-landing-page {
   /* blocks */
   /* list */
@@ -706,35 +702,35 @@ a.btn.btn-arrow-right:focus {
   /* cards */
   /* callouts */
 }
-/* line 568, _caw_styles.scss */
+/* line 566, _caw_styles.scss */
 .node-type-stanford-landing-page .stanford-medium-square .view-mode-stanford_medium_square {
   border-color: #e2e2e2;
 }
-/* line 571, _caw_styles.scss */
+/* line 569, _caw_styles.scss */
 .node-type-stanford-landing-page .stanford-medium-square h2 a {
   font-weight: 400;
 }
-/* line 574, _caw_styles.scss */
+/* line 572, _caw_styles.scss */
 .node-type-stanford-landing-page .stanford-medium-square .more-link {
   margin-top: 0;
 }
-/* line 577, _caw_styles.scss */
+/* line 575, _caw_styles.scss */
 .node-type-stanford-landing-page .stanford-medium-square img {
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
 }
-/* line 580, _caw_styles.scss */
+/* line 578, _caw_styles.scss */
 .node-type-stanford-landing-page .stanford-medium-square .postcard-left > div:first-child img {
   margin-right: 25px;
   margin-bottom: 0;
 }
 @media (max-width: 380px) {
-  /* line 585, _caw_styles.scss */
+  /* line 583, _caw_styles.scss */
   .node-type-stanford-landing-page .stanford-medium-square .postcard-left > div:first-child {
     float: none;
   }
-  /* line 588, _caw_styles.scss */
+  /* line 586, _caw_styles.scss */
   .node-type-stanford-landing-page .stanford-medium-square .postcard-left > div {
     display: block;
     width: 100%;
