@@ -712,51 +712,49 @@ a.btn.btn-arrow-right:focus {
 /** IMAGES ****************************/
 /** CAROUSEL ****************************/
 /** HOMEPAGE ****************************/
-/** LANDING PAGES ****************************/
-/* line 574, _caw_styles.scss */
-.node-type-stanford-landing-page {
-  /* blocks */
-  /* list */
-  /* guide */
-  /* cards */
-  /* callouts */
-}
-/* line 581, _caw_styles.scss */
-.node-type-stanford-landing-page .stanford-medium-square .view-mode-stanford_medium_square {
+/** LANDING PAGES & PROGRAM/SERVICE PAGES ****************************/
+/* blocks */
+/* cards */
+/* callouts */
+/* list */
+/* line 594, _caw_styles.scss */
+.stanford-medium-square .view-mode-stanford_medium_square {
   border-color: #e2e2e2;
 }
-/* line 584, _caw_styles.scss */
-.node-type-stanford-landing-page .stanford-medium-square h2 a {
+/* line 597, _caw_styles.scss */
+.stanford-medium-square h2 a {
   font-weight: 400;
 }
-/* line 587, _caw_styles.scss */
-.node-type-stanford-landing-page .stanford-medium-square .more-link {
+/* line 600, _caw_styles.scss */
+.stanford-medium-square .more-link {
   margin-top: 0;
 }
-/* line 590, _caw_styles.scss */
-.node-type-stanford-landing-page .stanford-medium-square img {
+/* line 603, _caw_styles.scss */
+.stanford-medium-square img {
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
 }
-/* line 593, _caw_styles.scss */
-.node-type-stanford-landing-page .stanford-medium-square .postcard-left > div:first-child img {
+/* line 606, _caw_styles.scss */
+.stanford-medium-square .postcard-left > div:first-child img {
   margin-right: 25px;
   margin-bottom: 0;
 }
 @media (max-width: 380px) {
-  /* line 598, _caw_styles.scss */
-  .node-type-stanford-landing-page .stanford-medium-square .postcard-left > div:first-child {
+  /* line 611, _caw_styles.scss */
+  .stanford-medium-square .postcard-left > div:first-child {
     float: none;
   }
-  /* line 601, _caw_styles.scss */
-  .node-type-stanford-landing-page .stanford-medium-square .postcard-left > div {
+  /* line 614, _caw_styles.scss */
+  .stanford-medium-square .postcard-left > div {
     display: block;
     width: 100%;
   }
 }
-/* line 608, _caw_styles.scss */
-.node-type-stanford-landing-page .numbered-guide {
+
+/* numbered guide */
+/* line 622, _caw_styles.scss */
+.numbered-guide {
   border-top: 1px solid #e2e2e2;
   margin-top: 1em;
   padding-top: 2em;

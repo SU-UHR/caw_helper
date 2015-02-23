@@ -569,59 +569,60 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 
 /** HOMEPAGE ****************************/
 
-/** LANDING PAGES ****************************/
+/** LANDING PAGES & PROGRAM/SERVICE PAGES ****************************/
 
-.node-type-stanford-landing-page {
-  /* blocks */
-  .stanford-4-col-header {
+/* blocks */
+.stanford-4-col-header {
+
+}
+
+/* cards */
+.large-landscape {
+  .tile {
 
   }
-  /* list */
-  .stanford-medium-square {
-    .view-mode-stanford_medium_square {
-      border-color: $gray-light;
-    }
-    h2 a {
-      font-weight: 400;
-    }
-    .more-link {
-      margin-top: 0;
-    }
-    img {
-      @include box-shadow(1px 1px 6px rgba(0, 0, 0, 0.25));
-    }
-    .postcard-left > div:first-child img {
-      margin-right: 25px;
-      margin-bottom: 0;
-    }
-    @media (max-width: 380px) {
-      .postcard-left > div:first-child {
-        float: none;
-      }
-      .postcard-left > div {
-        display: block;
-        width: 100%;
-      }
-    }
-  }
-  /* numbered guide */
-  .numbered-guide {
-    border-top: 1px solid $gray-light;
-    margin-top: 1em;
-    padding-top: 2em;
-  }
-  /* cards */
-  .large-landscape {
-    .tile {
+}
+/* callouts */
+.stanford-callout-block {
+  .callout-block {
 
-    }
   }
-  /* callouts */
-  .stanford-callout-block {
-    .callout-block {
+}
 
+/* list */
+.stanford-medium-square {
+  .view-mode-stanford_medium_square {
+    border-color: $gray-light;
+  }
+  h2 a {
+    font-weight: 400;
+  }
+  .more-link {
+    margin-top: 0;
+  }
+  img {
+    @include box-shadow(1px 1px 6px rgba(0, 0, 0, 0.25));
+  }
+  .postcard-left > div:first-child img {
+    margin-right: 25px;
+    margin-bottom: 0;
+  }
+  @media (max-width: 380px) {
+    .postcard-left > div:first-child {
+      float: none;
+    }
+    .postcard-left > div {
+      display: block;
+      width: 100%;
     }
   }
+}
+
+/* numbered guide */
+.numbered-guide {
+  border-top: 1px solid $gray-light;
+  margin-top: 1em;
+  padding-top: 2em;
 }
 
 /** PROGRAM/SERVICE PAGES ****************************/
