@@ -300,8 +300,10 @@ body, .header, .site-main-menu, .main {
 }
 .sidebar .block-menu .content > .menu > li li a, 
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li li a {
-  padding: 6px 20px;
+  padding: 5px 20px;
   font-size: .9em;
+  font-weight: 300;
+  line-height: 1.3em;
 }
 .sidebar .block-menu .content > .menu > li li a:hover, 
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li li a:hover, 
