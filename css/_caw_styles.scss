@@ -669,13 +669,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 
 article.numbered-guide .field-name-field-landing-page-item .field-items {
   counter-reset: section;
-  .field-item:before {
+  .numbered-guide:before {
       counter-increment: section;
       content: counter(section);
-      padding: 15px;
+      padding: 1em;
+      width: 2em;
+      height: 2em;
       background: $red;
       color: $white;
-      @include border-radius(15px);
+      @include border-radius(2em);
   }
 }
 

@@ -816,17 +816,19 @@ article.numbered-guide .field-name-field-landing-page-item .field-items {
   counter-reset: section;
 }
 /* line 672, _caw_styles.scss */
-article.numbered-guide .field-name-field-landing-page-item .field-items .field-item:before {
+article.numbered-guide .field-name-field-landing-page-item .field-items .numbered-guide:before {
   counter-increment: section;
   content: counter(section);
-  padding: 15px;
+  padding: 1em;
+  width: 2em;
+  height: 2em;
   background: #8c1515;
   color: white;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
-  border-radius: 15px;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  -ms-border-radius: 2em;
+  -o-border-radius: 2em;
+  border-radius: 2em;
 }
 
 /** PROGRAM/SERVICE PAGES ****************************/
