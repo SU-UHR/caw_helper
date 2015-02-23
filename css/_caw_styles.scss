@@ -278,7 +278,12 @@ body, .header, .site-main-menu, .main {
 }
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:hover,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:focus,
-.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a.active {
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a.active,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a.active-trail,
+.sidebar .nav li a:hover, 
+.sidebar .nav li a:focus, 
+.sidebar .nav li a.active, 
+.sidebar .nav li a.active-trail  {
   background: $gray-med1;
   color: $white;
 }
@@ -334,7 +339,7 @@ hr {
 /** NEW TO CAW ****************************/
 
 .red-text {
-  color: #8c1515;
+  color: $red;
   font-weight: 600;
 }
 .facetapi-count {
