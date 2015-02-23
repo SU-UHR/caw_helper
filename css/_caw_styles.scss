@@ -437,7 +437,7 @@ a.btn.btn-arrow-right:focus {
 .tile {
   background: $white;
   @include border-radius(4px);
-  @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.2));
+  @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.3));
   .tile-link {
     background: transparent;
     margin-bottom: 0;
