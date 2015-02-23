@@ -385,10 +385,10 @@ ul, ol {
 
 th, td {
   padding: 1em;
-  border: 1px solid #e6e8ec;
+  border: 1px solid $gray-light;
 }
 th {
-  background: #e6e8ec;
+  background: $gray-light;
 }
 
 /** LINKS ****************************/
@@ -396,16 +396,21 @@ th {
 a {
 
 }
-a:hover, a:focus {
+a:hover, 
+a:focus {
 
 }
 .main-bottom a {
   font-weight: 500;
 }
-a.btn, a.btn:hover, a.btn:focus {
+a.btn, 
+a.btn:hover, 
+a.btn:focus {
   padding: 0.5em 1em;
 }
-a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus {
+a.btn.btn-arrow-right, 
+a.btn.btn-arrow-right:hover, 
+a.btn.btn-arrow-right:focus {
   background-image: url('../img/caw-btn-arrow-right.png');
   background-repeat: no-repeat;
   background-position: 93% center;
@@ -444,6 +449,9 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
   img {
     @include border-radius(4px 4px 0 0);
   }
+  a:hover img, a:focus img {
+    opacity: 0.8;
+  }
   h2 {
 
   }
@@ -452,7 +460,7 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
     color: $red;
   }
   h2 a:hover, h2 a:focus {
-    color: $black;
+    text-decoration: underline;
   }
   .field-name-field-s-postcard-body {
     padding: 0px 20px 10px 20px;
@@ -461,15 +469,15 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
     
   }
 }
-.tile:hover {
-  @include box-shadow(3px 3px 8px rgba(0, 0, 0, 0.25));
-  h2 a {
-    color: $black;
-  }
-  img {
-    opacity: .8;
-  }
-}
+// .tile:hover {
+//   @include box-shadow(3px 3px 8px rgba(0, 0, 0, 0.25));
+//   h2 a {
+//     color: $black;
+//   }
+//   img {
+//     opacity: .8;
+//   }
+// }
 
 .callout-block {
   text-align: center;
