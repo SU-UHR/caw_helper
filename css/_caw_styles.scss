@@ -288,6 +288,32 @@ body, .header, .site-main-menu, .main {
   color: $white;
 }
 
+.sidebar .block-menu .content > .menu > li.active-trail, 
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li.active-trail, 
+.sidebar .block-menu .content > .menu > li > a.active, 
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a.active, 
+.sidebar .block-menu .content > .menu > li > a:hover, 
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:hover, 
+.sidebar .block-menu .content > .menu > li > a:focus, 
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:focus {
+  background: $gray-med1;
+}
+.sidebar .block-menu .content > .menu > li li a, 
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li li a {
+  padding: 5px 20px;
+  font-size: .9em;
+  font-weight: 300;
+  line-height: 1.3em;
+}
+.sidebar .block-menu .content > .menu > li li a:hover, 
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li li a:hover, 
+.sidebar .block-menu .content > .menu > li li a:focus, 
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li li a:focus, 
+.sidebar .block-menu .content > .menu > li li a.active-trail, 
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li li a.active-trail {
+  background: transparent;
+}
+
 /** HEADERS ****************************/
 h1 { 
   margin-bottom: 0.5em;
@@ -359,10 +385,10 @@ ul, ol {
 
 th, td {
   padding: 1em;
-  border: 1px solid #e6e8ec;
+  border: 1px solid $gray-light;
 }
 th {
-  background: #e6e8ec;
+  background: $gray-light;
 }
 
 /** LINKS ****************************/
@@ -370,16 +396,21 @@ th {
 a {
 
 }
-a:hover, a:focus {
+a:hover, 
+a:focus {
 
 }
 .main-bottom a {
   font-weight: 500;
 }
-a.btn, a.btn:hover, a.btn:focus {
+a.btn, 
+a.btn:hover, 
+a.btn:focus {
   padding: 0.5em 1em;
 }
-a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus {
+a.btn.btn-arrow-right, 
+a.btn.btn-arrow-right:hover, 
+a.btn.btn-arrow-right:focus {
   background-image: url('../img/caw-btn-arrow-right.png');
   background-repeat: no-repeat;
   background-position: 93% center;
@@ -406,27 +437,40 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
 .tile {
   background: $white;
   @include border-radius(4px);
-  @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.2));
+  @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.3));
   .tile-link {
     background: transparent;
     margin-bottom: 0;
   }
   .tile-link:hover, .tile-link:focus {
     opacity: 1;
-    cursor: normal;
+    cursor: default;
   }
   img {
     @include border-radius(4px 4px 0 0);
   }
-  h2 {
-
+  a:hover img, a:focus img {
+    opacity: 0.8;
   }
   h2 a {
-    padding: 20px;
+    margin-top: -30px;
+    position: relative;
+    padding: 45px 20px 20px;
     color: $red;
+
+    background: $white;
+background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(25%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 25%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 25%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 25%,rgba(255,255,255,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 25%,rgba(255,255,255,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
   }
   h2 a:hover, h2 a:focus {
-    color: $black;
+    color: $red;
+    text-decoration: underline;
   }
   .field-name-field-s-postcard-body {
     padding: 0px 20px 10px 20px;
@@ -435,18 +479,27 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
     
   }
 }
-.tile:hover {
-  @include box-shadow(3px 3px 8px rgba(0, 0, 0, 0.25));
-  h2 a {
-    color: $black;
-  }
-  img {
-    opacity: .8;
-  }
-}
+// .tile:hover {
+//   @include box-shadow(3px 3px 8px rgba(0, 0, 0, 0.25));
+//   h2 a {
+//     color: $black;
+//   }
+//   img {
+//     opacity: .8;
+//   }
+// }
 
 .callout-block {
   text-align: center;
+  border-left: 1px solid $gray-light;
+  border-right: 1px solid $gray-light;
+  padding: 0 15px;
+}
+.block:first-child .callout-block  {
+  border-left: 0;
+}
+.block:last-child .callout-block  {
+  border-right: 0;
 }
 
 .well {
