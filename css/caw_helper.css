@@ -563,7 +563,7 @@ a.btn.btn-arrow-right:focus {
 /* line 445, _caw_styles.scss */
 .tile .tile-link:hover, .tile .tile-link:focus {
   opacity: 1;
-  cursor: normal;
+  cursor: default;
 }
 /* line 449, _caw_styles.scss */
 .tile img {

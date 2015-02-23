@@ -444,7 +444,7 @@ a.btn.btn-arrow-right:focus {
   }
   .tile-link:hover, .tile-link:focus {
     opacity: 1;
-    cursor: normal;
+    cursor: default;
   }
   img {
     @include border-radius(4px 4px 0 0);
