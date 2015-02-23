@@ -804,11 +804,29 @@ a.btn.btn-arrow-right:focus {
     width: 100%;
   }
 }
-/* line 664, _caw_styles.scss */
+/* line 663, _caw_styles.scss */
 .field-name-field-landing-page-item .numbered-guide {
   border-top: 1px solid #e2e2e2;
   margin-top: 1em;
   padding-top: 2em;
+}
+
+/* line 670, _caw_styles.scss */
+article.numbered-guide .field-name-field-landing-page-item .field-items {
+  counter-reset: section;
+}
+/* line 672, _caw_styles.scss */
+article.numbered-guide .field-name-field-landing-page-item .field-items .field-item:before {
+  counter-increment: section;
+  content: counter(section);
+  padding: 15px;
+  background: #8c1515;
+  color: white;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
 }
 
 /** PROGRAM/SERVICE PAGES ****************************/

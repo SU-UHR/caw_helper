@@ -659,12 +659,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
       }
     }
   }
-
   /* numbered guide */
   .numbered-guide {
     border-top: 1px solid $gray-light;
     margin-top: 1em;
     padding-top: 2em;
+  }
+}
+
+article.numbered-guide .field-name-field-landing-page-item .field-items {
+  counter-reset: section;
+  .field-item:before {
+      counter-increment: section;
+      content: counter(section);
+      padding: 15px;
+      background: $red;
+      color: $white;
+      @include border-radius(15px);
   }
 }
 
