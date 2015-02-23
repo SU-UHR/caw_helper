@@ -491,6 +491,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 
 .callout-block {
   text-align: center;
+  border-left: 1px solid $gray-light;
+  border-right: 1px solid $gray-light;
+  padding: 0 15px;
+}
+.block:first-child .callout-block  {
+  border-left: 0;
+}
+.block:last-child .callout-block  {
+  border-right: 0;
 }
 
 .well {
