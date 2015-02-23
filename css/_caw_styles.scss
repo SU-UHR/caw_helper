@@ -547,7 +547,9 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
   }
   /* guide */
   .numbered-guide {
-
+border-top: 1px solid $gray-light;
+margin-top: 1em;
+padding-top: 2em;
   }
   /* cards */
   .large-landscape {

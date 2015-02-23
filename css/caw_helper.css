@@ -694,6 +694,12 @@ a.btn.btn-arrow-right, a.btn.btn-arrow-right:hover, a.btn.btn-arrow-right:focus 
     width: 100%;
   }
 }
+/* line 549, _caw_styles.scss */
+.node-type-stanford-landing-page .numbered-guide {
+  border-top: 1px solid #e2e2e2;
+  margin-top: 1em;
+  padding-top: 2em;
+}
 
 /** PROGRAM/SERVICE PAGES ****************************/
 /** IE STYLES ****************************/
