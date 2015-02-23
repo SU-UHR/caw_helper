@@ -600,6 +600,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
   }
   /* guide */
   .numbered-guide {
+border-color: $gray-light
 border-top: 1px solid $gray-light;
 margin-top: 1em;
 padding-top: 2em;
