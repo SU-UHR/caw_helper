@@ -457,7 +457,7 @@ a.btn.btn-arrow-right:focus {
     opacity: 0.8;
   }
   h2 a {
-    margin-top: -30px;
+    margin-top: -45px;
     position: relative;
     padding: 45px 20px 20px;
     color: $red;
@@ -493,6 +493,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 //   }
 // }
 
+/* callout blocks */
 .callout-block {
   text-align: center;
   border-right: 1px solid $gray-light;
@@ -510,7 +511,32 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
   border: 0;
   text-align: left;
 }
+@media (max-width: 767px) {
+  .callout-block {
+    border: 0;
+    padding: 0;
+  }
+  .block:nth-child(1) .callout-block,
+  .block:nth-child(3) .callout-block,
+  .block:nth-child(5) .callout-block,
+  .block:nth-child(7) .callout-block,
+  .block:nth-child(9) .callout-block {
+    border-right: 1px solid $gray-light;
+    padding: 0 15px 0 0;
+  }
+}
+@media (max-width: 480px) {
+  .block:nth-child(1) .callout-block,
+  .block:nth-child(3) .callout-block,
+  .block:nth-child(5) .callout-block,
+  .block:nth-child(7) .callout-block,
+  .block:nth-child(9) .callout-block {
+    border-right: 0;
+    padding: 0;
+  }
+}
 
+/* default well blocks */
 .well {
   background: $gray-light;
   @include border-radius(3px);
@@ -527,6 +553,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
     margin-bottom: 0;
   }
 }
+
+/* well-nav blocks */
 .well.well-nav {
   background-color: $gray-dark;
   color: $off-white;
@@ -541,6 +569,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
   }
 }
 
+/* footer blocks */
 .main-lower .block {
   font-size: 0.9em;
   h2 {
