@@ -762,48 +762,50 @@ a.btn.btn-arrow-right:focus {
 /** CAROUSEL ****************************/
 /** HOMEPAGE ****************************/
 /** LANDING PAGES & PROGRAM/SERVICE PAGES ****************************/
-/* blocks */
-/* cards */
-/* callouts */
-/* list */
+/* line 616, _caw_styles.scss */
+.field-name-field-landing-page-item {
+  /* blocks */
+  /* cards */
+  /* callouts */
+  /* list */
+  /* numbered guide */
+}
 /* line 636, _caw_styles.scss */
-.stanford-medium-square .view-mode-stanford_medium_square {
+.field-name-field-landing-page-item .stanford-medium-square .view-mode-stanford_medium_square {
   border-color: #e2e2e2;
 }
 /* line 639, _caw_styles.scss */
-.stanford-medium-square h2 a {
+.field-name-field-landing-page-item .stanford-medium-square h2 a {
   font-weight: 400;
 }
 /* line 642, _caw_styles.scss */
-.stanford-medium-square .more-link {
+.field-name-field-landing-page-item .stanford-medium-square .more-link {
   margin-top: 0;
 }
 /* line 645, _caw_styles.scss */
-.stanford-medium-square img {
+.field-name-field-landing-page-item .stanford-medium-square img {
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
 }
 /* line 648, _caw_styles.scss */
-.stanford-medium-square .postcard-left > div:first-child img {
+.field-name-field-landing-page-item .stanford-medium-square .postcard-left > div:first-child img {
   margin-right: 25px;
   margin-bottom: 0;
 }
 @media (max-width: 380px) {
   /* line 653, _caw_styles.scss */
-  .stanford-medium-square .postcard-left > div:first-child {
+  .field-name-field-landing-page-item .stanford-medium-square .postcard-left > div:first-child {
     float: none;
   }
   /* line 656, _caw_styles.scss */
-  .stanford-medium-square .postcard-left > div {
+  .field-name-field-landing-page-item .stanford-medium-square .postcard-left > div {
     display: block;
     width: 100%;
   }
 }
-
-/* numbered guide */
 /* line 664, _caw_styles.scss */
-.numbered-guide {
+.field-name-field-landing-page-item .numbered-guide {
   border-top: 1px solid #e2e2e2;
   margin-top: 1em;
   padding-top: 2em;
