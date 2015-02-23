@@ -288,6 +288,30 @@ body, .header, .site-main-menu, .main {
   color: $white;
 }
 
+.sidebar .block-menu .content > .menu > li.active-trail, 
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li.active-trail, 
+.sidebar .block-menu .content > .menu > li > a.active, 
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a.active, 
+.sidebar .block-menu .content > .menu > li > a:hover, 
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:hover, 
+.sidebar .block-menu .content > .menu > li > a:focus, 
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:focus {
+  background: $gray-med1;
+}
+.sidebar .block-menu .content > .menu > li li a, 
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li li a {
+  padding: 6px 20px;
+  font-size: .9em;
+}
+.sidebar .block-menu .content > .menu > li li a:hover, 
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li li a:hover, 
+.sidebar .block-menu .content > .menu > li li a:focus, 
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li li a:focus, 
+.sidebar .block-menu .content > .menu > li li a.active-trail, 
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li li a.active-trail {
+  background: transparent;
+}
+
 /** HEADERS ****************************/
 h1 { 
   margin-bottom: 0.5em;
