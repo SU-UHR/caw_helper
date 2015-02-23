@@ -491,15 +491,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 
 .callout-block {
   text-align: center;
-  border-left: 1px solid $gray-light;
   border-right: 1px solid $gray-light;
-  padding: 0 15px;
+  padding: 0 15px 0 0;
 }
-.block:first-child .callout-block  {
-  border-left: 0;
-}
-.block:last-child .callout-block  {
+.block:last-child .callout-block,
+.block:nth-child(3) .callout-block,
+.block:nth-child(6) .callout-block,
+.block:nth-child(9) .callout-block {
   border-right: 0;
+  padding-right: 0;
+}
+.sidebar .callout-block {
+  padding: 0;
+  border: 0;
+  text-align: left;
 }
 
 .well {
