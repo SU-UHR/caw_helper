@@ -672,7 +672,7 @@ a.btn.btn-arrow-right:focus {
   }
 
   /* line 540, _caw_styles.scss */
-  .callout-block {
+  .block-bean .callout-block {
     margin-top: 1em;
     padding: 1.5em 0 0 0;
     border-top: 1px solid #e2e2e2;
