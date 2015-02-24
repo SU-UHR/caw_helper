@@ -688,7 +688,7 @@ a.btn.btn-arrow-right:focus {
 /* line 553, _caw_styles.scss */
 .sidebar .block.well {
   margin-top: 0;
-  padding-top: 24px;
+  padding: 24px 28px;
   border: 0;
 }
 
