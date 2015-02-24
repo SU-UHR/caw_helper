@@ -969,5 +969,11 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   margin-right: 25px;
 }
 
-/** PROGRAM/SERVICE PAGES ****************************/
+/** STANFORD PAGES ****************************/
+/* line 793, _caw_styles.scss */
+.node-type-stanford-page .postcard-image img {
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+
 /** IE STYLES ****************************/

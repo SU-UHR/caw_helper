@@ -788,6 +788,12 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
 }
 
 
-/** PROGRAM/SERVICE PAGES ****************************/
+/** STANFORD PAGES ****************************/
+.node-type-stanford-page {
+  .postcard-image img {
+    margin-top: -30px;
+    margin-bottom: 30px;
+  }
+}
 
 /** IE STYLES ****************************/
