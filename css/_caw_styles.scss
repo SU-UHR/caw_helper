@@ -502,10 +502,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
     margin-top: 0;
   }
 }
-.block:last-child .callout-block,
-.block:nth-child(3) .callout-block,
-.block:nth-child(6) .callout-block,
-.block:nth-child(9) .callout-block {
+.block-bean:last-child .callout-block,
+.block-bean:nth-child(3) .callout-block,
+.block-bean:nth-child(6) .callout-block,
+.block-bean:nth-child(9) .callout-block {
   border-right: 0;
   padding-right: 0;
 }
@@ -519,21 +519,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
     border: 0;
     padding: 0;
   }
-  .block:nth-child(1) .callout-block,
-  .block:nth-child(3) .callout-block,
-  .block:nth-child(5) .callout-block,
-  .block:nth-child(7) .callout-block,
-  .block:nth-child(9) .callout-block {
+  .block-bean:nth-child(1) .callout-block,
+  .block-bean:nth-child(3) .callout-block,
+  .block-bean:nth-child(5) .callout-block,
+  .block-bean:nth-child(7) .callout-block,
+  .block-bean:nth-child(9) .callout-block {
     border-right: 1px solid $gray-light;
     padding: 0 15px 0 0;
   }
 }
 @media (max-width: 480px) {
-  .block:nth-child(1) .callout-block,
-  .block:nth-child(3) .callout-block,
-  .block:nth-child(5) .callout-block,
-  .block:nth-child(7) .callout-block,
-  .block:nth-child(9) .callout-block {
+  .block-bean:nth-child(1) .callout-block,
+  .block-bean:nth-child(3) .callout-block,
+  .block-bean:nth-child(5) .callout-block,
+  .block-bean:nth-child(7) .callout-block,
+  .block-bean:nth-child(9) .callout-block {
     border-right: 0;
     padding: 0;
   }

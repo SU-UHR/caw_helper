@@ -628,10 +628,10 @@ a.btn.btn-arrow-right:focus {
 }
 
 /* line 508, _caw_styles.scss */
-.block:last-child .callout-block,
-.block:nth-child(3) .callout-block,
-.block:nth-child(6) .callout-block,
-.block:nth-child(9) .callout-block {
+.block-bean:last-child .callout-block,
+.block-bean:nth-child(3) .callout-block,
+.block-bean:nth-child(6) .callout-block,
+.block-bean:nth-child(9) .callout-block {
   border-right: 0;
   padding-right: 0;
 }
@@ -651,22 +651,22 @@ a.btn.btn-arrow-right:focus {
   }
 
   /* line 526, _caw_styles.scss */
-  .block:nth-child(1) .callout-block,
-  .block:nth-child(3) .callout-block,
-  .block:nth-child(5) .callout-block,
-  .block:nth-child(7) .callout-block,
-  .block:nth-child(9) .callout-block {
+  .block-bean:nth-child(1) .callout-block,
+  .block-bean:nth-child(3) .callout-block,
+  .block-bean:nth-child(5) .callout-block,
+  .block-bean:nth-child(7) .callout-block,
+  .block-bean:nth-child(9) .callout-block {
     border-right: 1px solid #e2e2e2;
     padding: 0 15px 0 0;
   }
 }
 @media (max-width: 480px) {
   /* line 536, _caw_styles.scss */
-  .block:nth-child(1) .callout-block,
-  .block:nth-child(3) .callout-block,
-  .block:nth-child(5) .callout-block,
-  .block:nth-child(7) .callout-block,
-  .block:nth-child(9) .callout-block {
+  .block-bean:nth-child(1) .callout-block,
+  .block-bean:nth-child(3) .callout-block,
+  .block-bean:nth-child(5) .callout-block,
+  .block-bean:nth-child(7) .callout-block,
+  .block-bean:nth-child(9) .callout-block {
     border-right: 0;
     padding: 0;
   }
