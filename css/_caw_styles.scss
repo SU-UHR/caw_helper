@@ -510,16 +510,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
   padding-right: 0;
 }
 .sidebar .callout-block {
-  margin-top: 1em;
-  padding: 1.5em 0 0 0;
+  padding: 0;
   border: 0;
   text-align: left;
-  border-top: 1px solid $gray-light;
-  h2 {
-    font-size: 1.3em;
-    font-weight: 600;
-    margin-bottom: 1em;
-  }
 }
 @media (max-width: 767px) {
   .callout-block {
@@ -544,6 +537,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
     border-right: 0;
     padding: 0;
   }
+}
+
+/* sidebar block styles */
+.sidebar .block {
+  margin-top: 1em;
+  padding: 1.5em 0 0 0;
+  border-top: 1px solid $gray-light;
+  h2 {
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-bottom: 1em;
+  }
+}
+.sidebar .block.well {
+  margin-top: 0;
+  padding-top: 24px;
+  border: 0;
 }
 
 /* default well blocks */

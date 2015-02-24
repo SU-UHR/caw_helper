@@ -638,27 +638,19 @@ a.btn.btn-arrow-right:focus {
 
 /* line 512, _caw_styles.scss */
 .sidebar .callout-block {
-  margin-top: 1em;
-  padding: 1.5em 0 0 0;
+  padding: 0;
   border: 0;
   text-align: left;
-  border-top: 1px solid #e2e2e2;
-}
-/* line 518, _caw_styles.scss */
-.sidebar .callout-block h2 {
-  font-size: 1.3em;
-  font-weight: 600;
-  margin-bottom: 1em;
 }
 
 @media (max-width: 767px) {
-  /* line 525, _caw_styles.scss */
+  /* line 518, _caw_styles.scss */
   .callout-block {
     border: 0;
     padding: 0;
   }
 
-  /* line 533, _caw_styles.scss */
+  /* line 526, _caw_styles.scss */
   .block:nth-child(1) .callout-block,
   .block:nth-child(3) .callout-block,
   .block:nth-child(5) .callout-block,
@@ -669,7 +661,7 @@ a.btn.btn-arrow-right:focus {
   }
 }
 @media (max-width: 480px) {
-  /* line 543, _caw_styles.scss */
+  /* line 536, _caw_styles.scss */
   .block:nth-child(1) .callout-block,
   .block:nth-child(3) .callout-block,
   .block:nth-child(5) .callout-block,
@@ -679,8 +671,29 @@ a.btn.btn-arrow-right:focus {
     padding: 0;
   }
 }
+/* sidebar block styles */
+/* line 543, _caw_styles.scss */
+.sidebar .block {
+  margin-top: 1em;
+  padding: 1.5em 0 0 0;
+  border-top: 1px solid #e2e2e2;
+}
+/* line 547, _caw_styles.scss */
+.sidebar .block h2 {
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+
+/* line 553, _caw_styles.scss */
+.sidebar .block.well {
+  margin-top: 0;
+  padding-top: 24px;
+  border: 0;
+}
+
 /* default well blocks */
-/* line 550, _caw_styles.scss */
+/* line 560, _caw_styles.scss */
 .well {
   background: #e2e2e2;
   -webkit-border-radius: 3px;
@@ -695,64 +708,64 @@ a.btn.btn-arrow-right:focus {
   font-size: 0.9em;
   padding: 24px 28px;
 }
-/* line 557, _caw_styles.scss */
+/* line 567, _caw_styles.scss */
 .well h2 {
   letter-spacing: 0.02em;
   margin-bottom: 15px;
 }
-/* line 562, _caw_styles.scss */
+/* line 572, _caw_styles.scss */
 .well p:last-child,
 .well ul:last-child {
   margin-bottom: 0;
 }
 
 /* well-nav blocks */
-/* line 568, _caw_styles.scss */
+/* line 578, _caw_styles.scss */
 .well.well-nav {
   background-color: #3d3e42;
   color: #efeae6;
 }
-/* line 571, _caw_styles.scss */
+/* line 581, _caw_styles.scss */
 .well.well-nav h2 {
   color: #efeae6;
 }
-/* line 574, _caw_styles.scss */
+/* line 584, _caw_styles.scss */
 .well.well-nav a {
   color: #efeae6;
 }
-/* line 577, _caw_styles.scss */
+/* line 587, _caw_styles.scss */
 .well.well-nav a:hover, .well.well-nav a:focus {
   color: #5fbfc4;
 }
 
 /* footer blocks */
-/* line 583, _caw_styles.scss */
+/* line 593, _caw_styles.scss */
 .main-lower .block {
   font-size: 0.9em;
 }
-/* line 585, _caw_styles.scss */
+/* line 595, _caw_styles.scss */
 .main-lower .block h2 {
   font-size: 1.3em;
   font-weight: 600;
 }
-/* line 589, _caw_styles.scss */
+/* line 599, _caw_styles.scss */
 .main-lower .block h2, .main-lower .block img {
   margin-left: -2px;
 }
-/* line 592, _caw_styles.scss */
+/* line 602, _caw_styles.scss */
 .main-lower .block .content > .menu > li > a {
   font-weight: 400;
 }
-/* line 596, _caw_styles.scss */
+/* line 606, _caw_styles.scss */
 .main-lower .block .content > .menu > li > a:hover,
 .main-lower .block .content > .menu > li > a:focus {
   text-decoration: underline;
 }
-/* line 599, _caw_styles.scss */
+/* line 609, _caw_styles.scss */
 .main-lower .block li a.active {
   color: #8c1515;
 }
-/* line 603, _caw_styles.scss */
+/* line 613, _caw_styles.scss */
 .main-lower .block li a.active:hover,
 .main-lower .block li a.active:focus {
   color: black;
@@ -762,7 +775,7 @@ a.btn.btn-arrow-right:focus {
 /** CAROUSEL ****************************/
 /** HOMEPAGE ****************************/
 /** LANDING PAGES & PROGRAM/SERVICE PAGES ****************************/
-/* line 616, _caw_styles.scss */
+/* line 626, _caw_styles.scss */
 .field-name-field-landing-page-item {
   /* blocks */
   /* cards */
@@ -770,41 +783,41 @@ a.btn.btn-arrow-right:focus {
   /* list */
   /* numbered guide */
 }
-/* line 636, _caw_styles.scss */
+/* line 646, _caw_styles.scss */
 .field-name-field-landing-page-item .stanford-medium-square .view-mode-stanford_medium_square {
   border-color: #e2e2e2;
 }
-/* line 639, _caw_styles.scss */
+/* line 649, _caw_styles.scss */
 .field-name-field-landing-page-item .stanford-medium-square h2 a {
   font-weight: 400;
 }
-/* line 642, _caw_styles.scss */
+/* line 652, _caw_styles.scss */
 .field-name-field-landing-page-item .stanford-medium-square .more-link {
   margin-top: 0;
 }
-/* line 645, _caw_styles.scss */
+/* line 655, _caw_styles.scss */
 .field-name-field-landing-page-item .stanford-medium-square img {
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
 }
-/* line 648, _caw_styles.scss */
+/* line 658, _caw_styles.scss */
 .field-name-field-landing-page-item .stanford-medium-square .postcard-left > div:first-child img {
   margin-right: 25px;
   margin-bottom: 0;
 }
 @media (max-width: 380px) {
-  /* line 653, _caw_styles.scss */
+  /* line 663, _caw_styles.scss */
   .field-name-field-landing-page-item .stanford-medium-square .postcard-left > div:first-child {
     float: none;
   }
-  /* line 656, _caw_styles.scss */
+  /* line 666, _caw_styles.scss */
   .field-name-field-landing-page-item .stanford-medium-square .postcard-left > div {
     display: block;
     width: 100%;
   }
 }
-/* line 663, _caw_styles.scss */
+/* line 673, _caw_styles.scss */
 .field-name-field-landing-page-item .numbered-guide {
   border-top: 1px solid #e2e2e2;
   margin-top: 1em;
@@ -812,12 +825,12 @@ a.btn.btn-arrow-right:focus {
   padding-left: 5em;
 }
 
-/* line 672, _caw_styles.scss */
+/* line 682, _caw_styles.scss */
 article.numbered-guide .field-name-field-landing-page-item .field-items,
 .node-stanford-program-service.numbered-guide .field-name-field-landing-page-item .field-items {
   counter-reset: section;
 }
-/* line 674, _caw_styles.scss */
+/* line 684, _caw_styles.scss */
 article.numbered-guide .field-name-field-landing-page-item .field-items .numbered-guide:before,
 .node-stanford-program-service.numbered-guide .field-name-field-landing-page-item .field-items .numbered-guide:before {
   counter-increment: section;
