@@ -812,12 +812,14 @@ a.btn.btn-arrow-right:focus {
   padding-left: 5em;
 }
 
-/* line 671, _caw_styles.scss */
-article.numbered-guide .field-name-field-landing-page-item .field-items {
+/* line 672, _caw_styles.scss */
+article.numbered-guide .field-name-field-landing-page-item .field-items,
+.node-stanford-program-service.numbered-guide .field-name-field-landing-page-item .field-items {
   counter-reset: section;
 }
-/* line 673, _caw_styles.scss */
-article.numbered-guide .field-name-field-landing-page-item .field-items .numbered-guide:before {
+/* line 674, _caw_styles.scss */
+article.numbered-guide .field-name-field-landing-page-item .field-items .numbered-guide:before,
+.node-stanford-program-service.numbered-guide .field-name-field-landing-page-item .field-items .numbered-guide:before {
   counter-increment: section;
   content: counter(section);
   background: #8c1515;

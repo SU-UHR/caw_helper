@@ -668,7 +668,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
   }
 }
 
-article.numbered-guide .field-name-field-landing-page-item .field-items {
+article.numbered-guide .field-name-field-landing-page-item .field-items,
+.node-stanford-program-service.numbered-guide .field-name-field-landing-page-item .field-items {
   counter-reset: section;
   .numbered-guide:before {
       counter-increment: section;
