@@ -721,14 +721,14 @@ a.btn.btn-arrow-right:focus {
   }
 
   /* line 579, _caw_styles.scss */
-  .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item.odd {
+  .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item.even {
     margin-right: 0;
     border-right: 1px solid #e2e2e2;
     padding: 0 15px 0 0;
   }
 
   /* line 584, _caw_styles.scss */
-  .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item.even {
+  .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item.odd {
     padding-right: 0;
     border-right: 0;
   }
