@@ -809,13 +809,14 @@ a.btn.btn-arrow-right:focus {
   border-top: 1px solid #e2e2e2;
   margin-top: 1em;
   padding-top: 2em;
+  padding-left: 5em;
 }
 
-/* line 670, _caw_styles.scss */
+/* line 671, _caw_styles.scss */
 article.numbered-guide .field-name-field-landing-page-item .field-items {
   counter-reset: section;
 }
-/* line 672, _caw_styles.scss */
+/* line 673, _caw_styles.scss */
 article.numbered-guide .field-name-field-landing-page-item .field-items .numbered-guide:before {
   counter-increment: section;
   content: counter(section);
@@ -837,6 +838,9 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   padding: 5px;
   text-align: center;
   width: 1.5em;
+  float: left;
+  margin-left: -3em;
+  margin-right: 25px;
 }
 
 /** PROGRAM/SERVICE PAGES ****************************/
