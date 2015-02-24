@@ -969,14 +969,36 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   margin-right: 25px;
 }
 
+/* Banners on program/service CT */
+/* line 791, _caw_styles.scss */
+#block-views-stanford-program-service-block {
+  background: white;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+}
+/* line 795, _caw_styles.scss */
+#block-views-stanford-program-service-block img {
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  -ms-border-radius: 3px 0 0 3px;
+  -o-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+
 /** STANFORD PAGES ****************************/
-/* line 793, _caw_styles.scss */
+/* line 803, _caw_styles.scss */
 .node-type-stanford-page .postcard-image img {
   margin-top: -30px;
   margin-bottom: 30px;
 }
 
-/* line 798, _caw_styles.scss */
+/* line 808, _caw_styles.scss */
 .node img {
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
