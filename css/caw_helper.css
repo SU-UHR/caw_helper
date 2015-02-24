@@ -534,18 +534,18 @@ a.btn.btn-arrow-right:focus {
 
 /** BLOCKS ****************************/
 /* line 429, _caw_styles.scss */
-.block-bean h2 {
+.block h2 {
   font-size: 1.5em;
 }
 /* line 432, _caw_styles.scss */
-.block-bean .view-mode-default img {
+.block .view-mode-default img {
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   margin-bottom: 15px;
 }
 /* line 436, _caw_styles.scss */
-.block-bean a.more-link {
+.block a.more-link {
   margin-top: 0;
 }
 
