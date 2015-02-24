@@ -976,4 +976,11 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   margin-bottom: 30px;
 }
 
+/* line 798, _caw_styles.scss */
+.content img {
+  -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+}
+
 /** IE STYLES ****************************/
