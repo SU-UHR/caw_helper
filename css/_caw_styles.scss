@@ -551,6 +551,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
   padding: 0 15px 0 0;
   @include box-sizing(border-box);
 }
+.stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item .callout-block,
 .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item:last-child {
   padding-right: 0;
   border-right: 0;
