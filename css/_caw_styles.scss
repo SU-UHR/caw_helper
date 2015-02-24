@@ -509,7 +509,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
   border-right: 0;
   padding-right: 0;
 }
-.sidebar .callout-block {
+.sidebar .block-bean .callout-block {
   padding: 0;
   border: 0;
   text-align: left;
@@ -536,6 +536,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
   .block-bean:nth-child(9) .callout-block {
     border-right: 0;
     padding: 0;
+  }
+  .callout-block {
+    margin-top: 1em;
+    padding: 1.5em 0 0 0;
+    border-top: 1px solid $gray-light;
   }
 }
 
@@ -596,6 +601,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
     max-width: 100%;
     padding-right: 0;
     border-right: 0;
+    margin-top: 1em;
+    padding: 1.5em 0 0 0;
+    border-top: 1px solid $gray-light;
   }
 }
 
