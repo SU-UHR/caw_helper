@@ -539,6 +539,51 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
   }
 }
 
+/* Responsive grids for landing page and program page callout blocks */
+.stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item {
+  display: inline-block;
+  float: left;
+  margin-right: 3%;
+  width: 31.333%;
+  max-width: 370px;
+  margin-bottom: 1.5em;
+}
+.stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item:nth-child(3),
+.stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item:nth-child(6),
+.stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item:nth-child(9)
+.stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item:nth-child(12),
+.stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item:nth-child(15) {
+  margin-right: 0;
+}
+@media(max-width: 767px) {
+  .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item {
+    width: 48.5%;
+  }
+  .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item:nth-child(3),
+  .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item:nth-child(6),
+  .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item:nth-child(9)
+  .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item:nth-child(12),
+  .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item:nth-child(15) {
+    margin-right: 3%;
+  }
+  .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item.odd {
+    margin-right: 0;
+  }
+}
+@media (max-width: 480px) {
+  .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item {
+    width: 100%;
+    margin-right: 0;
+    display: block;
+    float: none;
+    max-width: 100%;
+  }
+  .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item img {
+    width: 100%;
+  }
+}
+
+
 /* sidebar block styles */
 .sidebar .block {
   margin-top: 1em;
