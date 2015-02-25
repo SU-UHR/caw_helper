@@ -421,6 +421,14 @@ a.btn.btn-arrow-right:focus {
   background-position: calc(100% - 10px) center;
   padding-right: 30px;
   text-align: left;
+  font-size: 1.5em;
+}
+a.btn.btn-arrow-right { 
+@include box-shadow($gray-med3 2px 2px 8px); 
+} 
+a.btn.btn-arrow-right:hover, 
+a.btn.btn-arrow-right:focus { 
+@include box-shadow($gray-med3 4px 4px 8px); 
 }
 
 /** BLOCKS ****************************/
