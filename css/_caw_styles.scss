@@ -464,33 +464,40 @@ a.btn.btn-arrow-right:focus {
   a:hover img, a:focus img {
     opacity: 0.8;
   }
+  h2 {
+    font-size: 1.5em;
+  }
   h2 a {
     margin-top: -45px;
     position: relative;
     padding: 45px 20px 20px;
     color: $red;
-
     background: $white;
-background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(25%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 25%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 25%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 25%,rgba(255,255,255,1) 100%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 25%,rgba(255,255,255,1) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
-
+    background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(25%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 25%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 25%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 25%,rgba(255,255,255,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 25%,rgba(255,255,255,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
   }
   h2 a:hover, h2 a:focus {
     color: $red;
     text-decoration: underline;
   }
-  .field-name-field-s-postcard-body {
+  .field-name-field-s-postcard-body,
+  .field-name-field-s-lp-item-description {
     padding: 0px 20px 10px 20px;
   }
   p {
     
   }
 }
+.page-node .content-body .tile .field,
+.page-node .content-body .block .field {
+  margin-bottom: 0;
+}
+
 // .tile:hover {
 //   @include box-shadow(3px 3px 8px rgba(0, 0, 0, 0.25));
 //   h2 a {
@@ -510,14 +517,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
     margin-top: 0;
   }
 }
-.block:last-child .callout-block,
-.block:nth-child(3) .callout-block,
-.block:nth-child(6) .callout-block,
-.block:nth-child(9) .callout-block {
+.block-bean:last-child .callout-block,
+.block-bean:nth-child(3) .callout-block,
+.block-bean:nth-child(6) .callout-block,
+.block-bean:nth-child(9) .callout-block {
   border-right: 0;
   padding-right: 0;
 }
-.sidebar .callout-block {
+.sidebar .block-bean .callout-block {
   padding: 0;
   border: 0;
   text-align: left;
@@ -527,25 +534,94 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
     border: 0;
     padding: 0;
   }
-  .block:nth-child(1) .callout-block,
-  .block:nth-child(3) .callout-block,
-  .block:nth-child(5) .callout-block,
-  .block:nth-child(7) .callout-block,
-  .block:nth-child(9) .callout-block {
+  .block-bean:nth-child(1) .callout-block,
+  .block-bean:nth-child(3) .callout-block,
+  .block-bean:nth-child(5) .callout-block,
+  .block-bean:nth-child(7) .callout-block,
+  .block-bean:nth-child(9) .callout-block {
     border-right: 1px solid $gray-light;
     padding: 0 15px 0 0;
   }
 }
 @media (max-width: 480px) {
-  .block:nth-child(1) .callout-block,
-  .block:nth-child(3) .callout-block,
-  .block:nth-child(5) .callout-block,
-  .block:nth-child(7) .callout-block,
-  .block:nth-child(9) .callout-block {
+  .block-bean:nth-child(1) .callout-block,
+  .block-bean:nth-child(3) .callout-block,
+  .block-bean:nth-child(5) .callout-block,
+  .block-bean:nth-child(7) .callout-block,
+  .block-bean:nth-child(9) .callout-block {
     border-right: 0;
     padding: 0;
   }
+  .block-bean .callout-block {
+    margin-top: 1em;
+    padding: 1.5em 0 0 0;
+    border-top: 1px solid $gray-light;
+  }
 }
+
+/* Responsive grids for landing page and program page callout blocks */
+.stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item {
+  display: inline-block;
+  float: left;
+  margin-right: 3%;
+  width: 31.333%;
+  max-width: 370px;
+  margin-bottom: 1.5em;
+  border-right: 1px solid $gray-light;
+  padding: 0 15px 0 0;
+  @include box-sizing(border-box);
+}
+.stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item .callout-block,
+.stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item:last-child {
+  padding-right: 0;
+  border-right: 0;
+}
+.stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item:nth-child(3),
+.stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item:nth-child(6),
+.stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item:nth-child(9)
+.stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item:nth-child(12),
+.stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item:nth-child(15) {
+  margin-right: 0;
+  padding-right: 0;
+  border-right: 0;
+}
+@media(max-width: 767px) {
+  .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item {
+    width: 48.5%;
+  }
+  .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item:nth-child(3),
+  .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item:nth-child(6),
+  .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item:nth-child(9)
+  .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item:nth-child(12),
+  .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item:nth-child(15) {
+    margin-right: 3%;
+  }
+  .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item.odd {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: 0;
+  }
+  .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item.even {
+    border-right: 1px solid $gray-light;
+    padding: 0 15px 0 0;
+  }
+}
+@media (max-width: 480px) {
+  .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item,
+  .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item.even {
+    width: 100%;
+    margin-right: 0;
+    display: block;
+    float: none;
+    max-width: 100%;
+    padding-right: 0;
+    border-right: 0;
+    margin-top: 1em;
+    padding: 1.5em 0 0 0;
+    border-top: 1px solid $gray-light;
+  }
+}
+
 
 /* sidebar block styles */
 .sidebar .block {
@@ -633,8 +709,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 
 .field-name-field-landing-page-item {
   /* blocks */
-  .stanford-4-col-header {
-
+  .block {
+    h2 {
+      font-size: 1.5em;
+    }
+    img {
+      @include box-shadow(1px 1px 6px rgba(0, 0, 0, 0.25));
+      margin-bottom: 15px;
+    }
+    .more-link {
+      margin-top: 0;
+    }
   }
 
   /* cards */
@@ -710,7 +795,25 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
   }
 }
 
+/* Banners on program/service CT */
+#block-views-stanford-program-service-block {
+  background: $white;
+  @include border-radius(3px);
+  @include box-shadow(1px 1px 6px rgba(0, 0, 0, 0.25));
+  img {
+    @include border-radius(3px 0 0 3px);
+  }
+}
 
-/** PROGRAM/SERVICE PAGES ****************************/
 
+/** STANFORD PAGES ****************************/
+.node-type-stanford-page {
+  .postcard-image img {
+    margin-top: -30px;
+    margin-bottom: 30px;
+  }
+}
+.node img {
+  @include box-shadow(1px 1px 6px rgba(0, 0, 0, 0.25));
+}
 /** IE STYLES ****************************/
