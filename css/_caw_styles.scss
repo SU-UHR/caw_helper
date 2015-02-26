@@ -346,6 +346,11 @@ h4, .content h4, body.cke_show_borders h4 {
 /** TEXT ****************************/
 
 blockquote {
+  text-align: center; 
+  background: none; 
+  border-top: 1px solid $gray-light; 
+  border-bottom: 1px solid $gray-light; 
+  padding: 20px 60px; 
 }
 .caption, .credits, .descriptor {
 }
