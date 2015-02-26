@@ -353,7 +353,9 @@ blockquote {
   padding: 20px 60px;
   margin: 3em 0em;
 }
-blockquote a.btn.btn-arrow-right {
+blockquote a.btn.btn-arrow-right,
+blockquote a.btn.btn-arrow-right:hover, 
+blockquote a.btn.btn-arrow-right:focus {
   font-size: 1.15em;
 }
 .caption, .credits, .descriptor {
