@@ -746,10 +746,10 @@ a.btn.btn-arrow-right:focus {
     }
   }
   /* list */
+  .view-mode-stanford_medium_square {
+    border-color: $gray-light;
+  }
   .stanford-medium-square {
-    .view-mode-stanford_medium_square {
-      border-color: $gray-light;
-    }
     h2 a {
       font-weight: 400;
     }
