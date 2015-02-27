@@ -1077,9 +1077,11 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 
   /* line 848, _caw_styles.scss */
   .program-banner-text {
-    position: inherit;
-    padding: 5em 3em 2em 3em;
-    margin-top: -2em;
+    position: relative;
+    left: auto;
+    padding: 3em 3em 2em 3em;
+    margin-top: -3em;
+    max-height: none;
     background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 9%, white 100%);
     /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(9%, white), color-stop(100%, white));
@@ -1096,14 +1098,20 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
     /* IE6-9 */
   }
 }
+@media (max-width: 380px) {
+  /* line 864, _caw_styles.scss */
+  .program-banner-text {
+    padding: 3em 2em 2em 2em;
+  }
+}
 /** STANFORD PAGES ****************************/
-/* line 866, _caw_styles.scss */
+/* line 872, _caw_styles.scss */
 .node-type-stanford-page .postcard-image img {
   margin-top: -30px;
   margin-bottom: 30px;
 }
 
-/* line 871, _caw_styles.scss */
+/* line 877, _caw_styles.scss */
 .node img {
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
