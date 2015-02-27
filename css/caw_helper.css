@@ -1064,14 +1064,46 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   /* IE6-9 */
 }
 
+@media (max-width: 767px) {
+  /* line 844, _caw_styles.scss */
+  .program-banner-img img {
+    width: 100%;
+    -webkit-border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0;
+    -ms-border-radius: 3px 3px 0 0;
+    -o-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+  }
+
+  /* line 848, _caw_styles.scss */
+  .program-banner-text {
+    position: inherit;
+    padding: 5em 3em 2em 3em;
+    margin-top: -2em;
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 9%, white 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(9%, white), color-stop(100%, white));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 9%, white 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 9%, white 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 9%, white 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 9%, #ffffff 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
+    /* IE6-9 */
+  }
+}
 /** STANFORD PAGES ****************************/
-/* line 847, _caw_styles.scss */
+/* line 869, _caw_styles.scss */
 .node-type-stanford-page .postcard-image img {
   margin-top: -30px;
   margin-bottom: 30px;
 }
 
-/* line 852, _caw_styles.scss */
+/* line 874, _caw_styles.scss */
 .node img {
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
