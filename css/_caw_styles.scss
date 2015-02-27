@@ -353,8 +353,7 @@ blockquote {
   padding: 20px 60px;
   margin: 3em 0em;
 }
-blockquote a.btn.btn-arrow-right,
-{
+blockquote a.btn.btn-arrow-right {
   font-size: 1.15em;
 }
 .caption, .credits, .descriptor {
@@ -422,6 +421,9 @@ a.btn:hover,
 a.btn:focus {
   padding: 0.5em 1em;
 }
+a.btn.btn-arrow-right {
+  font-size: 1.5em;
+}
 a.btn.btn-arrow-right, 
 a.btn.btn-arrow-right:hover, 
 a.btn.btn-arrow-right:focus {
@@ -431,7 +433,6 @@ a.btn.btn-arrow-right:focus {
   background-position: calc(100% - 10px) center;
   padding-right: 30px;
   text-align: left;
-  font-size: 1.5em;
 }
 a.btn.btn-arrow-right { 
 @include box-shadow($gray-med3 2px 2px 8px); 
