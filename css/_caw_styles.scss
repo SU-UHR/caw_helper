@@ -749,6 +749,10 @@ a.btn.btn-arrow-right:focus {
   .view-mode-stanford_medium_square {
     border-color: $gray-light;
   }
+  .field-item:last-child .view-mode-stanford_medium_square {
+    border-bottom: 1px solid $gray-light;
+    margin-bottom: 1em;
+  }
   .stanford-medium-square {
     h2 a {
       font-weight: 400;
