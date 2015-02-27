@@ -1006,11 +1006,15 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 
 /* Banners on program/service CT */
 /* line 810, _caw_styles.scss */
-#block-views-stanford-program-service-block .views-row {
+#block-views-stanford-program-service-block.block {
+  margin-bottom: 0;
+}
+/* line 812, _caw_styles.scss */
+#block-views-stanford-program-service-block.block .views-row {
   margin-bottom: 0;
 }
 
-/* line 813, _caw_styles.scss */
+/* line 816, _caw_styles.scss */
 .program-banner {
   position: relative;
   background: white;
@@ -1024,11 +1028,11 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
 }
 
-/* line 819, _caw_styles.scss */
+/* line 822, _caw_styles.scss */
 .program-banner-img {
   position: relative;
 }
-/* line 821, _caw_styles.scss */
+/* line 824, _caw_styles.scss */
 .program-banner-img img {
   -webkit-border-radius: 3px 0 0 3px;
   -moz-border-radius: 3px 0 0 3px;
@@ -1037,7 +1041,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   border-radius: 3px 0 0 3px;
 }
 
-/* line 825, _caw_styles.scss */
+/* line 828, _caw_styles.scss */
 .program-banner-text {
   position: absolute;
   bottom: 0;
@@ -1066,7 +1070,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 }
 
 @media (max-width: 979px) {
-  /* line 845, _caw_styles.scss */
+  /* line 848, _caw_styles.scss */
   .program-banner-img img {
     width: 100%;
     -webkit-border-radius: 3px 3px 0 0;
@@ -1076,7 +1080,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
     border-radius: 3px 3px 0 0;
   }
 
-  /* line 849, _caw_styles.scss */
+  /* line 852, _caw_styles.scss */
   .program-banner-text {
     position: relative;
     left: auto;
@@ -1100,19 +1104,19 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   }
 }
 @media (max-width: 380px) {
-  /* line 865, _caw_styles.scss */
+  /* line 868, _caw_styles.scss */
   .program-banner-text {
     padding: 3em 2em 2em 2em;
   }
 }
 /** STANFORD PAGES ****************************/
-/* line 873, _caw_styles.scss */
+/* line 876, _caw_styles.scss */
 .node-type-stanford-page .postcard-image img {
   margin-top: -30px;
   margin-bottom: 30px;
 }
 
-/* line 878, _caw_styles.scss */
+/* line 881, _caw_styles.scss */
 .node img {
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);

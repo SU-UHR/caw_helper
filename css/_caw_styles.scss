@@ -807,8 +807,11 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
 }
 
 /* Banners on program/service CT */
-#block-views-stanford-program-service-block .views-row {
+#block-views-stanford-program-service-block.block {
   margin-bottom: 0;
+ .views-row {
+    margin-bottom: 0;
+  }
 }
 .program-banner {
   position: relative;
