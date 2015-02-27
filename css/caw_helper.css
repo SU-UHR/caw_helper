@@ -1006,7 +1006,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 
 /* Banners on program/service CT */
 /* line 810, _caw_styles.scss */
-#block-views-stanford-program-service-block {
+.program-banner {
   background: white;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -1019,6 +1019,10 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 }
 
 /* line 815, _caw_styles.scss */
+.program-banner-img {
+  position: relative;
+}
+/* line 817, _caw_styles.scss */
 .program-banner-img img {
   -webkit-border-radius: 3px 0 0 3px;
   -moz-border-radius: 3px 0 0 3px;
@@ -1027,8 +1031,17 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   border-radius: 3px 0 0 3px;
 }
 
-/* line 818, _caw_styles.scss */
+/* line 821, _caw_styles.scss */
 .program-banner-text {
+  position: absolute;
+  bottom: 0;
+  left: 45%;
+  max-height: 370px;
+  padding: 2em 3em 2em 7em;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 800;
   background: white;
   background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, white 9%, white 100%);
   /* FF3.6+ */
@@ -1047,13 +1060,13 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 }
 
 /** STANFORD PAGES ****************************/
-/* line 833, _caw_styles.scss */
+/* line 844, _caw_styles.scss */
 .node-type-stanford-page .postcard-image img {
   margin-top: -30px;
   margin-bottom: 30px;
 }
 
-/* line 838, _caw_styles.scss */
+/* line 849, _caw_styles.scss */
 .node img {
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
