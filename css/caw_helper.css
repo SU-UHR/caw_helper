@@ -1017,8 +1017,9 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
 }
-/* line 814, _caw_styles.scss */
-#block-views-stanford-program-service-block img {
+
+/* line 815, _caw_styles.scss */
+.program-banner-img img {
   -webkit-border-radius: 3px 0 0 3px;
   -moz-border-radius: 3px 0 0 3px;
   -ms-border-radius: 3px 0 0 3px;
@@ -1026,14 +1027,33 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   border-radius: 3px 0 0 3px;
 }
 
+/* line 818, _caw_styles.scss */
+.program-banner-text {
+  background: white;
+  background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, white 9%, white 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(9%, white), color-stop(100%, white));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, white 9%, white 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, white 9%, white 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, white 9%, white 100%);
+  /* IE10+ */
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #ffffff 9%, #ffffff 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 );
+  /* IE6-9 */
+}
+
 /** STANFORD PAGES ****************************/
-/* line 822, _caw_styles.scss */
+/* line 833, _caw_styles.scss */
 .node-type-stanford-page .postcard-image img {
   margin-top: -30px;
   margin-bottom: 30px;
 }
 
-/* line 827, _caw_styles.scss */
+/* line 838, _caw_styles.scss */
 .node img {
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
