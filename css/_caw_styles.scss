@@ -485,7 +485,10 @@ a.btn.btn-arrow-right:focus {
   }
   /* gradient over image */
   h2 a:before {
+    content: '';
+    display: block;
     height: 45px;
+    margin-top: -45px;
     position: relative;
     @include background-image(linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)));
   }
