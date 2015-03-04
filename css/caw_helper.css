@@ -1064,15 +1064,15 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 }
 /* line 844, _caw_styles.scss */
 .program-banner-text h1 {
-  margin-top: 2em;
-  margin-right: 3em;
-  margin-left: 3em;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 40px;
 }
 /* line 849, _caw_styles.scss */
 .program-banner-text p {
-  margin-bottom: 2em;
-  margin-right: 3em;
-  margin-left: 3em;
+  margin-bottom: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 /* gradient over image */
