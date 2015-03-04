@@ -1109,17 +1109,17 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
     position: relative;
     left: auto;
     max-height: none;
+    display: inline-block;
   }
 
-  /* line 877, _caw_styles.scss */
+  /* line 878, _caw_styles.scss */
   .program-banner-text:before {
-    content: "";
     display: block;
     float: none;
     height: 55px;
     width: 100%;
     margin-top: -55px;
-    position: relative;
+    margin-left: 0;
     background-image: -webkit-gradient(linear, to bottom, to top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, #ffffff));
     background-image: -webkit-linear-gradient(to bottom, rgba(255, 255, 255, 0), #ffffff);
     background-image: -moz-linear-gradient(to bottom, rgba(255, 255, 255, 0), #ffffff);
