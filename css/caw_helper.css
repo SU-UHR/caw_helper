@@ -1057,37 +1057,35 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   bottom: 0;
   left: 50%;
   max-height: 370px;
-  padding: 2em 3em;
   position: absolute;
   right: 0;
   top: 0;
   background: white;
-  background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, white 9%, white 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(9%, white), color-stop(100%, white));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, white 9%, white 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, white 9%, white 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, white 9%, white 100%);
-  /* IE10+ */
-  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #ffffff 9%, #ffffff 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 );
-  /* IE6-9 */
+}
+/* line 844, _caw_styles.scss */
+.program-banner-text h1 {
+  margin-top: 2em;
+  margin-right: 3em;
+  margin-left: 3em;
+}
+/* line 849, _caw_styles.scss */
+.program-banner-text p {
+  margin-bottom: 2em;
+  margin-right: 3em;
+  margin-left: 3em;
 }
 
 /* gradient over image */
-/* line 854, _caw_styles.scss */
+/* line 856, _caw_styles.scss */
 .program-banner-text:before {
-  content: '';
-  display: block;
-  width: 55px;
-  margin-left: -45px;
-  position: relative;
-  max-height: 370px;
+  content: "";
+  display: inline-block;
+  float: left;
   height: 100%;
+  margin-left: -39px;
+  max-height: 370px;
+  position: relative;
+  width: 55px;
   background-image: -webkit-gradient(linear, to right, to left, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, #ffffff));
   background-image: -webkit-linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff);
   background-image: -moz-linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff);
@@ -1096,7 +1094,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 }
 
 @media (max-width: 979px) {
-  /* line 865, _caw_styles.scss */
+  /* line 868, _caw_styles.scss */
   .program-banner-img img {
     width: 100%;
     -webkit-border-radius: 3px 3px 0 0;
@@ -1106,7 +1104,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
     border-radius: 3px 3px 0 0;
   }
 
-  /* line 869, _caw_styles.scss */
+  /* line 872, _caw_styles.scss */
   .program-banner-text {
     position: relative;
     left: auto;
@@ -1130,19 +1128,19 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   }
 }
 @media (max-width: 380px) {
-  /* line 885, _caw_styles.scss */
+  /* line 888, _caw_styles.scss */
   .program-banner-text {
     padding: 3em 2em 2em 2em;
   }
 }
 /** STANFORD PAGES ****************************/
-/* line 893, _caw_styles.scss */
+/* line 896, _caw_styles.scss */
 .node-type-stanford-page .postcard-image img {
   margin-top: -30px;
   margin-bottom: 30px;
 }
 
-/* line 898, _caw_styles.scss */
+/* line 901, _caw_styles.scss */
 .node img {
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
