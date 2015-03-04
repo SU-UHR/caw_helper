@@ -484,7 +484,7 @@ a.btn.btn-arrow-right:focus {
     background: $white;
   }
   /* gradient over image */
-  h2 a:before {
+  h2:before {
     content: '';
     display: block;
     height: 45px;
@@ -503,6 +503,9 @@ a.btn.btn-arrow-right:focus {
   p {
     
   }
+}
+.node .tile img {
+  @include box-shadow(none);
 }
 .page-node .content-body .tile .field,
 .page-node .content-body .block .field {
