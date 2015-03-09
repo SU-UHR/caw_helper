@@ -98,6 +98,9 @@ body, .header, .site-main-menu, .main {
   padding: 4px 12px;
   border-radius: 4px;
   margin-right: 12px;
+  @media (max-width: 767px) {
+    margin-right: 0;
+  }
 }
 
 .dropdown-menu {
@@ -180,9 +183,6 @@ body, .header, .site-main-menu, .main {
 }
 
 @media (max-width: 767px) {
-  .navbar .nav > li > a {
-    margin-right: 0;
-  }
   .nav-collapse .dropdown-menu {
     margin: 0;
   }
