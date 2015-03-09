@@ -132,7 +132,19 @@ body, .header, .site-main-menu, .main {
 .nav-collapse .dropdown-menu > .active > a:focus,
 .nav-collapse .dropdown-menu > .active-trail > a,
 .nav-collapse .dropdown-menu > .active-trail > a:hover,
-.nav-collapse .dropdown-menu > .active-trail > a:focus {
+.nav-collapse .dropdown-menu > .active-trail > a:focus,
+.navbar .nav li.dropdown.open > .dropdown-toggle,
+.navbar .nav li.dropdown.active > .dropdown-toggle,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle
+.navbar .nav li.dropdown.open > .dropdown-toggle:hover,
+.navbar .nav li.dropdown.open > .dropdown-toggle:focus,
+.navbar .nav li.dropdown.active > .dropdown-toggle:hover,
+.navbar .nav li.dropdown.active > .dropdown-toggle:focus,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle:hover,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle:focus,
+.navbar .nav li.active-trail.dropdown > .dropdown-toggle,
+.navbar .nav li.active-trail.dropdown > .dropdown-toggle:hover,
+.navbar .nav li.active-trail.dropdown > .dropdown-toggle:focus {
 	color: $white;
 	background: $gray-med1;
 }
