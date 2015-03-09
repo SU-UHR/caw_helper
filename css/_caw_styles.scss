@@ -250,6 +250,7 @@ body, .header, .site-main-menu, .main {
 }
 
 /** SIDEBAR MENUS ****************************/
+.sidebar .block-menu,
 .sidebar .block-menu-block {
   background: $gray-dark;
   color: $white;
@@ -258,27 +259,21 @@ body, .header, .site-main-menu, .main {
   @include border-radius(3px);
   @include  box-shadow(3px 3px 10px rgba(0, 0, 0, 0.2));
 }
+.sidebar .block-menu h2 a,
 .sidebar .block-menu-block h2 a {
   padding: 0px 20px;
   font-weight: 400;
   letter-spacing: 0.02em;
 }
+.sidebar .block-menu h2 a:hover,
+.sidebar .block-menu h2 a:focus,
 .sidebar .block-menu-block h2 a:hover,
 .sidebar .block-menu-block h2 a:focus {
   color: $turq-light;
-}
-.sidebar .block-menu-block a {
-  color: $white;
-}
-.sidebar .block-menu-block h2 a:hover, 
-.sidebar .block-menu-block h2 a:focus {
   text-decoration: none;
 }
-.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a,
-.sidebar .block-menu-block .menu-block-wrapper > .menu > li.last > a {
-  border: 0;
-  padding: 6px 20px;
-  font-weight: normal;
+.sidebar .nav li a {
+  color: $white;
 }
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:hover,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:focus,
@@ -291,15 +286,25 @@ body, .header, .site-main-menu, .main {
   background: $gray-med1;
   color: $white;
 }
+.sidebar .block-menu .content > .menu > li > a,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a,
+.sidebar .block-menu .content > .menu > li.last,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li.last > a {
+  border: 0;
+  padding: 6px 20px;
+  font-weight: normal;
+}
 
-.sidebar .block-menu .content > .menu > li.active-trail, 
-.sidebar .block-menu-block .menu-block-wrapper > .menu > li.active-trail, 
-.sidebar .block-menu .content > .menu > li > a.active, 
-.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a.active, 
-.sidebar .block-menu .content > .menu > li > a:hover, 
-.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:hover, 
-.sidebar .block-menu .content > .menu > li > a:focus, 
-.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:focus {
+.sidebar .block-menu .content > .menu > li.active-trail,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li.active-trail,
+.sidebar .block-menu .content > .menu > li > a.active,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a.active,
+.sidebar .block-menu .content > .menu > li > a:hover,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:hover,
+.sidebar .block-menu .content > .menu > li > a:focus,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:focus,
+.sidebar .block-menu .content > .menu > li.expanded,
+.sidebar .block-menu-block .content > .menu > li.expanded {
   background: $gray-med1;
 }
 .sidebar .block-menu .content > .menu > li li a, 
