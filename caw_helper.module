@@ -70,3 +70,24 @@ node/*/delete";
   }
 
 }
+
+/**
+ * Check the box if a resource is checked.
+ * @param  [type] &$build    [description]
+ * @param  [type] &$settings [description]
+ * @return [type]            [description]
+ */
+function caw_helper_facet_items_alter(&$build, &$settings) {
+  if ($settings->facet == "type") {
+    $fs = isset($_GET['f']) ? $_GET['f'] : array();
+    foreach ($fs as $index => $value) {
+      if (strpos($value, 'field_s_resource_type') !== FALSE) {
+        $build['stanford_resource']["#active"] = 1;
+        break;
+      }
+    }
+    // foreach($build as $key => $item) {
+    //   // $build[$key]["#markup"] = drupal_strtoupper($item["#markup"]);
+    // }
+  }
+}
