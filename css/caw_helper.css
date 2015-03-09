@@ -128,7 +128,7 @@ body, .header, .site-main-menu, .main {
   margin-bottom: 0;
 }
 
-/* line 92, _caw_styles.scss */
+/* line 91, _caw_styles.scss */
 .navbar .nav > li > a {
   color: black;
   font-size: 1.3em;
@@ -140,13 +140,13 @@ body, .header, .site-main-menu, .main {
   margin-right: 12px;
 }
 @media (max-width: 767px) {
-  /* line 92, _caw_styles.scss */
+  /* line 91, _caw_styles.scss */
   .navbar .nav > li > a {
     margin-right: 0;
   }
 }
 
-/* line 106, _caw_styles.scss */
+/* line 104, _caw_styles.scss */
 .dropdown-menu {
   background: #3d3e42;
   color: white;
@@ -163,11 +163,15 @@ body, .header, .site-main-menu, .main {
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* line 115, _caw_styles.scss */
-.dropdown-menu > li > a {
+/* line 113, _caw_styles.scss */
+.nav-collapse .dropdown-menu a {
   color: white;
   font-size: 0.95em;
   letter-spacing: 0.02em;
+}
+
+/* line 118, _caw_styles.scss */
+.dropdown-menu > li > a {
   padding: 6px 20px;
 }
 

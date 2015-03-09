@@ -88,7 +88,6 @@ body, .header, .site-main-menu, .main {
 .navbar {
   margin-bottom: 0;
 }
-
 .navbar .nav > li > a {
   color: $black;
   font-size: 1.3em;
@@ -102,7 +101,6 @@ body, .header, .site-main-menu, .main {
     margin-right: 0;
   }
 }
-
 .dropdown-menu {
 	background: $gray-dark;
 	color: $white;
@@ -112,10 +110,12 @@ body, .header, .site-main-menu, .main {
   @include border-radius(0px 3px 3px 3px);
   @include  box-shadow(3px 3px 10px rgba(0, 0, 0, 0.3));
 }
-.dropdown-menu > li > a {
+.nav-collapse .dropdown-menu a {
 	color: $white;
 	font-size: 0.95em;
   letter-spacing: 0.02em;
+}
+.dropdown-menu > li > a {
 	padding: 6px 20px;
 }
 .nolink {
