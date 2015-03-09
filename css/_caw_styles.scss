@@ -106,6 +106,7 @@ body, .header, .site-main-menu, .main {
 	color: $white;
 	min-width: 190px;
 	padding-bottom: 0.5em;
+  padding-top: 0.5em;
   margin-top: -4px;
   @include border-radius(0px 3px 3px 3px);
   @include  box-shadow(3px 3px 10px rgba(0, 0, 0, 0.3));
@@ -124,22 +125,14 @@ body, .header, .site-main-menu, .main {
 	display: block;
 	letter-spacing: 0.05em;
 }
-.dropdown-menu > li > a:hover, 
-.dropdown-menu > li > a:focus, 
-.dropdown-submenu:hover > a, 
-.dropdown-submenu:focus > a, 
-.dropdown-menu > .active > a, 
-.dropdown-menu > .active > a:hover, 
-.dropdown-menu > .active > a:focus,
-.navbar .nav li.dropdown.open > .dropdown-toggle, 
-.navbar .nav li.dropdown.open > .dropdown-toggle:hover, 
-.navbar .nav li.dropdown.open > .dropdown-toggle:focus, 
-.navbar .nav li.dropdown.active > .dropdown-toggle, 
-.navbar .nav li.dropdown.active > .dropdown-toggle:hover, 
-.navbar .nav li.dropdown.active > .dropdown-toggle:focus, 
-.navbar .nav li.dropdown.open.active > .dropdown-toggle
-.navbar .nav li.dropdown.open.active > .dropdown-toggle:hover, 
-.navbar .nav li.dropdown.open.active > .dropdown-toggle:focus {
+.nav-collapse .dropdown-menu > li > a:hover,
+.nav-collapse .dropdown-menu > li > a:focus,
+.nav-collapse .dropdown-menu > .active > a,
+.nav-collapse .dropdown-menu > .active > a:hover,
+.nav-collapse .dropdown-menu > .active > a:focus,
+.nav-collapse .dropdown-menu > .active-trail > a,
+.nav-collapse .dropdown-menu > .active-trail > a:hover,
+.nav-collapse .dropdown-menu > .active-trail > a:focus {
 	color: $white;
 	background: $gray-med1;
 }
