@@ -256,11 +256,13 @@ body, .header, .site-main-menu, .main {
   color: $white;
   padding-left: 0;
   padding-right: 0;
+  padding-bottom: 1.5em;
   @include border-radius(3px);
   @include  box-shadow(3px 3px 10px rgba(0, 0, 0, 0.2));
 }
 .sidebar .block-menu h2 a,
 .sidebar .block-menu-block h2 a {
+  color: $white;
   padding: 0px 20px;
   font-weight: 400;
   letter-spacing: 0.02em;
@@ -289,7 +291,7 @@ body, .header, .site-main-menu, .main {
 .sidebar .block-menu .content > .menu > li > a,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a,
 .sidebar .block-menu .content > .menu > li.last,
-.sidebar .block-menu-block .menu-block-wrapper > .menu > li.last > a {
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li.last {
   border: 0;
   padding: 6px 20px;
   font-weight: normal;
