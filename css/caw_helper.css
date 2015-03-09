@@ -243,65 +243,18 @@ body, .header, .site-main-menu, .main {
   background: #5a5c61;
 }
 
-/* line 182, _caw_styles.scss */
-#block-bean-my-benefits-button {
-  float: right;
-  max-width: 20%;
-}
-
-/* line 186, _caw_styles.scss */
-#block-menu-block-7 {
-  max-width: 80%;
-}
-
-/* line 191, _caw_styles.scss */
-#main-nav a.btn {
-  background: #004f5b;
-  -webkit-box-shadow: #909499 2px 2px 8px;
-  -moz-box-shadow: #909499 2px 2px 8px;
-  box-shadow: #909499 2px 2px 8px;
-}
-/* line 195, _caw_styles.scss */
-#main-nav a.btn:hover, #main-nav a.btn:focus {
-  background: black;
-  -webkit-box-shadow: #909499 4px 4px 8px;
-  -moz-box-shadow: #909499 4px 4px 8px;
-  box-shadow: #909499 4px 4px 8px;
-}
-/* line 199, _caw_styles.scss */
-#main-nav a.btn, #main-nav a.btn:hover, #main-nav a.btn:focus {
-  background-image: url("../img/caw-btn-arrow-right.png");
-  background-repeat: no-repeat;
-  background-position: 93% center;
-  background-position: calc(100% - 10px) center;
-  padding: 0.5em 1em;
-  padding-right: 30px;
-  text-align: left;
-}
-
 @media (max-width: 767px) {
-  /* line 211, _caw_styles.scss */
+  /* line 183, _caw_styles.scss */
   .navbar .nav > li > a {
     margin-right: 0;
   }
 
-  /* line 214, _caw_styles.scss */
-  #block-bean-my-benefits-button {
-    float: none;
-    max-width: none;
-  }
-
-  /* line 218, _caw_styles.scss */
-  #block-menu-block-7 {
-    max-width: none;
-  }
-
-  /* line 221, _caw_styles.scss */
+  /* line 186, _caw_styles.scss */
   .nav-collapse .dropdown-menu {
     margin: 0;
   }
 
-  /* line 232, _caw_styles.scss */
+  /* line 197, _caw_styles.scss */
   .navbar .nav li.dropdown.active > .dropdown-toggle,
   .navbar .nav li.dropdown.active > .dropdown-toggle:hover,
   .navbar .nav li.dropdown.active > .dropdown-toggle:focus,
@@ -316,7 +269,7 @@ body, .header, .site-main-menu, .main {
     box-shadow: none;
   }
 
-  /* line 235, _caw_styles.scss */
+  /* line 200, _caw_styles.scss */
   .navbar .nav li.dropdown.open {
     background: #3d3e42;
     -webkit-border-radius: 4px;
@@ -326,23 +279,73 @@ body, .header, .site-main-menu, .main {
     border-radius: 4px;
   }
 
-  /* line 239, _caw_styles.scss */
+  /* line 204, _caw_styles.scss */
   .nav-collapse .dropdown-menu a {
     padding: 6px 20px;
   }
 
-  /* line 243, _caw_styles.scss */
+  /* line 208, _caw_styles.scss */
   .nav-collapse .dropdown-menu a:hover,
   .nav-collapse .dropdown-menu a:focus {
     background: #5a5c61;
     color: white;
   }
 
-  /* line 247, _caw_styles.scss */
+  /* line 212, _caw_styles.scss */
   .nav-collapse .dropdown-menu li + li a {
     margin-bottom: 0px;
   }
 }
+/* Turquoise button in navbar styles */
+/* line 218, _caw_styles.scss */
+#block-bean-my-benefits-button {
+  float: right;
+  max-width: 20%;
+}
+@media (max-width: 767px) {
+  /* line 218, _caw_styles.scss */
+  #block-bean-my-benefits-button {
+    float: none;
+    max-width: none;
+  }
+}
+
+/* line 226, _caw_styles.scss */
+#block-menu-block-7 {
+  max-width: 80%;
+}
+@media (max-width: 767px) {
+  /* line 226, _caw_styles.scss */
+  #block-menu-block-7 {
+    max-width: none;
+  }
+}
+
+/* line 233, _caw_styles.scss */
+#main-nav a.btn {
+  background: #004f5b;
+  -webkit-box-shadow: #909499 2px 2px 8px;
+  -moz-box-shadow: #909499 2px 2px 8px;
+  box-shadow: #909499 2px 2px 8px;
+}
+/* line 237, _caw_styles.scss */
+#main-nav a.btn:hover, #main-nav a.btn:focus {
+  background: black;
+  -webkit-box-shadow: #909499 4px 4px 8px;
+  -moz-box-shadow: #909499 4px 4px 8px;
+  box-shadow: #909499 4px 4px 8px;
+}
+/* line 241, _caw_styles.scss */
+#main-nav a.btn, #main-nav a.btn:hover, #main-nav a.btn:focus {
+  background-image: url("../img/caw-btn-arrow-right.png");
+  background-repeat: no-repeat;
+  background-position: 93% center;
+  background-position: calc(100% - 10px) center;
+  padding: 0.5em 1em;
+  padding-right: 30px;
+  text-align: left;
+}
+
 /** SIDEBAR MENUS ****************************/
 /* line 254, _caw_styles.scss */
 .sidebar .block.block-menu,

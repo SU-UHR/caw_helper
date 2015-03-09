@@ -179,44 +179,9 @@ body, .header, .site-main-menu, .main {
   background: $gray-med1;
 }
 
-#block-bean-my-benefits-button {
-  float: right;
-  max-width: 20%;
-}
-#block-menu-block-7 {
-  max-width: 80%;
-}
-
-#main-nav {
-	a.btn {
-    background: $turq-dark;
-    @include box-shadow($gray-med3 2px 2px 8px);
-  }
-  a.btn:hover, a.btn:focus {
-    background: $black;
-    @include box-shadow($gray-med3 4px 4px 8px);
-  }
-  a.btn, a.btn:hover, a.btn:focus {
-    background-image: url('../img/caw-btn-arrow-right.png');
-    background-repeat: no-repeat;
-    background-position: 93% center;
-    background-position: calc(100% - 10px) center;
-    padding: 0.5em 1em;
-    padding-right: 30px;
-    text-align: left;
-	}
-}
-
 @media (max-width: 767px) {
   .navbar .nav > li > a {
     margin-right: 0;
-  }
-  #block-bean-my-benefits-button {
-    float: none;
-    max-width: none;
-  }
-  #block-menu-block-7 {
-    max-width: none;
   }
   .nav-collapse .dropdown-menu {
     margin: 0;
@@ -247,6 +212,41 @@ body, .header, .site-main-menu, .main {
   .nav-collapse .dropdown-menu li+li a {
     margin-bottom: 0px;
   }
+}
+
+/* Turquoise button in navbar styles */
+#block-bean-my-benefits-button {
+  float: right;
+  max-width: 20%;
+  @media (max-width: 767px) {
+    float: none;
+    max-width: none;
+  }
+}
+#block-menu-block-7 {
+  max-width: 80%;
+  @media (max-width: 767px) {
+    max-width: none;
+  }
+}
+#main-nav {
+	a.btn {
+    background: $turq-dark;
+    @include box-shadow($gray-med3 2px 2px 8px);
+  }
+  a.btn:hover, a.btn:focus {
+    background: $black;
+    @include box-shadow($gray-med3 4px 4px 8px);
+  }
+  a.btn, a.btn:hover, a.btn:focus {
+    background-image: url('../img/caw-btn-arrow-right.png');
+    background-repeat: no-repeat;
+    background-position: 93% center;
+    background-position: calc(100% - 10px) center;
+    padding: 0.5em 1em;
+    padding-right: 30px;
+    text-align: left;
+	}
 }
 
 /** SIDEBAR MENUS ****************************/
