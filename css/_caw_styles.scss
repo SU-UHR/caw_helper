@@ -32,7 +32,8 @@ body, .header, .site-main-menu, .main {
 
 /** LOGO ****************************/
 
-#header #logo {
+#header #logo,
+#header #logo.logo-mobile {
   border-right: 2px solid $black;
   img {
     max-width: 220px;
