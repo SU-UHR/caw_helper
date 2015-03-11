@@ -265,7 +265,7 @@ body, .header, .site-main-menu, .main {
   @include border-radius(3px);
   @include  box-shadow(3px 3px 10px rgba(0, 0, 0, 0.2));
 }
-.sidebar .block-menu h2 a,
+.sidebar .block-menu h2,
 .sidebar .block-menu-block h2 a {
   color: $white;
   padding: 0px 20px;
