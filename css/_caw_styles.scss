@@ -63,7 +63,13 @@ body, .header, .site-main-menu, .main {
 #site-title-second-line {
   margin-bottom: -8px;
 }
-
+@media (max-width: 480px) {
+  #site-title-first-line,
+  #site-title-second-line {
+    margin-right: 0.25em;
+    display: inline;
+  }
+}
 
 /** SEARCH ****************************/
 
