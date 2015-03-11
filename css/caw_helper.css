@@ -785,7 +785,7 @@ a.btn.btn-arrow-right:focus {
   .block-bean:nth-child(7) .callout-block,
   .block-bean:nth-child(9) .callout-block {
     border-right: 0;
-    padding: 0;
+    padding: 1.5em 0 0 0;
   }
 
   /* line 612, _caw_styles.scss */
