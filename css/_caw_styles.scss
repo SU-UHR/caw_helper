@@ -343,6 +343,7 @@ body, .header, .site-main-menu, .main {
   margin: 0;
   padding-top: 0;
   position: relative;
+  @include  box-shadow(3px 3px 10px rgba(0, 0, 0, 0.2));
   img {
     @include border-radius(3px 3px 0 0);
   }
