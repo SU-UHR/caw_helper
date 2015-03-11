@@ -546,69 +546,74 @@ blockquote {
 /* line 399, _caw_styles.scss */
 blockquote a.btn.btn-arrow-right {
   font-size: 1.15em;
+  line-height: 1.2em;
 }
 
-/* line 416, _caw_styles.scss */
+/* line 417, _caw_styles.scss */
 hr {
   border-color: #e2e2e2;
   border-top: 0;
 }
 
 /** NEW TO CAW ****************************/
-/* line 423, _caw_styles.scss */
+/* line 424, _caw_styles.scss */
 .red-text {
   color: #8c1515;
   font-weight: 600;
 }
 
-/* line 427, _caw_styles.scss */
+/* line 428, _caw_styles.scss */
 .facetapi-count {
   opacity: 0.8;
 }
 
 /** LISTS ****************************/
-/* line 432, _caw_styles.scss */
+/* line 433, _caw_styles.scss */
 ul li {
   line-height: 1.4em;
   margin-bottom: 0.25em;
 }
 
-/* line 436, _caw_styles.scss */
+/* line 437, _caw_styles.scss */
 ul, ol {
   margin-bottom: 1.25em;
 }
 
 /** TABLES ****************************/
-/* line 442, _caw_styles.scss */
+/* line 443, _caw_styles.scss */
 th, td {
   padding: 1em;
   border: 1px solid #e2e2e2;
 }
 
-/* line 446, _caw_styles.scss */
+/* line 447, _caw_styles.scss */
 th {
   background: #e2e2e2;
 }
 
 /** LINKS ****************************/
-/* line 459, _caw_styles.scss */
+/* line 460, _caw_styles.scss */
 .main-bottom a {
   font-weight: 500;
 }
 
-/* line 464, _caw_styles.scss */
+/* line 465, _caw_styles.scss */
 a.btn,
 a.btn:hover,
 a.btn:focus {
   padding: 0.5em 1em;
 }
 
-/* line 467, _caw_styles.scss */
+/* line 468, _caw_styles.scss */
 a.btn.btn-arrow-right {
   font-size: 1.5em;
+  line-height: 1.2em;
+  -webkit-box-shadow: #909499 2px 2px 8px;
+  -moz-box-shadow: #909499 2px 2px 8px;
+  box-shadow: #909499 2px 2px 8px;
 }
 
-/* line 472, _caw_styles.scss */
+/* line 475, _caw_styles.scss */
 a.btn.btn-arrow-right,
 a.btn.btn-arrow-right:hover,
 a.btn.btn-arrow-right:focus {
@@ -618,13 +623,6 @@ a.btn.btn-arrow-right:focus {
   background-position: calc(100% - 10px) center;
   padding-right: 30px;
   text-align: left;
-}
-
-/* line 480, _caw_styles.scss */
-a.btn.btn-arrow-right {
-  -webkit-box-shadow: #909499 2px 2px 8px;
-  -moz-box-shadow: #909499 2px 2px 8px;
-  box-shadow: #909499 2px 2px 8px;
 }
 
 /* line 484, _caw_styles.scss */

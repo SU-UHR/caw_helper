@@ -398,6 +398,7 @@ blockquote {
 }
 blockquote a.btn.btn-arrow-right {
   font-size: 1.15em;
+  line-height: 1.2em;
 }
 .caption, .credits, .descriptor {
 }
@@ -466,6 +467,8 @@ a.btn:focus {
 }
 a.btn.btn-arrow-right {
   font-size: 1.5em;
+  line-height: 1.2em;
+  @include box-shadow($gray-med3 2px 2px 8px); 
 }
 a.btn.btn-arrow-right, 
 a.btn.btn-arrow-right:hover, 
@@ -477,12 +480,9 @@ a.btn.btn-arrow-right:focus {
   padding-right: 30px;
   text-align: left;
 }
-a.btn.btn-arrow-right { 
-@include box-shadow($gray-med3 2px 2px 8px); 
-} 
 a.btn.btn-arrow-right:hover, 
 a.btn.btn-arrow-right:focus { 
-@include box-shadow($gray-med3 4px 4px 8px); 
+  @include box-shadow($gray-med3 4px 4px 8px); 
 }
 
 /** BLOCKS ****************************/
