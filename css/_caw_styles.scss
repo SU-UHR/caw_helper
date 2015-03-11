@@ -10,18 +10,6 @@ body, .header, .site-main-menu, .main {
   font-size: 14px !important;
 }
 
-#header #logo {
-  border-right: 2px solid $black;
-}
-#site-title-first-line a, 
-#site-title-first-line a:hover,
-#site-title-first-line a:focus {
-  color: $black;
-  font-weight: 400;
-  letter-spacing: -0.02em;
-  font-size: 38px;
-}
-
 /** REGIONS ****************************/
 .row-fluid {
   margin-bottom: 30px;
@@ -44,8 +32,14 @@ body, .header, .site-main-menu, .main {
 
 /** LOGO ****************************/
 
-#header #logo img {
-  max-width: 220px;
+#header #logo {
+  border-right: 2px solid $black;
+  img {
+    max-width: 220px;
+  }
+  @media (max-width: 480px) {
+    border-right: 0;
+  }
 }
 .header .site-logo img {
   max-height: 86px;
@@ -58,7 +52,7 @@ body, .header, .site-main-menu, .main {
 #site-title-second-line a, 
 #site-title-second-line a:hover, 
 #site-title-second-line a:focus {
-  color: black;
+  color: $black;
   font-size: 37px;
   font-weight: 400;
   letter-spacing: -0.02em;
