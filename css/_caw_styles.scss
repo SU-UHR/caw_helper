@@ -262,6 +262,8 @@ body, .header, .site-main-menu, .main {
   padding-left: 0;
   padding-right: 0;
   padding-bottom: 1.5em;
+  margin-top: -3px;
+  border-top: 0;
   @include border-radius(3px);
   @include  box-shadow(3px 3px 10px rgba(0, 0, 0, 0.2));
 }
@@ -340,14 +342,17 @@ body, .header, .site-main-menu, .main {
   border-top: 0;
   margin: 0;
   padding-top: 0;
+  position: relative;
 }
-.sidebar .block.menu-banner:after {
+.sidebar .block.menu-banner:before {
   content: '';
   display: block;
   height: 45px;
-  margin-top: -45px;
-  position: relative;
-  @include background-image(linear-gradient(to top, rgba(61, 62, 66, 0), rgba(61, 62, 66, 1)));
+  margin-bottom: -153px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  @include background-image(linear-gradient(to bottom, rgba(61, 62, 66, 0), rgba(61, 62, 66, 1)));
 }
 
 /** HEADERS ****************************/
