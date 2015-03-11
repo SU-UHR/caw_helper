@@ -53,11 +53,20 @@ body, .header, .site-main-menu, .main {
 
 /* site titles */
 #site-title-second-line a, 
-#site-title-second-line a:hover {
+#site-title-second-line a:hover,
+#site-title-second-line a:focus {
   color: black;
   font-size: 38px;
   font-weight: 400;
   letter-spacing: -0.02em;
+}
+#site-title-first-line a, 
+#site-title-first-line a:hover, 
+#site-title-first-line a:focus, 
+#site-title-second-line a, 
+#site-title-second-line a:hover, 
+#site-title-second-line a:focus {
+  line-height: 1.2em;
 }
 
 
