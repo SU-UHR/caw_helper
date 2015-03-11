@@ -70,6 +70,12 @@ body, .header, .site-main-menu, .main {
     display: inline;
   }
 }
+@media (max-width: 220px) {
+  #header #logo img, 
+  #header #logo.logo-mobile img {
+    max-width: 100%;
+  }
+}
 
 /** SEARCH ****************************/
 
