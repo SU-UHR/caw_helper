@@ -51,6 +51,16 @@ body, .header, .site-main-menu, .main {
   max-height: 86px;
 }
 
+/* site titles */
+#site-title-second-line a, 
+#site-title-second-line a:hover {
+  color: black;
+  font-size: 38px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+
 /** SEARCH ****************************/
 
 .nav-search {
