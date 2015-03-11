@@ -103,7 +103,7 @@ body, .header, .site-main-menu, .main {
     display: inline;
   }
 }
-@media (max-width: 220px) {
+@media (max-width: 320px) {
   /* line 75, _caw_styles.scss */
   #header #logo img,
   #header #logo.logo-mobile img {
