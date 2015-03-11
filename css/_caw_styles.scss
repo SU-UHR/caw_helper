@@ -335,6 +335,21 @@ body, .header, .site-main-menu, .main {
   background: transparent;
 }
 
+/* Menu banner images for program/service subsections */
+.sidebar .block.menu-banner {
+  border-top: 0;
+  margin: 0;
+  padding-top: 0;
+}
+.sidebar .block.menu-banner:after {
+  content: '';
+  display: block;
+  height: 45px;
+  margin-top: -45px;
+  position: relative;
+  @include background-image(linear-gradient(to top, rgba(61, 62, 66, 0), rgba(61, 62, 66, 1)));
+}
+
 /** HEADERS ****************************/
 h1 { 
   margin-bottom: 0.5em;
