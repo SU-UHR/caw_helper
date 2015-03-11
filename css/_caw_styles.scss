@@ -347,7 +347,7 @@ body, .header, .site-main-menu, .main {
   img {
     @include border-radius(3px 3px 0 0);
   }
-  @media (max-width: 767px) {
+  @media (max-width: 979px) {
     display: none;
   }
 }

@@ -482,7 +482,7 @@ body, .header, .site-main-menu, .main {
   -o-border-radius: 3px 3px 0 0;
   border-radius: 3px 3px 0 0;
 }
-@media (max-width: 767px) {
+@media (max-width: 979px) {
   /* line 341, _caw_styles.scss */
   .sidebar .block.menu-banner {
     display: none;
