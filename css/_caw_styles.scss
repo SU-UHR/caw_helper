@@ -295,13 +295,14 @@ body, .header, .site-main-menu, .main {
 }
 .sidebar .block-menu .content > .menu > li > a,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a,
-.sidebar .block-menu .content > .menu > li.last,
+.sidebar .block-menu .content > .menu > li.last > a,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li.last > a {
   border: 0;
   padding: 6px 20px;
   font-weight: normal;
 }
-.sidebar .block-menu-block .menu-block-wrapper > .menu > li.last {
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li.last,
+.sidebar .block-menu .content > .menu > li.last {
   border: 0;
 }
 
