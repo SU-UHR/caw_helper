@@ -343,6 +343,9 @@ body, .header, .site-main-menu, .main {
   margin: 0;
   padding-top: 0;
   position: relative;
+  img {
+    @include border-radius(3px 3px 0 0);
+  }
 }
 .sidebar .block.menu-banner:before {
   content: '';
