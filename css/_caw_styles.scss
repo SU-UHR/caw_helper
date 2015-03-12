@@ -296,12 +296,22 @@ body, .header, .site-main-menu, .main {
   padding: 0;
   color: $gray-med1;
   font-weight: 600;
+  @media (max-width: 767px) {
+    font-size: 1.3em;
+    padding: 4px 12px;
+    color: $black;
+    font-weight: 400;
+  }
 }
 .navbar .block.menu-resources .nav > li > a:hover,
 .navbar .block.menu-resources .nav > li > a:focus {
   background: transparent;
   text-decoration: underline;
   color: $black;
+  @media (max-width: 767px) {
+    text-decoration: none;
+    background: $gray-light2;
+  }
 }
 
 /** SIDEBAR MENUS ****************************/
