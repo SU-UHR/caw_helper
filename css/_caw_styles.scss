@@ -280,6 +280,23 @@ body, .header, .site-main-menu, .main {
 	}
 }
 
+/* subsite resources menus */
+.block.menu-resources {
+  position: absolute;
+  right: 155px;
+  top: -90px;
+}
+.navbar .block.menu-resources .nav > li > a {
+  font-size: 1em;
+  padding: 0;
+  color: $gray-dark;
+}
+.navbar .block.menu-resources .nav > li > a:hover,
+.navbar .block.menu-resources .nav > li > a:focus {
+  background: transparent;
+  text-decoration: underline;
+}
+
 /** SIDEBAR MENUS ****************************/
 .sidebar .block.block-menu,
 .sidebar .block.block-menu-block {
