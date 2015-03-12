@@ -283,18 +283,20 @@ body, .header, .site-main-menu, .main {
 /* subsite resources menus */
 .block.menu-resources {
   position: absolute;
-  right: 155px;
-  top: -90px;
+  right: 165px;
+  top: -84px;
 }
 .navbar .block.menu-resources .nav > li > a {
   font-size: 1em;
   padding: 0;
-  color: $gray-dark;
+  color: $gray-med1;
+  font-weight: 600;
 }
 .navbar .block.menu-resources .nav > li > a:hover,
 .navbar .block.menu-resources .nav > li > a:focus {
   background: transparent;
   text-decoration: underline;
+  color; $black;
 }
 
 /** SIDEBAR MENUS ****************************/
