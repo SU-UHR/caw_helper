@@ -285,6 +285,11 @@ body, .header, .site-main-menu, .main {
   position: absolute;
   right: 165px;
   top: -84px;
+  @media (max-width: 767px) {
+    right: auto;
+    top: auto;
+    position: inherit;
+  }
 }
 .navbar .block.menu-resources .nav > li > a {
   font-size: 1em;
