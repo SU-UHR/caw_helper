@@ -86,8 +86,14 @@ function caw_helper_facet_items_alter(&$build, &$settings) {
         break;
       }
     }
-    // foreach($build as $key => $item) {
-    //   // $build[$key]["#markup"] = drupal_strtoupper($item["#markup"]);
-    // }
   }
+}
+
+/**
+ * Implements hook_views_api().
+ */
+function caw_helper_views_api() {
+  return array(
+    'api' => "3.0",
+  );
 }
