@@ -888,12 +888,15 @@ a.sweetener-link:focus {
 .isotope-options label {
   display: inline-block;
   margin-right: 10px;
-  min-width: 25%;
+  min-width: 23%;
 }
 .isotope-options input {
   display: inline-block;
   float: left;
   margin: 2px 7px 0 0;
+}
+.view-sweeteners-isotope-filter {
+  margin-bottom: 2em;
 }
 
 /** IMAGES ****************************/
