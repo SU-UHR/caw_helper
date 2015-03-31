@@ -1107,7 +1107,7 @@ a.sweetener-link .sweetener-thumb img {
   border-radius: 4px 4px 0 0;
 }
 /* line 848, _caw_styles.scss */
-a.sweetener-link h3:before {
+a.sweetener-link .sweetener-thumb:after {
   content: '';
   display: block;
   height: 45px;
@@ -1140,8 +1140,8 @@ a.sweetener-link:focus .sweetener-thumb img {
   opacity: .8;
 }
 /* line 870, _caw_styles.scss */
-a.sweetener-link:hover h3:before,
-a.sweetener-link:focus h3:before {
+a.sweetener-link:hover .sweetener-thumb:after,
+a.sweetener-link:focus .sweetener-thumb:after {
   background-image: -webkit-gradient(linear, to bottom, to top, color-stop(0%, rgba(61, 62, 66, 0)), color-stop(100%, #3d3e42));
   background-image: -webkit-linear-gradient(to bottom, rgba(61, 62, 66, 0), #3d3e42);
   background-image: -moz-linear-gradient(to bottom, rgba(61, 62, 66, 0), #3d3e42);
