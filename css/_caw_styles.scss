@@ -889,13 +889,16 @@ a.sweetener-link:focus {
   display: inline-block;
   margin-right: 10px;
   min-width: 23%;
+  background: $white;
+  @include border-radius(4px);
+  padding: 0.5em;
 }
 .isotope-options input {
   display: inline-block;
   float: left;
   margin: 2px 7px 0 0;
 }
-.view-sweeteners-isotope-filter {
+.view-sweeteners-isotope-filter:first-child {
   margin-bottom: 2em;
 }
 
