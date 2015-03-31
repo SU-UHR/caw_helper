@@ -905,6 +905,23 @@ a.sweetener-link:focus {
   cursor: pointer;
 }
 
+/* sweeteners carousel */
+.slick-dots li button::before {
+  content: none;
+}
+.slick-dots li button {
+  @include border-radius(20px);
+  width: 15px;
+  height: 15px;
+  background: $gray-med3;
+  @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.2));
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus,
+.slick-dots li.slick-active button {
+  background: $turq-dark;
+}
+
 
 /** IMAGES ****************************/
 
