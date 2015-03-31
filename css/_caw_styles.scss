@@ -839,10 +839,19 @@ a.sweetener-link {
   h3 {
     color: $white;
     text-decoration: none;
-    margin: 1em;
+    margin: 0.5em 1em 1em;
+    font-weight: 300;
   }
   .sweetener-thumb img {
     @include border-radius(4px 4px 0 0);
+  }
+  h3:before {
+    content: '';
+    display: block;
+    height: 45px;
+    margin-top: -45px;
+    position: relative;
+    @include background-image(linear-gradient(to bottom, rgba(63, 130, 137, 0), rgba(63, 130, 137, 1)));
   }
 }
 
@@ -853,9 +862,13 @@ a.sweetener-link:focus {
 
   h3 {
     color: $white;
+    text-decoration: none;
   }
   .sweetener-thumb img {
     opacity: .8;
+  }
+  h3:before {
+    @include background-image(linear-gradient(to bottom, rgba(61, 62, 66, 0), rgba(61, 62, 66, 1)));
   }
 }
 
