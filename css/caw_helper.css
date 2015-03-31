@@ -1090,11 +1090,11 @@ a.sweetener-link {
   display: block;
   margin-right: 15px;
   min-height: 240px;
+  text-decoration: none;
 }
-/* line 839, _caw_styles.scss */
+/* line 840, _caw_styles.scss */
 a.sweetener-link h3 {
   color: white;
-  text-decoration: none;
   margin: 0.5em 1em 1em;
   font-weight: 300;
 }
@@ -1127,12 +1127,12 @@ a.sweetener-link:focus {
   -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
 }
-/* line 863, _caw_styles.scss */
+/* line 864, _caw_styles.scss */
 a.sweetener-link:hover h3,
 a.sweetener-link:focus h3 {
   color: white;
-  text-decoration: none;
 }
 /* line 867, _caw_styles.scss */
 a.sweetener-link:hover .sweetener-thumb img,
