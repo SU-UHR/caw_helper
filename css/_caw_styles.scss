@@ -882,6 +882,19 @@ a.sweetener-link:focus {
   padding: 24px 28px;
   margin-bottom: 3em;
 }
+.isotope-options {
+  background: none;
+}
+.isotope-options label {
+  display: inline-block;
+  margin-right: 10px;
+  min-width: 25%;
+}
+.isotope-options input {
+  display: inline-block;
+  float: left;
+  margin: 2px 7px 0 0;
+}
 
 /** IMAGES ****************************/
 
