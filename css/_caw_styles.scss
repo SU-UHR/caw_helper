@@ -821,6 +821,30 @@ a.btn.btn-arrow-right:focus {
   }
 }
 
+/** SWEETENERS ****************************/
+.isotope-element {
+  background: transparent;
+  color: $black;
+}
+
+a.sweetener-link {
+  background: $turq-med;
+  @include border-radius(4px);
+  @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.3));
+
+  h3 {
+    color: $white;
+    text-decoration: none;
+  }
+  .sweetener-thumb img {
+    @include border-radius(4px 4px 0 0);
+  }
+}
+a.sweetener-link:hover,
+a.sweetener-link:focus {
+  background: $gray-dark;
+}
+
 /** IMAGES ****************************/
 
 /** CAROUSEL ****************************/
