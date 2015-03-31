@@ -304,7 +304,8 @@ body, .header, .site-main-menu, .main {
   }
 }
 .navbar .block.menu-resources .nav > li > a:hover,
-.navbar .block.menu-resources .nav > li > a:focus {
+.navbar .block.menu-resources .nav > li > a:focus,
+.navbar .block.menu-resources .nav > li > a.active-trail {
   background: transparent;
   text-decoration: underline;
   color: $black;
