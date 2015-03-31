@@ -872,6 +872,20 @@ a.sweetener-link:focus {
   }
 }
 
+/* sweeteners isotope filter - same as well styles */
+.view-sweeteners-isotope-filter {
+  background: $gray-light;
+  @include border-radius(3px);
+  @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.2));
+  color: $gray-dark;
+  font-size: 0.9em;
+  padding: 24px 28px;
+}
+
+.view-sweeteners-isotope-page > .view-content {
+  margin-top: 1em;
+}
+
 /** IMAGES ****************************/
 
 /** CAROUSEL ****************************/
