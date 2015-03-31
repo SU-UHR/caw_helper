@@ -421,6 +421,10 @@ body, .header, .site-main-menu, .main {
   width: 100%;
   @include background-image(linear-gradient(to bottom, rgba(61, 62, 66, 0), rgba(61, 62, 66, 1)));
 }
+.sidebar .block.block-bean.menu-banner .view-mode-default img {
+  margin-bottom: 0;
+  @include box-shadow(none);
+}
 
 /** HEADERS ****************************/
 h1 { 
