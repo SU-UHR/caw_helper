@@ -881,26 +881,30 @@ a.sweetener-link:focus {
   font-size: 0.9em;
   padding: 24px 28px;
   margin-bottom: 3em;
+
+  .view-sweeteners-isotope-filter:first-child {
+    margin-bottom: 2em;
+  }
 }
 .isotope-options {
   background: none;
 }
 .isotope-options label {
   display: inline-block;
-  margin-right: 10px;
-  min-width: 23%;
+  margin-right: 1%;
+  min-width: 22%;
   background: $white;
   @include border-radius(4px);
   padding: 0.5em;
+  cursor: auto;
 }
 .isotope-options input {
   display: inline-block;
   float: left;
   margin: 2px 7px 0 0;
+  cursor: pointer;
 }
-.view-sweeteners-isotope-filter:first-child {
-  margin-bottom: 2em;
-}
+
 
 /** IMAGES ****************************/
 
