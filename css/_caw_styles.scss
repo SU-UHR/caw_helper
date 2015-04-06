@@ -1003,7 +1003,8 @@ a.sweetener-link:focus {
 }
 
 article.numbered-guide .field-name-field-landing-page-item .field-items,
-.node-stanford-program-service.numbered-guide .field-name-field-landing-page-item .field-items {
+.node-stanford-program-service.numbered-guide .field-name-field-landing-page-item .field-items,
+.node-stanford-landing-page.numbered-guide  .field-name-field-landing-page-item .field-items {
   counter-reset: section;
   .numbered-guide:before {
       counter-increment: section;
