@@ -304,7 +304,8 @@ body, .header, .site-main-menu, .main {
   }
 }
 .navbar .block.menu-resources .nav > li > a:hover,
-.navbar .block.menu-resources .nav > li > a:focus {
+.navbar .block.menu-resources .nav > li > a:focus,
+.navbar .block.menu-resources .nav > li > a.active-trail {
   background: transparent;
   text-decoration: underline;
   color: $black;
@@ -419,6 +420,10 @@ body, .header, .site-main-menu, .main {
   bottom: 0;
   width: 100%;
   @include background-image(linear-gradient(to bottom, rgba(61, 62, 66, 0), rgba(61, 62, 66, 1)));
+}
+.sidebar .block.block-bean.menu-banner .view-mode-default img {
+  margin-bottom: 0;
+  @include box-shadow(none);
 }
 
 /** HEADERS ****************************/
@@ -816,6 +821,111 @@ a.btn.btn-arrow-right:focus {
   }
 }
 
+/** SWEETENERS ****************************/
+.isotope-element {
+  background: transparent;
+  color: $black;
+}
+
+a.sweetener-link {
+  background: $turq-med;
+  @include border-radius(4px);
+  @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.3));
+  @include box-sizing(border-box);
+  display: block;
+  margin-right: 15px;
+  min-height: 240px;
+  text-decoration: none;
+
+  h3 {
+    color: $white;
+    margin: 0.5em 1em 1em;
+    font-weight: 300;
+  }
+  .sweetener-thumb img {
+    @include border-radius(4px 4px 0 0);
+  }
+  .sweetener-thumb:after {
+    content: '';
+    display: block;
+    height: 45px;
+    margin-top: -45px;
+    position: relative;
+    @include background-image(linear-gradient(to bottom, rgba(63, 130, 137, 0), rgba(63, 130, 137, 1)));
+  }
+}
+
+a.sweetener-link:hover,
+a.sweetener-link:focus {
+  background: $gray-dark;
+  @include box-shadow(3px 3px 8px rgba(0, 0, 0, 0.25));
+  text-decoration: none;
+
+  h3 {
+    color: $white;
+  }
+  .sweetener-thumb img {
+    opacity: .8;
+  }
+  .sweetener-thumb:after {
+    @include background-image(linear-gradient(to bottom, rgba(61, 62, 66, 0), rgba(61, 62, 66, 1)));
+  }
+}
+
+/* sweeteners isotope filter - same as well styles */
+.view-sweeteners-isotope-page > .view-header {
+  background: $gray-light;
+  @include border-radius(3px);
+  @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.2));
+  color: $gray-dark;
+  font-size: 0.9em;
+  padding: 24px 28px;
+  margin-bottom: 3em;
+
+  .view-sweeteners-isotope-filter:first-child {
+    margin-bottom: 2em;
+  }
+}
+.isotope-options {
+  background: none;
+}
+.isotope-options label {
+  display: inline-block;
+  margin-right: 1%;
+  min-width: 22%;
+  background: $white;
+  @include border-radius(4px);
+  padding: 0.5em;
+  cursor: auto;
+}
+.isotope-options input {
+  display: inline-block;
+  float: left;
+  margin: 2px 7px 0 0;
+  cursor: pointer;
+}
+
+/* sweeteners carousel */
+.slick-dots li button::before {
+  content: none;
+}
+.slick-dots li button {
+  @include border-radius(20px);
+  width: 18px;
+  height: 18px;
+  background: $gray-med3;
+  @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.2));
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus,
+.slick-dots li.slick-active button {
+  background: $turq-dark;
+}
+.slick-dots {
+  bottom: -57px;
+}
+
+
 /** IMAGES ****************************/
 
 /** CAROUSEL ****************************/
@@ -893,7 +1003,8 @@ a.btn.btn-arrow-right:focus {
 }
 
 article.numbered-guide .field-name-field-landing-page-item .field-items,
-.node-stanford-program-service.numbered-guide .field-name-field-landing-page-item .field-items {
+.node-stanford-program-service.numbered-guide .field-name-field-landing-page-item .field-items,
+.node-stanford-landing-page.numbered-guide  .field-name-field-landing-page-item .field-items {
   counter-reset: section;
   .numbered-guide:before {
       counter-increment: section;

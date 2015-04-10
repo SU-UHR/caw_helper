@@ -96,4 +96,17 @@ function caw_helper_views_api() {
   return array(
     'api' => "3.0",
   );
+
+/**
+ * Implements hook_preprocess().
+ */
+function caw_helper_preprocess_page(&$vars) {
+
+  // If the landing page option to hide title is set to true, hide it.
+  if (isset($vars['node']) && $vars['node']->type == "stanford_landing_page") {
+    $node = $vars['node'];
+    if (isset($node->field_hide_title) && $node->field_hide_title[LANGUAGE_NONE][0]['value'] == "1") {
+      drupal_set_title('');
+    }
+  }
 }
