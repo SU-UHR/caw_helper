@@ -86,8 +86,20 @@ function caw_helper_facet_items_alter(&$build, &$settings) {
         break;
       }
     }
-    // foreach($build as $key => $item) {
-    //   // $build[$key]["#markup"] = drupal_strtoupper($item["#markup"]);
-    // }
   }
+}
+
+/**
+ * Implements hook_preprocess().
+ */
+function caw_helper_preprocess_page(&$vars) {
+
+  // If the landing page option to hide title is set to true, hide it.
+  if (isset($vars['node']) && $vars['node']->type == "stanford_landing_page") {
+    $node = $vars['node'];
+    if (isset($node->field_hide_title) && $node->field_hide_title[LANGUAGE_NONE][0]['value'] == "1") {
+      drupal_set_title('');
+    }
+  }
+
 }
