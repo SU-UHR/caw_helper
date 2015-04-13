@@ -96,6 +96,7 @@ function caw_helper_views_api() {
   return array(
     'api' => "3.0",
   );
+}
 
 /**
  * Implements hook_preprocess().
