@@ -3,6 +3,8 @@ description = "A bunch of one off code for the CAW website."
 dependencies[] = bean
 dependencies[] = block
 dependencies[] = css_injector
+files[] = caw_helper.views.inc
+files[] = views/caw_helper_views_handler_field_custom.inc
 core = 7.x
 package = CAW
 

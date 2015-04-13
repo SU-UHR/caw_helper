@@ -90,6 +90,15 @@ function caw_helper_facet_items_alter(&$build, &$settings) {
 }
 
 /**
+ * Implements hook_views_api().
+ */
+function caw_helper_views_api() {
+  return array(
+    'api' => "3.0",
+  );
+}
+
+/**
  * Implements hook_preprocess().
  */
 function caw_helper_preprocess_page(&$vars) {
@@ -101,5 +110,4 @@ function caw_helper_preprocess_page(&$vars) {
       drupal_set_title('');
     }
   }
-
 }
