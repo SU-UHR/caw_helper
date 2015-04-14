@@ -1027,7 +1027,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
   }
 }
 
-/* Banners on program/service CT */
+/* Banners on landing page and program/service CTs */
 #block-views-stanford-program-service-block.block {
   margin-bottom: 0;
  .views-row {
@@ -1039,6 +1039,10 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
   background: $white;
   @include border-radius(3px);
   @include box-shadow(1px 1px 6px rgba(0, 0, 0, 0.25));
+}
+/* for when it's on a program/service page */
+.node-type-stanford-program-service .program-banner {
+  padding: 1em 2em 2em;
 }
 .program-banner-img {
   position: relative;

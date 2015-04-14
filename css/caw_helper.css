@@ -1341,7 +1341,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   margin-right: 25px;
 }
 
-/* Banners on program/service CT */
+/* Banners on landing page and program/service CTs */
 /* line 1031, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 #block-views-stanford-program-service-block.block {
   margin-bottom: 0;
@@ -1365,11 +1365,17 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
 }
 
-/* line 1043, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
+/* for when it's on a program/service page */
+/* line 1044, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
+.node-type-stanford-program-service .program-banner {
+  padding: 1em 2em 2em;
+}
+
+/* line 1047, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .program-banner-img {
   position: relative;
 }
-/* line 1045, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
+/* line 1049, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .program-banner-img img {
   -webkit-border-radius: 3px 0 0 3px;
   -moz-border-radius: 3px 0 0 3px;
@@ -1378,7 +1384,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   border-radius: 3px 0 0 3px;
 }
 
-/* line 1049, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
+/* line 1053, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .program-banner-text {
   position: absolute;
   bottom: 0;
@@ -1389,13 +1395,13 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   top: 0;
   background: white;
 }
-/* line 1058, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
+/* line 1062, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .program-banner-text h1 {
   margin-left: 50px;
   margin-right: 50px;
   margin-top: 40px;
 }
-/* line 1063, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
+/* line 1067, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .program-banner-text p {
   margin-bottom: 40px;
   margin-left: 50px;
@@ -1403,7 +1409,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 }
 
 /* gradient over image */
-/* line 1070, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
+/* line 1074, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .program-banner-text:before {
   content: "";
   display: inline-block;
@@ -1421,7 +1427,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 }
 
 @media (max-width: 979px) {
-  /* line 1082, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
+  /* line 1086, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .program-banner-img img {
     width: 100%;
     -webkit-border-radius: 3px 3px 0 0;
@@ -1431,7 +1437,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
     border-radius: 3px 3px 0 0;
   }
 
-  /* line 1086, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
+  /* line 1090, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .program-banner-text {
     position: relative;
     left: auto;
@@ -1439,7 +1445,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
     display: inline-block;
   }
 
-  /* line 1092, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
+  /* line 1096, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .program-banner-text:before {
     display: block;
     float: none;
@@ -1455,13 +1461,13 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   }
 }
 @media (max-width: 380px) {
-  /* line 1104, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
+  /* line 1108, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .program-banner-text h1 {
     margin-left: 30px;
     margin-right: 30px;
     margin-top: 20px;
   }
-  /* line 1109, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
+  /* line 1113, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .program-banner-text p {
     margin-bottom: 20px;
     margin-left: 30px;
@@ -1469,13 +1475,13 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   }
 }
 /** STANFORD PAGES ****************************/
-/* line 1120, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
+/* line 1124, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .node-type-stanford-page .postcard-image img {
   margin-top: -30px;
   margin-bottom: 30px;
 }
 
-/* line 1125, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
+/* line 1129, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .node img {
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
