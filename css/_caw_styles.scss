@@ -964,10 +964,16 @@ a.sweetener-link:focus {
 .view.carousel .carousel-caption.carousel-dark .more-link a {
   color: $turq-light;
   font-size: 1.5em;
+  line-height: 1.3em;
 }
-
-.carousel h2 a {
+.view.carousel .carousel-caption.carousel-dark h2 a, 
+.view.carousel .carousel-caption.carousel-dark .slide-caption a {
+  color: $white;
   font-weight: 300;
+}
+.view.carousel .carousel-caption.carousel-dark .slide-caption a {
+  font-size: 1.3em;
+  line-height: 1.3em;
 }
 
 
