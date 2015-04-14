@@ -934,6 +934,11 @@ a.sweetener-link:focus {
 
 /** LANDING PAGES & PROGRAM/SERVICE PAGES ****************************/
 
+/* make things line up at the top of a node with the sidebar */
+.row-fluid.content-head {
+  margin-bottom: 0;
+}
+
 .field-name-field-landing-page-item {
   /* blocks */
   .block {
