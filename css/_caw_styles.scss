@@ -979,6 +979,13 @@ a.sweetener-link:focus {
   line-height: 1.3em;
   display: block;
 }
+.view.carousel .carousel-caption.carousel-dark a.more-link:hover, 
+.view.carousel .carousel-caption.carousel-dark .more-link a:hover, 
+.view.carousel .carousel-caption.carousel-dark a.more-link:focus, 
+.view.carousel .carousel-caption.carousel-dark .more-link a:focus {
+  color: $white;
+  text-decoration: underline;
+}
 
 /** HOMEPAGE ****************************/
 
