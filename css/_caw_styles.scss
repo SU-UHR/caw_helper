@@ -245,7 +245,8 @@ body, .header, .site-main-menu, .main {
 }
 
 /* Turquoise button in navbar styles */
-#block-bean-my-benefits-button {
+#block-bean-my-benefits-button,
+#block-bean-search-jobs-button {
   float: right;
   max-width: 20%;
   @media (max-width: 767px) {
