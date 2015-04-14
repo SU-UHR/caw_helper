@@ -933,6 +933,12 @@ a.sweetener-link:focus {
 
 /** LANDING PAGES & PROGRAM/SERVICE PAGES ****************************/
 
+/* Hide the page title on subsites and program/service */
+.node-type-stanford-subsite h1#page-title, 
+.node-type-stanford-program-service h1#page-title {
+  display: none;
+}
+
 /* make things line up at the top of a node with the sidebar */
 .row-fluid.content-head {
   margin-bottom: 0;
