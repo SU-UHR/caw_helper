@@ -281,7 +281,7 @@ body, .header, .site-main-menu, .main {
 }
 
 /* subsite resources menus */
-.block.menu-resources {
+.region-navigation .block.menu-resources {
   position: absolute;
   right: 165px;
   top: -84px;
@@ -961,6 +961,8 @@ a.sweetener-link:focus {
 .carousel h2 a {
   font-weight: 300;
 }
+
+
 
 /** HOMEPAGE ****************************/
 
