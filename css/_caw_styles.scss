@@ -256,8 +256,10 @@ body, .header, .site-main-menu, .main {
 }
 #block-menu-block-7 {
   max-width: 80%;
+  float: left;
   @media (max-width: 767px) {
     max-width: none;
+    float: none;
   }
 }
 #main-nav {
