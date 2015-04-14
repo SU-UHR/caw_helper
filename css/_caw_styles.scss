@@ -942,42 +942,43 @@ a.sweetener-link:focus {
 .carousel-inner {
   top: -40px;
 }
-
 .carousel img {
   @include box-shadow(1px 1px 6px rgba(0, 0, 0, 0.25));
   @include border-radius(3px);
 }
-
 .view.carousel .carousel-block .carousel-caption {
   background: transparent;
   width: 50%;
 }
-
 .view.carousel .carousel-block .carousel-caption.carousel-position-right,
 .view.carousel .carousel-block .carousel-caption.carousel-position-left {
   left: auto;
   right: 0;
   padding: 90px 75px;
 }
-
-.view.carousel .carousel-caption.carousel-dark a.more-link, 
-.view.carousel .carousel-caption.carousel-dark .more-link a {
-  color: $turq-light;
-  font-size: 1.75em;
-  line-height: 1.3em;
-}
 .view.carousel .carousel-caption.carousel-dark h2 a, 
 .view.carousel .carousel-caption.carousel-dark .slide-caption a {
   color: $white;
   font-weight: 300;
+  display: block;
+}
+.view.carousel .carousel-caption.carousel-dark h2 a {
+  font-size: 2em;
+  line-height: 1.3em;
+  margin-bottom: 0.75em;
 }
 .view.carousel .carousel-caption.carousel-dark .slide-caption a {
   font-size: 1.3em;
   line-height: 1.3em;
   margin-bottom: 1em;
 }
-
-
+.view.carousel .carousel-caption.carousel-dark a.more-link, 
+.view.carousel .carousel-caption.carousel-dark .more-link a {
+  color: $turq-light;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  display: block;
+}
 
 /** HOMEPAGE ****************************/
 
