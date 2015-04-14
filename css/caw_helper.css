@@ -450,7 +450,7 @@ body, .header, .site-main-menu, .main {
   padding-left: 0;
   padding-right: 0;
   padding-bottom: 1.5em;
-  margin-top: -3px;
+  margin-top: 0px;
   border-top: 0;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
