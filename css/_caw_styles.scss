@@ -939,8 +939,13 @@ a.sweetener-link:focus {
   height: 370px;
 }
 
+.carousel-inner {
+  top: -50px;
+}
+
 .carousel img {
-  margin-top: -50px;
+  @include box-shadow(1px 1px 6px rgba(0, 0, 0, 0.25));
+  @include border-radius(3px);
 }
 
 .view.carousel .carousel-block .carousel-caption {
@@ -952,7 +957,7 @@ a.sweetener-link:focus {
 .view.carousel .carousel-block .carousel-caption.carousel-position-left {
   left: auto;
   right: 0;
-  padding: 30px 75px 25px 75px;
+  padding: 80px 75px 25px 75px;
 }
 
 .view.carousel .carousel-caption.carousel-dark a.more-link, 
