@@ -930,6 +930,38 @@ a.sweetener-link:focus {
 
 /** CAROUSEL ****************************/
 
+/* Subsite carousels */
+.carousel {
+  background: #3d3e42;
+  height: 370px;
+  margin-bottom: 100px;
+}
+
+#main-content .carousel img {
+  margin-top: -50px;
+}
+
+.view.carousel .carousel-block .carousel-caption {
+  background: transparent;
+  width: 50%;
+}
+
+.view.carousel .carousel-block .carousel-caption.carousel-position-right,
+.view.carousel .carousel-block .carousel-caption.carousel-position-left {
+  left: auto;
+  right: 0;
+  padding: 30px 75px 25px 75px;
+}
+
+.view.carousel .carousel-caption.carousel-dark a.more-link, 
+.view.carousel .carousel-caption.carousel-dark .more-link a {
+  color:#5fbfc4;
+}
+
+.carousel h2 a {
+  font-weight: 300;
+}
+
 /** HOMEPAGE ****************************/
 
 /** LANDING PAGES & PROGRAM/SERVICE PAGES ****************************/
