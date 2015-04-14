@@ -940,7 +940,7 @@ a.sweetener-link:focus {
 }
 
 .carousel-inner {
-  top: -50px;
+  top: -40px;
 }
 
 .carousel img {
@@ -957,12 +957,13 @@ a.sweetener-link:focus {
 .view.carousel .carousel-block .carousel-caption.carousel-position-left {
   left: auto;
   right: 0;
-  padding: 80px 75px 25px 75px;
+  padding: 90px 75px;
 }
 
 .view.carousel .carousel-caption.carousel-dark a.more-link, 
 .view.carousel .carousel-caption.carousel-dark .more-link a {
   color: $turq-light;
+  font-size: 1.5em;
 }
 
 .carousel h2 a {
