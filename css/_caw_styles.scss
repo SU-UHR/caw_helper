@@ -1001,9 +1001,20 @@ a.sweetener-link:focus {
   border: 0px;
   margin-left: 10px;
 }
-.view.carousel .carousel-indicators .active {
+.view.carousel .carousel-indicators .active,
+.view.carousel .carousel-indicators li:hover {
   background-color: $white;
   border: 0px;
+}
+.view.carousel .carousel-controls {
+  position: relative;
+  z-index: 1000;
+}
+.carousel-controls .carousel-control.right {
+  background-image: url("../img/caw-arrow-right.png");
+}
+.carousel-controls .carousel-control.left {
+  background-image: url("../img/caw-arrow-left.png");
 }
 
 .carousel .edit-link a {
