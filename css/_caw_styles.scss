@@ -1057,10 +1057,27 @@ a.sweetener-link:focus {
     right: 240px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 979px) {
   .main-top {
     height: auto;
   }
+  .view.carousel .carousel-block .carousel-caption {
+    position: absolute;
+    overflow: visible;
+  }
+  .carousel .view-footer {
+    bottom: -25px;
+  }
+  .carousel img {
+    max-width: 40%;
+  }
+  .view.carousel .carousel-block .carousel-caption {
+    width: 60%;
+    padding: 20px;
+  }
+}
+@media (max-width: 767px) {
+  
 }
 
 /** HOMEPAGE ****************************/
