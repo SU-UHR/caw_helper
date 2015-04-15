@@ -1058,7 +1058,7 @@ a.sweetener-link:focus {
   }
 }
 @media (max-width: 979px) {
-  .main-top {
+  .node-type-stanford-subsite .main-top {
     height: auto;
   }
   .view.carousel .carousel-block .carousel-caption {
@@ -1073,11 +1073,32 @@ a.sweetener-link:focus {
   }
   .view.carousel .carousel-block .carousel-caption {
     width: 60%;
+  }
+  .view.carousel .carousel-block .carousel-caption.carousel-position-right, 
+  .view.carousel .carousel-block .carousel-caption.carousel-position-left {
+    position: relative;
+    float: right;
     padding: 20px;
   }
 }
 @media (max-width: 767px) {
-  
+  .carousel .view-footer {
+    bottom: 0;
+    left: auto;
+    position: relative;
+    right: auto;
+    width: 100%;
+  }
+}
+@media (max-width: 570px) {
+  .carousel img {
+    max-width: 100%;
+  }
+  .view.carousel .carousel-block .carousel-caption.carousel-position-right, 
+  .view.carousel .carousel-block .carousel-caption.carousel-position-left {
+    width: 100%;
+    padding: 20px 0 0;
+  }
 }
 
 /** HOMEPAGE ****************************/
