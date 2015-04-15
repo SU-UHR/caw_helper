@@ -1009,6 +1009,7 @@ a.sweetener-link:focus {
 .view.carousel .carousel-controls {
   position: relative;
   z-index: 1000;
+  top: 9px;
 }
 .carousel-control {
   border: 0;
@@ -1029,6 +1030,10 @@ a.sweetener-link:focus {
 .view.carousel .carousel-controls .carousel-control.left:hover,
 .view.carousel .carousel-controls .carousel-control.left:focus {
   background-image: url("../img/caw-arrow-left-hvr.png");
+}
+.view.carousel .carousel-control, 
+.view.carousel .carousel-control:focus {
+  opacity: 1;
 }
 
 .carousel .edit-link a {
