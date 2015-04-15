@@ -987,6 +987,29 @@ a.sweetener-link:focus {
   text-decoration: underline;
 }
 
+.carousel .view-footer {
+  bottom: 153px;
+  position: absolute;
+  right: 304px;
+  width: 220px;
+}
+.view.carousel .carousel-indicators li {
+  border-radius: 20px;
+  height: 18px;
+  width: 18px;
+  background-color: $gray-med2;
+  border: 0px;
+  margin-left: 10px;
+}
+.view.carousel .carousel-indicators .active {
+  background-color: $white;
+  border: 0px;
+}
+
+.carousel .edit-link a {
+  background: $white;
+}
+
 /** HOMEPAGE ****************************/
 
 /** LANDING PAGES & PROGRAM/SERVICE PAGES ****************************/
