@@ -1010,11 +1010,25 @@ a.sweetener-link:focus {
   position: relative;
   z-index: 1000;
 }
+.carousel-control {
+  border: 0;
+  background: transparent;
+  opacity: 1;
+}
 .carousel-controls .carousel-control.right {
   background-image: url("../img/caw-arrow-right.png");
 }
 .carousel-controls .carousel-control.left {
   background-image: url("../img/caw-arrow-left.png");
+}
+
+.view.carousel .carousel-controls .carousel-control.right:hover,
+.view.carousel .carousel-controls .carousel-control.right:focus {
+  background-image: url("../img/caw-arrow-right-hvr.png");
+}
+.view.carousel .carousel-controls .carousel-control.left:hover,
+.view.carousel .carousel-controls .carousel-control.left:focus {
+  background-image: url("../img/caw-arrow-left-hvr.png");
 }
 
 .carousel .edit-link a {
