@@ -1040,7 +1040,7 @@ a.sweetener-link:focus {
   background: $white;
 }
 
-@media (max-width: 979px) {
+@media (max-width: 1199px) {
   .carousel-inner {
     top: 0px;
   }
@@ -1048,12 +1048,18 @@ a.sweetener-link:focus {
     margin-top: 16px;
     max-width: 48%;
   }
-  .view.carousel .carousel-block .carousel-caption.carousel-position-right, .view.carousel .carousel-block .carousel-caption.carousel-position-left {
+  .view.carousel .carousel-block .carousel-caption.carousel-position-right, 
+  .view.carousel .carousel-block .carousel-caption.carousel-position-left {
     padding: 40px 35px;
   }
   .carousel .view-footer {
     bottom: 50px;
     right: 240px;
+  }
+}
+@media (max-width: 767px) {
+  .main-top {
+    height: auto;
   }
 }
 
