@@ -675,14 +675,15 @@ ul, ol {
 
 /** TABLES ****************************/
 /* line 510, _caw_styles.scss */
-th, td {
+thead th, td {
   padding: 1em;
   border: 1px solid #e2e2e2;
 }
 
 /* line 514, _caw_styles.scss */
-th {
+thead th {
   background: #e2e2e2;
+  color: #333333;
 }
 
 /** LINKS ****************************/

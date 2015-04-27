@@ -24,7 +24,7 @@ body, .header, .site-main-menu, .main {
 #wrap {
   background-image: url('../img/caw-bkg.png');
   background-repeat: repeat-x;
-  background-position: center 105%; 
+  background-position: center 105%;
 }
 .main-lower {
   margin-top: 80px;
@@ -47,11 +47,11 @@ body, .header, .site-main-menu, .main {
 }
 
 /* site titles */
-#site-title-first-line a, 
-#site-title-first-line a:hover, 
-#site-title-first-line a:focus, 
-#site-title-second-line a, 
-#site-title-second-line a:hover, 
+#site-title-first-line a,
+#site-title-first-line a:hover,
+#site-title-first-line a:focus,
+#site-title-second-line a,
+#site-title-second-line a:hover,
 #site-title-second-line a:focus {
   color: $black;
   font-size: 37px;
@@ -70,7 +70,7 @@ body, .header, .site-main-menu, .main {
   }
 }
 @media (max-width: 320px) {
-  #header #logo img, 
+  #header #logo img,
   #header #logo.logo-mobile img {
     max-width: 100%;
   }
@@ -103,7 +103,7 @@ body, .header, .site-main-menu, .main {
   margin-top: -31px;
   left: -8px;
 }
-.nav-search input.form-submit:hover, 
+.nav-search input.form-submit:hover,
 .nav-search input.form-submit:focus {
   opacity: .8;
 }
@@ -173,14 +173,14 @@ body, .header, .site-main-menu, .main {
 	color: $white;
 	background: $gray-med1;
 }
-.navbar .nav li.dropdown.active > .dropdown-toggle, 
-.navbar .nav li.dropdown.active > .dropdown-toggle:hover, 
+.navbar .nav li.dropdown.active > .dropdown-toggle,
+.navbar .nav li.dropdown.active > .dropdown-toggle:hover,
 .navbar .nav li.dropdown.active > .dropdown-toggle:focus,
 .navbar .nav li.dropdown.open > .dropdown-toggle,
 .navbar .nav li.dropdown.open > .dropdown-toggle.active,
-.navbar .nav li.dropdown.open > .dropdown-toggle.active:focus, 
+.navbar .nav li.dropdown.open > .dropdown-toggle.active:focus,
 .navbar .nav li.dropdown.open > .dropdown-toggle:hover,
-.navbar .nav li.dropdown.open > .dropdown-toggle:focus, 
+.navbar .nav li.dropdown.open > .dropdown-toggle:focus,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle {
 	@include box-shadow($gray-med3 2px 2px 8px);
   background: $gray-dark;
@@ -195,18 +195,18 @@ body, .header, .site-main-menu, .main {
 	border-top: 0px;
 }
 
-.navbar .nav > .active > a, 
-.navbar .nav > .active > a:hover, 
-.navbar .nav > .active > a:focus, 
-.navbar .nav > li > a:focus, 
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus,
+.navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover,
-.navbar .nav li.active-trail > a, 
-.navbar .nav li.active-trail > a:hover, 
+.navbar .nav li.active-trail > a,
+.navbar .nav li.active-trail > a:hover,
 .navbar .nav li.active-trail > a:focus  {
   color: $black;
   background: $gray-light2;
 }
-.navbar .nav li.dropdown li.active-trail > a, 
+.navbar .nav li.dropdown li.active-trail > a,
 .navbar .nav li.dropdown li.active-trail > a:hover {
   color: $white;
   background: $gray-med1;
@@ -216,14 +216,14 @@ body, .header, .site-main-menu, .main {
   .nav-collapse .dropdown-menu {
     margin: 0;
   }
-  .navbar .nav li.dropdown.active > .dropdown-toggle, 
-  .navbar .nav li.dropdown.active > .dropdown-toggle:hover, 
+  .navbar .nav li.dropdown.active > .dropdown-toggle,
+  .navbar .nav li.dropdown.active > .dropdown-toggle:hover,
   .navbar .nav li.dropdown.active > .dropdown-toggle:focus,
   .navbar .nav li.dropdown.open > .dropdown-toggle,
   .navbar .nav li.dropdown.open > .dropdown-toggle.active,
-  .navbar .nav li.dropdown.open > .dropdown-toggle.active:focus, 
+  .navbar .nav li.dropdown.open > .dropdown-toggle.active:focus,
   .navbar .nav li.dropdown.open > .dropdown-toggle:hover,
-  .navbar .nav li.dropdown.open > .dropdown-toggle:focus, 
+  .navbar .nav li.dropdown.open > .dropdown-toggle:focus,
   .navbar .nav li.dropdown.open.active > .dropdown-toggle {
     @include box-shadow(none);
   }
@@ -234,7 +234,7 @@ body, .header, .site-main-menu, .main {
   .nav-collapse .dropdown-menu a {
     padding: 6px 20px;
   }
-  .nav-collapse .dropdown-menu a:hover, 
+  .nav-collapse .dropdown-menu a:hover,
   .nav-collapse .dropdown-menu a:focus {
     background: $gray-med1;
     color: $white;
@@ -352,9 +352,9 @@ body, .header, .site-main-menu, .main {
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:focus,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a.active,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a.active-trail,
-.sidebar .nav li a:hover, 
-.sidebar .nav li a:focus, 
-.sidebar .nav li a.active, 
+.sidebar .nav li a:hover,
+.sidebar .nav li a:focus,
+.sidebar .nav li a.active,
 .sidebar .nav li a.active-trail  {
   background: $gray-med1;
   color: $white;
@@ -384,18 +384,18 @@ body, .header, .site-main-menu, .main {
 .sidebar .block-menu-block .content > .menu > li.expanded {
   background: $gray-med1;
 }
-.sidebar .block-menu .content > .menu > li li a, 
+.sidebar .block-menu .content > .menu > li li a,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li li a {
   padding: 5px 20px;
   font-size: .9em;
   font-weight: 300;
   line-height: 1.3em;
 }
-.sidebar .block-menu .content > .menu > li li a:hover, 
-.sidebar .block-menu-block .menu-block-wrapper > .menu > li li a:hover, 
-.sidebar .block-menu .content > .menu > li li a:focus, 
-.sidebar .block-menu-block .menu-block-wrapper > .menu > li li a:focus, 
-.sidebar .block-menu .content > .menu > li li a.active-trail, 
+.sidebar .block-menu .content > .menu > li li a:hover,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li li a:hover,
+.sidebar .block-menu .content > .menu > li li a:focus,
+.sidebar .block-menu-block .menu-block-wrapper > .menu > li li a:focus,
+.sidebar .block-menu .content > .menu > li li a.active-trail,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li li a.active-trail {
   background: transparent;
 }
@@ -429,7 +429,7 @@ body, .header, .site-main-menu, .main {
 }
 
 /** HEADERS ****************************/
-h1 { 
+h1 {
   margin-bottom: 0.5em;
   letter-spacing: -0.02em;
 }
@@ -438,10 +438,10 @@ h2, h3, h4 {
 h2, .content h2, body.cke_show_borders h2, .well h2, #sidebar-second .well-sidebar-only h2 {
   margin-top: 1em;
 }
-h3, .content h3, body.cke_show_borders h3 { 
+h3, .content h3, body.cke_show_borders h3 {
   margin-top: 1em;
 }
-h4, .content h4, body.cke_show_borders h4 { 
+h4, .content h4, body.cke_show_borders h4 {
   margin-top: 1em;
 }
 .block h2:first-child,
@@ -456,10 +456,10 @@ h4, .content h4, body.cke_show_borders h4 {
 /** TEXT ****************************/
 
 blockquote {
-  text-align: center; 
-  background: none; 
-  border-top: 1px solid $gray-light; 
-  border-bottom: 1px solid $gray-light; 
+  text-align: center;
+  background: none;
+  border-top: 1px solid $gray-light;
+  border-bottom: 1px solid $gray-light;
   padding: 20px 60px;
   margin: 3em 0em;
 }
@@ -507,12 +507,13 @@ ul, ol {
 
 /** TABLES ****************************/
 
-th, td {
+thead th, td {
   padding: 1em;
   border: 1px solid $gray-light;
 }
-th {
+thead th {
   background: $gray-light;
+  color: #333333;
 }
 
 /** LINKS ****************************/
@@ -520,25 +521,25 @@ th {
 a {
 
 }
-a:hover, 
+a:hover,
 a:focus {
 
 }
 .main-bottom a {
   font-weight: 500;
 }
-a.btn, 
-a.btn:hover, 
+a.btn,
+a.btn:hover,
 a.btn:focus {
   padding: 0.5em 1em;
 }
 a.btn.btn-arrow-right {
   font-size: 1.5em;
   line-height: 1.2em;
-  @include box-shadow($gray-med3 2px 2px 8px); 
+  @include box-shadow($gray-med3 2px 2px 8px);
 }
-a.btn.btn-arrow-right, 
-a.btn.btn-arrow-right:hover, 
+a.btn.btn-arrow-right,
+a.btn.btn-arrow-right:hover,
 a.btn.btn-arrow-right:focus {
   background-image: url('../img/caw-btn-arrow-right.png');
   background-repeat: no-repeat;
@@ -547,9 +548,9 @@ a.btn.btn-arrow-right:focus {
   padding-right: 30px;
   text-align: left;
 }
-a.btn.btn-arrow-right:hover, 
-a.btn.btn-arrow-right:focus { 
-  @include box-shadow($gray-med3 4px 4px 8px); 
+a.btn.btn-arrow-right:hover,
+a.btn.btn-arrow-right:focus {
+  @include box-shadow($gray-med3 4px 4px 8px);
 }
 
 /** BLOCKS ****************************/
@@ -611,7 +612,7 @@ a.btn.btn-arrow-right:focus {
     padding: 0px 20px 10px 20px;
   }
   p {
-    
+
   }
 }
 .node .tile img {
@@ -956,7 +957,7 @@ a.sweetener-link:focus {
   right: 0;
   padding: 90px 75px;
 }
-.view.carousel .carousel-caption.carousel-dark h2 a, 
+.view.carousel .carousel-caption.carousel-dark h2 a,
 .view.carousel .carousel-caption.carousel-dark .slide-caption a {
   color: $white;
   font-weight: 300;
@@ -972,16 +973,16 @@ a.sweetener-link:focus {
   line-height: 1.3em;
   margin-bottom: 1em;
 }
-.view.carousel .carousel-caption.carousel-dark a.more-link, 
+.view.carousel .carousel-caption.carousel-dark a.more-link,
 .view.carousel .carousel-caption.carousel-dark .more-link a {
   color: $turq-light;
   font-size: 1.5em;
   line-height: 1.3em;
   display: block;
 }
-.view.carousel .carousel-caption.carousel-dark a.more-link:hover, 
-.view.carousel .carousel-caption.carousel-dark .more-link a:hover, 
-.view.carousel .carousel-caption.carousel-dark a.more-link:focus, 
+.view.carousel .carousel-caption.carousel-dark a.more-link:hover,
+.view.carousel .carousel-caption.carousel-dark .more-link a:hover,
+.view.carousel .carousel-caption.carousel-dark a.more-link:focus,
 .view.carousel .carousel-caption.carousel-dark .more-link a:focus {
   color: $white;
   text-decoration: underline;
@@ -1031,7 +1032,7 @@ a.sweetener-link:focus {
 .view.carousel .carousel-controls .carousel-control.left:focus {
   background-image: url("../img/caw-arrow-left-hvr.png");
 }
-.view.carousel .carousel-control, 
+.view.carousel .carousel-control,
 .view.carousel .carousel-control:focus {
   opacity: 1;
 }
@@ -1048,7 +1049,7 @@ a.sweetener-link:focus {
     margin-top: 16px;
     max-width: 48%;
   }
-  .view.carousel .carousel-block .carousel-caption.carousel-position-right, 
+  .view.carousel .carousel-block .carousel-caption.carousel-position-right,
   .view.carousel .carousel-block .carousel-caption.carousel-position-left {
     padding: 40px 35px;
   }
@@ -1074,7 +1075,7 @@ a.sweetener-link:focus {
   .view.carousel .carousel-block .carousel-caption {
     width: 60%;
   }
-  .view.carousel .carousel-block .carousel-caption.carousel-position-right, 
+  .view.carousel .carousel-block .carousel-caption.carousel-position-right,
   .view.carousel .carousel-block .carousel-caption.carousel-position-left {
     position: relative;
     float: right;
@@ -1094,7 +1095,7 @@ a.sweetener-link:focus {
   .carousel img {
     max-width: 100%;
   }
-  .view.carousel .carousel-block .carousel-caption.carousel-position-right, 
+  .view.carousel .carousel-block .carousel-caption.carousel-position-right,
   .view.carousel .carousel-block .carousel-caption.carousel-position-left {
     width: 100%;
     padding: 20px 0 0;
@@ -1106,7 +1107,7 @@ a.sweetener-link:focus {
 /** LANDING PAGES & PROGRAM/SERVICE PAGES ****************************/
 
 /* Hide the page title on subsites and program/service */
-.node-type-stanford-subsite h1#page-title, 
+.node-type-stanford-subsite h1#page-title,
 .node-type-stanford-program-service h1#page-title {
   display: none;
 }
