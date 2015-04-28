@@ -512,14 +512,14 @@ th, td {
   border: 1px solid $gray-light;
 }
 thead th {
-  color: #ffffff;
+  color: $white;
   font-weight: 600;
   text-transform: uppercase;
   padding: 1em 2em 1em 1em;
-  border-top: 1px solid #8C1515;
-  border-left: 1px solid #8C1515;
-  border-right: 1px solid #8C1515;
-  background: #8c1515;
+  border-top: 1px solid $red;
+  border-left: 1px solid $red;
+  border-right: 1px solid $red;
+  background: $red;
 }
 
 /** LINKS ****************************/
