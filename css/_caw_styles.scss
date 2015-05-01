@@ -1337,8 +1337,18 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
   background: $white;
   @include box-shadow($gray-light 1px 1px 4px);
   @include border-radius(4px);
+
+  .postcard-left > div, .postcard-right > div {
+    padding: 10px;
+    vertical-align: middle;
+  }
+  .postcard-left > div:first-child {
+    float: none;
+  }
+
   .date-stacked {
     background: $gray-light;
+    @include border-radius(4px 0 0 4px);
   }
   .date-month {
     color: $gray-dark;
