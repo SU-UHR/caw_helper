@@ -1330,6 +1330,28 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
   @include border-radius(0 0 4px 4px);
 }
 
+/** EVENTS *********************/
+
+/* events blocks */
+.view-cardinal-at-work-stanford-events-list .views-row {
+  background: $white;
+  @include box-shadow($gray-light 1px 1px 4px);
+  @include border-radius(4px);
+  .date-stacked {
+    background: $gray-light;
+  }
+  .date-month {
+    color: $gray-dark;
+  }
+  .date-day {
+    color: $gray-dark;
+  }
+  h3 a {
+    font-weight: 300;
+    color: $black;
+  }
+}
+
 
 /** STANFORD PAGES ****************************/
 .node-type-stanford-page {
