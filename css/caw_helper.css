@@ -1319,7 +1319,8 @@ a.sweetener-link:focus .sweetener-thumb:after {
 
 /* line 995, _caw_styles.scss */
 .front .main-top {
-  height: 600px;
+  height: auto;
+  /* for now */
 }
 
 /* line 999, _caw_styles.scss */
