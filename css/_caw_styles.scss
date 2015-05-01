@@ -940,9 +940,12 @@ a.sweetener-link:focus {
 .slick-dots {
   bottom: -57px;
 }
-
-
-/** IMAGES ****************************/
+.slick-carousel .slick-prev, .slick-carousel .slick-next {
+  background: transparent;
+}
+.slick-prev::before, .slick-next::before {
+  color: $gray-med3;
+}
 
 /** CAROUSEL ****************************/
 
@@ -1115,7 +1118,6 @@ a.sweetener-link:focus {
   }
 }
 
-/** HOMEPAGE ****************************/
 
 /** LANDING PAGES & PROGRAM/SERVICE PAGES ****************************/
 
