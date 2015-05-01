@@ -984,12 +984,16 @@ a.sweetener-link:focus {
 
 /* Subsite carousels */
 
+.front .main-top,
 .node-type-stanford-subsite .main-top,
 .page-node-233 .main-top {
   background: $gray-dark;
   height: 370px;
   margin-bottom: 70px;
-  margin-top: 10px;
+  margin-top: 40px;
+}
+.front .main-top {
+  height: 600px;
 }
 
 .carousel {
