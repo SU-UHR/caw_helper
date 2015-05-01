@@ -1782,7 +1782,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 /** EVENTS *********************/
 /* events blocks */
 /* line 1336, _caw_styles.scss */
-.view-cardinal-at-work-stanford-events-list .views-row {
+.block-views .view-cardinal-at-work-stanford-events-list .views-row {
   background: white;
   -webkit-box-shadow: #e2e2e2 1px 1px 4px;
   -moz-box-shadow: #e2e2e2 1px 1px 4px;
@@ -1794,16 +1794,16 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   border-radius: 4px;
 }
 /* line 1341, _caw_styles.scss */
-.view-cardinal-at-work-stanford-events-list .views-row .postcard-left > div, .view-cardinal-at-work-stanford-events-list .views-row .postcard-right > div {
+.block-views .view-cardinal-at-work-stanford-events-list .views-row .postcard-left > div {
   padding: 10px;
   vertical-align: middle;
 }
 /* line 1345, _caw_styles.scss */
-.view-cardinal-at-work-stanford-events-list .views-row .postcard-left > div:first-child {
+.block-views .view-cardinal-at-work-stanford-events-list .views-row .postcard-left > div:first-child {
   float: none;
 }
 /* line 1349, _caw_styles.scss */
-.view-cardinal-at-work-stanford-events-list .views-row .date-stacked {
+.block-views .view-cardinal-at-work-stanford-events-list .views-row .date-stacked {
   background: #e2e2e2;
   -webkit-border-radius: 4px 0 0 4px;
   -moz-border-radius: 4px 0 0 4px;
@@ -1812,27 +1812,29 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   border-radius: 4px 0 0 4px;
 }
 /* line 1353, _caw_styles.scss */
-.view-cardinal-at-work-stanford-events-list .views-row .date-month {
+.block-views .view-cardinal-at-work-stanford-events-list .views-row .date-month {
   color: #3d3e42;
+  padding-top: 5px;
 }
-/* line 1356, _caw_styles.scss */
-.view-cardinal-at-work-stanford-events-list .views-row .date-day {
+/* line 1357, _caw_styles.scss */
+.block-views .view-cardinal-at-work-stanford-events-list .views-row .date-day {
   color: #3d3e42;
+  padding-bottom: 5px;
 }
-/* line 1359, _caw_styles.scss */
-.view-cardinal-at-work-stanford-events-list .views-row h3 a {
+/* line 1361, _caw_styles.scss */
+.block-views .view-cardinal-at-work-stanford-events-list .views-row h3 a {
   font-weight: 300;
   color: black;
 }
 
 /** STANFORD PAGES ****************************/
-/* line 1368, _caw_styles.scss */
+/* line 1370, _caw_styles.scss */
 .node-type-stanford-page .postcard-image img {
   margin-top: -30px;
   margin-bottom: 30px;
 }
 
-/* line 1373, _caw_styles.scss */
+/* line 1375, _caw_styles.scss */
 .node img {
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);

@@ -1333,12 +1333,12 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
 /** EVENTS *********************/
 
 /* events blocks */
-.view-cardinal-at-work-stanford-events-list .views-row {
+.block-views .view-cardinal-at-work-stanford-events-list .views-row {
   background: $white;
   @include box-shadow($gray-light 1px 1px 4px);
   @include border-radius(4px);
 
-  .postcard-left > div, .postcard-right > div {
+  .postcard-left > div {
     padding: 10px;
     vertical-align: middle;
   }
@@ -1352,9 +1352,11 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
   }
   .date-month {
     color: $gray-dark;
+    padding-top: 5px;
   }
   .date-day {
     color: $gray-dark;
+    padding-bottom: 5px
   }
   h3 a {
     font-weight: 300;
