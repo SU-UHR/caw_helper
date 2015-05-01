@@ -990,7 +990,9 @@ a.sweetener-link:focus {
 }
 
 .carousel {
-  min-height: 415px;
+  margin-bottom: 0;
+}
+.carousel .views-row {
   margin-bottom: 0;
 }
 .carousel-inner {
@@ -1042,7 +1044,7 @@ a.sweetener-link:focus {
 }
 
 .carousel .view-footer {
-  bottom: 153px;
+  bottom: 130px;
   position: absolute;
   right: 304px;
   width: 220px;
