@@ -1270,12 +1270,12 @@ a.sweetener-link:focus .sweetener-thumb:after {
 
 /* line 954, _caw_styles.scss */
 .slick-prev {
-  left: 330px;
+  left: 30%;
 }
 
 /* line 957, _caw_styles.scss */
 .slick-next {
-  right: 330px;
+  right: 30%;
 }
 
 /** CAROUSEL ****************************/
