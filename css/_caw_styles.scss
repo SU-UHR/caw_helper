@@ -996,7 +996,8 @@ a.sweetener-link:focus {
   margin-bottom: 0;
 }
 .carousel-inner {
-  top: -40px;
+  position: inherit;
+  margin-top: -40px;
 }
 .carousel img {
   @include box-shadow(1px 1px 6px rgba(0, 0, 0, 0.25));
