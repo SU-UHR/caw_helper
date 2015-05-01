@@ -939,6 +939,7 @@ a.sweetener-link:focus {
 }
 .slick-dots {
   bottom: -60px;
+  margin-left: 0;
 }
 .slick-carousel .slick-prev, .slick-carousel .slick-next {
   background: transparent;
@@ -951,10 +952,10 @@ a.sweetener-link:focus {
   bottom: -35px;
 }
 .slick-prev {
-  left: 320px;
+  left: 330px;
 }
 .slick-next {
-  right: 320px;
+  right: 330px;
 }
 
 /** CAROUSEL ****************************/
