@@ -925,6 +925,19 @@ a.sweetener-link:focus {
   float: left;
   margin: 2px 7px 0 0;
   cursor: pointer;
+  display: none;
+}
+.isotope-options label .field-content::before {
+  color: white;
+  content: "▢";
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 700;
+  padding: 0 10px 0 6px;
+}
+.isotope-options label.checked .field-content::before {
+  content: "✓";
+  font-size: 1.3em;
 }
 
 /* sweeteners carousel */
