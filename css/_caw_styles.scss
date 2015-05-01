@@ -912,8 +912,14 @@ a.sweetener-link:focus {
   background: $white;
   @include border-radius(4px);
   padding: 0.5em;
-  cursor: auto;
 }
+.isotope-options label:hover,
+.isotope-options label:focus,
+.isotope-options label.checked {
+  background: $red;
+  color: $white;
+}
+
 .isotope-options input {
   display: inline-block;
   float: left;
