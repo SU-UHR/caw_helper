@@ -507,19 +507,26 @@ ul, ol {
 
 /** TABLES ****************************/
 
+table {
+  width: 100%;
+}
 th, td {
-  padding: 1em;
+  padding: 0.5em;
   border: 1px solid $gray-light;
+  background: $white;
 }
 thead th {
-  color: #ffffff;
+  color: $white;
   font-weight: 600;
   text-transform: uppercase;
-  padding: 1em 2em 1em 1em;
-  border-top: 1px solid #8C1515;
-  border-left: 1px solid #8C1515;
-  border-right: 1px solid #8C1515;
-  background: #8c1515;
+  padding: 0.5em;
+  border-top: 1px solid $red;
+  border-left: 1px solid $red;
+  border-right: 1px solid $gray-light;
+  background: $red;
+}
+thead th:last-child {
+  border-right-color: $red;
 }
 
 /** LINKS ****************************/
@@ -905,13 +912,35 @@ a.sweetener-link:focus {
   background: $white;
   @include border-radius(4px);
   padding: 0.5em;
-  cursor: auto;
+  -webkit-transition: background 0.3s ease;
+  -moz-transition: background 0.3s ease;
+  -o-transition: background 0.3s ease;
+  transition: background 0.3s ease;
 }
+.isotope-options label:hover,
+.isotope-options label:focus,
+.isotope-options label.checked {
+  background: $turq-dark;
+  color: $white;
+}
+
 .isotope-options input {
   display: inline-block;
   float: left;
   margin: 2px 7px 0 0;
   cursor: pointer;
+  display: none;
+}
+.isotope-options label .field-content::before {
+  content: "▢";
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 700;
+  padding: 0 10px 0 6px;
+}
+.isotope-options label.checked .field-content::before {
+  content: "✓";
+  font-size: 1.3em;
 }
 
 /* sweeteners carousel */
@@ -931,23 +960,51 @@ a.sweetener-link:focus {
   background: $turq-dark;
 }
 .slick-dots {
-  bottom: -57px;
+  bottom: -60px;
+  margin-left: 0;
 }
-
-
-/** IMAGES ****************************/
+.slick-carousel .slick-prev, .slick-carousel .slick-next {
+  background: transparent;
+}
+.slick-prev::before, .slick-next::before {
+  color: $gray-med3;
+}
+.slick-prev, .slick-next {
+  top: auto;
+  bottom: -35px;
+}
+.slick-prev {
+  left: 30%;
+}
+.slick-next {
+  right: 30%;
+}
 
 /** CAROUSEL ****************************/
 
 /* Subsite carousels */
 
-.node-type-stanford-subsite .main-top {
+.front .main-top,
+.node-type-stanford-subsite .main-top,
+.page-node-233 .main-top {
   background: $gray-dark;
   height: 370px;
+  margin-bottom: 70px;
+  margin-top: 40px;
+}
+.front .main-top {
+  height: auto; /* for now */
 }
 
+.carousel {
+  margin-bottom: 0;
+}
+.carousel .views-row {
+  margin-bottom: 0;
+}
 .carousel-inner {
-  top: -40px;
+  position: inherit;
+  margin-top: -40px;
 }
 .carousel img {
   @include box-shadow(1px 1px 6px rgba(0, 0, 0, 0.25));
@@ -995,7 +1052,7 @@ a.sweetener-link:focus {
 }
 
 .carousel .view-footer {
-  bottom: 153px;
+  bottom: 130px;
   position: absolute;
   right: 304px;
   width: 220px;
@@ -1108,7 +1165,6 @@ a.sweetener-link:focus {
   }
 }
 
-/** HOMEPAGE ****************************/
 
 /** LANDING PAGES & PROGRAM/SERVICE PAGES ****************************/
 
@@ -1304,6 +1360,56 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
       margin-left: 30px;
       margin-right: 30px;
     }
+  }
+}
+
+/** FAQ **********************/
+.view-stanford-show-hide-faq-hierarchy .views-row {
+  margin-bottom: 0.5em;
+  @include box-shadow($gray-light 1px 1px 4px);
+  @include border-radius(4px);
+}
+.view-stanford-show-hide-faq-hierarchy .views-row > div:first-child a.collapsed {
+  @include border-radius(4px);
+}
+.view-stanford-show-hide-faq-hierarchy .views-row > div:first-child a {
+  @include border-radius(4px 4px 0 0);
+}
+.view-stanford-show-hide-faq-hierarchy .views-row div.views-field-body {
+  @include border-radius(0 0 4px 4px);
+}
+
+/** EVENTS *********************/
+
+/* events blocks */
+.block-views .view-cardinal-at-work-stanford-events-list .views-row {
+  background: $white;
+  @include box-shadow($gray-light 1px 1px 4px);
+  @include border-radius(4px);
+
+  .postcard-left > div {
+    padding: 10px;
+    vertical-align: middle;
+  }
+  .postcard-left > div:first-child {
+    float: none;
+  }
+
+  .date-stacked {
+    background: $gray-light;
+    @include border-radius(4px 0 0 4px);
+  }
+  .date-month {
+    color: $gray-dark;
+    padding-top: 5px;
+  }
+  .date-day {
+    color: $gray-dark;
+    padding-bottom: 5px
+  }
+  h3 a {
+    font-weight: 300;
+    color: $black;
   }
 }
 
