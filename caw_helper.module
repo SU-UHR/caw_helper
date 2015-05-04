@@ -103,6 +103,11 @@ function caw_helper_views_api() {
  */
 function caw_helper_preprocess_page(&$vars) {
 
+  // Don't hide the title on node/edit pages. le sigh.
+  if (path_is_admin(current_path())) {
+    return;
+  }
+
   // If the landing page option to hide title is set to true, hide it.
   if (isset($vars['node']) && $vars['node']->type == "stanford_landing_page") {
     $node = $vars['node'];
