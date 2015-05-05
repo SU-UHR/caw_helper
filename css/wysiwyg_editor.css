@@ -1,0 +1,28 @@
+/** WYSIWYG STYLE FIXES ***********************/
+/* line 3, wysiwyg_editor.scss */
+.cke_skin_kama .cke_styles_panel {
+  width: 220px !important;
+}
+
+/* line 10, wysiwyg_editor.scss */
+.cke_panel_frame .highlight-block-right,
+.cke_panel_frame .highlight-block-left {
+  margin: 0px;
+  padding: 0px;
+  border: 0;
+  float: none;
+  width: 100%;
+}
+/* line 18, wysiwyg_editor.scss */
+.cke_panel_frame p.float-left,
+.cke_panel_frame p.float-right {
+  float: none;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+/* line 26, wysiwyg_editor.scss */
+.cke_panel_frame p.float-right,
+.cke_panel_frame .highlight-block-right {
+  text-align: right;
+}

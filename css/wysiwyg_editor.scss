@@ -1,0 +1,29 @@
+/** WYSIWYG STYLE FIXES ***********************/
+
+.cke_skin_kama .cke_styles_panel {
+  width: 220px !important;
+}
+
+.cke_panel_frame {
+
+  .highlight-block-right,
+  .highlight-block-left {
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+    float: none;
+    width: 100%;
+  }
+  p.float-left,
+  p.float-right {
+    float: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+
+  p.float-right,
+  .highlight-block-right {
+    text-align: right;
+  }
+}
