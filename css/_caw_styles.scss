@@ -275,6 +275,20 @@ body, .header, .site-main-menu, .main {
 	}
 }
 
+#block-menu-block-7,
+#block-menu-block-1 {
+  max-width: 80%;
+  div.contextual-links-wrapper {
+    right: 20%;
+  }
+  @media (max-width: 767px) {
+    max-width: none;
+    div.contextual-links-wrapper {
+      right: 5px;
+    }
+  }
+}
+
 /* subsite resources menus */
 .region-navigation .block.menu-resources {
   position: absolute;
