@@ -1141,7 +1141,8 @@ a.sweetener-link:focus {
     overflow: visible;
   }
   .carousel .view-footer {
-    bottom: -25px;
+    bottom: -10px;
+    right: 220px;
   }
   .carousel img {
     max-width: 40%;
@@ -1158,7 +1159,7 @@ a.sweetener-link:focus {
 }
 @media (max-width: 767px) {
   .carousel .view-footer {
-    bottom: 0;
+    bottom: -15px;
     left: auto;
     position: relative;
     right: auto;
