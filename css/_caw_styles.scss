@@ -1061,7 +1061,7 @@ a.sweetener-link:focus {
 .carousel .view-footer {
   bottom: 95px;
   position: absolute;
-  right: 304px;
+  right: 315px;
   width: 220px;
 }
 .view.carousel .carousel-indicators li {
@@ -1117,7 +1117,7 @@ a.sweetener-link:focus {
 
 @media (max-width: 1199px) {
   .carousel-inner {
-    top: 0px;
+    margin-top: 0px;
   }
   .carousel img {
     margin-top: 16px;

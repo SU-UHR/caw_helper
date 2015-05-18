@@ -1420,7 +1420,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
 .carousel .view-footer {
   bottom: 95px;
   position: absolute;
-  right: 304px;
+  right: 315px;
   width: 220px;
 }
 
@@ -1497,7 +1497,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
 @media (max-width: 1199px) {
   /* line 1119, _caw_styles.scss */
   .carousel-inner {
-    top: 0px;
+    margin-top: 0px;
   }
 
   /* line 1122, _caw_styles.scss */
