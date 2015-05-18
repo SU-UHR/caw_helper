@@ -1110,6 +1110,10 @@ a.sweetener-link:focus {
 .carousel .edit-link a {
   background: $white;
 }
+.carousel .edit-link a:hover,
+.carousel .edit-link a:focus {
+  background: $gray-dark;
+}
 
 @media (max-width: 1199px) {
   .carousel-inner {
