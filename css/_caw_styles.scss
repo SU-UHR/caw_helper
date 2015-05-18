@@ -247,11 +247,13 @@ body, .header, .site-main-menu, .main {
 /* Turquoise button in navbar styles */
 #block-bean-my-benefits-button,
 #block-bean-search-jobs-button {
-  float: right;
-  max-width: 20%;
+  position: absolute;
+  right: 0;
+  margin-top: -10px;
   @media (max-width: 767px) {
-    float: none;
-    max-width: none;
+    position: inherit;
+    right: auto;
+    margin-top: 0;
   }
 }
 #block-menu-block-7 {
