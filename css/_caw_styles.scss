@@ -998,6 +998,9 @@ a.sweetener-link:focus {
   height: 370px;
   margin-bottom: 70px;
   margin-top: 40px;
+  @media (max-width: 1199px) {
+    margin-top: 0;
+  }
 }
 .front .main-top {
   height: auto; /* for now */
