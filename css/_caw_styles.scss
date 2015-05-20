@@ -576,6 +576,17 @@ a.btn.btn-arrow-right:focus {
   @include box-shadow($gray-med3 4px 4px 8px);
 }
 
+/** IMAGES ****************************/
+.border-simple-nowidth {
+  background-color: transparent;
+  margin-bottom: 0;
+  padding: 0;
+}
+.main .border-shadow img {
+  @include border-radius(4px);
+  @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.3));
+}
+
 /** BLOCKS ****************************/
 
 .block-bean {
