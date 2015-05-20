@@ -979,6 +979,16 @@ a.sweetener-link:focus {
 }
 .slick-prev::before, .slick-next::before {
   color: $gray-med3;
+  content: "";
+  display: block;
+  height: 19px;
+  width: 15px;
+}
+.slick-prev::before {
+  background-image: url("../img/caw-arrow-left.png");
+}
+.slick-next::before {
+  background-image: url("../img/caw-arrow-right.png");
 }
 .slick-prev, .slick-next {
   top: auto;
