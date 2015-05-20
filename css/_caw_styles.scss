@@ -1275,6 +1275,14 @@ a.sweetener-link:focus {
   display: none;
 }
 
+/* summary styles on program/service subtitle */
+.field-name-field-s-program-service-subtitle {
+    font-size: 1.3em;
+    margin-bottom: 15px;
+    font-weight: 300;
+    line-height: 1.4em;
+}
+
 /* make things line up at the top of a node with the sidebar */
 .row-fluid.content-head {
   margin-bottom: 0;
