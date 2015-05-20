@@ -1542,6 +1542,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
 }
 .node img {
   @include box-shadow(1px 1px 6px rgba(0, 0, 0, 0.25));
+  @include border-radius(4px);
 }
 
 /** IE STYLES ****************************/
