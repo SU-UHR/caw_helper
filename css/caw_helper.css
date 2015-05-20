@@ -2053,26 +2053,55 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   color: black;
 }
 
+/** NEWS *********************************/
+/* news node styles */
+/* line 1529, _caw_styles.scss */
+.node-type-stanford-news-item .field.field-name-field-s-news-categories.field-type-taxonomy-term-reference.field-label-above {
+  font-size: 16px;
+  text-transform: none;
+  line-height: 1.4em;
+  margin-top: 0;
+}
+/* line 1535, _caw_styles.scss */
+.node-type-stanford-news-item .field.field-name-field-s-news-categories.field-type-taxonomy-term-reference.field-label-above .field-label {
+  font-size: 1.3em;
+  letter-spacing: normal;
+  line-height: 1.3em;
+  margin-bottom: 0.5em;
+}
+/* line 1541, _caw_styles.scss */
+.node-type-stanford-news-item .field.field-name-field-s-news-categories.field-type-taxonomy-term-reference.field-label-above .field-items {
+  font-weight: 300;
+}
+/* line 1544, _caw_styles.scss */
+.node-type-stanford-news-item .field.field-name-field-s-image-info {
+  margin-bottom: 30px;
+}
+/* line 1547, _caw_styles.scss */
+.node-type-stanford-news-item .caption p {
+  margin-bottom: 0;
+}
+
 /** CAREER CELEBRATIONS ***********************/
 /* career celebrations node styles */
-/* line 1528, _caw_styles.scss */
+/* line 1555, _caw_styles.scss */
 .node-type-stanford-career-celebrations h1 {
   margin-bottom: 0.1em;
   margin-top: 0;
 }
 
-/* line 1532, _caw_styles.scss */
+/* line 1559, _caw_styles.scss */
 .page-node.node-type-stanford-career-celebrations .content-body .field.field-name-field-s-celebration-job-title {
   margin-bottom: 0.1em;
 }
 
 /** STANFORD PAGES ****************************/
-/* line 1539, _caw_styles.scss */
+/* line 1566, _caw_styles.scss */
 .node-type-stanford-page .postcard-image img {
   margin-bottom: 30px;
 }
 
-/* line 1543, _caw_styles.scss */
+/* line 1570, _caw_styles.scss */
 .node img {
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);

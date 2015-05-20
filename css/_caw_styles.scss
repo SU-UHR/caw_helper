@@ -1522,6 +1522,33 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
   }
 }
 
+/** NEWS *********************************/
+
+/* news node styles */
+.node-type-stanford-news-item {
+  .field.field-name-field-s-news-categories.field-type-taxonomy-term-reference.field-label-above {
+    font-size: 16px;
+    text-transform: none;
+    line-height: 1.4em;
+    margin-top: 0;
+  }
+  .field.field-name-field-s-news-categories.field-type-taxonomy-term-reference.field-label-above .field-label {
+    font-size: 1.3em;
+    letter-spacing: normal;
+    line-height: 1.3em;
+    margin-bottom: 0.5em;
+  }
+  .field.field-name-field-s-news-categories.field-type-taxonomy-term-reference.field-label-above .field-items {
+    font-weight: 300;
+  }
+  .field.field-name-field-s-image-info {
+    margin-bottom: 30px;
+  }
+  .caption p {
+    margin-bottom: 0;
+  }
+}
+
 /** CAREER CELEBRATIONS ***********************/
 
 /* career celebrations node styles */
