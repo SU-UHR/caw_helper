@@ -563,7 +563,10 @@ a.btn.btn-arrow-right {
 }
 a.btn.btn-arrow-right,
 a.btn.btn-arrow-right:hover,
-a.btn.btn-arrow-right:focus {
+a.btn.btn-arrow-right:focus,
+.field-name-field-s-resource-download a,
+.field-name-field-s-resource-download a:hover,
+.field-name-field-s-resource-download a:focus {
   background-image: url('../img/caw-btn-arrow-right.png');
   background-repeat: no-repeat;
   background-position: 93% center;
@@ -573,6 +576,24 @@ a.btn.btn-arrow-right:focus {
 }
 a.btn.btn-arrow-right:hover,
 a.btn.btn-arrow-right:focus {
+  @include box-shadow($gray-med3 4px 4px 8px);
+}
+
+/* resources node download button */
+.field-name-field-s-resource-download a {
+  font-size: 1.25em;
+  line-height: 1.2em;
+  @include box-shadow($gray-med3 2px 2px 8px);
+  display: inline-block;
+  font-weight: 400;
+  background: $red;
+  color: $white;
+  padding: 0.5em 1em;
+}
+.field-name-field-s-resource-download a:hover,
+.field-name-field-s-resource-download a:focus {
+  background: #333333;
+  text-decoration: none;
   @include box-shadow($gray-med3 4px 4px 8px);
 }
 
