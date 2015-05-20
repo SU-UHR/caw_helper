@@ -1460,6 +1460,17 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
   }
 }
 
+/** CAREER CELEBRATIONS ***********************/
+
+/* career celebrations node styles */
+.node-type-stanford-career-celebrations h1 {
+    margin-bottom: 0.1em;
+    margin-top: 0;
+}
+.page-node.node-type-stanford-career-celebrations .content-body .field.field-name-field-s-celebration-job-title {
+    margin-bottom: 0.1em;
+}
+
 
 /** STANFORD PAGES ****************************/
 .node-type-stanford-page {

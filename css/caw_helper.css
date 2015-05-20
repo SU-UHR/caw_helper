@@ -1973,13 +1973,26 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   color: black;
 }
 
-/** STANFORD PAGES ****************************/
+/** CAREER CELEBRATIONS ***********************/
+/* career celebrations node styles */
 /* line 1466, _caw_styles.scss */
+.node-type-stanford-career-celebrations h1 {
+  margin-bottom: 0.1em;
+  margin-top: 0;
+}
+
+/* line 1470, _caw_styles.scss */
+.page-node.node-type-stanford-career-celebrations .content-body .field.field-name-field-s-celebration-job-title {
+  margin-bottom: 0.1em;
+}
+
+/** STANFORD PAGES ****************************/
+/* line 1477, _caw_styles.scss */
 .node-type-stanford-page .postcard-image img {
   margin-bottom: 30px;
 }
 
-/* line 1470, _caw_styles.scss */
+/* line 1481, _caw_styles.scss */
 .node img {
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
