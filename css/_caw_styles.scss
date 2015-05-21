@@ -619,6 +619,11 @@ a.btn.btn-arrow-right:focus {
   @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.3));
 }
 
+/** IFRAMES ***************************/
+iframe { 
+  border: 0; 
+}
+
 /** BLOCKS ****************************/
 
 .block-bean {
