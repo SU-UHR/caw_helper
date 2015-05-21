@@ -1517,6 +1517,11 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
     @include background-image(linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)));
   }
 }
+@media (max-width: 767px) {
+  .program-banner-text {
+    width: 100%;
+  }
+}
 @media (max-width: 380px) {
   .program-banner-text {
     h1 {
