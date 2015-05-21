@@ -2090,55 +2090,86 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   color: black;
 }
 
+/* event node styles */
+/* line 1556, _caw_styles.scss */
+.node-type-stanford-event .field.field-name-field-stanford-event-datetime.field-type-datetime.field-label-hidden {
+  margin-bottom: 0.25em;
+}
+
+/* line 1559, _caw_styles.scss */
+.node-type-stanford-event .field.field-name-field-stanford-event-location.field-type-text-long.field-label-hidden {
+  margin-bottom: 0.25em;
+}
+
+/* line 1562, _caw_styles.scss */
+.node-type-stanford-event .field.field-name-field-s-event-fee.field-type-text.field-label-hidden {
+  margin-bottom: 1em;
+}
+
+/* line 1565, _caw_styles.scss */
+.group-course-styles {
+  margin-top: 1em;
+}
+
+/* line 1573, _caw_styles.scss */
+.group-event-details .field.field-name-field-stanford-event-sponsor.field-type-text.field-label-above,
+.group-event-details .field.field-name-field-stanford-event-email.field-type-text.field-label-above,
+.group-event-details .field.field-name-field-stanford-event-phone.field-type-text.field-label-above,
+.group-event-details .field.field-name-field-stanford-event-url.field-type-link-field.field-label-above,
+.group-event-details .field.field-name-field-s-event-type.field-type-taxonomy-term-reference.field-label-above,
+.group-event-details .field.field-name-field-event-categories.field-type-taxonomy-term-reference.field-label-above {
+  margin-bottom: 1em;
+}
+
 /** NEWS *********************************/
 /* news node styles */
-/* line 1558, _caw_styles.scss */
+/* line 1582, _caw_styles.scss */
 .node-type-stanford-news-item .field.field-name-field-s-news-categories.field-type-taxonomy-term-reference.field-label-above {
   font-size: 16px;
   text-transform: none;
   line-height: 1.4em;
   margin-top: 0;
 }
-/* line 1564, _caw_styles.scss */
+/* line 1588, _caw_styles.scss */
 .node-type-stanford-news-item .field.field-name-field-s-news-categories.field-type-taxonomy-term-reference.field-label-above .field-label {
   font-size: 1.3em;
   letter-spacing: normal;
   line-height: 1.3em;
   margin-bottom: 0.5em;
 }
-/* line 1570, _caw_styles.scss */
+/* line 1594, _caw_styles.scss */
 .node-type-stanford-news-item .field.field-name-field-s-news-categories.field-type-taxonomy-term-reference.field-label-above .field-items {
   font-weight: 300;
 }
-/* line 1573, _caw_styles.scss */
+/* line 1597, _caw_styles.scss */
 .node-type-stanford-news-item .content-body .field.field-name-field-s-image-info {
   margin-bottom: 30px;
 }
-/* line 1576, _caw_styles.scss */
+/* line 1600, _caw_styles.scss */
 .node-type-stanford-news-item .caption p {
   margin-bottom: 0;
 }
 
 /** CAREER CELEBRATIONS ***********************/
 /* career celebrations node styles */
-/* line 1584, _caw_styles.scss */
+/* line 1608, _caw_styles.scss */
 .node-type-stanford-career-celebrations h1 {
   margin-bottom: 0.1em;
   margin-top: 0;
 }
 
-/* line 1588, _caw_styles.scss */
+/* line 1612, _caw_styles.scss */
 .page-node.node-type-stanford-career-celebrations .content-body .field.field-name-field-s-celebration-job-title {
   margin-bottom: 0.1em;
 }
 
 /** STANFORD PAGES ****************************/
-/* line 1595, _caw_styles.scss */
+/* line 1619, _caw_styles.scss */
 .node-type-stanford-page .postcard-image img {
   margin-bottom: 30px;
 }
 
-/* line 1599, _caw_styles.scss */
+/* line 1623, _caw_styles.scss */
 .node img {
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);

@@ -1551,6 +1551,30 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
   }
 }
 
+/* event node styles */
+
+.node-type-stanford-event .field.field-name-field-stanford-event-datetime.field-type-datetime.field-label-hidden {
+    margin-bottom: 0.25em;
+}
+.node-type-stanford-event .field.field-name-field-stanford-event-location.field-type-text-long.field-label-hidden {
+    margin-bottom: 0.25em;
+}
+.node-type-stanford-event .field.field-name-field-s-event-fee.field-type-text.field-label-hidden {
+    margin-bottom: 1em;
+}
+.group-course-styles {
+    margin-top: 1em;
+}
+.group-event-details .field.field-name-field-stanford-event-sponsor.field-type-text.field-label-above,
+.group-event-details .field.field-name-field-stanford-event-email.field-type-text.field-label-above,
+.group-event-details .field.field-name-field-stanford-event-phone.field-type-text.field-label-above,
+.group-event-details .field.field-name-field-stanford-event-url.field-type-link-field.field-label-above,
+.group-event-details .field.field-name-field-s-event-type.field-type-taxonomy-term-reference.field-label-above,
+.group-event-details .field.field-name-field-event-categories.field-type-taxonomy-term-reference.field-label-above {
+    margin-bottom: 1em;
+}
+
+
 /** NEWS *********************************/
 
 /* news node styles */
