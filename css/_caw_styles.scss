@@ -605,7 +605,8 @@ a.btn.btn-arrow-right:focus {
 }
 
 /** IMAGES ****************************/
-.main .border-simple-nowidth img {
+.main .border-simple-nowidth img,
+.main .border-simple img {
   background-color: transparent;
   margin-bottom: 0;
   padding: 0;
