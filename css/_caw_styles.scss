@@ -893,6 +893,9 @@ a.btn.btn-arrow-right:focus {
 body.front .main-top {
   margin-top: 90px;
   height: 655px;
+  @media (max-width: 767px) {
+    height: auto;
+  }
 }
 
 /** SWEETENERS ****************************/
