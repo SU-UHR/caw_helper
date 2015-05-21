@@ -499,6 +499,27 @@ hr {
   border-top: 0;
 }
 
+/* Highlight blocks within the WYSIWYG */
+.highlight-block-right {
+  float: right;
+  width: 16em;
+  padding: 0em 0em 0em 1.5em;
+  margin: 1em 0em 1em 1.5em;
+  border-left: solid 1px #CCC;  
+}
+.highlight-block-left { 
+  float: left;
+  width: 16em;
+  padding: 0em 1.5em 0em 0em;
+  margin: 1em 1.5em 0em 0em;
+  border-right: solid 1px #CCC;
+}
+.highlight-block-right img,
+.highlight-block-left img {
+  height: auto;
+  width: 100%;
+}
+
 /** NEW TO CAW ****************************/
 
 .red-text {
