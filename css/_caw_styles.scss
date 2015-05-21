@@ -728,7 +728,7 @@ iframe {
 /* callout blocks */
 .callout-block {
   text-align: center;
-  border-right: 1px solid $gray-light;
+  border-right: 1px solid $gray-light1;
   padding: 0 15px 0 0;
   .more-link a {
     margin-top: 0;
@@ -753,7 +753,7 @@ iframe {
   .block-bean:nth-child(5) .callout-block,
   .block-bean:nth-child(7) .callout-block,
   .block-bean:nth-child(9) .callout-block {
-    border-right: 1px solid $gray-light;
+    border-right: 1px solid $gray-light1;
     padding: 0 15px 0 0;
   }
 }
@@ -769,7 +769,7 @@ iframe {
   .block-bean .callout-block {
     margin-top: 1em;
     padding: 1.5em 0 0 0;
-    border-top: 1px solid $gray-light;
+    border-top: 1px solid $gray-light1;
   }
 }
 
@@ -781,7 +781,7 @@ iframe {
   width: 31.333%;
   max-width: 370px;
   margin-bottom: 1.5em;
-  border-right: 1px solid $gray-light;
+  border-right: 1px solid $gray-light1;
   padding: 0 15px 0 0;
   @include box-sizing(border-box);
 }
@@ -816,7 +816,7 @@ iframe {
     border-right: 0;
   }
   .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item.even {
-    border-right: 1px solid $gray-light;
+    border-right: 1px solid $gray-light1;
     padding: 0 15px 0 0;
   }
 }
@@ -832,7 +832,7 @@ iframe {
     border-right: 0;
     margin-top: 1em;
     padding: 1.5em 0 0 0;
-    border-top: 1px solid $gray-light;
+    border-top: 1px solid $gray-light1;
   }
 }
 
@@ -841,7 +841,7 @@ iframe {
 .sidebar .block {
   margin-top: 1em;
   padding: 1.5em 0 0 0;
-  border-top: 1px solid $gray-light;
+  border-top: 1px solid $gray-light1;
   h2 {
     font-size: 1.3em;
     font-weight: 600;

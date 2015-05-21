@@ -1,6 +1,7 @@
 /* light text on dark */
 /* page bkg */
 /* events, wells */
+/* callout separator */
 /* main nav hover */
 /* hover menu */
 /* dots on dark */
@@ -960,7 +961,7 @@ iframe {
 /* line 729, _caw_styles.scss */
 .callout-block {
   text-align: center;
-  border-right: 1px solid #eeeeee;
+  border-right: 1px solid #e0e0e0;
   padding: 0 15px 0 0;
 }
 /* line 733, _caw_styles.scss */
@@ -994,7 +995,7 @@ iframe {
   .block-bean:nth-child(5) .callout-block,
   .block-bean:nth-child(7) .callout-block,
   .block-bean:nth-child(9) .callout-block {
-    border-right: 1px solid #eeeeee;
+    border-right: 1px solid #e0e0e0;
     padding: 0 15px 0 0;
   }
 }
@@ -1013,7 +1014,7 @@ iframe {
   .block-bean .callout-block {
     margin-top: 1em;
     padding: 1.5em 0 0 0;
-    border-top: 1px solid #eeeeee;
+    border-top: 1px solid #e0e0e0;
   }
 }
 /* Responsive grids for landing page and program page callout blocks */
@@ -1025,7 +1026,7 @@ iframe {
   width: 31.333%;
   max-width: 370px;
   margin-bottom: 1.5em;
-  border-right: 1px solid #eeeeee;
+  border-right: 1px solid #e0e0e0;
   padding: 0 15px 0 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1074,7 +1075,7 @@ iframe {
 
   /* line 818, _caw_styles.scss */
   .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item.even {
-    border-right: 1px solid #eeeeee;
+    border-right: 1px solid #e0e0e0;
     padding: 0 15px 0 0;
   }
 }
@@ -1091,7 +1092,7 @@ iframe {
     border-right: 0;
     margin-top: 1em;
     padding: 1.5em 0 0 0;
-    border-top: 1px solid #eeeeee;
+    border-top: 1px solid #e0e0e0;
   }
 }
 /* sidebar block styles */
@@ -1099,7 +1100,7 @@ iframe {
 .sidebar .block {
   margin-top: 1em;
   padding: 1.5em 0 0 0;
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #e0e0e0;
 }
 /* line 845, _caw_styles.scss */
 .sidebar .block h2 {
