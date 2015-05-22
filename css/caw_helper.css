@@ -1211,9 +1211,9 @@ iframe {
 /* line 924, _caw_styles.scss */
 body.front .main-top {
   margin-top: 90px;
-  height: 758px;
+  height: 648px;
 }
-@media screen and (min-width: 980px) and (max-width: 1999px) {
+@media screen and (min-width: 980px) and (max-width: 1199px) {
   /* line 924, _caw_styles.scss */
   body.front .main-top {
     height: auto;
