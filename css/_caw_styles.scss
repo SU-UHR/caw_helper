@@ -505,9 +505,9 @@ hr {
   width: 16em;
   padding: 0em 0em 0em 1.5em;
   margin: 1em 0em 1em 1.5em;
-  border-left: solid 1px #CCC;  
+  border-left: solid 1px #CCC;
 }
-.highlight-block-left { 
+.highlight-block-left {
   float: left;
   width: 16em;
   padding: 0em 1.5em 0em 0em;
@@ -641,8 +641,8 @@ a.btn.btn-arrow-right:focus {
 }
 
 /** IFRAMES ***************************/
-iframe { 
-  border: 0; 
+iframe {
+  border: 0;
 }
 
 /** BLOCKS ****************************/
@@ -916,13 +916,23 @@ iframe {
 /** HOMEPAGE ******************************/
 #block-stanford-gallery-tabs-stanford-gallery-tabs {
   margin-top: -80px;
+  @media only screen and (max-width: 767px) {
+    margin-top: -70px;
+  }
 }
+
 body.front .main-top {
   margin-top: 90px;
-  height: 655px;
-  @media (max-width: 767px) {
+  height: 758px;
+
+  @media screen and (min-width: 980px) and (max-width: 1999px) {
     height: auto;
   }
+
+  @media screen and (max-width: 767px) {
+    height: auto;
+  }
+
 }
 
 /** CONNECT PAGE *************************/
