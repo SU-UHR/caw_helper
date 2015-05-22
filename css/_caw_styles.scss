@@ -1074,9 +1074,24 @@ a.sweetener-link:focus {
 .slick-dots li.slick-active button {
   background: $turq-dark;
 }
+
+.sweetener-arrows {
+  vertical-align: top;
+  text-align: center;
+}
+
 .slick-dots {
-  bottom: -60px;
-  margin-left: 0;
+  position: relative;
+  top: auto;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  @include inline-block;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  height: 15px;
+  line-height: 15px;
 }
 .slick-carousel .slick-prev, .slick-carousel .slick-next {
   background: transparent;
@@ -1096,14 +1111,12 @@ a.sweetener-link:focus {
   background-image: url("../img/caw-arrow-right.png");
 }
 .slick-prev, .slick-next {
-  top: auto;
-  bottom: -35px;
+  position: relative;
+  @include inline-block;
 }
 .slick-prev {
-  left: 30%;
 }
 .slick-next {
-  right: 30%;
 }
 
 /* sweeteners nodes */
