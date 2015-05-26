@@ -14,6 +14,25 @@ function caw_helper_help($path, $arg) {
 }
 
 /**
+ * Set the bean blocks title to "<none>" if bean has a title and block does not.
+ * @param  [type] &$blocks     [description]
+ * @param  [type] $theme       [description]
+ * @param  [type] $code_blocks [description]
+ * @return [type]              [description]
+ */
+function caw_helper_block_view_alter(&$data, $block) {
+
+  // Hide the title for stanford postcard beans with the cards view mode.
+  if ($block->module == "bean" && isset($data['content']['bean'][$block->delta]["#bundle"]) && $data['content']['bean'][$block->delta]['#bundle'] == "stanford_postcard") {
+    $bean = $data['content']['bean'][$block->delta];
+    if ($bean['#view_mode'] == "stanford_tiles") {
+      $data['subject'] = "";
+    }
+  }
+
+}
+
+/**
  * Implements hook_theme_registry_alter().
  */
 function caw_helper_theme_registry_alter(&$theme_registry) {
