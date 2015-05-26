@@ -25,7 +25,8 @@ function caw_helper_block_view_alter(&$data, $block) {
   // Hide the title for stanford postcard beans with the cards view mode.
   if ($block->module == "bean" && isset($data['content']['bean'][$block->delta]["#bundle"]) && $data['content']['bean'][$block->delta]['#bundle'] == "stanford_postcard") {
     $bean = $data['content']['bean'][$block->delta];
-    if ($bean['#view_mode'] == "stanford_tiles") {
+    $modes = array("stanford_tiles", "default", "stanford_callout_block");
+    if (in_array($bean["#view_mode"], $modes)) {
       $data['subject'] = "";
     }
   }
