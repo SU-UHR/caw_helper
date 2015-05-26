@@ -14,19 +14,6 @@ function caw_helper_help($path, $arg) {
 }
 
 /**
- * Set the bean blocks title to "<none>" if bean has a title and block does not.
- * @param  [type] &$blocks     [description]
- * @param  [type] $theme       [description]
- * @param  [type] $code_blocks [description]
- * @return [type]              [description]
- */
-function caw_helper_block_view_alter(&$data, $block) {
-  if ($block->module == "bean" && empty($block->title)) {
-    $block->title = "<none>";
-  }
-}
-
-/**
  * Implements hook_theme_registry_alter().
  */
 function caw_helper_theme_registry_alter(&$theme_registry) {
