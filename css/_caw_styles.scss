@@ -603,6 +603,7 @@ a.btn.btn-arrow-right:focus {
 
 /* resources node download button */
 .field-name-field-s-resource-download a {
+  @include border-radius(4px);
   font-size: 1.25em;
   line-height: 1.2em;
   @include box-shadow($gray-med3 2px 2px 8px);
