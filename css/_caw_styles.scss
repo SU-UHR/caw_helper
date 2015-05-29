@@ -879,6 +879,7 @@ iframe {
 /* default well blocks */
 .well {
   background: $gray-light;
+  @include box-sizing(border-box);
   @include border-radius(3px);
   @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.2));
   color: $gray-dark;
