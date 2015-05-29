@@ -656,7 +656,7 @@ a.btn.btn-arrow-right:focus {
   @include box-shadow($gray-med3 4px 4px 8px);
 }
 @media (max-width: 979px) {
-  .views-exposed-form .views-exposed-widget.submit-button {
+  .views-exposed-form .views-exposed-widget.views-submit-button {
     clear: left;
   }
 }

@@ -877,7 +877,7 @@ a.btn.btn-arrow-right:focus {
 
 @media (max-width: 979px) {
   /* line 659, _caw_styles.scss */
-  .views-exposed-form .views-exposed-widget.submit-button {
+  .views-exposed-form .views-exposed-widget.views-submit-button {
     clear: left;
   }
 }
