@@ -992,6 +992,13 @@ body.front .main-top {
   font-weight: 300;
   color: $black;
 }
+#block-views-cardinal-at-work-news-block-2 .views-row a:hover,
+#block-views-cardinal-at-work-news-block-2 .views-row a:focus,
+#block-views-cardinal-at-work-news-block-2 .views-row h3 a:hover,
+#block-views-cardinal-at-work-news-block-2 .views-row h3 a:focus  {
+  text-decoration: underline;
+  color: $red;
+}
 
 
 /** CONNECT PAGE *************************/
