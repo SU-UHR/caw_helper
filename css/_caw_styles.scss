@@ -985,6 +985,11 @@ body.front .main-top {
 #block-views-cardinal-at-work-news-block-2 > .content > .view-cardinal-at-work-news > .more-link {
   padding-left: 50%;
 }
+@media (max-width: 979px) and (min-width: 768px) {
+  .row-fluid #block-views-cardinal-at-work-news-block-2.span8 {
+    width: 100%;
+  }
+}
 @media (max-width: 480px) {
   #block-views-cardinal-at-work-news-block-2 > .content > .view-cardinal-at-work-news > .attachment,
   #block-views-cardinal-at-work-news-block-2 > .content > .view-cardinal-at-work-news > .view-content {
