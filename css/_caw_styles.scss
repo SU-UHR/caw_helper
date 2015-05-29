@@ -985,6 +985,20 @@ body.front .main-top {
 #block-views-cardinal-at-work-news-block-2 > .content > .view-cardinal-at-work-news > .more-link {
   padding-left: 50%;
 }
+@media (max-width: 480px) {
+  #block-views-cardinal-at-work-news-block-2 > .content > .view-cardinal-at-work-news > .attachment,
+  #block-views-cardinal-at-work-news-block-2 > .content > .view-cardinal-at-work-news > .view-content {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+  #block-views-cardinal-at-work-news-block-2 > .content > .view-cardinal-at-work-news > .attachment {
+    margin-right: 0%;
+  }
+  #block-views-cardinal-at-work-news-block-2 > .content > .view-cardinal-at-work-news > .more-link {
+    padding-left: 0%;
+  }
+}
 #block-views-cardinal-at-work-news-block-2 img {
   margin-bottom: 1em;
 }
