@@ -971,9 +971,12 @@ body.front .main-top {
   @include border-radius(4px);
   @include box-shadow($gray-light 1px 1px 4px);
   padding: 24px 28px;
-  .view-cardinal-at-work-news > .attachment {
-    float: left;
-  }
+}
+#block-views-cardinal-at-work-news-block-2 > .content > .view-cardinal-at-work-news > .attachment,
+#block-views-cardinal-at-work-news-block-2 > .content > .view-cardinal-at-work-news > .view-content {
+  float: left;
+  display: inline-block;
+  width: 50%;
 }
 
 
