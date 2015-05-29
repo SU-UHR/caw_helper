@@ -485,6 +485,7 @@ blockquote a.btn.btn-arrow-right {
 .caption {
 }
 .descriptor {
+  color: $gray-med4;
 }
 .summary {
 }
@@ -970,6 +971,9 @@ body.front .main-top {
   @include border-radius(4px);
   @include box-shadow($gray-light 1px 1px 4px);
   padding: 24px 28px;
+  .view-cardinal-at-work-news > .attachment {
+    float: left;
+  }
 }
 
 
