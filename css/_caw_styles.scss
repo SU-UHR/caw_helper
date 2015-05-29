@@ -1114,6 +1114,7 @@ a.sweetener-link:focus {
 .slick-prev, .slick-next {
   position: relative;
   @include inline-block;
+  margin-top: 4px;
 }
 .slick-prev {
 }
