@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* light text on dark */
 /* page bkg */
 /* events, wells */
@@ -1284,8 +1283,9 @@ a.sweetener-link .sweetener-thumb img {
   -ms-border-radius: 4px 4px 0 0;
   -o-border-radius: 4px 4px 0 0;
   border-radius: 4px 4px 0 0;
+  width: 100%;
 }
-/* line 979, _caw_styles.scss */
+/* line 980, _caw_styles.scss */
 a.sweetener-link .sweetener-thumb:after {
   content: '';
   display: block;
@@ -1299,7 +1299,7 @@ a.sweetener-link .sweetener-thumb:after {
   background-image: linear-gradient(to bottom, rgba(63, 130, 137, 0), #3f8289);
 }
 
-/* line 990, _caw_styles.scss */
+/* line 991, _caw_styles.scss */
 a.sweetener-link:hover,
 a.sweetener-link:focus {
   background: #3d3e42;
@@ -1308,17 +1308,17 @@ a.sweetener-link:focus {
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
   text-decoration: none;
 }
-/* line 995, _caw_styles.scss */
+/* line 996, _caw_styles.scss */
 a.sweetener-link:hover h3,
 a.sweetener-link:focus h3 {
   color: white;
 }
-/* line 998, _caw_styles.scss */
+/* line 999, _caw_styles.scss */
 a.sweetener-link:hover .sweetener-thumb img,
 a.sweetener-link:focus .sweetener-thumb img {
   opacity: .8;
 }
-/* line 1001, _caw_styles.scss */
+/* line 1002, _caw_styles.scss */
 a.sweetener-link:hover .sweetener-thumb:after,
 a.sweetener-link:focus .sweetener-thumb:after {
   background-image: -webkit-gradient(linear, to bottom, to top, color-stop(0%, rgba(61, 62, 66, 0)), color-stop(100%, #3d3e42));
@@ -1329,7 +1329,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
 }
 
 /* sweeteners isotope filter - same as well styles */
-/* line 1007, _caw_styles.scss */
+/* line 1008, _caw_styles.scss */
 .view-sweeteners-isotope-page > .view-header {
   background: #eeeeee;
   -webkit-border-radius: 3px;
@@ -1345,17 +1345,17 @@ a.sweetener-link:focus .sweetener-thumb:after {
   padding: 24px 28px;
   margin-bottom: 3em;
 }
-/* line 1016, _caw_styles.scss */
+/* line 1017, _caw_styles.scss */
 .view-sweeteners-isotope-page > .view-header .view-sweeteners-isotope-filter:first-child {
   margin-bottom: 2em;
 }
 
-/* line 1020, _caw_styles.scss */
+/* line 1021, _caw_styles.scss */
 .isotope-options {
   background: none;
 }
 
-/* line 1023, _caw_styles.scss */
+/* line 1024, _caw_styles.scss */
 .isotope-options label {
   display: inline-block;
   margin-right: 1%;
@@ -1373,7 +1373,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
   transition: background 0.3s ease;
 }
 
-/* line 1037, _caw_styles.scss */
+/* line 1038, _caw_styles.scss */
 .isotope-options label:hover,
 .isotope-options label:focus,
 .isotope-options label.checked {
@@ -1381,7 +1381,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
   color: white;
 }
 
-/* line 1042, _caw_styles.scss */
+/* line 1043, _caw_styles.scss */
 .isotope-options input {
   display: inline-block;
   float: left;
@@ -1390,7 +1390,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
   display: none;
 }
 
-/* line 1049, _caw_styles.scss */
+/* line 1050, _caw_styles.scss */
 .isotope-options label .field-content::before {
   content: "▢";
   display: inline-block;
@@ -1399,19 +1399,19 @@ a.sweetener-link:focus .sweetener-thumb:after {
   padding: 0 10px 0 6px;
 }
 
-/* line 1056, _caw_styles.scss */
+/* line 1057, _caw_styles.scss */
 .isotope-options label.checked .field-content::before {
   content: "✓";
   font-size: 1.3em;
 }
 
 /* sweeteners carousel */
-/* line 1062, _caw_styles.scss */
+/* line 1063, _caw_styles.scss */
 .slick-dots li button::before {
   content: none;
 }
 
-/* line 1065, _caw_styles.scss */
+/* line 1066, _caw_styles.scss */
 .slick-dots li button {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -1426,20 +1426,20 @@ a.sweetener-link:focus .sweetener-thumb:after {
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* line 1074, _caw_styles.scss */
+/* line 1075, _caw_styles.scss */
 .slick-dots li button:hover,
 .slick-dots li button:focus,
 .slick-dots li.slick-active button {
   background: #004f5b;
 }
 
-/* line 1078, _caw_styles.scss */
+/* line 1079, _caw_styles.scss */
 .sweetener-arrows {
   vertical-align: top;
   text-align: center;
 }
 
-/* line 1083, _caw_styles.scss */
+/* line 1084, _caw_styles.scss */
 .slick-dots {
   position: relative;
   top: auto;
@@ -1459,13 +1459,13 @@ a.sweetener-link:focus .sweetener-thumb:after {
   line-height: 15px;
 }
 
-/* line 1096, _caw_styles.scss */
+/* line 1097, _caw_styles.scss */
 .slick-carousel .slick-prev, .slick-carousel .slick-next {
   background: transparent;
   z-index: 10;
 }
 
-/* line 1100, _caw_styles.scss */
+/* line 1101, _caw_styles.scss */
 .slick-prev::before, .slick-next::before {
   color: #909499;
   content: "";
@@ -1474,17 +1474,17 @@ a.sweetener-link:focus .sweetener-thumb:after {
   width: 15px;
 }
 
-/* line 1107, _caw_styles.scss */
+/* line 1108, _caw_styles.scss */
 .slick-prev::before {
   background-image: url("../img/caw-arrow-left.png");
 }
 
-/* line 1110, _caw_styles.scss */
+/* line 1111, _caw_styles.scss */
 .slick-next::before {
   background-image: url("../img/caw-arrow-right.png");
 }
 
-/* line 1113, _caw_styles.scss */
+/* line 1114, _caw_styles.scss */
 .slick-prev, .slick-next {
   position: relative;
   display: -moz-inline-stack;
@@ -1496,34 +1496,34 @@ a.sweetener-link:focus .sweetener-thumb:after {
 }
 
 /* sweeteners nodes */
-/* line 1123, _caw_styles.scss */
+/* line 1124, _caw_styles.scss */
 .node-type-stanford-sweetener .field.field-name-field-s-sweet-image.field-type-image.field-label-hidden {
   margin-bottom: 30px;
 }
 
-/* line 1126, _caw_styles.scss */
+/* line 1127, _caw_styles.scss */
 .node-type-stanford-sweetener .field.field-name-field-s-sweet-desc.field-type-text-long.field-label-hidden {
   margin-bottom: 15px;
 }
 
-/* line 1130, _caw_styles.scss */
+/* line 1131, _caw_styles.scss */
 .node-type-stanford-sweetener .field.field-name-field-s-sweet-more-info.field-type-link-field.field-label-above,
 .node-type-stanford-sweetener .field.field-name-field-s-sweet-audience.field-type-taxonomy-term-reference.field-label-above {
   margin-bottom: 10px;
 }
 
 /* sweeteners node styles */
-/* line 1135, _caw_styles.scss */
+/* line 1136, _caw_styles.scss */
 .node-type-stanford-sweetener .field.field-name-field-s-sweet-image.field-type-image.field-label-hidden {
   margin-bottom: 30px;
 }
 
-/* line 1139, _caw_styles.scss */
+/* line 1140, _caw_styles.scss */
 .node-type-stanford-sweetener .field.field-name-field-s-sweet-desc.field-type-text-long.field-label-hidden {
   margin-bottom: 15px;
 }
 
-/* line 1144, _caw_styles.scss */
+/* line 1145, _caw_styles.scss */
 .node-type-stanford-sweetener .field.field-name-field-s-sweet-more-info.field-type-link-field.field-label-above,
 .node-type-stanford-sweetener .field.field-name-field-s-sweet-audience.field-type-taxonomy-term-reference.field-label-above {
   margin-bottom: 10px;
@@ -1531,7 +1531,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
 
 /** CAROUSEL ****************************/
 /* Subsite carousels */
-/* line 1154, _caw_styles.scss */
+/* line 1155, _caw_styles.scss */
 .front .main-top,
 .node-type-stanford-subsite .main-top,
 .page-node-233 .main-top {
@@ -1541,7 +1541,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
   margin-top: 40px;
 }
 @media (max-width: 1199px) {
-  /* line 1154, _caw_styles.scss */
+  /* line 1155, _caw_styles.scss */
   .front .main-top,
   .node-type-stanford-subsite .main-top,
   .page-node-233 .main-top {
@@ -1550,34 +1550,34 @@ a.sweetener-link:focus .sweetener-thumb:after {
   }
 }
 
-/* line 1164, _caw_styles.scss */
+/* line 1165, _caw_styles.scss */
 .front .main-top {
   height: auto;
   /* for now */
 }
 
-/* line 1169, _caw_styles.scss */
+/* line 1170, _caw_styles.scss */
 .front #content-body.row-fluid, .node-type-stanford-subsite #content-body.row-fluid, .page-node-233 #content-body.row-fluid {
   margin-bottom: 0;
 }
 
-/* line 1174, _caw_styles.scss */
+/* line 1175, _caw_styles.scss */
 .carousel {
   margin-bottom: 0;
 }
 
-/* line 1177, _caw_styles.scss */
+/* line 1178, _caw_styles.scss */
 .carousel .views-row {
   margin-bottom: 0;
 }
 
-/* line 1180, _caw_styles.scss */
+/* line 1181, _caw_styles.scss */
 .carousel-inner {
   position: inherit;
   margin-top: -40px;
 }
 
-/* line 1184, _caw_styles.scss */
+/* line 1185, _caw_styles.scss */
 .carousel img {
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
@@ -1589,13 +1589,13 @@ a.sweetener-link:focus .sweetener-thumb:after {
   border-radius: 3px;
 }
 
-/* line 1188, _caw_styles.scss */
+/* line 1189, _caw_styles.scss */
 .view.carousel .carousel-block .carousel-caption {
   background: transparent;
   width: 50%;
 }
 
-/* line 1193, _caw_styles.scss */
+/* line 1194, _caw_styles.scss */
 .view.carousel .carousel-block .carousel-caption.carousel-position-right,
 .view.carousel .carousel-block .carousel-caption.carousel-position-left {
   left: auto;
@@ -1603,7 +1603,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
   padding: 90px 75px;
 }
 
-/* line 1199, _caw_styles.scss */
+/* line 1200, _caw_styles.scss */
 .view.carousel .carousel-caption.carousel-dark h2 a,
 .view.carousel .carousel-caption.carousel-dark .slide-caption a {
   color: white;
@@ -1611,21 +1611,21 @@ a.sweetener-link:focus .sweetener-thumb:after {
   display: block;
 }
 
-/* line 1204, _caw_styles.scss */
+/* line 1205, _caw_styles.scss */
 .view.carousel .carousel-caption.carousel-dark h2 a {
   font-size: 1.2em;
   line-height: 1.3em;
   margin-bottom: 0.75em;
 }
 
-/* line 1209, _caw_styles.scss */
+/* line 1210, _caw_styles.scss */
 .view.carousel .carousel-caption.carousel-dark .slide-caption a {
   font-size: 1.3em;
   line-height: 1.3em;
   margin-bottom: 1em;
 }
 
-/* line 1215, _caw_styles.scss */
+/* line 1216, _caw_styles.scss */
 .view.carousel .carousel-caption.carousel-dark a.more-link,
 .view.carousel .carousel-caption.carousel-dark .more-link a {
   color: #5fbfc4;
@@ -1634,7 +1634,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
   display: block;
 }
 
-/* line 1224, _caw_styles.scss */
+/* line 1225, _caw_styles.scss */
 .view.carousel .carousel-caption.carousel-dark a.more-link:hover,
 .view.carousel .carousel-caption.carousel-dark .more-link a:hover,
 .view.carousel .carousel-caption.carousel-dark a.more-link:focus,
@@ -1643,7 +1643,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
   text-decoration: underline;
 }
 
-/* line 1229, _caw_styles.scss */
+/* line 1230, _caw_styles.scss */
 .carousel .view-footer {
   bottom: 95px;
   position: absolute;
@@ -1651,7 +1651,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
   width: 220px;
 }
 
-/* line 1235, _caw_styles.scss */
+/* line 1236, _caw_styles.scss */
 .view.carousel .carousel-indicators li {
   border-radius: 20px;
   height: 18px;
@@ -1661,119 +1661,119 @@ a.sweetener-link:focus .sweetener-thumb:after {
   margin-left: 10px;
 }
 
-/* line 1244, _caw_styles.scss */
+/* line 1245, _caw_styles.scss */
 .view.carousel .carousel-indicators .active,
 .view.carousel .carousel-indicators li:hover {
   background-color: white;
   border: 0px;
 }
 
-/* line 1248, _caw_styles.scss */
+/* line 1249, _caw_styles.scss */
 .view.carousel .carousel-controls {
   position: relative;
   z-index: 1000;
   top: 9px;
 }
 
-/* line 1253, _caw_styles.scss */
+/* line 1254, _caw_styles.scss */
 .carousel-control {
   border: 0;
   background: transparent;
   opacity: 1;
 }
 
-/* line 1258, _caw_styles.scss */
+/* line 1259, _caw_styles.scss */
 .carousel-controls .carousel-control.right {
   background-image: url("../img/caw-arrow-right.png");
 }
 
-/* line 1261, _caw_styles.scss */
+/* line 1262, _caw_styles.scss */
 .carousel-controls .carousel-control.left {
   background-image: url("../img/caw-arrow-left.png");
 }
 
-/* line 1266, _caw_styles.scss */
+/* line 1267, _caw_styles.scss */
 .view.carousel .carousel-controls .carousel-control.right:hover,
 .view.carousel .carousel-controls .carousel-control.right:focus {
   background-image: url("../img/caw-arrow-right-hvr.png");
 }
 
-/* line 1270, _caw_styles.scss */
+/* line 1271, _caw_styles.scss */
 .view.carousel .carousel-controls .carousel-control.left:hover,
 .view.carousel .carousel-controls .carousel-control.left:focus {
   background-image: url("../img/caw-arrow-left-hvr.png");
 }
 
-/* line 1274, _caw_styles.scss */
+/* line 1275, _caw_styles.scss */
 .view.carousel .carousel-control,
 .view.carousel .carousel-control:focus {
   opacity: 1;
 }
 
-/* line 1278, _caw_styles.scss */
+/* line 1279, _caw_styles.scss */
 .carousel .edit-link a {
   background: white;
 }
 
-/* line 1282, _caw_styles.scss */
+/* line 1283, _caw_styles.scss */
 .carousel .edit-link a:hover,
 .carousel .edit-link a:focus {
   background: #3d3e42;
 }
 
 @media (max-width: 1199px) {
-  /* line 1287, _caw_styles.scss */
+  /* line 1288, _caw_styles.scss */
   .carousel-inner {
     margin-top: 0px;
   }
 
-  /* line 1290, _caw_styles.scss */
+  /* line 1291, _caw_styles.scss */
   .carousel img {
     margin-top: 16px;
     max-width: 48%;
   }
 
-  /* line 1295, _caw_styles.scss */
+  /* line 1296, _caw_styles.scss */
   .view.carousel .carousel-block .carousel-caption.carousel-position-right,
   .view.carousel .carousel-block .carousel-caption.carousel-position-left {
     padding: 40px 35px;
   }
 
-  /* line 1298, _caw_styles.scss */
+  /* line 1299, _caw_styles.scss */
   .carousel .view-footer {
     bottom: 50px;
     right: 240px;
   }
 }
 @media (max-width: 979px) {
-  /* line 1304, _caw_styles.scss */
+  /* line 1305, _caw_styles.scss */
   .node-type-stanford-subsite .main-top {
     height: auto;
   }
 
-  /* line 1307, _caw_styles.scss */
+  /* line 1308, _caw_styles.scss */
   .view.carousel .carousel-block .carousel-caption {
     position: absolute;
     overflow: visible;
   }
 
-  /* line 1311, _caw_styles.scss */
+  /* line 1312, _caw_styles.scss */
   .carousel .view-footer {
     bottom: -10px;
     right: 220px;
   }
 
-  /* line 1315, _caw_styles.scss */
+  /* line 1316, _caw_styles.scss */
   .carousel img {
     max-width: 40%;
   }
 
-  /* line 1318, _caw_styles.scss */
+  /* line 1319, _caw_styles.scss */
   .view.carousel .carousel-block .carousel-caption {
     width: 60%;
   }
 
-  /* line 1322, _caw_styles.scss */
+  /* line 1323, _caw_styles.scss */
   .view.carousel .carousel-block .carousel-caption.carousel-position-right,
   .view.carousel .carousel-block .carousel-caption.carousel-position-left {
     position: relative;
@@ -1782,7 +1782,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
   }
 }
 @media (max-width: 767px) {
-  /* line 1329, _caw_styles.scss */
+  /* line 1330, _caw_styles.scss */
   .carousel .view-footer {
     bottom: -15px;
     left: auto;
@@ -1792,12 +1792,12 @@ a.sweetener-link:focus .sweetener-thumb:after {
   }
 }
 @media (max-width: 570px) {
-  /* line 1338, _caw_styles.scss */
+  /* line 1339, _caw_styles.scss */
   .carousel img {
     max-width: 100%;
   }
 
-  /* line 1342, _caw_styles.scss */
+  /* line 1343, _caw_styles.scss */
   .view.carousel .carousel-block .carousel-caption.carousel-position-right,
   .view.carousel .carousel-block .carousel-caption.carousel-position-left {
     width: 100%;
@@ -1806,14 +1806,14 @@ a.sweetener-link:focus .sweetener-thumb:after {
 }
 /** LANDING PAGES & PROGRAM/SERVICE PAGES ****************************/
 /* Hide the page title on subsites and program/service */
-/* line 1353, _caw_styles.scss */
+/* line 1354, _caw_styles.scss */
 .node-type-stanford-subsite h1#page-title,
 .node-type-stanford-program-service h1#page-title {
   display: none;
 }
 
 /* summary styles on program/service subtitle */
-/* line 1358, _caw_styles.scss */
+/* line 1359, _caw_styles.scss */
 .field-name-field-s-program-service-subtitle {
   font-size: 1.3em;
   margin-bottom: 15px;
@@ -1822,12 +1822,12 @@ a.sweetener-link:focus .sweetener-thumb:after {
 }
 
 /* make things line up at the top of a node with the sidebar */
-/* line 1366, _caw_styles.scss */
+/* line 1367, _caw_styles.scss */
 .row-fluid.content-head {
   margin-bottom: 0;
 }
 
-/* line 1370, _caw_styles.scss */
+/* line 1371, _caw_styles.scss */
 .field-name-field-landing-page-item {
   /* blocks */
   /* cards */
@@ -1835,61 +1835,61 @@ a.sweetener-link:focus .sweetener-thumb:after {
   /* list */
   /* numbered guide */
 }
-/* line 1373, _caw_styles.scss */
+/* line 1374, _caw_styles.scss */
 .field-name-field-landing-page-item .block h2 {
   font-size: 1.5em;
 }
-/* line 1376, _caw_styles.scss */
+/* line 1377, _caw_styles.scss */
 .field-name-field-landing-page-item .block img {
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   margin-bottom: 15px;
 }
-/* line 1380, _caw_styles.scss */
+/* line 1381, _caw_styles.scss */
 .field-name-field-landing-page-item .block .more-link {
   margin-top: 0;
 }
-/* line 1398, _caw_styles.scss */
+/* line 1399, _caw_styles.scss */
 .field-name-field-landing-page-item .view-mode-stanford_medium_square {
   border-color: #eeeeee;
 }
-/* line 1401, _caw_styles.scss */
+/* line 1402, _caw_styles.scss */
 .field-name-field-landing-page-item .field-item:last-child .view-mode-stanford_medium_square {
   border-bottom: 1px solid #eeeeee;
   margin-bottom: 3em;
 }
-/* line 1406, _caw_styles.scss */
+/* line 1407, _caw_styles.scss */
 .field-name-field-landing-page-item .stanford-medium-square h2 a {
   font-weight: 400;
 }
-/* line 1409, _caw_styles.scss */
+/* line 1410, _caw_styles.scss */
 .field-name-field-landing-page-item .stanford-medium-square .more-link {
   margin-top: 0;
 }
-/* line 1412, _caw_styles.scss */
+/* line 1413, _caw_styles.scss */
 .field-name-field-landing-page-item .stanford-medium-square img {
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
 }
-/* line 1415, _caw_styles.scss */
+/* line 1416, _caw_styles.scss */
 .field-name-field-landing-page-item .stanford-medium-square .postcard-left > div:first-child img {
   margin-right: 25px;
   margin-bottom: 0;
 }
 @media (max-width: 380px) {
-  /* line 1420, _caw_styles.scss */
+  /* line 1421, _caw_styles.scss */
   .field-name-field-landing-page-item .stanford-medium-square .postcard-left > div:first-child {
     float: none;
   }
-  /* line 1423, _caw_styles.scss */
+  /* line 1424, _caw_styles.scss */
   .field-name-field-landing-page-item .stanford-medium-square .postcard-left > div {
     display: block;
     width: 100%;
   }
 }
-/* line 1430, _caw_styles.scss */
+/* line 1431, _caw_styles.scss */
 .field-name-field-landing-page-item .numbered-guide {
   border-top: 1px solid #eeeeee;
   margin-top: 1em;
@@ -1897,13 +1897,13 @@ a.sweetener-link:focus .sweetener-thumb:after {
   padding-left: 5em;
 }
 
-/* line 1440, _caw_styles.scss */
+/* line 1441, _caw_styles.scss */
 article.numbered-guide .field-name-field-landing-page-item .field-items,
 .node-stanford-program-service.numbered-guide .field-name-field-landing-page-item .field-items,
 .node-stanford-landing-page.numbered-guide .field-name-field-landing-page-item .field-items {
   counter-reset: section;
 }
-/* line 1442, _caw_styles.scss */
+/* line 1443, _caw_styles.scss */
 article.numbered-guide .field-name-field-landing-page-item .field-items .numbered-guide:before,
 .node-stanford-program-service.numbered-guide .field-name-field-landing-page-item .field-items .numbered-guide:before,
 .node-stanford-landing-page.numbered-guide .field-name-field-landing-page-item .field-items .numbered-guide:before {
@@ -1933,16 +1933,16 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 }
 
 /* Banners on landing page and program/service CTs */
-/* line 1464, _caw_styles.scss */
+/* line 1465, _caw_styles.scss */
 #block-views-stanford-program-service-block.block {
   margin-bottom: 0;
 }
-/* line 1466, _caw_styles.scss */
+/* line 1467, _caw_styles.scss */
 #block-views-stanford-program-service-block.block .views-row {
   margin-bottom: 0;
 }
 
-/* line 1470, _caw_styles.scss */
+/* line 1471, _caw_styles.scss */
 .program-banner {
   position: relative;
   background: white;
@@ -1957,17 +1957,17 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 }
 
 /* for when it's on a program/service page */
-/* line 1477, _caw_styles.scss */
+/* line 1478, _caw_styles.scss */
 .node-type-stanford-program-service .program-banner {
   padding: 1em 2em 2em;
   margin-bottom: 0;
 }
 
-/* line 1481, _caw_styles.scss */
+/* line 1482, _caw_styles.scss */
 .program-banner-img {
   position: relative;
 }
-/* line 1483, _caw_styles.scss */
+/* line 1484, _caw_styles.scss */
 .program-banner-img img {
   -webkit-border-radius: 3px 0 0 3px;
   -moz-border-radius: 3px 0 0 3px;
@@ -1976,7 +1976,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   border-radius: 3px 0 0 3px;
 }
 
-/* line 1487, _caw_styles.scss */
+/* line 1488, _caw_styles.scss */
 .program-banner-text {
   position: absolute;
   bottom: 0;
@@ -1987,13 +1987,13 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   top: 0;
   background: white;
 }
-/* line 1496, _caw_styles.scss */
+/* line 1497, _caw_styles.scss */
 .program-banner-text h1 {
   margin-left: 50px;
   margin-right: 50px;
   margin-top: 40px;
 }
-/* line 1501, _caw_styles.scss */
+/* line 1502, _caw_styles.scss */
 .program-banner-text p {
   margin-bottom: 40px;
   margin-left: 50px;
@@ -2001,7 +2001,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 }
 
 /* gradient over image */
-/* line 1508, _caw_styles.scss */
+/* line 1509, _caw_styles.scss */
 .program-banner-text:before {
   content: "";
   display: inline-block;
@@ -2019,7 +2019,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 }
 
 @media (max-width: 979px) {
-  /* line 1520, _caw_styles.scss */
+  /* line 1521, _caw_styles.scss */
   .program-banner-img img {
     width: 100%;
     -webkit-border-radius: 3px 3px 0 0;
@@ -2029,7 +2029,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
     border-radius: 3px 3px 0 0;
   }
 
-  /* line 1524, _caw_styles.scss */
+  /* line 1525, _caw_styles.scss */
   .program-banner-text {
     position: relative;
     left: auto;
@@ -2038,7 +2038,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
     width: 100%;
   }
 
-  /* line 1531, _caw_styles.scss */
+  /* line 1532, _caw_styles.scss */
   .program-banner-text:before {
     display: block;
     float: none;
@@ -2054,13 +2054,13 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   }
 }
 @media (max-width: 380px) {
-  /* line 1543, _caw_styles.scss */
+  /* line 1544, _caw_styles.scss */
   .program-banner-text h1 {
     margin-left: 30px;
     margin-right: 30px;
     margin-top: 20px;
   }
-  /* line 1548, _caw_styles.scss */
+  /* line 1549, _caw_styles.scss */
   .program-banner-text p {
     margin-bottom: 20px;
     margin-left: 30px;
@@ -2068,7 +2068,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   }
 }
 /** FAQ **********************/
-/* line 1557, _caw_styles.scss */
+/* line 1558, _caw_styles.scss */
 .view-stanford-show-hide-faq-hierarchy .views-row {
   margin-bottom: 0.5em;
   -webkit-box-shadow: #eeeeee 1px 1px 4px;
@@ -2081,7 +2081,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   border-radius: 4px;
 }
 
-/* line 1562, _caw_styles.scss */
+/* line 1563, _caw_styles.scss */
 .view-stanford-show-hide-faq-hierarchy .views-row > div:first-child a.collapsed {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -2090,7 +2090,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   border-radius: 4px;
 }
 
-/* line 1565, _caw_styles.scss */
+/* line 1566, _caw_styles.scss */
 .view-stanford-show-hide-faq-hierarchy .views-row > div:first-child a {
   -webkit-border-radius: 4px 4px 0 0;
   -moz-border-radius: 4px 4px 0 0;
@@ -2099,7 +2099,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   border-radius: 4px 4px 0 0;
 }
 
-/* line 1568, _caw_styles.scss */
+/* line 1569, _caw_styles.scss */
 .view-stanford-show-hide-faq-hierarchy .views-row div.views-field-body {
   -webkit-border-radius: 0 0 4px 4px;
   -moz-border-radius: 0 0 4px 4px;
@@ -2110,7 +2110,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 
 /** EVENTS *********************/
 /* events blocks */
-/* line 1575, _caw_styles.scss */
+/* line 1576, _caw_styles.scss */
 .block-views .view-cardinal-at-work-stanford-events-list .views-row {
   background: white;
   -webkit-box-shadow: #eeeeee 1px 1px 4px;
@@ -2122,16 +2122,16 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   -o-border-radius: 4px;
   border-radius: 4px;
 }
-/* line 1580, _caw_styles.scss */
+/* line 1581, _caw_styles.scss */
 .block-views .view-cardinal-at-work-stanford-events-list .views-row .postcard-left > div {
   padding: 10px;
   vertical-align: middle;
 }
-/* line 1584, _caw_styles.scss */
+/* line 1585, _caw_styles.scss */
 .block-views .view-cardinal-at-work-stanford-events-list .views-row .postcard-left > div:first-child {
   float: none;
 }
-/* line 1588, _caw_styles.scss */
+/* line 1589, _caw_styles.scss */
 .block-views .view-cardinal-at-work-stanford-events-list .views-row .date-stacked {
   background: #eeeeee;
   -webkit-border-radius: 4px 0 0 4px;
@@ -2140,44 +2140,44 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   -o-border-radius: 4px 0 0 4px;
   border-radius: 4px 0 0 4px;
 }
-/* line 1592, _caw_styles.scss */
+/* line 1593, _caw_styles.scss */
 .block-views .view-cardinal-at-work-stanford-events-list .views-row .date-month {
   color: #3d3e42;
   padding-top: 5px;
 }
-/* line 1596, _caw_styles.scss */
+/* line 1597, _caw_styles.scss */
 .block-views .view-cardinal-at-work-stanford-events-list .views-row .date-day {
   color: #3d3e42;
   padding-bottom: 5px;
 }
-/* line 1600, _caw_styles.scss */
+/* line 1601, _caw_styles.scss */
 .block-views .view-cardinal-at-work-stanford-events-list .views-row h3 a {
   font-weight: 300;
   color: black;
 }
 
 /* event node styles */
-/* line 1608, _caw_styles.scss */
+/* line 1609, _caw_styles.scss */
 .node-type-stanford-event .field.field-name-field-stanford-event-datetime.field-type-datetime.field-label-hidden {
   margin-bottom: 0.25em;
 }
 
-/* line 1611, _caw_styles.scss */
+/* line 1612, _caw_styles.scss */
 .node-type-stanford-event .field.field-name-field-stanford-event-location.field-type-text-long.field-label-hidden {
   margin-bottom: 0.25em;
 }
 
-/* line 1614, _caw_styles.scss */
+/* line 1615, _caw_styles.scss */
 .node-type-stanford-event .field.field-name-field-s-event-fee.field-type-text.field-label-hidden {
   margin-bottom: 1em;
 }
 
-/* line 1617, _caw_styles.scss */
+/* line 1618, _caw_styles.scss */
 .group-course-styles {
   margin-top: 1em;
 }
 
-/* line 1625, _caw_styles.scss */
+/* line 1626, _caw_styles.scss */
 .group-event-details .field.field-name-field-stanford-event-sponsor.field-type-text.field-label-above,
 .group-event-details .field.field-name-field-stanford-event-email.field-type-text.field-label-above,
 .group-event-details .field.field-name-field-stanford-event-phone.field-type-text.field-label-above,
@@ -2189,53 +2189,53 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 
 /** NEWS *********************************/
 /* news node styles */
-/* line 1634, _caw_styles.scss */
+/* line 1635, _caw_styles.scss */
 .node-type-stanford-news-item .field.field-name-field-s-news-categories.field-type-taxonomy-term-reference.field-label-above {
   font-size: 16px;
   text-transform: none;
   line-height: 1.4em;
   margin-top: 0;
 }
-/* line 1640, _caw_styles.scss */
+/* line 1641, _caw_styles.scss */
 .node-type-stanford-news-item .field.field-name-field-s-news-categories.field-type-taxonomy-term-reference.field-label-above .field-label {
   font-size: 1.3em;
   letter-spacing: normal;
   line-height: 1.3em;
   margin-bottom: 0.5em;
 }
-/* line 1646, _caw_styles.scss */
+/* line 1647, _caw_styles.scss */
 .node-type-stanford-news-item .field.field-name-field-s-news-categories.field-type-taxonomy-term-reference.field-label-above .field-items {
   font-weight: 300;
 }
-/* line 1649, _caw_styles.scss */
+/* line 1650, _caw_styles.scss */
 .node-type-stanford-news-item .content-body .field.field-name-field-s-image-info {
   margin-bottom: 30px;
 }
-/* line 1652, _caw_styles.scss */
+/* line 1653, _caw_styles.scss */
 .node-type-stanford-news-item .caption p {
   margin-bottom: 0;
 }
 
 /** CAREER CELEBRATIONS ***********************/
 /* career celebrations node styles */
-/* line 1660, _caw_styles.scss */
+/* line 1661, _caw_styles.scss */
 .node-type-stanford-career-celebrations h1 {
   margin-bottom: 0.1em;
   margin-top: 0;
 }
 
-/* line 1664, _caw_styles.scss */
+/* line 1665, _caw_styles.scss */
 .page-node.node-type-stanford-career-celebrations .content-body .field.field-name-field-s-celebration-job-title {
   margin-bottom: 0.1em;
 }
 
 /** STANFORD PAGES ****************************/
-/* line 1671, _caw_styles.scss */
+/* line 1672, _caw_styles.scss */
 .node-type-stanford-page .postcard-image img {
   margin-bottom: 30px;
 }
 
-/* line 1675, _caw_styles.scss */
+/* line 1676, _caw_styles.scss */
 .node img {
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
