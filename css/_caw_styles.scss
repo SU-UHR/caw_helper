@@ -929,6 +929,10 @@ body.front .main-top {
     height: auto;
   }
 
+  @media (min-width: 768px) and (max-width: 979px) {
+    height: 755px;
+  }
+
   @media screen and (max-width: 767px) {
     height: auto;
   }
