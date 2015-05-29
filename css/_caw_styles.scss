@@ -598,6 +598,7 @@ a.btn.btn-arrow-right:focus {
 a.btn.btn-arrow-right:hover,
 a.btn.btn-arrow-right:focus {
   @include box-shadow($gray-med3 4px 4px 8px);
+  background: $black;
 }
 
 /* resources node download button */
@@ -613,7 +614,7 @@ a.btn.btn-arrow-right:focus {
 }
 .field-name-field-s-resource-download a:hover,
 .field-name-field-s-resource-download a:focus {
-  background: #333333;
+  background: $black;
   text-decoration: none;
   @include box-shadow($gray-med3 4px 4px 8px);
 }
@@ -639,6 +640,27 @@ a.btn.btn-arrow-right:focus {
   @include border-radius(3px);
   @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.3));
 }
+
+/** EXPOSED FORMS **********************/
+.views-exposed-form .views-exposed-widget .form-submit {
+  background: $red;
+  border: 0;
+  color: $white;
+  letter-spacing: 0.02em;
+  padding: 0.5em 1em;
+  @include box-shadow($gray-med3 2px 2px 8px);
+}
+.views-exposed-form .views-exposed-widget .form-submit:hover,
+.views-exposed-form .views-exposed-widget .form-submit:focus {
+  background: $black;
+  @include box-shadow($gray-med3 4px 4px 8px);
+}
+@media (max-width: 979px) {
+  .views-exposed-form .views-exposed-widget.submit-button {
+    clear: left;
+  }
+}
+
 
 /** IFRAMES ***************************/
 iframe {
