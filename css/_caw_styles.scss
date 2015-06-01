@@ -696,6 +696,7 @@ iframe {
 
   img {
     @include border-radius(4px 4px 0 0);
+    width: 100%;
   }
 
   a:hover img, a:focus img {
@@ -711,7 +712,8 @@ iframe {
   }
 
   /* gradient over image */
-  .field-name-field-s-lp-item-image:after {
+  .field-name-field-s-lp-item-image:after,
+  .field-name-field-s-image-info:after {
     content: '';
     display: block;
     height: 45px;
