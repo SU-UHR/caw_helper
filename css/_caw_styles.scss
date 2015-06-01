@@ -688,47 +688,52 @@ iframe {
   background: $white;
   @include border-radius(4px);
   @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.3));
+
   .tile-link {
     background: transparent;
     margin-bottom: 0;
   }
-  .tile-link:hover, .tile-link:focus {
-    opacity: 1;
-    cursor: default;
-  }
+
   img {
     @include border-radius(4px 4px 0 0);
   }
+
   a:hover img, a:focus img {
     opacity: 0.8;
   }
+
   h2 {
     font-size: 1.5em;
-  }
-  h2 a {
-    padding: 20px 20px;
+    padding: 20px 20px 10px 20px;
     color: $red;
     background: $white;
   }
+
   /* gradient over image */
-  h2:before {
+  .field-name-field-s-lp-item-image:after {
     content: '';
     display: block;
     height: 45px;
-    margin-top: -45px;
+    margin-top: 0px;
     position: relative;
+    z-index: 99;
+    margin-top: -45px;
     @include background-image(linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)));
   }
+
   h2 a:hover, h2 a:focus {
     color: $red;
     text-decoration: underline;
   }
+
   .field-name-field-s-postcard-body,
   .field-name-field-s-lp-item-description {
     padding: 0px 20px 10px 20px;
   }
-  p {
 
+  p {
+    color: #333;
+    font-weight: normal;
   }
 }
 .node .tile img {
