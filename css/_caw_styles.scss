@@ -1127,6 +1127,7 @@ a.sweetener-link:focus {
   transition: background 0.3s ease;
 }
 .isotope-options label:hover,
+.isotope-options label.hover,
 .isotope-options label:focus,
 .isotope-options label.checked {
   background: $turq-dark;
@@ -1134,11 +1135,9 @@ a.sweetener-link:focus {
 }
 
 .isotope-options input {
-  display: inline-block;
-  float: left;
-  margin: 2px 7px 0 0;
-  cursor: pointer;
-  display: none;
+  position: absolute;
+  left: -10000px;
+  opacity: 0;
 }
 .isotope-options label .field-content::before {
   content: "▢";
