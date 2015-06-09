@@ -123,3 +123,48 @@ function caw_helper_preprocess_page(&$vars) {
     }
   }
 }
+
+/**
+ * Alter tha alias of the caw_course content type.
+ * @param  [type] &$alias  [description]
+ * @param  [type] $context [description]
+ * @return [type]          [description]
+ */
+function caw_helper_pathauto_alias_alter(&$alias, $context) {
+
+  $node = (isset($context['data']['node'])) ? $context['data']['node'] : FALSE;
+  $original_alias = $alias;
+
+  // Stop if pathauto is not set, or if not a course node, or if the event series is not available.
+  if (!$node
+      || !isset($node->path['pathauto'])
+      || $node->path['pathauto'] === 0
+      || $node->type !== "caw_course"
+      || empty($node->field_caw_course_event_series_ca[LANGUAGE_NONE])) {
+    return;
+  }
+
+  // Load the term so we can its fields.
+  $terms = entity_load("taxonomy_term", array($node->field_caw_course_event_series_ca[LANGUAGE_NONE][0]['tid']));
+  if (!$terms) {
+    return;
+  }
+
+  $term = array_pop($terms);
+  // Check to see that the term has a rule.
+  if (!isset($term->field_node_pathauto_rule) || empty($term->field_node_pathauto_rule[LANGUAGE_NONE][0]['value'])) {
+    return;
+  }
+
+  // We are good here. Set the pattern and go.
+  $event_series_pattern = "[node:field-caw-course-event-series-ca:field_node_pathauto_rule]/[node:title]";
+
+  // The string is not being translated properly by entering it into the field.
+  // We need special fun.
+  $new_alias = token_replace($event_series_pattern, array("node" => $node));
+  $parts = explode("/", $new_alias);
+  $clean = array_map("pathauto_cleanstring", $parts);
+  $new_alias = implode("/", $clean);
+
+  $alias = $new_alias;
+}
