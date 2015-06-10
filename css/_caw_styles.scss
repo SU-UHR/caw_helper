@@ -1794,6 +1794,17 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
   opacity: 0.8;
 }
 
+/* block gallery */
+.node-stanford-gallery .field-name-field-s-gallery-image-info > .field-items > .field-item {
+  width: 48%;
+}
+.node-stanford-gallery .field-name-field-s-gallery-image-info > .field-items > .field-item.even {
+  margin-right: 2%;
+}
+.field-collection-view.view-mode-gallery-small {
+  width: 100%:
+}
+
 /** IE STYLES ****************************/
 
 
