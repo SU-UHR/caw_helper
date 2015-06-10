@@ -671,6 +671,12 @@ iframe {
 
 /** BLOCKS ****************************/
 
+.column > .content, 
+.column > .content > .entity, 
+.column .tile {
+    height: 100%;
+}
+
 .block-bean {
   h2 {
     font-size: 1.5em;
