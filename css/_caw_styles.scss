@@ -1795,17 +1795,17 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
 }
 
 /* block gallery */
-.node-stanford-gallery .field-name-field-s-gallery-image-info > .field-items > .field-item {
+.bean-stanford-gallery .node-stanford-gallery .field-name-field-s-gallery-image-info > .field-items > .field-item {
   width: 48%;
 }
-.node-stanford-gallery .field-name-field-s-gallery-image-info > .field-items > .field-item.even {
+.bean-stanford-gallery .node-stanford-gallery .field-name-field-s-gallery-image-info > .field-items > .field-item.even {
   margin-right: 4%;
 }
-.field-collection-view.view-mode-gallery-small {
+.bean-stanford-gallery .field-collection-view.view-mode-gallery-small {
   width: 100%;
 }
 @media (max-width: 480px) and (min-width: 300px) {
-  .node-stanford-gallery .field-name-field-s-gallery-image-info > .field-items > .field-item {
+  .bean-stanford-gallery .node-stanford-gallery .field-name-field-s-gallery-image-info > .field-items > .field-item {
     width: 29%;
     margin-right: 4%;
   }
