@@ -2388,4 +2388,24 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   border-radius: 4px;
 }
 
+/** GALLERY ***********************************/
+/* line 1784, _caw_styles.scss */
+#cboxTitle {
+  color: black;
+}
+/* line 1786, _caw_styles.scss */
+#cboxTitle .caption {
+  color: black;
+}
+
+/* line 1790, _caw_styles.scss */
+.node-stanford-gallery .field-name-field-s-gallery-image-info > .field-items > .field-item a.stanford-gallery-image *:hover {
+  border: none;
+  -webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  margin: -2px 0 0;
+  opacity: 0.8;
+}
+
 /** IE STYLES ****************************/

@@ -1780,6 +1780,20 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
   @include border-radius(4px);
 }
 
+/** GALLERY ***********************************/
+#cboxTitle {
+  color: $black;
+  .caption {
+    color: $black;
+  }
+}
+.node-stanford-gallery .field-name-field-s-gallery-image-info > .field-items > .field-item a.stanford-gallery-image *:hover {
+  border:  none;
+  @include box-shadow(2px 2px 8px rgba(0, 0, 0, 0.7));
+  margin: -2px 0 0;
+  opacity: 0.8;
+}
+
 /** IE STYLES ****************************/
 
 
