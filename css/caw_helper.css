@@ -2424,4 +2424,16 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   width: 100%;
 }
 
+@media (max-width: 480px) and (min-width: 300px) {
+  /* line 1808, _caw_styles.scss */
+  .node-stanford-gallery .field-name-field-s-gallery-image-info > .field-items > .field-item {
+    width: 22%;
+    margin-right: 4%;
+  }
+
+  /* line 1812, _caw_styles.scss */
+  .node-stanford-gallery .field-name-field-s-gallery-image-info > .field-items > .field-item.even {
+    margin-right: 0;
+  }
+}
 /** IE STYLES ****************************/
