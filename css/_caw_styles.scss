@@ -1036,6 +1036,13 @@ body.front .main-top {
   color: $red;
 }
 
+/* Social block */
+#block-bean-homepage-about-block .postcard-content {
+  background: $white;
+  @include border-radius(4px);
+  @include box-shadow($gray-light 1px 1px 4px);
+}
+
 
 /** CONNECT PAGE *************************/
 /* #cardinalatwork connect block */
