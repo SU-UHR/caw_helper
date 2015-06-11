@@ -1795,11 +1795,12 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
 .calendar-calendar .mini td {
   background: $gray-light;
 }
-.view-stanford-events-calendar .date-nav-wrapper {
+.content-body .view-stanford-events-calendar .date-nav-wrapper {
   background: $gray-light;
   @include box-shadow(1px 1px 6px rgba(0, 0, 0, 0.25));
   @include border-radius(3px);
   padding-bottom: 0.5em;
+  margin-bottom: 2em;
 }
 
 /** GALLERY ***********************************/

@@ -2415,7 +2415,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 }
 
 /* line 1798, _caw_styles.scss */
-.view-stanford-events-calendar .date-nav-wrapper {
+.content-body .view-stanford-events-calendar .date-nav-wrapper {
   background: #eeeeee;
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
@@ -2426,19 +2426,20 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   -o-border-radius: 3px;
   border-radius: 3px;
   padding-bottom: 0.5em;
+  margin-bottom: 2em;
 }
 
 /** GALLERY ***********************************/
-/* line 1806, _caw_styles.scss */
+/* line 1807, _caw_styles.scss */
 #cboxTitle {
   color: black;
 }
-/* line 1808, _caw_styles.scss */
+/* line 1809, _caw_styles.scss */
 #cboxTitle .caption {
   color: black;
 }
 
-/* line 1812, _caw_styles.scss */
+/* line 1813, _caw_styles.scss */
 .node-stanford-gallery .field-name-field-s-gallery-image-info > .field-items > .field-item a.stanford-gallery-image *:hover {
   border: none;
   -webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
@@ -2449,23 +2450,23 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 }
 
 /* block gallery */
-/* line 1820, _caw_styles.scss */
+/* line 1821, _caw_styles.scss */
 .bean-stanford-gallery .node-stanford-gallery .field-name-field-s-gallery-image-info > .field-items > .field-item {
   width: 48%;
 }
 
-/* line 1823, _caw_styles.scss */
+/* line 1824, _caw_styles.scss */
 .bean-stanford-gallery .node-stanford-gallery .field-name-field-s-gallery-image-info > .field-items > .field-item.even {
   margin-right: 4%;
 }
 
-/* line 1826, _caw_styles.scss */
+/* line 1827, _caw_styles.scss */
 .bean-stanford-gallery .field-collection-view.view-mode-gallery-small {
   width: 100%;
 }
 
 @media (max-width: 480px) and (min-width: 300px) {
-  /* line 1830, _caw_styles.scss */
+  /* line 1831, _caw_styles.scss */
   .bean-stanford-gallery .node-stanford-gallery .field-name-field-s-gallery-image-info > .field-items > .field-item {
     width: 29%;
     margin-right: 4%;
