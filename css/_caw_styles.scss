@@ -496,7 +496,7 @@ blockquote a.btn.btn-arrow-right {
 .alert {
 }
 hr {
-	border-color: $gray-light;
+	border-color: $gray-light1;
   border-top: 0;
 }
 
@@ -950,6 +950,11 @@ iframe {
   li a.active:focus {
     color: $black;
   }
+}
+
+/** VIEWS *********************************/
+.views-row-lines .views-row {
+  border-color: $gray-light1;
 }
 
 /** HOMEPAGE ******************************/
