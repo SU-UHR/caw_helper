@@ -2435,17 +2435,22 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   margin-bottom: 2em;
 }
 
+/* line 1810, _caw_styles.scss */
+.event-relationships {
+  margin-top: .5em;
+}
+
 /** GALLERY ***********************************/
-/* line 1812, _caw_styles.scss */
+/* line 1815, _caw_styles.scss */
 #cboxTitle {
   color: black;
 }
-/* line 1814, _caw_styles.scss */
+/* line 1817, _caw_styles.scss */
 #cboxTitle .caption {
   color: black;
 }
 
-/* line 1818, _caw_styles.scss */
+/* line 1821, _caw_styles.scss */
 .node-stanford-gallery .field-name-field-s-gallery-image-info > .field-items > .field-item a.stanford-gallery-image *:hover {
   border: none;
   -webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
@@ -2456,23 +2461,23 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 }
 
 /* block gallery */
-/* line 1826, _caw_styles.scss */
+/* line 1829, _caw_styles.scss */
 .bean-stanford-gallery .node-stanford-gallery .field-name-field-s-gallery-image-info > .field-items > .field-item {
   width: 48%;
 }
 
-/* line 1829, _caw_styles.scss */
+/* line 1832, _caw_styles.scss */
 .bean-stanford-gallery .node-stanford-gallery .field-name-field-s-gallery-image-info > .field-items > .field-item.even {
   margin-right: 4%;
 }
 
-/* line 1832, _caw_styles.scss */
+/* line 1835, _caw_styles.scss */
 .bean-stanford-gallery .field-collection-view.view-mode-gallery-small {
   width: 100%;
 }
 
 @media (max-width: 480px) and (min-width: 300px) {
-  /* line 1836, _caw_styles.scss */
+  /* line 1839, _caw_styles.scss */
   .bean-stanford-gallery .node-stanford-gallery .field-name-field-s-gallery-image-info > .field-items > .field-item {
     width: 29%;
     margin-right: 4%;
