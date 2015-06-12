@@ -643,6 +643,21 @@ a.btn.btn-arrow-right:focus {
   @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.3));
 }
 
+/** PAGER ******************************/
+ul.pager li a,
+ul.pager li.pager-current {
+  @include box-shadow($gray-med3 2px 2px 8px);
+  @include border-radius(4px);
+}
+ul.pager li a {
+  color: $white;
+  background: $red;
+}
+ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
+  background: $black;
+  @include box-shadow($gray-med3 4px 4px 8px);
+}
+
 /** EXPOSED FORMS **********************/
 .views-exposed-form .views-exposed-widget .form-submit {
   background: $red;
