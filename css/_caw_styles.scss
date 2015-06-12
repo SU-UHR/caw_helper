@@ -891,6 +891,10 @@ iframe {
   padding: 24px 28px;
   border: 0;
 }
+.sidebar .block.no-line {
+    border-top: none;
+    padding-top: 0;
+}
 
 /* default well blocks */
 .well {
@@ -1808,7 +1812,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
   margin-bottom: 2em;
 }
 .event-relationships {
-  margin-top: .5em;
+  margin-top: 1em;
 }
 
 /** GALLERY ***********************************/
