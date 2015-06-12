@@ -988,59 +988,52 @@ body.front .main-top {
 }
 
 /* news double wide block */
-#block-views-cardinal-at-work-news-block-2 > .content {
+.home-news > .content {
   @include box-sizing(border-box);
   background: $white;
   @include border-radius(4px);
   @include box-shadow($gray-light 1px 1px 4px);
   padding: 24px 28px;
 }
-#block-views-cardinal-at-work-news-block-2 > .content > .view-cardinal-at-work-news > .attachment,
-#block-views-cardinal-at-work-news-block-2 > .content > .view-cardinal-at-work-news > .view-content {
+.home-news > .content > .view-cardinal-at-work-news > .attachment,
+.home-news > .content > .view-cardinal-at-work-news > .view-content {
   display: inline-block;
   width: 50%;
   vertical-align: top;
 }
-#block-views-cardinal-at-work-news-block-2 > .content > .view-cardinal-at-work-news > .attachment {
+.home-news > .content > .view-cardinal-at-work-news > .attachment {
   width: 45%;
   margin-right: 4%;
 }
-#block-views-cardinal-at-work-news-block-2 > .content > .view-cardinal-at-work-news > .view-footer {
-  display: inline-block;
-  left: 50%;
-  position: relative;
-}
+
 @media (max-width: 979px) and (min-width: 481px) {
-  .row-fluid #block-views-cardinal-at-work-news-block-2.span8 {
+  .row-fluid .home-news.span8 {
     width: 100%;
   }
 }
 @media (max-width: 480px) {
-  #block-views-cardinal-at-work-news-block-2 > .content > .view-cardinal-at-work-news > .attachment,
-  #block-views-cardinal-at-work-news-block-2 > .content > .view-cardinal-at-work-news > .view-content {
+  .home-news > .content > .view-cardinal-at-work-news > .attachment,
+  .home-news > .content > .view-cardinal-at-work-news > .view-content {
     float: none;
     display: block;
     width: 100%;
   }
-  #block-views-cardinal-at-work-news-block-2 > .content > .view-cardinal-at-work-news > .attachment {
+  .home-news > .content > .view-cardinal-at-work-news > .attachment {
     margin-right: 0%;
-  }
-  #block-views-cardinal-at-work-news-block-2 > .content > .view-cardinal-at-work-news > .more-link {
-    padding-left: 0%;
   }
 }
 
-#block-views-cardinal-at-work-news-block-2 img {
+.home-news img {
   margin-bottom: 1em;
 }
-#block-views-cardinal-at-work-news-block-2 .views-row a {
+.home-news .views-row a {
   font-weight: 300;
   color: $black;
 }
-#block-views-cardinal-at-work-news-block-2 .views-row a:hover,
-#block-views-cardinal-at-work-news-block-2 .views-row a:focus,
-#block-views-cardinal-at-work-news-block-2 .views-row h3 a:hover,
-#block-views-cardinal-at-work-news-block-2 .views-row h3 a:focus  {
+.home-news .views-row a:hover,
+.home-news .views-row a:focus,
+.home-news .views-row h3 a:hover,
+.home-news .views-row h3 a:focus  {
   text-decoration: underline;
   color: $red;
 }
