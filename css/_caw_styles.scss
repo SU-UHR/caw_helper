@@ -988,6 +988,9 @@ body.front .main-top {
 }
 
 /* news double wide block */
+.home-news > h2 {
+  font-size: 1.5em;
+}
 .home-news > .content {
   @include box-sizing(border-box);
   background: $white;
@@ -1001,7 +1004,7 @@ body.front .main-top {
   width: 50%;
   vertical-align: top;
 }
-.home-news > .content > .view-cardinal-at-work-news > .attachment {
+.home-news > .content > .view-cardinal-at-work-news > .view-content {
   width: 45%;
   margin-right: 4%;
 }
@@ -1009,6 +1012,7 @@ body.front .main-top {
 @media (max-width: 979px) and (min-width: 481px) {
   .row-fluid .home-news.span8 {
     width: 100%;
+    margin-left: 0;
   }
 }
 @media (max-width: 480px) {
@@ -1018,7 +1022,7 @@ body.front .main-top {
     display: block;
     width: 100%;
   }
-  .home-news > .content > .view-cardinal-at-work-news > .attachment {
+  .home-news > .content > .view-cardinal-at-work-news > .view-content {
     margin-right: 0%;
   }
 }
@@ -1043,6 +1047,15 @@ body.front .main-top {
   background: $white;
   @include border-radius(4px);
   @include box-shadow($gray-light 1px 1px 4px);
+}
+@media (max-width: 979px) and (min-width: 481px) {
+  .row-fluid #block-bean-homepage-about-block.span8 {
+    width: 100%;
+    margin-left: 0;
+  }
+  #block-bean-homepage-about-block iframe {
+    width: 100% !important;
+  }
 }
 
 
