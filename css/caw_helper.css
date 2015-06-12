@@ -1386,7 +1386,7 @@ body.front .main-top {
   box-shadow: #eeeeee 1px 1px 4px;
 }
 
-@media (max-width: 979px) and (min-width: 481px) {
+@media (max-width: 979px) and (min-width: 768px) {
   /* line 1052, _caw_styles.scss */
   .row-fluid #block-bean-homepage-about-block.span4 {
     width: 100%;

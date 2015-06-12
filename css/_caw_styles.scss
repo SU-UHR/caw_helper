@@ -1048,7 +1048,7 @@ body.front .main-top {
   @include border-radius(4px);
   @include box-shadow($gray-light 1px 1px 4px);
 }
-@media (max-width: 979px) and (min-width: 481px) {
+@media (max-width: 979px) and (min-width: 768px) {
   .row-fluid #block-bean-homepage-about-block.span4 {
     width: 100%;
     margin-left: 0;
