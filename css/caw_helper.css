@@ -1388,7 +1388,7 @@ body.front .main-top {
 
 @media (max-width: 979px) and (min-width: 481px) {
   /* line 1052, _caw_styles.scss */
-  .row-fluid #block-bean-homepage-about-block.span8 {
+  .row-fluid #block-bean-homepage-about-block.span4 {
     width: 100%;
     margin-left: 0;
   }
