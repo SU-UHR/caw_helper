@@ -573,6 +573,13 @@ a:hover,
 a:focus {
 
 }
+h2 a {
+  color: $red;
+}
+h2 a:hover, h2 a:focus {
+  color: $black;
+  text-decoration: underline;
+}
 .main-bottom a {
   font-weight: 500;
 }
