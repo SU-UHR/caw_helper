@@ -797,7 +797,7 @@ a.btn.btn-arrow-right:focus {
   -webkit-box-shadow: #909499 4px 4px 8px;
   -moz-box-shadow: #909499 4px 4px 8px;
   box-shadow: #909499 4px 4px 8px;
-  background: black;
+  background-color: black;
 }
 
 /* resources node download button */

@@ -599,7 +599,7 @@ a.btn.btn-arrow-right:focus {
 a.btn.btn-arrow-right:hover,
 a.btn.btn-arrow-right:focus {
   @include box-shadow($gray-med3 4px 4px 8px);
-  background: $black;
+  background-color: $black;
 }
 
 /* resources node download button */
