@@ -1804,6 +1804,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
 .view-caw-course-catalog {
   .btn {
     margin-top: 1em;
+    margin-bottom: 1em;
   }
   .view-cardinal-at-work-course-catalog-dates .views-row {
     border: none;
@@ -1814,6 +1815,15 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
   }
   .postcard-left > div:last-child {
     width: 26%;
+    font-weight: 600;
+    p {
+      font-weight: 300;
+      font-style: italic;
+    }
+    .views-row {
+      padding: 0;
+      font-weight: 300;
+    }
   }
 }
 
