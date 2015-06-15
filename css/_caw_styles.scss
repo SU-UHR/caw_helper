@@ -1802,8 +1802,18 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
 
 /** COURSES ************************************/
 .view-caw-course-catalog {
+  .btn {
+    margin-top: 1em;
+  }
   .view-cardinal-at-work-course-catalog-dates .views-row {
     border: none;
+  }
+  .postcard-left > div:first-child {
+    width: 70%;
+    margin-right: 4%;
+  }
+  .postcard-left > div:last-child {
+    width: 26%;
   }
 }
 
