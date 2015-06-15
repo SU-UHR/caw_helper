@@ -718,6 +718,9 @@ iframe {
     margin-bottom: 0;
     height: 100%;
     display: block;
+    h2 {
+      color: $red;
+    }
   }
 
   img {
@@ -728,13 +731,14 @@ iframe {
   h2 {
     font-size: 1.5em;
     padding: 20px 20px 10px 20px;
-    color: $red;
+    color: $black;
     background: $white;
     margin: 0px;
   }
 
   .tile-link:hover, 
   .tile-link:focus {
+    text-decoration: none;
     opacity: 1;
     margin-top: -2px;
     @include box-shadow(3px 3px 8px rgba(0, 0, 0, 0.3));
@@ -743,14 +747,10 @@ iframe {
       opacity: 0.8;
     }
     h2 {
-      text-decoration: none;
       color: $black;
     }
     h2:after {
       content: " »";
-    }
-    .field-name-field-s-lp-item-description {
-      text-decoration: none;
     }
   }
 

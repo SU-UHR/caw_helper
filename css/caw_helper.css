@@ -975,7 +975,11 @@ iframe {
   height: 100%;
   display: block;
 }
-/* line 723, _caw_styles.scss */
+/* line 721, _caw_styles.scss */
+.tile .tile-link h2 {
+  color: #8c1515;
+}
+/* line 726, _caw_styles.scss */
 .tile img {
   -webkit-border-radius: 4px 4px 0 0;
   -moz-border-radius: 4px 4px 0 0;
@@ -984,43 +988,38 @@ iframe {
   border-radius: 4px 4px 0 0;
   width: 100%;
 }
-/* line 728, _caw_styles.scss */
+/* line 731, _caw_styles.scss */
 .tile h2 {
   font-size: 1.5em;
   padding: 20px 20px 10px 20px;
-  color: #8c1515;
+  color: black;
   background: white;
   margin: 0px;
 }
-/* line 737, _caw_styles.scss */
+/* line 740, _caw_styles.scss */
 .tile .tile-link:hover,
 .tile .tile-link:focus {
+  text-decoration: none;
   opacity: 1;
   margin-top: -2px;
   -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
 }
-/* line 742, _caw_styles.scss */
+/* line 746, _caw_styles.scss */
 .tile .tile-link:hover img,
 .tile .tile-link:focus img {
   opacity: 0.8;
 }
-/* line 745, _caw_styles.scss */
+/* line 749, _caw_styles.scss */
 .tile .tile-link:hover h2,
 .tile .tile-link:focus h2 {
-  text-decoration: none;
   color: black;
 }
-/* line 749, _caw_styles.scss */
+/* line 752, _caw_styles.scss */
 .tile .tile-link:hover h2:after,
 .tile .tile-link:focus h2:after {
   content: " »";
-}
-/* line 752, _caw_styles.scss */
-.tile .tile-link:hover .field-name-field-s-lp-item-description,
-.tile .tile-link:focus .field-name-field-s-lp-item-description {
-  text-decoration: none;
 }
 /* line 759, _caw_styles.scss */
 .tile .field-name-field-s-lp-item-image:after,
