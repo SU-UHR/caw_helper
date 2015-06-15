@@ -1812,9 +1812,24 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
   .postcard-left > div:first-child {
     width: 70%;
     margin-right: 4%;
+    @media (max-width: 767px) {
+      width: 50%;
+    }
+    @media (max-width: 480px) {
+      width: 100%;
+      margin-right: 0;
+      display: block;
+    }
   }
   .postcard-left > div:last-child {
     width: 26%;
+    @media (max-width: 767px) {
+      width: 46%;
+    }
+    @media (max-width: 480px) {
+      width: 100%;
+      display: block;
+    }
     font-weight: 600;
     p {
       font-weight: 300;
@@ -1831,6 +1846,8 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
       }
     }
   }
+
+
 }
 
 /** CAREER CELEBRATIONS ***********************/
