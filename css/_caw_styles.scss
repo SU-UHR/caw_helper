@@ -747,7 +747,6 @@ iframe {
   .tile-link:focus {
     text-decoration: none;
     opacity: 1;
-    margin-top: -2px;
     @include box-shadow(3px 3px 8px rgba(0, 0, 0, 0.3));
 
     img {
