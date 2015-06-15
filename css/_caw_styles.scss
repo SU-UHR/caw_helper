@@ -1823,6 +1823,12 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
     .views-row {
       padding: 0;
       font-weight: 300;
+      span.date-display-single {
+        display: list-item;
+        list-style: outside none square;
+        margin-left: 1em;
+        margin-top: 0.5em;
+      }
     }
   }
 }
