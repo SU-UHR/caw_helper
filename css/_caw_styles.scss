@@ -748,9 +748,7 @@ iframe {
     }
     h2 {
       color: $black;
-    }
-    h2:after {
-      content: " »";
+      text-decoration: underline;
     }
   }
 
