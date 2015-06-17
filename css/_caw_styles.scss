@@ -589,13 +589,13 @@ a.btn:focus {
   padding: 0.5em 1em;
 }
 .btn.active, .btn:active,
-input.form-submit {
+.views-exposed-form .views-exposed-widget input.form-submit {
   background: $red;
   @include box-shadow($gray-med3 2px 2px 8px);
   color: $white;
   margin-right: 10px;
 }
-input.form-submit {
+.views-exposed-form .views-exposed-widget input.form-submit {
   @include text-shadow(none);
   border: 0;
   padding: 0.5em 1em;
@@ -603,7 +603,8 @@ input.form-submit {
   font-size: inherit;
 }
 .btn.active:hover,
-input.form-submit:hover, input.form-submit:focus {
+.views-exposed-form .views-exposed-widget input.form-submit:hover, 
+.views-exposed-form .views-exposed-widget input.form-submit:focus {
   @include box-shadow($gray-med3 4px 4px 8px);
   background: $black;
   color: $white;
