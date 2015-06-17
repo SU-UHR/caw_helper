@@ -606,6 +606,7 @@ input.form-submit {
 input.form-submit:hover, input.form-submit:focus {
   @include box-shadow($gray-med3 4px 4px 8px);
   background: $black;
+  color: $white;
 }
 a.btn.btn-arrow-right {
   font-size: 1.25em;
