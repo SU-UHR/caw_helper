@@ -700,10 +700,8 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
   background: $black;
   @include box-shadow($gray-med3 4px 4px 8px);
 }
-@media (max-width: 979px) {
-  .views-exposed-form .views-exposed-widget.views-submit-button {
-    clear: left;
-  }
+.views-exposed-form .views-exposed-widget.views-submit-button {
+  clear: left;
 }
 
 
