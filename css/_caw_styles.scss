@@ -779,6 +779,7 @@ iframe {
   }
 
   /* gradient over image */
+  .tile-image,
   .field-name-field-s-lp-item-image:after,
   .field-name-field-s-image-info:after {
     content: '';
@@ -791,9 +792,12 @@ iframe {
     @include background-image(linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)));
   }
 
+  .tile-text,
   .field-name-field-s-postcard-body,
   .field-name-field-s-lp-item-description {
     padding: 0px 20px 10px 20px;
+    color: #333;
+    font-weight: normal;
   }
 
   p {
