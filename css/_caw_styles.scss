@@ -588,13 +588,19 @@ a.btn:hover,
 a.btn:focus {
   padding: 0.5em 1em;
 }
-.btn.active, .btn:active {
+.btn.active, .btn:active,
+input.form-submit {
   background: $red;
   @include box-shadow($gray-med3 2px 2px 8px);
   color: $white;
   margin-right: 10px;
 }
-.btn.active:hover {
+input.form-submit {
+  @include text-shadow(none);
+  border: 0;
+}
+.btn.active:hover,
+input.form-submit:hover, input.form-submit:focus {
   @include box-shadow($gray-med3 4px 4px 8px);
   background-color: $black;
 }
@@ -1945,6 +1951,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
     li {
       list-style: none;
       margin-left: 0;
+      font-weight: 600;
     }
     input {
       margin-right: 8px;
