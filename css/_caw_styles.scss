@@ -588,6 +588,15 @@ a.btn:hover,
 a.btn:focus {
   padding: 0.5em 1em;
 }
+.btn.active, .btn:active {
+  background: $red;
+  @include box-shadow($gray-med3 2px 2px 8px);
+  color: $white;
+}
+.btn.active:hover {
+  @include box-shadow($gray-med3 4px 4px 8px);
+  background-color: $black;
+}
 a.btn.btn-arrow-right {
   font-size: 1.25em;
   line-height: 1.2em;
@@ -1931,13 +1940,16 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
 
 /** SEARCH *******************************/
 .page-search {
-  .facetapi-facetapi-checkbox-links {
+  .block-facetapi {
     li {
       list-style-type: none;
     }
     input {
       margin-right: 8px;
     }
+  }
+  .excerpt-highlight {
+    background-color: #FAF7A0;
   }
 }
 
