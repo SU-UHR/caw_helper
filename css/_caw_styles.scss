@@ -1796,7 +1796,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
   }
 }
 
-/* event node styles */
+/* event and course node styles */
 
 .node-type-stanford-event .field.field-name-field-stanford-event-datetime.field-type-datetime.field-label-hidden {
     margin-bottom: 0.25em;
@@ -1809,6 +1809,16 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
 }
 .group-event-series-styles {
     margin-top: 1em;
+}
+.group-event-series-styles h2 {
+  display: inline;
+  font-size: 1em;
+  font-weight: 600;
+}
+.group-event-series-styles .field, 
+.group-event-series-styles .field-items, 
+.group-event-series-styles .field-item {
+  display: inline;
 }
 .group-event-details .field.field-name-field-stanford-event-sponsor.field-type-text.field-label-above,
 .group-event-details .field.field-name-field-stanford-event-email.field-type-text.field-label-above,
