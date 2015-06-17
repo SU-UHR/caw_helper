@@ -592,6 +592,7 @@ a.btn:focus {
   background: $red;
   @include box-shadow($gray-med3 2px 2px 8px);
   color: $white;
+  margin-right: 10px;
 }
 .btn.active:hover {
   @include box-shadow($gray-med3 4px 4px 8px);
@@ -1942,14 +1943,18 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
 .page-search {
   .block-facetapi {
     li {
-      list-style-type: none;
+      list-style: none;
+      margin-left: 0;
     }
     input {
       margin-right: 8px;
     }
   }
   .excerpt-highlight {
-    background-color: #FAF7A0;
+    background-color: #AEEFF2;
+  }
+  li a.active {
+    color: $red;
   }
 }
 
