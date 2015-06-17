@@ -669,6 +669,8 @@ a.btn.btn-arrow-right:focus {
 .view img {
   @include border-radius(3px);
   @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.3));
+  margin-left: 7px;
+  margin-top: 7px;
 }
 
 /** PAGER ******************************/
