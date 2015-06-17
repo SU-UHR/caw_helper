@@ -703,7 +703,10 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
 .views-exposed-form .views-exposed-widget.views-submit-button {
   clear: left;
 }
-
+.container-inline-date .form-item, .container-inline-date .form-item input,
+.views-exposed-form .container-inline-date .date-padding {
+  max-width: 100%;
+}
 
 /** IFRAMES ***************************/
 iframe {
