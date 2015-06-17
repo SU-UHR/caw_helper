@@ -598,11 +598,14 @@ input.form-submit {
 input.form-submit {
   @include text-shadow(none);
   border: 0;
+  padding: 0.5em 1em;
+  @include border-radius(0.3em);
+  font-size: inherit;
 }
 .btn.active:hover,
 input.form-submit:hover, input.form-submit:focus {
   @include box-shadow($gray-med3 4px 4px 8px);
-  background-color: $black;
+  background: $black;
 }
 a.btn.btn-arrow-right {
   font-size: 1.25em;
