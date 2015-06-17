@@ -589,13 +589,13 @@ a.btn:focus {
   padding: 0.5em 1em;
 }
 .btn.active, .btn:active,
-.block-stanford-search-api input.form-submit {
+#stanford-search-api-reset-facets-block-form input.form-submit {
   background: $red;
   @include box-shadow($gray-med3 2px 2px 8px);
   color: $white;
   margin-right: 10px;
 }
-.block-stanford-search-api input.form-submit {
+#stanford-search-api-reset-facets-block-form input.form-submit {
   @include text-shadow(none);
   border: 0;
   padding: 0.5em 1em;
@@ -603,8 +603,8 @@ a.btn:focus {
   font-size: inherit;
 }
 .btn.active:hover,
-.block-stanford-search-api input.form-submit:hover, 
-.block-stanford-search-api input.form-submit:focus {
+#stanford-search-api-reset-facets-block-form input.form-submit:hover, 
+#stanford-search-api-reset-facets-block-form input.form-submit:focus {
   @include box-shadow($gray-med3 4px 4px 8px);
   background: $black;
   color: $white;

@@ -783,7 +783,7 @@ a.btn:focus {
 
 /* line 592, _caw_styles.scss */
 .btn.active, .btn:active,
-.block-stanford-search-api input.form-submit {
+#stanford-search-api-reset-facets-block-form input.form-submit {
   background: #8c1515;
   -webkit-box-shadow: #909499 2px 2px 8px;
   -moz-box-shadow: #909499 2px 2px 8px;
@@ -793,7 +793,7 @@ a.btn:focus {
 }
 
 /* line 598, _caw_styles.scss */
-.block-stanford-search-api input.form-submit {
+#stanford-search-api-reset-facets-block-form input.form-submit {
   text-shadow: none;
   border: 0;
   padding: 0.5em 1em;
@@ -807,8 +807,8 @@ a.btn:focus {
 
 /* line 607, _caw_styles.scss */
 .btn.active:hover,
-.block-stanford-search-api input.form-submit:hover,
-.block-stanford-search-api input.form-submit:focus {
+#stanford-search-api-reset-facets-block-form input.form-submit:hover,
+#stanford-search-api-reset-facets-block-form input.form-submit:focus {
   -webkit-box-shadow: #909499 4px 4px 8px;
   -moz-box-shadow: #909499 4px 4px 8px;
   box-shadow: #909499 4px 4px 8px;
