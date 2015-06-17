@@ -2655,7 +2655,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   background-color: #AEEFF2;
 }
 /* line 1956, _caw_styles.scss */
-.page-search li a.active {
+.page-search .search-views-bottom a.active {
   color: #8c1515;
 }
 
