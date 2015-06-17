@@ -1929,6 +1929,18 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
   }
 }
 
+/** SEARCH *******************************/
+.page-search {
+  .facetapi-facetapi-checkbox-links {
+    li {
+      list-style-type: none;
+    }
+    input {
+      margin-right: 8px;
+    }
+  }
+}
+
 /** IE STYLES ****************************/
 
 
