@@ -665,7 +665,8 @@ a.btn.btn-arrow-right:focus {
   margin-bottom: 0;
   padding: 0;
 }
-.main .border-shadow img {
+.main .border-shadow img,
+.view img {
   @include border-radius(3px);
   @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.3));
 }
