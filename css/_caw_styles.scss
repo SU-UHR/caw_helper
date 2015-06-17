@@ -666,9 +666,11 @@ a.btn.btn-arrow-right:focus {
   padding: 0;
 }
 .main .border-shadow img,
-.view img {
+.views-row-lines img {
   @include border-radius(3px);
   @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.3));
+}
+.views-row-lines img {
   margin-left: 7px;
   margin-top: 7px;
 }
