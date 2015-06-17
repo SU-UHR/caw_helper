@@ -716,7 +716,10 @@ iframe {
 
 .column > .content, 
 .column > .content > .entity, 
-.column .tile {
+.column .tile,
+.views-row.column .views-field, 
+.views-row.column .field-content,
+.views-row.column .tile {
     height: 100%;
 }
 
