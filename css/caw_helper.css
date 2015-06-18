@@ -2646,32 +2646,37 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   padding-top: 0.5em;
 }
 
+/* line 1945, _caw_styles.scss */
+#block-ds-extras-misc-course-information .field-label {
+  margin-top: 1em;
+}
+
 /** CAREER CELEBRATIONS ***********************/
 /* career celebrations node styles */
-/* line 1949, _caw_styles.scss */
+/* line 1953, _caw_styles.scss */
 .node-type-stanford-career-celebrations h1 {
   margin-bottom: 0.1em;
   margin-top: 0;
 }
 
-/* line 1953, _caw_styles.scss */
+/* line 1957, _caw_styles.scss */
 .page-node.node-type-stanford-career-celebrations .content-body .field.field-name-field-s-celebration-job-title {
   margin-bottom: 0.1em;
 }
 
-/* line 1956, _caw_styles.scss */
+/* line 1960, _caw_styles.scss */
 .view-honoree-archive .tile .tile-text {
   font-size: 0.8em;
   line-height: 1.3em;
 }
 
 /** STANFORD PAGES ****************************/
-/* line 1964, _caw_styles.scss */
+/* line 1968, _caw_styles.scss */
 .node-type-stanford-page .postcard-image img {
   margin-bottom: 30px;
 }
 
-/* line 1968, _caw_styles.scss */
+/* line 1972, _caw_styles.scss */
 .node img {
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
@@ -2684,18 +2689,18 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 }
 
 /** CALENDAR **********************************/
-/* line 1974, _caw_styles.scss */
+/* line 1978, _caw_styles.scss */
 .view-stanford-events-calendar .date-nav-wrapper {
   background: transparent;
 }
 
-/* line 1978, _caw_styles.scss */
+/* line 1982, _caw_styles.scss */
 .calendar-calendar th.days,
 .calendar-calendar .mini td {
   background: #eeeeee;
 }
 
-/* line 1981, _caw_styles.scss */
+/* line 1985, _caw_styles.scss */
 .content-body .view-stanford-events-calendar .date-nav-wrapper {
   background: #eeeeee;
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
@@ -2710,22 +2715,22 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   margin-bottom: 2em;
 }
 
-/* line 1988, _caw_styles.scss */
+/* line 1992, _caw_styles.scss */
 .event-relationships {
   margin-top: 1em;
 }
 
 /** GALLERY ***********************************/
-/* line 1993, _caw_styles.scss */
+/* line 1997, _caw_styles.scss */
 #cboxTitle {
   color: black;
 }
-/* line 1995, _caw_styles.scss */
+/* line 1999, _caw_styles.scss */
 #cboxTitle .caption {
   color: black;
 }
 
-/* line 1999, _caw_styles.scss */
+/* line 2003, _caw_styles.scss */
 .node-stanford-gallery .field-name-field-s-gallery-image-info > .field-items > .field-item a.stanford-gallery-image *:hover {
   border: none;
   -webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
@@ -2736,44 +2741,44 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 }
 
 /* block gallery */
-/* line 2007, _caw_styles.scss */
+/* line 2011, _caw_styles.scss */
 .bean-stanford-gallery .node-stanford-gallery .field-name-field-s-gallery-image-info > .field-items > .field-item {
   width: 48%;
 }
 
-/* line 2010, _caw_styles.scss */
+/* line 2014, _caw_styles.scss */
 .bean-stanford-gallery .node-stanford-gallery .field-name-field-s-gallery-image-info > .field-items > .field-item.even {
   margin-right: 4%;
 }
 
-/* line 2013, _caw_styles.scss */
+/* line 2017, _caw_styles.scss */
 .bean-stanford-gallery .field-collection-view.view-mode-gallery-small {
   width: 100%;
 }
 
 @media (max-width: 480px) and (min-width: 300px) {
-  /* line 2017, _caw_styles.scss */
+  /* line 2021, _caw_styles.scss */
   .bean-stanford-gallery .node-stanford-gallery .field-name-field-s-gallery-image-info > .field-items > .field-item {
     width: 29%;
     margin-right: 4%;
   }
 }
 /** SEARCH *******************************/
-/* line 2026, _caw_styles.scss */
+/* line 2030, _caw_styles.scss */
 .page-search .block-facetapi li {
   list-style: none;
   margin-left: 0;
   font-weight: 600;
 }
-/* line 2031, _caw_styles.scss */
+/* line 2035, _caw_styles.scss */
 .page-search .block-facetapi input {
   margin-right: 8px;
 }
-/* line 2035, _caw_styles.scss */
+/* line 2039, _caw_styles.scss */
 .page-search .excerpt-highlight {
   background-color: #BCE6E8;
 }
-/* line 2038, _caw_styles.scss */
+/* line 2042, _caw_styles.scss */
 .page-search .search-views-bottom a.active {
   color: #8c1515;
 }
