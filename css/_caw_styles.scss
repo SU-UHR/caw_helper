@@ -1912,6 +1912,9 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
 }
 
 .view-s-cardinal-at-work-course-calendar {
+  .postcard-left {
+    margin-bottom: 0;
+  }
   .postcard-left > div {
     width: 150px;
   }
@@ -1920,6 +1923,13 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
   }
   .postcard-left > div:last-child {
     width: auto;
+  }
+  .views-row-lines .views-row {
+    margin-bottom: 0.5em;
+    padding-bottom: 0.5em;
+  }
+  .views-row-lines .views-row-1 {
+    padding-top: 0.5em;
   }
 }
 
