@@ -2620,42 +2620,44 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 .view-s-cardinal-at-work-course-calendar .postcard-left > div:last-child {
   width: auto;
 }
-/* line 1927, _caw_styles.scss */
-.view-s-cardinal-at-work-course-calendar .views-row-lines .views-row {
+
+/* line 1928, _caw_styles.scss */
+.view-s-cardinal-at-work-course-calendar.views-row-lines .views-row {
   margin-bottom: 0.5em;
   padding-bottom: 0.5em;
 }
-/* line 1931, _caw_styles.scss */
-.view-s-cardinal-at-work-course-calendar .views-row-lines .views-row-1 {
+
+/* line 1932, _caw_styles.scss */
+.view-s-cardinal-at-work-course-calendar.views-row-lines .views-row-1 {
   padding-top: 0.5em;
 }
 
 /** CAREER CELEBRATIONS ***********************/
 /* career celebrations node styles */
-/* line 1939, _caw_styles.scss */
+/* line 1940, _caw_styles.scss */
 .node-type-stanford-career-celebrations h1 {
   margin-bottom: 0.1em;
   margin-top: 0;
 }
 
-/* line 1943, _caw_styles.scss */
+/* line 1944, _caw_styles.scss */
 .page-node.node-type-stanford-career-celebrations .content-body .field.field-name-field-s-celebration-job-title {
   margin-bottom: 0.1em;
 }
 
-/* line 1946, _caw_styles.scss */
+/* line 1947, _caw_styles.scss */
 .view-honoree-archive .tile .tile-text {
   font-size: 0.8em;
   line-height: 1.3em;
 }
 
 /** STANFORD PAGES ****************************/
-/* line 1954, _caw_styles.scss */
+/* line 1955, _caw_styles.scss */
 .node-type-stanford-page .postcard-image img {
   margin-bottom: 30px;
 }
 
-/* line 1958, _caw_styles.scss */
+/* line 1959, _caw_styles.scss */
 .node img {
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
@@ -2668,18 +2670,18 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 }
 
 /** CALENDAR **********************************/
-/* line 1964, _caw_styles.scss */
+/* line 1965, _caw_styles.scss */
 .view-stanford-events-calendar .date-nav-wrapper {
   background: transparent;
 }
 
-/* line 1968, _caw_styles.scss */
+/* line 1969, _caw_styles.scss */
 .calendar-calendar th.days,
 .calendar-calendar .mini td {
   background: #eeeeee;
 }
 
-/* line 1971, _caw_styles.scss */
+/* line 1972, _caw_styles.scss */
 .content-body .view-stanford-events-calendar .date-nav-wrapper {
   background: #eeeeee;
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
@@ -2694,22 +2696,22 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   margin-bottom: 2em;
 }
 
-/* line 1978, _caw_styles.scss */
+/* line 1979, _caw_styles.scss */
 .event-relationships {
   margin-top: 1em;
 }
 
 /** GALLERY ***********************************/
-/* line 1983, _caw_styles.scss */
+/* line 1984, _caw_styles.scss */
 #cboxTitle {
   color: black;
 }
-/* line 1985, _caw_styles.scss */
+/* line 1986, _caw_styles.scss */
 #cboxTitle .caption {
   color: black;
 }
 
-/* line 1989, _caw_styles.scss */
+/* line 1990, _caw_styles.scss */
 .node-stanford-gallery .field-name-field-s-gallery-image-info > .field-items > .field-item a.stanford-gallery-image *:hover {
   border: none;
   -webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
@@ -2720,44 +2722,44 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 }
 
 /* block gallery */
-/* line 1997, _caw_styles.scss */
+/* line 1998, _caw_styles.scss */
 .bean-stanford-gallery .node-stanford-gallery .field-name-field-s-gallery-image-info > .field-items > .field-item {
   width: 48%;
 }
 
-/* line 2000, _caw_styles.scss */
+/* line 2001, _caw_styles.scss */
 .bean-stanford-gallery .node-stanford-gallery .field-name-field-s-gallery-image-info > .field-items > .field-item.even {
   margin-right: 4%;
 }
 
-/* line 2003, _caw_styles.scss */
+/* line 2004, _caw_styles.scss */
 .bean-stanford-gallery .field-collection-view.view-mode-gallery-small {
   width: 100%;
 }
 
 @media (max-width: 480px) and (min-width: 300px) {
-  /* line 2007, _caw_styles.scss */
+  /* line 2008, _caw_styles.scss */
   .bean-stanford-gallery .node-stanford-gallery .field-name-field-s-gallery-image-info > .field-items > .field-item {
     width: 29%;
     margin-right: 4%;
   }
 }
 /** SEARCH *******************************/
-/* line 2016, _caw_styles.scss */
+/* line 2017, _caw_styles.scss */
 .page-search .block-facetapi li {
   list-style: none;
   margin-left: 0;
   font-weight: 600;
 }
-/* line 2021, _caw_styles.scss */
+/* line 2022, _caw_styles.scss */
 .page-search .block-facetapi input {
   margin-right: 8px;
 }
-/* line 2025, _caw_styles.scss */
+/* line 2026, _caw_styles.scss */
 .page-search .excerpt-highlight {
   background-color: #BCE6E8;
 }
-/* line 2028, _caw_styles.scss */
+/* line 2029, _caw_styles.scss */
 .page-search .search-views-bottom a.active {
   color: #8c1515;
 }
