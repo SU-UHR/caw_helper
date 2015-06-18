@@ -1909,8 +1909,18 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
       }
     }
   }
+}
 
-
+.view-s-cardinal-at-work-course-calendar {
+  .postcard-left > div {
+    width: 150px;
+  }
+  .postcard-left > div:first-child {
+    width: 90px;
+  }
+  .postcard-left > div:last-child {
+    width: auto;
+  }
 }
 
 /** CAREER CELEBRATIONS ***********************/
