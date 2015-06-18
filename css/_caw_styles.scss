@@ -1911,7 +1911,8 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
   }
 }
 
-.view-s-cardinal-at-work-course-calendar {
+.view-s-cardinal-at-work-course-calendar,
+.view-cardinal-at-work-event-series-dates {
   .postcard-left {
     margin-bottom: 0;
   }
@@ -1934,11 +1935,13 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
     }
   }
 }
-.view-s-cardinal-at-work-course-calendar.views-row-lines .views-row {
+.view-s-cardinal-at-work-course-calendar.views-row-lines .views-row,
+.view-cardinal-at-work-event-series-dates.views-row-lines .views-row {
   margin-bottom: 0.5em;
   padding-bottom: 0.5em;
 }
-.view-s-cardinal-at-work-course-calendar.views-row-lines .views-row-1 {
+.view-s-cardinal-at-work-course-calendar.views-row-lines .views-row-1,
+.view-cardinal-at-work-event-series-dates.views-row-lines .views-row-1 {
   padding-top: 0.5em;
 }
 
