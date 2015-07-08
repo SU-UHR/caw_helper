@@ -576,14 +576,14 @@ th, td {
   background: $white;
 }
 thead th {
-  color: $white;
+  color: $black;
+  background: $gray-light;
   font-weight: 600;
   text-transform: uppercase;
   padding: 0.5em;
-  border-top: 1px solid $red;
-  border-left: 1px solid $red;
+  border-top: 1px solid $gray-light;
+  border-left: 1px solid $gray-light;
   border-right: 1px solid $gray-light;
-  background: $red;
 }
 thead th:last-child {
   border-right-color: $red;
