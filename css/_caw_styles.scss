@@ -705,14 +705,18 @@ ul.pager li a,
 ul.pager li.pager-current {
   @include box-shadow($gray-med3 2px 2px 8px);
   @include border-radius(4px);
+  font-weight: 300;
+}
+ul.pager li.pager-current {
+  padding: 5px 10px;
 }
 ul.pager li a {
   color: $white;
-  background: $red;
+  background: $turq-med;
   margin-bottom: 10px;
 }
 ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
-  background: $black;
+  background: $turq-dark;
   @include box-shadow($gray-med3 4px 4px 8px);
 }
 
@@ -725,7 +729,7 @@ form {
   border: 0;
   color: $white;
   letter-spacing: 0.04em;
-  padding: 0.75em 1em;
+  padding: 0.5em 1em;
   height: auto;
   font-weight: 300;
   @include box-shadow($gray-med3 2px 2px 8px);
