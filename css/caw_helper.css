@@ -52,7 +52,7 @@ body, .header, .site-main-menu, .main, .footer {
   background-position: center center;
   padding-top: 50px;
   background-size: cover;
-  border-top: 1px solid #e0e0e0;
+  border-top: 1px solid #eeeeee;
 }
 @media (max-width: 979px) {
   /* line 27, _caw_styles.scss */
