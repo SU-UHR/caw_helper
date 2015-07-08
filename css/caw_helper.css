@@ -9,7 +9,7 @@
 /* dates, descriptor */
 /* carousel, menu */
 /* link on dark */
-/* sweetener cards */
+/* sweetener cards, links in wells */
 /* sweetener cards hover */
 /* button */
 /** GENERAL ****************************/
@@ -1330,7 +1330,7 @@ iframe {
 }
 /* line 985, _caw_styles.scss */
 .well a {
-  color: #3f8289;
+  color: #28737a;
 }
 /* line 988, _caw_styles.scss */
 .well a:hover, .well a:focus {
@@ -1557,7 +1557,7 @@ body.front .main-top {
 
 /* line 1159, _caw_styles.scss */
 a.sweetener-link {
-  background: #3f8289;
+  background: #28737a;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -1606,7 +1606,7 @@ a.sweetener-link .sweetener-thumb:after {
 /* line 1189, _caw_styles.scss */
 a.sweetener-link:hover,
 a.sweetener-link:focus {
-  background: #5f9aa1;
+  background: #477a80;
   -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
@@ -1932,7 +1932,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
 /* line 1414, _caw_styles.scss */
 .view.carousel .carousel-caption.carousel-dark a.more-link,
 .view.carousel .carousel-caption.carousel-dark .more-link a {
-  color: #3f8289;
+  color: #28737a;
   font-size: 1.5em;
   line-height: 1.3em;
   display: block;
