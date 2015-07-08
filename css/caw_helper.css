@@ -964,13 +964,13 @@ ul.pager li.pager-current {
 /* line 713, _caw_styles.scss */
 ul.pager li a {
   color: white;
-  background: #28737a;
+  background: #004f5b;
   margin-bottom: 10px;
 }
 
 /* line 718, _caw_styles.scss */
 ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
-  background: #004f5b;
+  background: black;
   -webkit-box-shadow: #909499 4px 4px 8px;
   -moz-box-shadow: #909499 4px 4px 8px;
   box-shadow: #909499 4px 4px 8px;

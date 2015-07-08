@@ -712,11 +712,11 @@ ul.pager li.pager-current {
 }
 ul.pager li a {
   color: $white;
-  background: $turq-med;
+  background: $turq-dark;
   margin-bottom: 10px;
 }
 ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
-  background: $turq-dark;
+  background: $black;
   @include box-shadow($gray-med3 4px 4px 8px);
 }
 
