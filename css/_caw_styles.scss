@@ -618,8 +618,6 @@ a.btn:focus {
   color: $white;
 }
 a.btn.btn-arrow-right {
-  font-size: 1.25em;
-  line-height: 1.2em;
   @include box-shadow($gray-med3 2px 2px 8px);
 }
 a.btn.btn-arrow-right,
