@@ -143,7 +143,8 @@ body, .header, .site-main-menu, .main, .footer {
 	background: $beige;
 	color: $black;
   border: 1px solid $gray-light;
-	min-width: 190px;
+	min-width: 110%;
+  max-width: 275px;
 	padding-bottom: 0.5em;
   padding-top: 0.5em;
   margin-left: -6px;
