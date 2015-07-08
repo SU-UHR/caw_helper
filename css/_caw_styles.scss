@@ -30,10 +30,11 @@ body, .header, .site-main-menu, .main, .footer {
   background-position: center center;
   padding-top: 50px;
   background-size: cover;
+  border-top: 1px solid $gray-light1;
   @media (max-width: 979px) {
     background-image: url('../img/caw-bkg-tall.png');
     background-size: inherit;
-    background-position: center 78%;
+    background-position: center bottom;
   }
 }
 .main-lower {
