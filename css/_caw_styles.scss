@@ -496,9 +496,16 @@ blockquote a.btn.btn-arrow-right {
 .caption, .credits, .descriptor {
 }
 .credits {
+  color: $gray-med4;
+  letter-spacing: 0.01em;
+  font-style: italic;
   margin: 0;
 }
 .caption {
+  margin-top: 1em;
+  color: $black;
+  letter-spacing: 0.02em;
+  font-style: normal;
 }
 .descriptor {
   color: $gray-med4;
@@ -550,7 +557,7 @@ hr {
 /** LISTS ****************************/
 ul li {
   line-height: 1.4em;
-  margin-bottom: 0.25em;
+  margin-bottom: 0.5em;
 }
 ul, ol {
   margin-bottom: 1.25em;
