@@ -975,14 +975,27 @@ iframe {
     padding-top: 0;
 }
 
+/* default block view mode styles */
+.block .view-mode-default {
+  @include border-radius(3px);
+  @include box-sizing(border-box);
+  padding: 24px 28px;
+  background: $gray-light;
+  a {
+    color: $turq-med;
+  }
+  a:hover, a:focus {
+    color: $turq-dark;
+    text-decoration: underline;
+  }
+}
+
 /* default well blocks */
 .well {
   background: $gray-light;
   @include box-sizing(border-box);
   @include border-radius(3px);
-  @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.2));
   color: $gray-dark;
-  font-size: 0.9em;
   padding: 24px 28px;
   h2 {
     letter-spacing: 0.02em;
@@ -996,17 +1009,7 @@ iframe {
 
 /* well-nav blocks */
 .well.well-nav {
-  background-color: $gray-dark;
-  color: $off-white;
-  h2 {
-    color: $off-white;
-  }
-  a {
-    color: $off-white;
-  }
-  a:hover, a:focus {
-    color: $turq-light;
-  }
+  
 }
 
 /* footer blocks */
