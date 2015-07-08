@@ -1368,6 +1368,11 @@ iframe {
 }
 
 /* well-nav blocks */
+/* line 1023, _caw_styles.scss */
+.well.well-nav a {
+  font-weight: 400;
+}
+
 /* footer blocks */
 /* line 1028, _caw_styles.scss */
 .site-footer .block {
