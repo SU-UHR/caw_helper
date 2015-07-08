@@ -216,6 +216,11 @@ body, .header, .site-main-menu, .main, .footer {
 }
 
 @media (max-width: 767px) {
+  .nav-collapse.in {
+    @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.3));
+    background: $white;
+    @include border-radius(3px);
+  }
   .nav-collapse .dropdown-menu {
     margin: 0;
   }
@@ -449,7 +454,10 @@ body, .header, .site-main-menu, .main, .footer {
 /** HEADERS ****************************/
 h1 {
   margin-bottom: 0.5em;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.03em;
+}
+#page-title {
+  margin-bottom: 0.25em;
 }
 h2, h3, h4 {
 }
