@@ -764,6 +764,11 @@ iframe {
   a.more-link {
     margin-top: 0;
   }
+  @media (max-width: 767px) {
+    .postcard img {
+      width: 100%;
+    }
+  }
 }
 .block-bean.normal-header h2 {
   font-size: 1.8em;
