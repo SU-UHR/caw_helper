@@ -125,35 +125,37 @@ body, .header, .site-main-menu, .main, .footer {
   margin-bottom: 0;
 }
 .navbar .nav > li > a {
+  @include border-radius(0);
   color: $black;
-  font-size: 1.3em;
-  font-weight: 400;
+  font-size: 1.2em;
+  font-weight: 300;
   line-height: 1.3em;
-  background:transparent;
-  padding: 4px 12px;
+  background: transparent;
+  padding: 0 0.25em 0.25em;
   border-radius: 4px;
-  margin-right: 12px;
+  margin-right: 1.4em;
+  border-bottom: 1px solid transparent;
   @media (max-width: 767px) {
     margin-right: 0;
   }
 }
 .dropdown-menu {
-	background: $gray-dark;
-	color: $white;
+	background: $beige;
+	color: $black;
+  border: 1px solid $gray-light;
 	min-width: 190px;
 	padding-bottom: 0.5em;
   padding-top: 0.5em;
   margin-top: -4px;
-  @include border-radius(0px 3px 3px 3px);
+  @include border-radius(3px);
   @include  box-shadow(3px 3px 10px rgba(0, 0, 0, 0.3));
 }
 .nav-collapse .dropdown-menu a {
-	color: $white;
-	font-size: 0.95em;
+	color: $black;
+	font-size: 0.9em;
+  font-weight: 300;
+  padding: 0.25em 1em;
   letter-spacing: 0.02em;
-}
-.dropdown-menu > li > a {
-	padding: 6px 20px;
 }
 .nolink {
 	font-size: .65em;
@@ -181,8 +183,8 @@ body, .header, .site-main-menu, .main, .footer {
 .navbar .nav li.active-trail.dropdown > .dropdown-toggle,
 .navbar .nav li.active-trail.dropdown > .dropdown-toggle:hover,
 .navbar .nav li.active-trail.dropdown > .dropdown-toggle:focus {
-	color: $white;
-	background: $gray-med1;
+	color: $black;
+	background: transparent;
 }
 .navbar .nav li.dropdown.active > .dropdown-toggle,
 .navbar .nav li.dropdown.active > .dropdown-toggle:hover,
@@ -193,8 +195,8 @@ body, .header, .site-main-menu, .main, .footer {
 .navbar .nav li.dropdown.open > .dropdown-toggle:hover,
 .navbar .nav li.dropdown.open > .dropdown-toggle:focus,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle {
-	@include box-shadow($gray-med3 2px 2px 8px);
-  background: $gray-dark;
+	color: $red;
+  background: transparent;
 }
 .dropdown .caret {
 	display: none;
@@ -202,7 +204,7 @@ body, .header, .site-main-menu, .main, .footer {
 .dropdown hr,
 .sidebar .block-menu-block hr {
 	margin: 6px 0;
-	border-color: $gray-med1;
+	border-color: $gray-light;
 	border-top: 0px;
 }
 
@@ -215,12 +217,13 @@ body, .header, .site-main-menu, .main, .footer {
 .navbar .nav li.active-trail > a:hover,
 .navbar .nav li.active-trail > a:focus  {
   color: $black;
-  background: $gray-light2;
+  background: transparent;
+  border-bottom: 1px solid $red;
 }
 .navbar .nav li.dropdown li.active-trail > a,
 .navbar .nav li.dropdown li.active-trail > a:hover {
-  color: $white;
-  background: $gray-med1;
+  color: $black;
+  background: transparent;
 }
 
 @media (max-width: 767px) {
