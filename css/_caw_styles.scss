@@ -202,17 +202,12 @@ body, .header, .site-main-menu, .main, .footer {
 .navbar .nav > .active > a:focus,
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover,
-.navbar .nav li.active-trail > a,
-.navbar .nav li.active-trail > a:hover,
-.navbar .nav li.active-trail > a:focus  {
+.navbar .nav > li.active-trail > a,
+.navbar .nav > li.active-trail > a:hover,
+.navbar .nav > li.active-trail > a:focus  {
   color: $black;
   background: transparent;
   border-bottom: 1px solid $red;
-}
-.navbar .nav li.dropdown li.active-trail > a,
-.navbar .nav li.dropdown li.active-trail > a:hover {
-  color: $black;
-  background: transparent;
 }
 
 @media (max-width: 767px) {
