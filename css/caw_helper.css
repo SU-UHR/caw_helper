@@ -13,40 +13,40 @@
 /* sweetener cards hover */
 /* button */
 /** GENERAL ****************************/
-/* line 5, _caw_styles.scss */
+/* line 5, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 body, .header, .site-main-menu, .main, .footer {
   background: #fbfbf9;
 }
 
-/* line 9, _caw_styles.scss */
+/* line 9, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 #global-header a, #global-footer a {
   font-size: 14px !important;
 }
 
 /** REGIONS ****************************/
-/* line 14, _caw_styles.scss */
+/* line 14, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .row-fluid {
   margin-bottom: 30px;
 }
 
-/* line 17, _caw_styles.scss */
+/* line 17, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .header {
   padding: 35px 0 40px;
 }
 
-/* line 20, _caw_styles.scss */
+/* line 20, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .main {
   background: transparent;
   min-height: 871px;
 }
 @media (max-width: 767px) {
-  /* line 20, _caw_styles.scss */
+  /* line 20, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .main {
     padding-top: 20px;
   }
 }
 
-/* line 27, _caw_styles.scss */
+/* line 27, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .footer {
   background-image: url("../img/caw-bkg-short.png");
   background-repeat: repeat-x;
@@ -56,7 +56,7 @@ body, .header, .site-main-menu, .main, .footer {
   border-top: 1px solid #e6eaeb;
 }
 @media (max-width: 979px) {
-  /* line 27, _caw_styles.scss */
+  /* line 27, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .footer {
     background-image: url("../img/caw-bkg-tall.png");
     background-size: inherit;
@@ -64,35 +64,35 @@ body, .header, .site-main-menu, .main, .footer {
   }
 }
 
-/* line 40, _caw_styles.scss */
+/* line 40, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .main-lower {
   margin-top: 80px;
 }
 
 /** LOGO ****************************/
-/* line 46, _caw_styles.scss */
+/* line 46, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 #header #logo {
   border-right: 2px solid black;
 }
-/* line 48, _caw_styles.scss */
+/* line 48, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 #header #logo img {
-  max-width: 220px;
+  max-width: 200px;
 }
 @media (max-width: 480px) {
-  /* line 46, _caw_styles.scss */
+  /* line 46, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   #header #logo {
     border-right: 0;
     margin-bottom: 30px;
   }
 }
 
-/* line 56, _caw_styles.scss */
+/* line 56, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .header .site-logo img {
   max-height: 86px;
 }
 
 /* site titles */
-/* line 66, _caw_styles.scss */
+/* line 66, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 #site-title-first-line a,
 #site-title-first-line a:hover,
 #site-title-first-line a:focus,
@@ -100,19 +100,19 @@ body, .header, .site-main-menu, .main, .footer {
 #site-title-second-line a:hover,
 #site-title-second-line a:focus {
   color: black;
-  font-size: 37px;
+  font-size: 35px;
   font-weight: 400;
   letter-spacing: -0.02em;
   line-height: 1.2em;
 }
 
-/* line 73, _caw_styles.scss */
+/* line 73, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 #site-title-second-line {
   margin-bottom: -8px;
 }
 
 @media (max-width: 480px) {
-  /* line 78, _caw_styles.scss */
+  /* line 78, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   #site-title-first-line,
   #site-title-second-line {
     margin-right: 0.25em;
@@ -120,19 +120,19 @@ body, .header, .site-main-menu, .main, .footer {
   }
 }
 @media (max-width: 320px) {
-  /* line 85, _caw_styles.scss */
+  /* line 85, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   #header #logo img,
   #header #logo.logo-mobile img {
     max-width: 100%;
   }
 }
 /** SEARCH ****************************/
-/* line 92, _caw_styles.scss */
+/* line 92, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .nav-search {
   max-width: 165px;
 }
 
-/* line 95, _caw_styles.scss */
+/* line 95, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .nav-search input[type="text"] {
   border-color: transparent;
   padding: .5em 30px .5em 1em;
@@ -150,7 +150,7 @@ body, .header, .site-main-menu, .main, .footer {
   box-sizing: border-box;
 }
 
-/* line 103, _caw_styles.scss */
+/* line 103, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .nav-search input.form-submit {
   background: transparent;
   border: 0 none;
@@ -166,19 +166,19 @@ body, .header, .site-main-menu, .main, .footer {
   left: -8px;
 }
 
-/* line 118, _caw_styles.scss */
+/* line 118, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .nav-search input.form-submit:hover,
 .nav-search input.form-submit:focus {
   opacity: .8;
 }
 
 /** NAVBAR MENU ****************************/
-/* line 124, _caw_styles.scss */
+/* line 124, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .navbar {
   margin-bottom: 0;
 }
 
-/* line 127, _caw_styles.scss */
+/* line 127, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .navbar .nav > li > a {
   color: black;
   font-size: 1.3em;
@@ -190,13 +190,13 @@ body, .header, .site-main-menu, .main, .footer {
   margin-right: 12px;
 }
 @media (max-width: 767px) {
-  /* line 127, _caw_styles.scss */
+  /* line 127, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .navbar .nav > li > a {
     margin-right: 0;
   }
 }
 
-/* line 140, _caw_styles.scss */
+/* line 140, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .dropdown-menu {
   background: #3d3e42;
   color: white;
@@ -214,19 +214,19 @@ body, .header, .site-main-menu, .main, .footer {
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* line 150, _caw_styles.scss */
+/* line 150, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .nav-collapse .dropdown-menu a {
   color: white;
   font-size: 0.95em;
   letter-spacing: 0.02em;
 }
 
-/* line 155, _caw_styles.scss */
+/* line 155, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .dropdown-menu > li > a {
   padding: 6px 20px;
 }
 
-/* line 158, _caw_styles.scss */
+/* line 158, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .nolink {
   font-size: .65em;
   padding: 10px 20px 3px;
@@ -234,7 +234,7 @@ body, .header, .site-main-menu, .main, .footer {
   letter-spacing: 0.05em;
 }
 
-/* line 183, _caw_styles.scss */
+/* line 183, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .nav-collapse .dropdown-menu > li > a:hover,
 .nav-collapse .dropdown-menu > li > a:focus,
 .nav-collapse .dropdown-menu > .active > a,
@@ -259,7 +259,7 @@ body, .header, .site-main-menu, .main, .footer {
   background: #5a5c61;
 }
 
-/* line 195, _caw_styles.scss */
+/* line 195, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .navbar .nav li.dropdown.active > .dropdown-toggle,
 .navbar .nav li.dropdown.active > .dropdown-toggle:hover,
 .navbar .nav li.dropdown.active > .dropdown-toggle:focus,
@@ -275,12 +275,12 @@ body, .header, .site-main-menu, .main, .footer {
   background: #3d3e42;
 }
 
-/* line 199, _caw_styles.scss */
+/* line 199, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .dropdown .caret {
   display: none;
 }
 
-/* line 203, _caw_styles.scss */
+/* line 203, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .dropdown hr,
 .sidebar .block-menu-block hr {
   margin: 6px 0;
@@ -288,7 +288,7 @@ body, .header, .site-main-menu, .main, .footer {
   border-top: 0px;
 }
 
-/* line 216, _caw_styles.scss */
+/* line 216, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus,
@@ -301,7 +301,7 @@ body, .header, .site-main-menu, .main, .footer {
   background: #c2c3c4;
 }
 
-/* line 221, _caw_styles.scss */
+/* line 221, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .navbar .nav li.dropdown li.active-trail > a,
 .navbar .nav li.dropdown li.active-trail > a:hover {
   color: white;
@@ -309,12 +309,12 @@ body, .header, .site-main-menu, .main, .footer {
 }
 
 @media (max-width: 767px) {
-  /* line 227, _caw_styles.scss */
+  /* line 227, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .nav-collapse .dropdown-menu {
     margin: 0;
   }
 
-  /* line 238, _caw_styles.scss */
+  /* line 238, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .navbar .nav li.dropdown.active > .dropdown-toggle,
   .navbar .nav li.dropdown.active > .dropdown-toggle:hover,
   .navbar .nav li.dropdown.active > .dropdown-toggle:focus,
@@ -329,7 +329,7 @@ body, .header, .site-main-menu, .main, .footer {
     box-shadow: none;
   }
 
-  /* line 241, _caw_styles.scss */
+  /* line 241, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .navbar .nav li.dropdown.open {
     background: #3d3e42;
     -webkit-border-radius: 4px;
@@ -339,25 +339,25 @@ body, .header, .site-main-menu, .main, .footer {
     border-radius: 4px;
   }
 
-  /* line 245, _caw_styles.scss */
+  /* line 245, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .nav-collapse .dropdown-menu a {
     padding: 6px 20px;
   }
 
-  /* line 249, _caw_styles.scss */
+  /* line 249, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .nav-collapse .dropdown-menu a:hover,
   .nav-collapse .dropdown-menu a:focus {
     background: #5a5c61;
     color: white;
   }
 
-  /* line 253, _caw_styles.scss */
+  /* line 253, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .nav-collapse .dropdown-menu li + li a {
     margin-bottom: 0px;
   }
 }
 /* Turquoise button in navbar styles */
-/* line 260, _caw_styles.scss */
+/* line 260, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 #block-bean-my-benefits-button,
 #block-bean-search-jobs-button {
   position: absolute;
@@ -365,7 +365,7 @@ body, .header, .site-main-menu, .main, .footer {
   top: -6px;
 }
 @media (max-width: 767px) {
-  /* line 260, _caw_styles.scss */
+  /* line 260, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   #block-bean-my-benefits-button,
   #block-bean-search-jobs-button {
     position: inherit;
@@ -374,21 +374,21 @@ body, .header, .site-main-menu, .main, .footer {
   }
 }
 
-/* line 271, _caw_styles.scss */
+/* line 271, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 #main-nav a.btn {
   background: #004f5b;
   -webkit-box-shadow: #909499 2px 2px 8px;
   -moz-box-shadow: #909499 2px 2px 8px;
   box-shadow: #909499 2px 2px 8px;
 }
-/* line 275, _caw_styles.scss */
+/* line 275, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 #main-nav a.btn:hover, #main-nav a.btn:focus {
   background: black;
   -webkit-box-shadow: #909499 4px 4px 8px;
   -moz-box-shadow: #909499 4px 4px 8px;
   box-shadow: #909499 4px 4px 8px;
 }
-/* line 279, _caw_styles.scss */
+/* line 279, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 #main-nav a.btn, #main-nav a.btn:hover, #main-nav a.btn:focus {
   background-image: url("../img/caw-btn-arrow-right.png");
   background-repeat: no-repeat;
@@ -398,23 +398,23 @@ body, .header, .site-main-menu, .main, .footer {
   text-align: left;
 }
 
-/* line 290, _caw_styles.scss */
+/* line 290, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 #block-menu-block-7,
 #block-menu-block-1 {
   max-width: 80%;
 }
-/* line 292, _caw_styles.scss */
+/* line 292, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 #block-menu-block-7 div.contextual-links-wrapper,
 #block-menu-block-1 div.contextual-links-wrapper {
   right: 20%;
 }
 @media (max-width: 767px) {
-  /* line 290, _caw_styles.scss */
+  /* line 290, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   #block-menu-block-7,
   #block-menu-block-1 {
     max-width: none;
   }
-  /* line 297, _caw_styles.scss */
+  /* line 297, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   #block-menu-block-7 div.contextual-links-wrapper,
   #block-menu-block-1 div.contextual-links-wrapper {
     right: 5px;
@@ -422,14 +422,14 @@ body, .header, .site-main-menu, .main, .footer {
 }
 
 /* subsite resources menus */
-/* line 304, _caw_styles.scss */
+/* line 304, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .region-navigation .block.menu-resources {
   position: absolute;
   right: 165px;
   top: -84px;
 }
 @media (max-width: 767px) {
-  /* line 304, _caw_styles.scss */
+  /* line 304, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .region-navigation .block.menu-resources {
     right: auto;
     top: auto;
@@ -437,7 +437,7 @@ body, .header, .site-main-menu, .main, .footer {
   }
 }
 
-/* line 314, _caw_styles.scss */
+/* line 314, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .navbar .block.menu-resources .nav > li > a {
   font-size: 1em;
   padding: 0;
@@ -445,7 +445,7 @@ body, .header, .site-main-menu, .main, .footer {
   font-weight: 600;
 }
 @media (max-width: 767px) {
-  /* line 314, _caw_styles.scss */
+  /* line 314, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .navbar .block.menu-resources .nav > li > a {
     font-size: 1.3em;
     padding: 4px 12px;
@@ -454,7 +454,7 @@ body, .header, .site-main-menu, .main, .footer {
   }
 }
 
-/* line 328, _caw_styles.scss */
+/* line 328, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .navbar .block.menu-resources .nav > li > a:hover,
 .navbar .block.menu-resources .nav > li > a:focus,
 .navbar .block.menu-resources .nav > li > a.active-trail {
@@ -463,7 +463,7 @@ body, .header, .site-main-menu, .main, .footer {
   color: black;
 }
 @media (max-width: 767px) {
-  /* line 328, _caw_styles.scss */
+  /* line 328, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .navbar .block.menu-resources .nav > li > a:hover,
   .navbar .block.menu-resources .nav > li > a:focus,
   .navbar .block.menu-resources .nav > li > a.active-trail {
@@ -473,7 +473,7 @@ body, .header, .site-main-menu, .main, .footer {
 }
 
 /** SIDEBAR MENUS ****************************/
-/* line 340, _caw_styles.scss */
+/* line 340, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .sidebar .block.block-menu,
 .sidebar .block.block-menu-block {
   background: #3d3e42;
@@ -493,7 +493,7 @@ body, .header, .site-main-menu, .main, .footer {
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* line 352, _caw_styles.scss */
+/* line 352, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .sidebar .block-menu h2,
 .sidebar .block-menu-block h2 a {
   color: white;
@@ -503,7 +503,7 @@ body, .header, .site-main-menu, .main, .footer {
   display: block;
 }
 
-/* line 362, _caw_styles.scss */
+/* line 362, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .sidebar .block-menu h2 a:hover,
 .sidebar .block-menu h2 a:focus,
 .sidebar .block-menu-block h2 a:hover,
@@ -512,12 +512,12 @@ body, .header, .site-main-menu, .main, .footer {
   text-decoration: none;
 }
 
-/* line 366, _caw_styles.scss */
+/* line 366, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .sidebar .nav li a {
   color: white;
 }
 
-/* line 376, _caw_styles.scss */
+/* line 376, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:hover,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:focus,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a.active,
@@ -530,7 +530,7 @@ body, .header, .site-main-menu, .main, .footer {
   color: white;
 }
 
-/* line 383, _caw_styles.scss */
+/* line 383, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .sidebar .block-menu .content > .menu > li > a,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a,
 .sidebar .block-menu .content > .menu > li.last > a,
@@ -540,13 +540,13 @@ body, .header, .site-main-menu, .main, .footer {
   font-weight: normal;
 }
 
-/* line 389, _caw_styles.scss */
+/* line 389, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li.last,
 .sidebar .block-menu .content > .menu > li.last {
   border: 0;
 }
 
-/* line 402, _caw_styles.scss */
+/* line 402, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .sidebar .block-menu .content > .menu > li.active-trail,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li.active-trail,
 .sidebar .block-menu .content > .menu > li > a.active,
@@ -560,7 +560,7 @@ body, .header, .site-main-menu, .main, .footer {
   background: #5a5c61;
 }
 
-/* line 406, _caw_styles.scss */
+/* line 406, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .sidebar .block-menu .content > .menu > li li a,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li li a {
   padding: 5px 20px;
@@ -569,7 +569,7 @@ body, .header, .site-main-menu, .main, .footer {
   line-height: 1.3em;
 }
 
-/* line 417, _caw_styles.scss */
+/* line 417, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .sidebar .block-menu .content > .menu > li li a:hover,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li li a:hover,
 .sidebar .block-menu .content > .menu > li li a:focus,
@@ -580,7 +580,7 @@ body, .header, .site-main-menu, .main, .footer {
 }
 
 /* Menu banner images for program/service subsections */
-/* line 422, _caw_styles.scss */
+/* line 422, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .sidebar .block.menu-banner {
   border-top: 0;
   margin: 0;
@@ -590,7 +590,7 @@ body, .header, .site-main-menu, .main, .footer {
   -moz-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
-/* line 428, _caw_styles.scss */
+/* line 428, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .sidebar .block.menu-banner img {
   -webkit-border-radius: 3px 3px 0 0;
   -moz-border-radius: 3px 3px 0 0;
@@ -599,13 +599,13 @@ body, .header, .site-main-menu, .main, .footer {
   border-radius: 3px 3px 0 0;
 }
 @media (max-width: 979px) {
-  /* line 422, _caw_styles.scss */
+  /* line 422, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .sidebar .block.menu-banner {
     display: none;
   }
 }
 
-/* line 435, _caw_styles.scss */
+/* line 435, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .sidebar .block.menu-banner:before {
   content: '';
   display: block;
@@ -620,7 +620,7 @@ body, .header, .site-main-menu, .main, .footer {
   background-image: linear-gradient(to bottom, rgba(61, 62, 66, 0), #3d3e42);
 }
 
-/* line 444, _caw_styles.scss */
+/* line 444, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .sidebar .block.block-bean.menu-banner .view-mode-default img {
   margin-bottom: 0;
   -webkit-box-shadow: none;
@@ -629,35 +629,35 @@ body, .header, .site-main-menu, .main, .footer {
 }
 
 /** HEADERS ****************************/
-/* line 450, _caw_styles.scss */
+/* line 450, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 h1 {
   margin-bottom: 0.5em;
   letter-spacing: -0.02em;
 }
 
-/* line 456, _caw_styles.scss */
+/* line 456, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 h2, .content h2, body.cke_show_borders h2, .well h2, #sidebar-second .well-sidebar-only h2 {
   margin-top: 1em;
 }
 
-/* line 459, _caw_styles.scss */
+/* line 459, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 h3, .content h3, body.cke_show_borders h3 {
   margin-top: 1em;
 }
 
-/* line 462, _caw_styles.scss */
+/* line 462, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 h4, .content h4, body.cke_show_borders h4 {
   margin-top: 1em;
 }
 
-/* line 466, _caw_styles.scss */
+/* line 466, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .block h2:first-child,
 .content h2:first-child, .content h3:first-child, .content h4:first-child {
   margin-top: 0;
 }
 
 /** TEXT ****************************/
-/* line 476, _caw_styles.scss */
+/* line 476, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 blockquote {
   text-align: center;
   background: none;
@@ -667,30 +667,30 @@ blockquote {
   margin: 3em 0em;
 }
 
-/* line 484, _caw_styles.scss */
+/* line 484, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 blockquote a.btn.btn-arrow-right {
   font-size: 1.15em;
   line-height: 1.2em;
 }
 
-/* line 490, _caw_styles.scss */
+/* line 490, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .credits {
   margin: 0;
 }
 
-/* line 495, _caw_styles.scss */
+/* line 495, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .descriptor {
   color: #4c4e52;
 }
 
-/* line 506, _caw_styles.scss */
+/* line 506, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 hr {
   border-color: #d7ddde;
   border-top: 0;
 }
 
 /* Highlight blocks within the WYSIWYG */
-/* line 512, _caw_styles.scss */
+/* line 512, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .highlight-block-right {
   float: right;
   width: 16em;
@@ -699,7 +699,7 @@ hr {
   border-left: solid 1px #CCC;
 }
 
-/* line 519, _caw_styles.scss */
+/* line 519, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .highlight-block-left {
   float: left;
   width: 16em;
@@ -708,7 +708,7 @@ hr {
   border-right: solid 1px #CCC;
 }
 
-/* line 527, _caw_styles.scss */
+/* line 527, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .highlight-block-right img,
 .highlight-block-left img {
   height: auto;
@@ -716,43 +716,43 @@ hr {
 }
 
 /** NEW TO CAW ****************************/
-/* line 534, _caw_styles.scss */
+/* line 534, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .red-text {
   color: #8c1515;
   font-weight: 600;
 }
 
-/* line 538, _caw_styles.scss */
+/* line 538, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .facetapi-count {
   opacity: 0.8;
 }
 
 /** LISTS ****************************/
-/* line 543, _caw_styles.scss */
+/* line 543, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 ul li {
   line-height: 1.4em;
   margin-bottom: 0.25em;
 }
 
-/* line 547, _caw_styles.scss */
+/* line 547, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 ul, ol {
   margin-bottom: 1.25em;
 }
 
 /** TABLES ****************************/
-/* line 553, _caw_styles.scss */
+/* line 553, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 table {
   width: 100%;
 }
 
-/* line 556, _caw_styles.scss */
+/* line 556, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 th, td {
   padding: 0.5em;
   border: 1px solid #e6eaeb;
   background: white;
 }
 
-/* line 561, _caw_styles.scss */
+/* line 561, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 thead th {
   color: white;
   font-weight: 600;
@@ -764,36 +764,36 @@ thead th {
   background: #8c1515;
 }
 
-/* line 571, _caw_styles.scss */
+/* line 571, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 thead th:last-child {
   border-right-color: #8c1515;
 }
 
 /** LINKS ****************************/
-/* line 584, _caw_styles.scss */
+/* line 584, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 h2 a {
   color: #8c1515;
 }
 
-/* line 587, _caw_styles.scss */
+/* line 587, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 h2 a:hover, h2 a:focus {
   color: black;
   text-decoration: underline;
 }
 
-/* line 591, _caw_styles.scss */
+/* line 591, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .main-bottom a {
   font-weight: 500;
 }
 
-/* line 596, _caw_styles.scss */
+/* line 596, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 a.btn,
 a.btn:hover,
 a.btn:focus {
   padding: 0.5em 1em;
 }
 
-/* line 600, _caw_styles.scss */
+/* line 600, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .btn.active, .btn:active,
 #stanford-search-api-reset-facets-block-form input.form-submit {
   background: #8c1515;
@@ -804,7 +804,7 @@ a.btn:focus {
   margin-right: 10px;
 }
 
-/* line 606, _caw_styles.scss */
+/* line 606, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 #stanford-search-api-reset-facets-block-form input.form-submit {
   text-shadow: none;
   border: 0;
@@ -817,7 +817,7 @@ a.btn:focus {
   font-size: inherit;
 }
 
-/* line 615, _caw_styles.scss */
+/* line 615, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .btn.active:hover,
 #stanford-search-api-reset-facets-block-form input.form-submit:hover,
 #stanford-search-api-reset-facets-block-form input.form-submit:focus {
@@ -828,7 +828,7 @@ a.btn:focus {
   color: white;
 }
 
-/* line 620, _caw_styles.scss */
+/* line 620, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 a.btn.btn-arrow-right {
   font-size: 1.25em;
   line-height: 1.2em;
@@ -837,7 +837,7 @@ a.btn.btn-arrow-right {
   box-shadow: #909499 2px 2px 8px;
 }
 
-/* line 627, _caw_styles.scss */
+/* line 627, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 a.btn.btn-arrow-right,
 a.btn.btn-arrow-right:hover,
 a.btn.btn-arrow-right:focus {
@@ -849,7 +849,7 @@ a.btn.btn-arrow-right:focus {
   text-align: left;
 }
 
-/* line 636, _caw_styles.scss */
+/* line 636, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 a.btn.btn-arrow-right:hover,
 a.btn.btn-arrow-right:focus {
   -webkit-box-shadow: #909499 4px 4px 8px;
@@ -859,7 +859,7 @@ a.btn.btn-arrow-right:focus {
 }
 
 /* resources node download button */
-/* line 642, _caw_styles.scss */
+/* line 642, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .field-name-field-s-resource-download a {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -878,7 +878,7 @@ a.btn.btn-arrow-right:focus {
   padding: 0.5em 1em;
 }
 
-/* line 654, _caw_styles.scss */
+/* line 654, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .field-name-field-s-resource-download a:hover,
 .field-name-field-s-resource-download a:focus {
   background: black;
@@ -888,7 +888,7 @@ a.btn.btn-arrow-right:focus {
   box-shadow: #909499 4px 4px 8px;
 }
 
-/* line 661, _caw_styles.scss */
+/* line 661, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .field-name-field-s-resource-download a,
 .field-name-field-s-resource-download a:hover,
 .field-name-field-s-resource-download a:focus {
@@ -901,7 +901,7 @@ a.btn.btn-arrow-right:focus {
 }
 
 /** IMAGES ****************************/
-/* line 672, _caw_styles.scss */
+/* line 672, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .main .border-simple-nowidth img,
 .main .border-simple img {
   background-color: transparent;
@@ -909,7 +909,7 @@ a.btn.btn-arrow-right:focus {
   padding: 0;
 }
 
-/* line 678, _caw_styles.scss */
+/* line 678, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .main .border-shadow img,
 .views-row-lines img {
   -webkit-border-radius: 3px;
@@ -922,14 +922,14 @@ a.btn.btn-arrow-right:focus {
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* line 682, _caw_styles.scss */
+/* line 682, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .views-row-lines img {
   margin-left: 7px;
   margin-top: 7px;
 }
 
 /** PAGER ******************************/
-/* line 689, _caw_styles.scss */
+/* line 689, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 ul.pager li a,
 ul.pager li.pager-current {
   -webkit-box-shadow: #909499 2px 2px 8px;
@@ -942,14 +942,14 @@ ul.pager li.pager-current {
   border-radius: 4px;
 }
 
-/* line 693, _caw_styles.scss */
+/* line 693, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 ul.pager li a {
   color: white;
   background: #8c1515;
   margin-bottom: 10px;
 }
 
-/* line 698, _caw_styles.scss */
+/* line 698, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
   background: black;
   -webkit-box-shadow: #909499 4px 4px 8px;
@@ -958,7 +958,7 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
 }
 
 /** EXPOSED FORMS **********************/
-/* line 704, _caw_styles.scss */
+/* line 704, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .views-exposed-form .views-exposed-widget .form-submit {
   background: #8c1515;
   border: 0;
@@ -970,7 +970,7 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
   box-shadow: #909499 2px 2px 8px;
 }
 
-/* line 713, _caw_styles.scss */
+/* line 713, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .views-exposed-form .views-exposed-widget .form-submit:hover,
 .views-exposed-form .views-exposed-widget .form-submit:focus {
   background: black;
@@ -979,25 +979,25 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
   box-shadow: #909499 4px 4px 8px;
 }
 
-/* line 717, _caw_styles.scss */
+/* line 717, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .views-exposed-form .views-exposed-widget.views-submit-button {
   clear: left;
 }
 
-/* line 721, _caw_styles.scss */
+/* line 721, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .container-inline-date .form-item, .container-inline-date .form-item input,
 .views-exposed-form .container-inline-date .date-padding {
   max-width: 100%;
 }
 
 /** IFRAMES ***************************/
-/* line 726, _caw_styles.scss */
+/* line 726, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 iframe {
   border: 0;
 }
 
 /** BLOCKS ****************************/
-/* line 737, _caw_styles.scss */
+/* line 737, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .column > .content,
 .column > .content > .entity,
 .column .tile,
@@ -1007,28 +1007,28 @@ iframe {
   height: 100%;
 }
 
-/* line 742, _caw_styles.scss */
+/* line 742, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .block-bean h2 {
   font-size: 1.5em;
 }
-/* line 745, _caw_styles.scss */
+/* line 745, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .block-bean .view-mode-default img {
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   margin-bottom: 15px;
 }
-/* line 749, _caw_styles.scss */
+/* line 749, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .block-bean a.more-link {
   margin-top: 0;
 }
 
-/* line 753, _caw_styles.scss */
+/* line 753, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .block-bean.normal-header h2 {
   font-size: 1.8em;
 }
 
-/* line 758, _caw_styles.scss */
+/* line 758, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .tile {
   background: white;
   -webkit-border-radius: 4px;
@@ -1041,7 +1041,7 @@ iframe {
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
   /* gradient over image */
 }
-/* line 763, _caw_styles.scss */
+/* line 763, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .tile .tile-link {
   background: white;
   -webkit-border-radius: 4px;
@@ -1053,11 +1053,11 @@ iframe {
   height: 100%;
   display: block;
 }
-/* line 769, _caw_styles.scss */
+/* line 769, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .tile .tile-link h2 {
   color: #8c1515;
 }
-/* line 774, _caw_styles.scss */
+/* line 774, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .tile img {
   -webkit-border-radius: 4px 4px 0 0;
   -moz-border-radius: 4px 4px 0 0;
@@ -1066,7 +1066,7 @@ iframe {
   border-radius: 4px 4px 0 0;
   width: 100%;
 }
-/* line 779, _caw_styles.scss */
+/* line 779, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .tile h2 {
   font-size: 1.5em;
   padding: 20px 20px 10px 20px;
@@ -1074,7 +1074,7 @@ iframe {
   background: white;
   margin: 0px;
 }
-/* line 788, _caw_styles.scss */
+/* line 788, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .tile .tile-link:hover,
 .tile .tile-link:focus {
   text-decoration: none;
@@ -1083,22 +1083,22 @@ iframe {
   -moz-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
 }
-/* line 793, _caw_styles.scss */
+/* line 793, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .tile .tile-link:hover img,
 .tile .tile-link:focus img {
   opacity: 0.8;
 }
-/* line 796, _caw_styles.scss */
+/* line 796, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .tile .tile-link:hover h2,
 .tile .tile-link:focus h2 {
   color: black;
   text-decoration: underline;
 }
-/* line 802, _caw_styles.scss */
+/* line 802, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .tile .tile-image, .tile .tile-text, .tile .tile-title {
   display: block;
 }
-/* line 809, _caw_styles.scss */
+/* line 809, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .tile .tile-image:after,
 .tile .field-name-field-s-lp-item-image:after,
 .tile .field-name-field-s-image-info:after {
@@ -1115,7 +1115,7 @@ iframe {
   background-image: -o-linear-gradient(to bottom, rgba(255, 255, 255, 0), #ffffff);
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #ffffff);
 }
-/* line 822, _caw_styles.scss */
+/* line 822, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .tile .tile-text,
 .tile .field-name-field-s-postcard-body,
 .tile .field-name-field-s-lp-item-description {
@@ -1123,44 +1123,44 @@ iframe {
   color: #333;
   font-weight: normal;
 }
-/* line 828, _caw_styles.scss */
+/* line 828, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .tile p {
   color: #333;
   font-weight: 300;
 }
 
-/* line 833, _caw_styles.scss */
+/* line 833, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .node .tile img {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
 }
 
-/* line 837, _caw_styles.scss */
+/* line 837, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .page-node .content-body .tile .field,
 .page-node .content-body .block .field {
   margin-bottom: 0;
 }
 
 /* callout blocks */
-/* line 843, _caw_styles.scss */
+/* line 843, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .callout-block {
   text-align: center;
   border-right: 1px solid #d7ddde;
   padding: 0 15px 0 0;
 }
-/* line 847, _caw_styles.scss */
+/* line 847, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .callout-block .more-link a {
   margin-top: 0;
 }
 
-/* line 851, _caw_styles.scss */
+/* line 851, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .block-bean:last-child .callout-block {
   border-right: 0;
   padding-right: 0;
 }
 
-/* line 855, _caw_styles.scss */
+/* line 855, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .sidebar .block-bean .callout-block {
   padding: 0;
   border: 0;
@@ -1168,13 +1168,13 @@ iframe {
 }
 
 @media (max-width: 979px) {
-  /* line 861, _caw_styles.scss */
+  /* line 861, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .callout-block {
     border: 0;
     padding: 0;
   }
 
-  /* line 869, _caw_styles.scss */
+  /* line 869, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .block-bean:nth-child(1) .callout-block,
   .block-bean:nth-child(3) .callout-block,
   .block-bean:nth-child(5) .callout-block,
@@ -1185,7 +1185,7 @@ iframe {
   }
 }
 @media (max-width: 480px) {
-  /* line 879, _caw_styles.scss */
+  /* line 879, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .block-bean:nth-child(1) .callout-block,
   .block-bean:nth-child(3) .callout-block,
   .block-bean:nth-child(5) .callout-block,
@@ -1195,7 +1195,7 @@ iframe {
     padding: 1.5em 0 0 0;
   }
 
-  /* line 883, _caw_styles.scss */
+  /* line 883, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .block-bean .callout-block {
     margin-top: 1em;
     padding: 1.5em 0 0 0;
@@ -1203,7 +1203,7 @@ iframe {
   }
 }
 /* Responsive grids for landing page and program page callout blocks */
-/* line 891, _caw_styles.scss */
+/* line 891, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item {
   display: inline-block;
   float: left;
@@ -1218,14 +1218,14 @@ iframe {
   box-sizing: border-box;
 }
 
-/* line 903, _caw_styles.scss */
+/* line 903, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item .callout-block,
 .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item:last-child {
   padding-right: 0;
   border-right: 0;
 }
 
-/* line 911, _caw_styles.scss */
+/* line 911, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item:nth-child(3),
 .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item:nth-child(6),
 .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item:nth-child(9)
@@ -1237,12 +1237,12 @@ iframe {
 }
 
 @media (max-width: 767px) {
-  /* line 917, _caw_styles.scss */
+  /* line 917, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item {
     width: 48.5%;
   }
 
-  /* line 924, _caw_styles.scss */
+  /* line 924, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item:nth-child(3),
   .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item:nth-child(6),
   .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item:nth-child(9)
@@ -1251,21 +1251,21 @@ iframe {
     margin-right: 3%;
   }
 
-  /* line 927, _caw_styles.scss */
+  /* line 927, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item.odd {
     margin-right: 0;
     padding-right: 0;
     border-right: 0;
   }
 
-  /* line 932, _caw_styles.scss */
+  /* line 932, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item.even {
     border-right: 1px solid #d7ddde;
     padding: 0 15px 0 0;
   }
 }
 @media (max-width: 480px) {
-  /* line 939, _caw_styles.scss */
+  /* line 939, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item,
   .stanford-callout-block .field-name-field-landing-page-item > .field-items > .field-item.even {
     width: 100%;
@@ -1281,40 +1281,40 @@ iframe {
   }
 }
 /* sidebar block styles */
-/* line 955, _caw_styles.scss */
+/* line 955, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .sidebar .block {
   margin-top: 1em;
   padding: 1.5em 0 0 0;
   border-top: 1px solid #d7ddde;
 }
 @media (max-width: 767px) and (min-width: 480px) {
-  /* line 955, _caw_styles.scss */
+  /* line 955, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .sidebar .block {
     border-top: 0;
   }
 }
-/* line 962, _caw_styles.scss */
+/* line 962, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .sidebar .block h2 {
   font-size: 1.3em;
   font-weight: 600;
   margin-bottom: 1em;
 }
 
-/* line 968, _caw_styles.scss */
+/* line 968, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .sidebar .block.well {
   margin-top: 0;
   padding: 24px 28px;
   border: 0;
 }
 
-/* line 973, _caw_styles.scss */
+/* line 973, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .sidebar .block.no-line {
   border-top: none;
   padding-top: 0;
 }
 
 /* default well blocks */
-/* line 979, _caw_styles.scss */
+/* line 979, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .well {
   background: #e6eaeb;
   -webkit-box-sizing: border-box;
@@ -1328,22 +1328,22 @@ iframe {
   color: black;
   padding: 24px 28px;
 }
-/* line 985, _caw_styles.scss */
+/* line 985, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .well a {
   color: #28737a;
 }
-/* line 988, _caw_styles.scss */
+/* line 988, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .well a:hover, .well a:focus {
   color: #004f5b;
   text-decoration: underline;
 }
-/* line 993, _caw_styles.scss */
+/* line 993, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .well p:last-child,
 .well ul:last-child {
   margin-bottom: 0;
 }
 
-/* line 997, _caw_styles.scss */
+/* line 997, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .block.well h2 {
   font-size: 1.5em;
   font-weight: 400;
@@ -1351,87 +1351,87 @@ iframe {
 
 /* well-nav blocks */
 /* footer blocks */
-/* line 1008, _caw_styles.scss */
+/* line 1008, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .main-lower .block {
   font-size: 0.9em;
 }
-/* line 1010, _caw_styles.scss */
+/* line 1010, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .main-lower .block h2 {
   font-size: 1.3em;
   font-weight: 600;
 }
-/* line 1014, _caw_styles.scss */
+/* line 1014, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .main-lower .block h2, .main-lower .block img {
   margin-left: -2px;
 }
-/* line 1017, _caw_styles.scss */
+/* line 1017, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .main-lower .block .content > .menu > li > a {
   font-weight: 400;
 }
-/* line 1021, _caw_styles.scss */
+/* line 1021, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .main-lower .block .content > .menu > li > a:hover,
 .main-lower .block .content > .menu > li > a:focus {
   text-decoration: underline;
 }
-/* line 1024, _caw_styles.scss */
+/* line 1024, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .main-lower .block li a.active {
   color: #8c1515;
 }
-/* line 1028, _caw_styles.scss */
+/* line 1028, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .main-lower .block li a.active:hover,
 .main-lower .block li a.active:focus {
   color: black;
 }
 
 /** VIEWS *********************************/
-/* line 1034, _caw_styles.scss */
+/* line 1034, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .views-row-lines .views-row {
   border-color: #d7ddde;
 }
 
 /** HOMEPAGE ******************************/
-/* line 1039, _caw_styles.scss */
+/* line 1039, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 #block-stanford-gallery-tabs-stanford-gallery-tabs {
   margin-top: -80px;
 }
 @media only screen and (max-width: 767px) {
-  /* line 1039, _caw_styles.scss */
+  /* line 1039, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   #block-stanford-gallery-tabs-stanford-gallery-tabs {
     margin-top: -70px;
   }
 }
 
-/* line 1046, _caw_styles.scss */
+/* line 1046, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 body.front .main-top {
   margin-top: 90px;
   height: 648px;
 }
 @media screen and (min-width: 980px) and (max-width: 1199px) {
-  /* line 1046, _caw_styles.scss */
+  /* line 1046, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   body.front .main-top {
     height: auto;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 1046, _caw_styles.scss */
+  /* line 1046, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   body.front .main-top {
     height: 755px;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 1046, _caw_styles.scss */
+  /* line 1046, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   body.front .main-top {
     height: auto;
   }
 }
 
 /* news double wide block */
-/* line 1065, _caw_styles.scss */
+/* line 1065, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .home-news > h2 {
   font-size: 1.5em;
 }
 
-/* line 1068, _caw_styles.scss */
+/* line 1068, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .home-news > .content {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1448,7 +1448,7 @@ body.front .main-top {
   padding: 24px 28px;
 }
 
-/* line 1076, _caw_styles.scss */
+/* line 1076, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .home-news > .content > .view-cardinal-at-work-news > .attachment,
 .home-news > .content > .view-cardinal-at-work-news > .view-content {
   display: inline-block;
@@ -1456,21 +1456,21 @@ body.front .main-top {
   vertical-align: top;
 }
 
-/* line 1081, _caw_styles.scss */
+/* line 1081, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .home-news > .content > .view-cardinal-at-work-news > .view-content {
   width: 45%;
   margin-right: 4%;
 }
 
 @media (max-width: 979px) and (min-width: 481px) {
-  /* line 1087, _caw_styles.scss */
+  /* line 1087, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .row-fluid .home-news.span8 {
     width: 100%;
     margin-left: 0;
   }
 }
 @media (max-width: 480px) {
-  /* line 1094, _caw_styles.scss */
+  /* line 1094, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .home-news > .content > .view-cardinal-at-work-news > .attachment,
   .home-news > .content > .view-cardinal-at-work-news > .view-content {
     float: none;
@@ -1478,23 +1478,23 @@ body.front .main-top {
     width: 100%;
   }
 
-  /* line 1099, _caw_styles.scss */
+  /* line 1099, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .home-news > .content > .view-cardinal-at-work-news > .view-content {
     margin-right: 0%;
   }
 }
-/* line 1104, _caw_styles.scss */
+/* line 1104, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .home-news img {
   margin-bottom: 1em;
 }
 
-/* line 1107, _caw_styles.scss */
+/* line 1107, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .home-news .views-row a {
   font-weight: 300;
   color: black;
 }
 
-/* line 1114, _caw_styles.scss */
+/* line 1114, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .home-news .views-row a:hover,
 .home-news .views-row a:focus,
 .home-news .views-row h3 a:hover,
@@ -1504,7 +1504,7 @@ body.front .main-top {
 }
 
 /* Social block */
-/* line 1120, _caw_styles.scss */
+/* line 1120, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 #block-bean-homepage-about-block .postcard-content {
   background: white;
   -webkit-border-radius: 4px;
@@ -1518,20 +1518,20 @@ body.front .main-top {
 }
 
 @media (max-width: 979px) and (min-width: 768px) {
-  /* line 1126, _caw_styles.scss */
+  /* line 1126, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .row-fluid #block-bean-homepage-about-block.span4 {
     width: 100%;
     margin-left: 0;
   }
 
-  /* line 1130, _caw_styles.scss */
+  /* line 1130, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   #block-bean-homepage-about-block iframe {
     width: 100% !important;
   }
 }
 /** CONNECT PAGE *************************/
 /* #cardinalatwork connect block */
-/* line 1138, _caw_styles.scss */
+/* line 1138, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .callout-block .bean-stanford-social-media-connect div {
   display: inline-block;
 }
@@ -1539,23 +1539,23 @@ body.front .main-top {
 /** SWEETENERS ****************************/
 /* breakpoint overrides */
 @media (max-width: 979px) and (min-width: 768px) {
-  /* line 1146, _caw_styles.scss */
+  /* line 1146, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .row-fluid .block.span2 {
     width: 31.4917%;
   }
 
-  /* line 1149, _caw_styles.scss */
+  /* line 1149, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .row-fluid .block.span10 {
     width: 65.7459%;
   }
 }
-/* line 1154, _caw_styles.scss */
+/* line 1154, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .isotope-element {
   background: transparent;
   color: black;
 }
 
-/* line 1159, _caw_styles.scss */
+/* line 1159, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 a.sweetener-link {
   background: #28737a;
   -webkit-border-radius: 4px;
@@ -1574,13 +1574,13 @@ a.sweetener-link {
   min-height: 240px;
   text-decoration: none;
 }
-/* line 1169, _caw_styles.scss */
+/* line 1169, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 a.sweetener-link h3 {
   color: white;
   margin: 0.5em 1em 1em;
   font-weight: 300;
 }
-/* line 1174, _caw_styles.scss */
+/* line 1174, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 a.sweetener-link .sweetener-thumb img {
   -webkit-border-radius: 4px 4px 0 0;
   -moz-border-radius: 4px 4px 0 0;
@@ -1589,7 +1589,7 @@ a.sweetener-link .sweetener-thumb img {
   border-radius: 4px 4px 0 0;
   width: 100%;
 }
-/* line 1178, _caw_styles.scss */
+/* line 1178, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 a.sweetener-link .sweetener-thumb:after {
   content: '';
   display: block;
@@ -1603,7 +1603,7 @@ a.sweetener-link .sweetener-thumb:after {
   background-image: linear-gradient(to bottom, rgba(40, 115, 122, 0), #28737a);
 }
 
-/* line 1189, _caw_styles.scss */
+/* line 1189, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 a.sweetener-link:hover,
 a.sweetener-link:focus {
   background: #477a80;
@@ -1612,17 +1612,17 @@ a.sweetener-link:focus {
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
   text-decoration: none;
 }
-/* line 1194, _caw_styles.scss */
+/* line 1194, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 a.sweetener-link:hover h3,
 a.sweetener-link:focus h3 {
   color: white;
 }
-/* line 1197, _caw_styles.scss */
+/* line 1197, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 a.sweetener-link:hover .sweetener-thumb img,
 a.sweetener-link:focus .sweetener-thumb img {
   opacity: .8;
 }
-/* line 1200, _caw_styles.scss */
+/* line 1200, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 a.sweetener-link:hover .sweetener-thumb:after,
 a.sweetener-link:focus .sweetener-thumb:after {
   background-image: -webkit-gradient(linear, to bottom, to top, color-stop(0%, rgba(71, 122, 128, 0)), color-stop(100%, #477a80));
@@ -1633,7 +1633,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
 }
 
 /* sweeteners isotope filter - same as well styles */
-/* line 1206, _caw_styles.scss */
+/* line 1206, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view-sweeteners-isotope-page > .view-header {
   background: #e6eaeb;
   -webkit-border-radius: 3px;
@@ -1649,17 +1649,17 @@ a.sweetener-link:focus .sweetener-thumb:after {
   padding: 24px 28px;
   margin-bottom: 3em;
 }
-/* line 1215, _caw_styles.scss */
+/* line 1215, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view-sweeteners-isotope-page > .view-header .view-sweeteners-isotope-filter:first-child {
   margin-bottom: 2em;
 }
 
-/* line 1219, _caw_styles.scss */
+/* line 1219, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .isotope-options {
   background: none;
 }
 
-/* line 1222, _caw_styles.scss */
+/* line 1222, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .isotope-options label {
   display: inline-block;
   margin-right: 1%;
@@ -1677,7 +1677,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
   transition: background 0.3s ease;
 }
 
-/* line 1237, _caw_styles.scss */
+/* line 1237, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .isotope-options label:hover,
 .isotope-options label.hover,
 .isotope-options label:focus,
@@ -1686,14 +1686,14 @@ a.sweetener-link:focus .sweetener-thumb:after {
   color: white;
 }
 
-/* line 1242, _caw_styles.scss */
+/* line 1242, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .isotope-options input {
   position: absolute;
   left: -10000px;
   opacity: 0;
 }
 
-/* line 1247, _caw_styles.scss */
+/* line 1247, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .isotope-options label .field-content::before {
   content: "▢";
   display: inline-block;
@@ -1702,19 +1702,19 @@ a.sweetener-link:focus .sweetener-thumb:after {
   padding: 0 10px 0 6px;
 }
 
-/* line 1254, _caw_styles.scss */
+/* line 1254, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .isotope-options label.checked .field-content::before {
   content: "✓";
   font-size: 1.3em;
 }
 
 /* sweeteners carousel */
-/* line 1260, _caw_styles.scss */
+/* line 1260, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .slick-dots li button::before {
   content: none;
 }
 
-/* line 1263, _caw_styles.scss */
+/* line 1263, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .slick-dots li button {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -1729,20 +1729,20 @@ a.sweetener-link:focus .sweetener-thumb:after {
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* line 1272, _caw_styles.scss */
+/* line 1272, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .slick-dots li button:hover,
 .slick-dots li button:focus,
 .slick-dots li.slick-active button {
   background: #004f5b;
 }
 
-/* line 1276, _caw_styles.scss */
+/* line 1276, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .sweetener-arrows {
   vertical-align: top;
   text-align: center;
 }
 
-/* line 1281, _caw_styles.scss */
+/* line 1281, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .slick-dots {
   position: relative;
   top: auto;
@@ -1762,13 +1762,13 @@ a.sweetener-link:focus .sweetener-thumb:after {
   line-height: 15px;
 }
 
-/* line 1294, _caw_styles.scss */
+/* line 1294, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .slick-carousel .slick-prev, .slick-carousel .slick-next {
   background: transparent;
   z-index: 10;
 }
 
-/* line 1298, _caw_styles.scss */
+/* line 1298, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .slick-prev::before, .slick-next::before {
   color: #909499;
   content: "";
@@ -1777,17 +1777,17 @@ a.sweetener-link:focus .sweetener-thumb:after {
   width: 15px;
 }
 
-/* line 1305, _caw_styles.scss */
+/* line 1305, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .slick-prev::before {
   background-image: url("../img/caw-arrow-left.png");
 }
 
-/* line 1308, _caw_styles.scss */
+/* line 1308, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .slick-next::before {
   background-image: url("../img/caw-arrow-right.png");
 }
 
-/* line 1311, _caw_styles.scss */
+/* line 1311, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .slick-prev, .slick-next {
   position: relative;
   display: -moz-inline-stack;
@@ -1800,34 +1800,34 @@ a.sweetener-link:focus .sweetener-thumb:after {
 }
 
 /* sweeteners nodes */
-/* line 1322, _caw_styles.scss */
+/* line 1322, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .node-type-stanford-sweetener .field.field-name-field-s-sweet-image.field-type-image.field-label-hidden {
   margin-bottom: 30px;
 }
 
-/* line 1325, _caw_styles.scss */
+/* line 1325, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .node-type-stanford-sweetener .field.field-name-field-s-sweet-desc.field-type-text-long.field-label-hidden {
   margin-bottom: 15px;
 }
 
-/* line 1329, _caw_styles.scss */
+/* line 1329, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .node-type-stanford-sweetener .field.field-name-field-s-sweet-more-info.field-type-link-field.field-label-above,
 .node-type-stanford-sweetener .field.field-name-field-s-sweet-audience.field-type-taxonomy-term-reference.field-label-above {
   margin-bottom: 10px;
 }
 
 /* sweeteners node styles */
-/* line 1334, _caw_styles.scss */
+/* line 1334, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .node-type-stanford-sweetener .field.field-name-field-s-sweet-image.field-type-image.field-label-hidden {
   margin-bottom: 30px;
 }
 
-/* line 1338, _caw_styles.scss */
+/* line 1338, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .node-type-stanford-sweetener .field.field-name-field-s-sweet-desc.field-type-text-long.field-label-hidden {
   margin-bottom: 15px;
 }
 
-/* line 1343, _caw_styles.scss */
+/* line 1343, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .node-type-stanford-sweetener .field.field-name-field-s-sweet-more-info.field-type-link-field.field-label-above,
 .node-type-stanford-sweetener .field.field-name-field-s-sweet-audience.field-type-taxonomy-term-reference.field-label-above {
   margin-bottom: 10px;
@@ -1835,7 +1835,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
 
 /** CAROUSEL ****************************/
 /* Subsite carousels */
-/* line 1353, _caw_styles.scss */
+/* line 1353, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .front .main-top,
 .node-type-stanford-subsite .main-top,
 .page-node-233 .main-top {
@@ -1845,7 +1845,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
   margin-top: 40px;
 }
 @media (max-width: 1199px) {
-  /* line 1353, _caw_styles.scss */
+  /* line 1353, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .front .main-top,
   .node-type-stanford-subsite .main-top,
   .page-node-233 .main-top {
@@ -1854,34 +1854,34 @@ a.sweetener-link:focus .sweetener-thumb:after {
   }
 }
 
-/* line 1363, _caw_styles.scss */
+/* line 1363, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .front .main-top {
   height: auto;
   /* for now */
 }
 
-/* line 1368, _caw_styles.scss */
+/* line 1368, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .front #content-body.row-fluid, .node-type-stanford-subsite #content-body.row-fluid, .page-node-233 #content-body.row-fluid {
   margin-bottom: 0;
 }
 
-/* line 1373, _caw_styles.scss */
+/* line 1373, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .carousel {
   margin-bottom: 0;
 }
 
-/* line 1376, _caw_styles.scss */
+/* line 1376, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .carousel .views-row {
   margin-bottom: 0;
 }
 
-/* line 1379, _caw_styles.scss */
+/* line 1379, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .carousel-inner {
   position: inherit;
   margin-top: -40px;
 }
 
-/* line 1383, _caw_styles.scss */
+/* line 1383, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .carousel img {
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
@@ -1893,13 +1893,13 @@ a.sweetener-link:focus .sweetener-thumb:after {
   border-radius: 3px;
 }
 
-/* line 1387, _caw_styles.scss */
+/* line 1387, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view.carousel .carousel-block .carousel-caption {
   background: transparent;
   width: 50%;
 }
 
-/* line 1392, _caw_styles.scss */
+/* line 1392, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view.carousel .carousel-block .carousel-caption.carousel-position-right,
 .view.carousel .carousel-block .carousel-caption.carousel-position-left {
   left: auto;
@@ -1907,7 +1907,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
   padding: 90px 75px;
 }
 
-/* line 1398, _caw_styles.scss */
+/* line 1398, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view.carousel .carousel-caption.carousel-dark h2 a,
 .view.carousel .carousel-caption.carousel-dark .slide-caption a {
   color: black;
@@ -1915,21 +1915,21 @@ a.sweetener-link:focus .sweetener-thumb:after {
   display: block;
 }
 
-/* line 1403, _caw_styles.scss */
+/* line 1403, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view.carousel .carousel-caption.carousel-dark h2 a {
   font-size: 1.2em;
   line-height: 1.3em;
   margin-bottom: 0.75em;
 }
 
-/* line 1408, _caw_styles.scss */
+/* line 1408, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view.carousel .carousel-caption.carousel-dark .slide-caption a {
   font-size: 1.3em;
   line-height: 1.3em;
   margin-bottom: 1em;
 }
 
-/* line 1414, _caw_styles.scss */
+/* line 1414, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view.carousel .carousel-caption.carousel-dark a.more-link,
 .view.carousel .carousel-caption.carousel-dark .more-link a {
   color: #28737a;
@@ -1938,7 +1938,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
   display: block;
 }
 
-/* line 1423, _caw_styles.scss */
+/* line 1423, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view.carousel .carousel-caption.carousel-dark a.more-link:hover,
 .view.carousel .carousel-caption.carousel-dark .more-link a:hover,
 .view.carousel .carousel-caption.carousel-dark a.more-link:focus,
@@ -1947,7 +1947,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
   text-decoration: underline;
 }
 
-/* line 1428, _caw_styles.scss */
+/* line 1428, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .carousel .view-footer {
   bottom: 95px;
   position: absolute;
@@ -1955,7 +1955,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
   width: 220px;
 }
 
-/* line 1434, _caw_styles.scss */
+/* line 1434, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view.carousel .carousel-indicators li {
   border-radius: 20px;
   height: 18px;
@@ -1965,119 +1965,119 @@ a.sweetener-link:focus .sweetener-thumb:after {
   margin-left: 10px;
 }
 
-/* line 1443, _caw_styles.scss */
+/* line 1443, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view.carousel .carousel-indicators .active,
 .view.carousel .carousel-indicators li:hover {
   background-color: #004f5b;
   border: 0px;
 }
 
-/* line 1447, _caw_styles.scss */
+/* line 1447, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view.carousel .carousel-controls {
   position: relative;
   z-index: 1000;
   top: 9px;
 }
 
-/* line 1452, _caw_styles.scss */
+/* line 1452, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .carousel-control {
   border: 0;
   background: transparent;
   opacity: 1;
 }
 
-/* line 1457, _caw_styles.scss */
+/* line 1457, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .carousel-controls .carousel-control.right {
   background-image: url("../img/caw-arrow-right.png");
 }
 
-/* line 1460, _caw_styles.scss */
+/* line 1460, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .carousel-controls .carousel-control.left {
   background-image: url("../img/caw-arrow-left.png");
 }
 
-/* line 1465, _caw_styles.scss */
+/* line 1465, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view.carousel .carousel-controls .carousel-control.right:hover,
 .view.carousel .carousel-controls .carousel-control.right:focus {
   background-image: url("../img/caw-arrow-right-hvr.png");
 }
 
-/* line 1469, _caw_styles.scss */
+/* line 1469, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view.carousel .carousel-controls .carousel-control.left:hover,
 .view.carousel .carousel-controls .carousel-control.left:focus {
   background-image: url("../img/caw-arrow-left-hvr.png");
 }
 
-/* line 1473, _caw_styles.scss */
+/* line 1473, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view.carousel .carousel-control,
 .view.carousel .carousel-control:focus {
   opacity: 1;
 }
 
-/* line 1477, _caw_styles.scss */
+/* line 1477, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .carousel .edit-link a {
   background: white;
 }
 
-/* line 1481, _caw_styles.scss */
+/* line 1481, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .carousel .edit-link a:hover,
 .carousel .edit-link a:focus {
   background: #3d3e42;
 }
 
 @media (max-width: 1199px) {
-  /* line 1486, _caw_styles.scss */
+  /* line 1486, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .carousel-inner {
     margin-top: 0px;
   }
 
-  /* line 1489, _caw_styles.scss */
+  /* line 1489, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .carousel img {
     margin-top: 16px;
     max-width: 48%;
   }
 
-  /* line 1494, _caw_styles.scss */
+  /* line 1494, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .view.carousel .carousel-block .carousel-caption.carousel-position-right,
   .view.carousel .carousel-block .carousel-caption.carousel-position-left {
     padding: 40px 35px;
   }
 
-  /* line 1497, _caw_styles.scss */
+  /* line 1497, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .carousel .view-footer {
     bottom: 50px;
     right: 240px;
   }
 }
 @media (max-width: 979px) {
-  /* line 1503, _caw_styles.scss */
+  /* line 1503, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .node-type-stanford-subsite .main-top {
     height: auto;
   }
 
-  /* line 1506, _caw_styles.scss */
+  /* line 1506, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .view.carousel .carousel-block .carousel-caption {
     position: absolute;
     overflow: visible;
   }
 
-  /* line 1510, _caw_styles.scss */
+  /* line 1510, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .carousel .view-footer {
     bottom: -10px;
     right: 220px;
   }
 
-  /* line 1514, _caw_styles.scss */
+  /* line 1514, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .carousel img {
     max-width: 40%;
   }
 
-  /* line 1517, _caw_styles.scss */
+  /* line 1517, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .view.carousel .carousel-block .carousel-caption {
     width: 60%;
   }
 
-  /* line 1521, _caw_styles.scss */
+  /* line 1521, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .view.carousel .carousel-block .carousel-caption.carousel-position-right,
   .view.carousel .carousel-block .carousel-caption.carousel-position-left {
     position: relative;
@@ -2086,7 +2086,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
   }
 }
 @media (max-width: 767px) {
-  /* line 1528, _caw_styles.scss */
+  /* line 1528, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .carousel .view-footer {
     bottom: -15px;
     left: auto;
@@ -2096,12 +2096,12 @@ a.sweetener-link:focus .sweetener-thumb:after {
   }
 }
 @media (max-width: 570px) {
-  /* line 1537, _caw_styles.scss */
+  /* line 1537, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .carousel img {
     max-width: 100%;
   }
 
-  /* line 1541, _caw_styles.scss */
+  /* line 1541, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .view.carousel .carousel-block .carousel-caption.carousel-position-right,
   .view.carousel .carousel-block .carousel-caption.carousel-position-left {
     width: 100%;
@@ -2110,14 +2110,14 @@ a.sweetener-link:focus .sweetener-thumb:after {
 }
 /** LANDING PAGES & PROGRAM/SERVICE PAGES ****************************/
 /* Hide the page title on subsites and program/service */
-/* line 1552, _caw_styles.scss */
+/* line 1552, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .node-type-stanford-subsite h1#page-title,
 .node-type-stanford-program-service h1#page-title {
   display: none;
 }
 
 /* summary styles on program/service subtitle */
-/* line 1557, _caw_styles.scss */
+/* line 1557, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .field-name-field-s-program-service-subtitle {
   font-size: 1.3em;
   margin-bottom: 15px;
@@ -2126,12 +2126,12 @@ a.sweetener-link:focus .sweetener-thumb:after {
 }
 
 /* make things line up at the top of a node with the sidebar */
-/* line 1565, _caw_styles.scss */
+/* line 1565, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .row-fluid.content-head {
   margin-bottom: 0;
 }
 
-/* line 1569, _caw_styles.scss */
+/* line 1569, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .field-name-field-landing-page-item {
   /* blocks */
   /* cards/tiles */
@@ -2139,61 +2139,61 @@ a.sweetener-link:focus .sweetener-thumb:after {
   /* list */
   /* numbered guide */
 }
-/* line 1572, _caw_styles.scss */
+/* line 1572, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .field-name-field-landing-page-item .block h2 {
   font-size: 1.5em;
 }
-/* line 1575, _caw_styles.scss */
+/* line 1575, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .field-name-field-landing-page-item .block img {
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   margin-bottom: 15px;
 }
-/* line 1579, _caw_styles.scss */
+/* line 1579, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .field-name-field-landing-page-item .block .more-link {
   margin-top: 0;
 }
-/* line 1597, _caw_styles.scss */
+/* line 1597, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .field-name-field-landing-page-item .view-mode-stanford_medium_square {
   border-color: #e6eaeb;
 }
-/* line 1600, _caw_styles.scss */
+/* line 1600, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .field-name-field-landing-page-item .field-item:last-child .view-mode-stanford_medium_square {
   border-bottom: 1px solid #e6eaeb;
   margin-bottom: 3em;
 }
-/* line 1605, _caw_styles.scss */
+/* line 1605, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .field-name-field-landing-page-item .stanford-medium-square h2 a {
   font-weight: 400;
 }
-/* line 1608, _caw_styles.scss */
+/* line 1608, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .field-name-field-landing-page-item .stanford-medium-square .more-link {
   margin-top: 0;
 }
-/* line 1611, _caw_styles.scss */
+/* line 1611, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .field-name-field-landing-page-item .stanford-medium-square img {
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
 }
-/* line 1614, _caw_styles.scss */
+/* line 1614, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .field-name-field-landing-page-item .stanford-medium-square .postcard-left > div:first-child img {
   margin-right: 25px;
   margin-bottom: 0;
 }
 @media (max-width: 380px) {
-  /* line 1619, _caw_styles.scss */
+  /* line 1619, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .field-name-field-landing-page-item .stanford-medium-square .postcard-left > div:first-child {
     float: none;
   }
-  /* line 1622, _caw_styles.scss */
+  /* line 1622, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .field-name-field-landing-page-item .stanford-medium-square .postcard-left > div {
     display: block;
     width: 100%;
   }
 }
-/* line 1629, _caw_styles.scss */
+/* line 1629, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .field-name-field-landing-page-item .numbered-guide {
   border-top: 1px solid #e6eaeb;
   margin-top: 1em;
@@ -2201,13 +2201,13 @@ a.sweetener-link:focus .sweetener-thumb:after {
   padding-left: 5em;
 }
 
-/* line 1639, _caw_styles.scss */
+/* line 1639, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 article.numbered-guide .field-name-field-landing-page-item .field-items,
 .node-stanford-program-service.numbered-guide .field-name-field-landing-page-item .field-items,
 .node-stanford-landing-page.numbered-guide .field-name-field-landing-page-item .field-items {
   counter-reset: section;
 }
-/* line 1641, _caw_styles.scss */
+/* line 1641, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 article.numbered-guide .field-name-field-landing-page-item .field-items .numbered-guide:before,
 .node-stanford-program-service.numbered-guide .field-name-field-landing-page-item .field-items .numbered-guide:before,
 .node-stanford-landing-page.numbered-guide .field-name-field-landing-page-item .field-items .numbered-guide:before {
@@ -2237,16 +2237,16 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 }
 
 /* Banners on landing page and program/service CTs */
-/* line 1663, _caw_styles.scss */
+/* line 1663, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 #block-views-stanford-program-service-block.block {
   margin-bottom: 0;
 }
-/* line 1665, _caw_styles.scss */
+/* line 1665, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 #block-views-stanford-program-service-block.block .views-row {
   margin-bottom: 0;
 }
 
-/* line 1669, _caw_styles.scss */
+/* line 1669, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .program-banner {
   position: relative;
   background: white;
@@ -2261,17 +2261,17 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 }
 
 /* for when it's on a program/service page */
-/* line 1676, _caw_styles.scss */
+/* line 1676, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .node-type-stanford-program-service .program-banner {
   padding: 1em 2em 2em;
   margin-bottom: 0;
 }
 
-/* line 1680, _caw_styles.scss */
+/* line 1680, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .program-banner-img {
   position: relative;
 }
-/* line 1682, _caw_styles.scss */
+/* line 1682, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .program-banner-img img {
   -webkit-border-radius: 3px 0 0 3px;
   -moz-border-radius: 3px 0 0 3px;
@@ -2280,7 +2280,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   border-radius: 3px 0 0 3px;
 }
 
-/* line 1686, _caw_styles.scss */
+/* line 1686, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .program-banner-text {
   position: absolute;
   bottom: 0;
@@ -2291,13 +2291,13 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   top: 0;
   background: white;
 }
-/* line 1695, _caw_styles.scss */
+/* line 1695, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .program-banner-text h1 {
   margin-left: 50px;
   margin-right: 50px;
   margin-top: 40px;
 }
-/* line 1700, _caw_styles.scss */
+/* line 1700, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .program-banner-text p {
   margin-bottom: 40px;
   margin-left: 50px;
@@ -2305,7 +2305,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 }
 
 /* gradient over image */
-/* line 1707, _caw_styles.scss */
+/* line 1707, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .program-banner-text:before {
   content: "";
   display: inline-block;
@@ -2323,7 +2323,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 }
 
 @media (max-width: 979px) {
-  /* line 1719, _caw_styles.scss */
+  /* line 1719, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .program-banner-img img {
     width: 100%;
     -webkit-border-radius: 3px 3px 0 0;
@@ -2333,7 +2333,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
     border-radius: 3px 3px 0 0;
   }
 
-  /* line 1723, _caw_styles.scss */
+  /* line 1723, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .program-banner-text {
     position: relative;
     left: auto;
@@ -2342,7 +2342,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
     width: 100%;
   }
 
-  /* line 1730, _caw_styles.scss */
+  /* line 1730, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .program-banner-text:before {
     display: block;
     float: none;
@@ -2358,13 +2358,13 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   }
 }
 @media (max-width: 380px) {
-  /* line 1742, _caw_styles.scss */
+  /* line 1742, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .program-banner-text h1 {
     margin-left: 30px;
     margin-right: 30px;
     margin-top: 20px;
   }
-  /* line 1747, _caw_styles.scss */
+  /* line 1747, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .program-banner-text p {
     margin-bottom: 20px;
     margin-left: 30px;
@@ -2372,7 +2372,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   }
 }
 /** FAQ **********************/
-/* line 1756, _caw_styles.scss */
+/* line 1756, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view-stanford-show-hide-faq-hierarchy .views-row {
   margin-bottom: 0.5em;
   -webkit-box-shadow: #e6eaeb 1px 1px 4px;
@@ -2385,7 +2385,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   border-radius: 4px;
 }
 
-/* line 1761, _caw_styles.scss */
+/* line 1761, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view-stanford-show-hide-faq-hierarchy .views-row > div:first-child a.collapsed {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -2394,7 +2394,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   border-radius: 4px;
 }
 
-/* line 1764, _caw_styles.scss */
+/* line 1764, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view-stanford-show-hide-faq-hierarchy .views-row > div:first-child a {
   -webkit-border-radius: 4px 4px 0 0;
   -moz-border-radius: 4px 4px 0 0;
@@ -2403,7 +2403,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   border-radius: 4px 4px 0 0;
 }
 
-/* line 1767, _caw_styles.scss */
+/* line 1767, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view-stanford-show-hide-faq-hierarchy .views-row div.views-field-body {
   -webkit-border-radius: 0 0 4px 4px;
   -moz-border-radius: 0 0 4px 4px;
@@ -2414,7 +2414,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 
 /** EVENTS *********************/
 /* events blocks */
-/* line 1774, _caw_styles.scss */
+/* line 1774, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .block-views .view-cardinal-at-work-stanford-events-list .views-row {
   background: white;
   -webkit-box-shadow: #e6eaeb 1px 1px 4px;
@@ -2426,16 +2426,16 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   -o-border-radius: 4px;
   border-radius: 4px;
 }
-/* line 1779, _caw_styles.scss */
+/* line 1779, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .block-views .view-cardinal-at-work-stanford-events-list .views-row .postcard-left > div {
   padding: 10px;
   vertical-align: middle;
 }
-/* line 1783, _caw_styles.scss */
+/* line 1783, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .block-views .view-cardinal-at-work-stanford-events-list .views-row .postcard-left > div:first-child {
   float: none;
 }
-/* line 1787, _caw_styles.scss */
+/* line 1787, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .block-views .view-cardinal-at-work-stanford-events-list .views-row .date-stacked {
   background: #e6eaeb;
   -webkit-border-radius: 4px 0 0 4px;
@@ -2444,63 +2444,63 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   -o-border-radius: 4px 0 0 4px;
   border-radius: 4px 0 0 4px;
 }
-/* line 1791, _caw_styles.scss */
+/* line 1791, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .block-views .view-cardinal-at-work-stanford-events-list .views-row .date-month {
   color: #3d3e42;
   padding-top: 5px;
 }
-/* line 1795, _caw_styles.scss */
+/* line 1795, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .block-views .view-cardinal-at-work-stanford-events-list .views-row .date-day {
   color: #3d3e42;
   padding-bottom: 5px;
 }
-/* line 1799, _caw_styles.scss */
+/* line 1799, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .block-views .view-cardinal-at-work-stanford-events-list .views-row h3 a {
   font-weight: 300;
   color: black;
 }
 
 /* event and course node styles */
-/* line 1807, _caw_styles.scss */
+/* line 1807, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .node-type-stanford-event .field.field-name-field-stanford-event-datetime.field-type-datetime.field-label-hidden {
   margin-bottom: 0.25em;
 }
 
-/* line 1810, _caw_styles.scss */
+/* line 1810, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .node-type-stanford-event .field.field-name-field-stanford-event-location.field-type-text-long.field-label-hidden {
   margin-bottom: 0.25em;
 }
 
-/* line 1813, _caw_styles.scss */
+/* line 1813, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .node-type-stanford-event .field.field-name-field-s-event-fee.field-type-text.field-label-hidden {
   margin-bottom: 1em;
 }
 
-/* line 1816, _caw_styles.scss */
+/* line 1816, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .group-event-series-styles {
   margin-top: 1em;
 }
 
-/* line 1819, _caw_styles.scss */
+/* line 1819, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .group-event-series-styles h2 {
   display: inline;
   font-size: 1em;
   font-weight: 600;
 }
 
-/* line 1824, _caw_styles.scss */
+/* line 1824, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .group-event-series-styles h2:after {
   content: " ";
 }
 
-/* line 1829, _caw_styles.scss */
+/* line 1829, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .group-event-series-styles .field,
 .group-event-series-styles .field-items,
 .group-event-series-styles .field-item {
   display: inline;
 }
 
-/* line 1837, _caw_styles.scss */
+/* line 1837, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .group-event-details .field.field-name-field-stanford-event-sponsor.field-type-text.field-label-above,
 .group-event-details .field.field-name-field-stanford-event-email.field-type-text.field-label-above,
 .group-event-details .field.field-name-field-stanford-event-phone.field-type-text.field-label-above,
@@ -2512,91 +2512,91 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 
 /** NEWS *********************************/
 /* news node styles */
-/* line 1846, _caw_styles.scss */
+/* line 1846, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .node-type-stanford-news-item .field.field-name-field-s-news-categories.field-type-taxonomy-term-reference.field-label-above {
   font-size: 16px;
   text-transform: none;
   line-height: 1.4em;
   margin-top: 0;
 }
-/* line 1852, _caw_styles.scss */
+/* line 1852, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .node-type-stanford-news-item .field.field-name-field-s-news-categories.field-type-taxonomy-term-reference.field-label-above .field-label {
   font-size: 1.3em;
   letter-spacing: normal;
   line-height: 1.3em;
   margin-bottom: 0.5em;
 }
-/* line 1858, _caw_styles.scss */
+/* line 1858, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .node-type-stanford-news-item .field.field-name-field-s-news-categories.field-type-taxonomy-term-reference.field-label-above .field-items {
   font-weight: 300;
 }
-/* line 1861, _caw_styles.scss */
+/* line 1861, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .node-type-stanford-news-item .content-body .field.field-name-field-s-image-info {
   margin-bottom: 30px;
 }
-/* line 1864, _caw_styles.scss */
+/* line 1864, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .node-type-stanford-news-item .caption p {
   margin-bottom: 0;
 }
 
 /** COURSES ************************************/
-/* line 1871, _caw_styles.scss */
+/* line 1871, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view-caw-course-catalog .btn {
   margin-top: 1em;
   margin-bottom: 1em;
 }
-/* line 1875, _caw_styles.scss */
+/* line 1875, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view-caw-course-catalog .view-cardinal-at-work-course-catalog-dates .views-row {
   border: none;
 }
-/* line 1878, _caw_styles.scss */
+/* line 1878, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view-caw-course-catalog .postcard-left > div:first-child {
   width: 70%;
   margin-right: 4%;
 }
 @media (max-width: 767px) {
-  /* line 1878, _caw_styles.scss */
+  /* line 1878, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .view-caw-course-catalog .postcard-left > div:first-child {
     width: 50%;
   }
 }
 @media (max-width: 480px) {
-  /* line 1878, _caw_styles.scss */
+  /* line 1878, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .view-caw-course-catalog .postcard-left > div:first-child {
     width: 100%;
     margin-right: 0;
     display: block;
   }
 }
-/* line 1890, _caw_styles.scss */
+/* line 1890, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view-caw-course-catalog .postcard-left > div:last-child {
   width: 26%;
   font-weight: 600;
 }
 @media (max-width: 767px) {
-  /* line 1890, _caw_styles.scss */
+  /* line 1890, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .view-caw-course-catalog .postcard-left > div:last-child {
     width: 46%;
   }
 }
 @media (max-width: 480px) {
-  /* line 1890, _caw_styles.scss */
+  /* line 1890, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .view-caw-course-catalog .postcard-left > div:last-child {
     width: 100%;
     display: block;
   }
 }
-/* line 1900, _caw_styles.scss */
+/* line 1900, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view-caw-course-catalog .postcard-left > div:last-child p {
   font-weight: 300;
   font-style: italic;
 }
-/* line 1904, _caw_styles.scss */
+/* line 1904, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view-caw-course-catalog .postcard-left > div:last-child .views-row {
   padding: 0;
   font-weight: 300;
 }
-/* line 1907, _caw_styles.scss */
+/* line 1907, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view-caw-course-catalog .postcard-left > div:last-child .views-row span.date-display-single {
   display: list-item;
   list-style: outside none square;
@@ -2604,26 +2604,26 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   margin-top: 0.5em;
 }
 
-/* line 1920, _caw_styles.scss */
+/* line 1920, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view-s-cardinal-at-work-course-calendar .postcard-left,
 .view-cardinal-at-work-event-series-dates .postcard-left,
 .view-caw-help-center-calendar .postcard-left {
   margin-bottom: 0;
 }
-/* line 1923, _caw_styles.scss */
+/* line 1923, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view-s-cardinal-at-work-course-calendar .postcard-left > div,
 .view-cardinal-at-work-event-series-dates .postcard-left > div,
 .view-caw-help-center-calendar .postcard-left > div {
   width: 150px;
 }
-/* line 1926, _caw_styles.scss */
+/* line 1926, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view-s-cardinal-at-work-course-calendar .postcard-left > div:last-child,
 .view-cardinal-at-work-event-series-dates .postcard-left > div:last-child,
 .view-caw-help-center-calendar .postcard-left > div:last-child {
   width: auto;
 }
 @media (max-width: 560px) {
-  /* line 1932, _caw_styles.scss */
+  /* line 1932, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .view-s-cardinal-at-work-course-calendar .postcard-left > div,
   .view-s-cardinal-at-work-course-calendar .postcard-left > div:first-child,
   .view-s-cardinal-at-work-course-calendar .postcard-left > div:last-child,
@@ -2639,7 +2639,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   }
 }
 
-/* line 1941, _caw_styles.scss */
+/* line 1941, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view-s-cardinal-at-work-course-calendar.views-row-lines .views-row,
 .view-cardinal-at-work-event-series-dates.views-row-lines .views-row,
 .view-caw-help-center-calendar.views-row-lines .views-row {
@@ -2647,44 +2647,44 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   padding-bottom: 0.5em;
 }
 
-/* line 1947, _caw_styles.scss */
+/* line 1947, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view-s-cardinal-at-work-course-calendar.views-row-lines .views-row-1,
 .view-cardinal-at-work-event-series-dates.views-row-lines .views-row-1,
 .view-caw-help-center-calendar.views-row-lines .views-row-1 {
   padding-top: 0.5em;
 }
 
-/* line 1951, _caw_styles.scss */
+/* line 1951, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 #block-ds-extras-misc-course-information .field-label {
   margin-top: 1em;
 }
 
 /** CAREER CELEBRATIONS ***********************/
 /* career celebrations node styles */
-/* line 1959, _caw_styles.scss */
+/* line 1959, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .node-type-stanford-career-celebrations h1 {
   margin-bottom: 0.1em;
   margin-top: 0;
 }
 
-/* line 1963, _caw_styles.scss */
+/* line 1963, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .page-node.node-type-stanford-career-celebrations .content-body .field.field-name-field-s-celebration-job-title {
   margin-bottom: 0.1em;
 }
 
-/* line 1966, _caw_styles.scss */
+/* line 1966, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view-honoree-archive .tile .tile-text {
   font-size: 0.8em;
   line-height: 1.3em;
 }
 
 /** STANFORD PAGES ****************************/
-/* line 1974, _caw_styles.scss */
+/* line 1974, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .node-type-stanford-page .postcard-image img {
   margin-bottom: 30px;
 }
 
-/* line 1978, _caw_styles.scss */
+/* line 1978, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .node img {
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
@@ -2697,18 +2697,18 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 }
 
 /** CALENDAR **********************************/
-/* line 1984, _caw_styles.scss */
+/* line 1984, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .view-stanford-events-calendar .date-nav-wrapper {
   background: transparent;
 }
 
-/* line 1988, _caw_styles.scss */
+/* line 1988, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .calendar-calendar th.days,
 .calendar-calendar .mini td {
   background: #e6eaeb;
 }
 
-/* line 1991, _caw_styles.scss */
+/* line 1991, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .content-body .view-stanford-events-calendar .date-nav-wrapper {
   background: #e6eaeb;
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
@@ -2723,22 +2723,22 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   margin-bottom: 2em;
 }
 
-/* line 1998, _caw_styles.scss */
+/* line 1998, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .event-relationships {
   margin-top: 1em;
 }
 
 /** GALLERY ***********************************/
-/* line 2003, _caw_styles.scss */
+/* line 2003, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 #cboxTitle {
   color: black;
 }
-/* line 2005, _caw_styles.scss */
+/* line 2005, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 #cboxTitle .caption {
   color: black;
 }
 
-/* line 2009, _caw_styles.scss */
+/* line 2009, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .node-stanford-gallery .field-name-field-s-gallery-image-info > .field-items > .field-item a.stanford-gallery-image *:hover {
   border: none;
   -webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
@@ -2749,44 +2749,44 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 }
 
 /* block gallery */
-/* line 2017, _caw_styles.scss */
+/* line 2017, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .bean-stanford-gallery .node-stanford-gallery .field-name-field-s-gallery-image-info > .field-items > .field-item {
   width: 48%;
 }
 
-/* line 2020, _caw_styles.scss */
+/* line 2020, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .bean-stanford-gallery .node-stanford-gallery .field-name-field-s-gallery-image-info > .field-items > .field-item.even {
   margin-right: 4%;
 }
 
-/* line 2023, _caw_styles.scss */
+/* line 2023, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .bean-stanford-gallery .field-collection-view.view-mode-gallery-small {
   width: 100%;
 }
 
 @media (max-width: 480px) and (min-width: 300px) {
-  /* line 2027, _caw_styles.scss */
+  /* line 2027, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
   .bean-stanford-gallery .node-stanford-gallery .field-name-field-s-gallery-image-info > .field-items > .field-item {
     width: 29%;
     margin-right: 4%;
   }
 }
 /** SEARCH *******************************/
-/* line 2036, _caw_styles.scss */
+/* line 2036, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .page-search .block-facetapi li {
   list-style: none;
   margin-left: 0;
   font-weight: 600;
 }
-/* line 2041, _caw_styles.scss */
+/* line 2041, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .page-search .block-facetapi input {
   margin-right: 8px;
 }
-/* line 2045, _caw_styles.scss */
+/* line 2045, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .page-search .excerpt-highlight {
   background-color: #BCE6E8;
 }
-/* line 2048, _caw_styles.scss */
+/* line 2048, /Applications/MAMP/htdocs/d7/features/caw_helper/css/_caw_styles.scss */
 .page-search .search-views-bottom a.active {
   color: #8c1515;
 }
