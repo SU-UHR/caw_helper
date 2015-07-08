@@ -827,7 +827,7 @@ iframe {
 
   p {
     color: #333;
-    font-weight: normal;
+    font-weight: 300;
   }
 }
 .node .tile img {
@@ -993,6 +993,10 @@ iframe {
   ul:last-child {
     margin-bottom: 0;
   }
+}
+.block.well h2 {
+  font-size: 1.5em;
+  font-weight: 400;
 }
 
 /* well-nav blocks */
@@ -1183,7 +1187,7 @@ a.sweetener-link {
 
 a.sweetener-link:hover,
 a.sweetener-link:focus {
-  background: $gray-dark;
+  background: $turq-med1;
   @include box-shadow(3px 3px 8px rgba(0, 0, 0, 0.25));
   text-decoration: none;
 
@@ -1194,7 +1198,7 @@ a.sweetener-link:focus {
     opacity: .8;
   }
   .sweetener-thumb:after {
-    @include background-image(linear-gradient(to bottom, rgba(61, 62, 66, 0), rgba(61, 62, 66, 1)));
+    @include background-image(linear-gradient(to bottom, rgba(95, 154, 161, 0), rgba(95, 154, 161, 1)));
   }
 }
 
