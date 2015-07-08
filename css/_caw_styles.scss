@@ -229,17 +229,31 @@ body, .header, .site-main-menu, .main, .footer {
   .navbar .nav li.dropdown.open.active > .dropdown-toggle {
     @include box-shadow(none);
   }
+  .navbar .nav li.dropdown.open > .dropdown-toggle:hover, 
+  .navbar .nav li.dropdown.open > .dropdown-toggle:focus, 
+  .navbar .nav li.dropdown.active > .dropdown-toggle:hover, 
+  .navbar .nav li.dropdown.active > .dropdown-toggle:focus, 
+  .navbar .nav li.dropdown.open.active > .dropdown-toggle:hover, 
+  .navbar .nav li.dropdown.open.active > .dropdown-toggle:focus, 
+  .navbar .nav li.active-trail.dropdown > .dropdown-toggle, 
+  .navbar .nav li.active-trail.dropdown > .dropdown-toggle:hover, 
+  .navbar .nav li.active-trail.dropdown > .dropdown-toggle:focus {
+    background: transparent;
+    color: $black;
+  }
   .navbar .nav li.dropdown.open {
-    background: $gray-dark;
-    @include border-radius(4px);
+    background: transparent;
+    border-bottom: 1px solid $red;
+    border-top: 1px solid $red;
+    margin-bottom: 0.5em;
+    padding-top: 0.25em;
   }
   .nav-collapse .dropdown-menu a {
     padding: 6px 20px;
   }
   .nav-collapse .dropdown-menu a:hover,
   .nav-collapse .dropdown-menu a:focus {
-    background: $gray-med1;
-    color: $white;
+    
   }
   .nav-collapse .dropdown-menu li+li a {
     margin-bottom: 0px;
