@@ -609,6 +609,7 @@ a.btn,
 a.btn:hover,
 a.btn:focus {
   padding: 0.5em 1em;
+  font-weight: 300;
 }
 .btn.active, .btn:active,
 #stanford-search-api-reset-facets-block-form input.form-submit {
@@ -656,11 +657,11 @@ a.btn.btn-arrow-right:focus {
 /* resources node download button */
 .field-name-field-s-resource-download a {
   @include border-radius(4px);
-  font-size: 1.25em;
+  font-size: 1.1em;
   line-height: 1.2em;
   @include box-shadow($gray-med3 2px 2px 8px);
   display: inline-block;
-  font-weight: 400;
+  font-weight: 300;
   background: $red;
   color: $white;
   padding: 0.5em 1em;
@@ -720,8 +721,10 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
   background: $red;
   border: 0;
   color: $white;
-  letter-spacing: 0.02em;
-  padding: 0.5em 1em;
+  letter-spacing: 0.04em;
+  padding: 0.75em 1em;
+  height: auto;
+  font-weight: 300;
   @include box-shadow($gray-med3 2px 2px 8px);
 }
 .views-exposed-form .views-exposed-widget .form-submit:hover,
