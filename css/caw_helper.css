@@ -1,6 +1,6 @@
 /* light text on dark */
 /* page bkg */
-/* events, wells */
+/* events, wells, big color stripe */
 /* callout separator */
 /* main nav hover */
 /* hover menu */
@@ -53,7 +53,7 @@ body, .header, .site-main-menu, .main, .footer {
   background-position: center center;
   padding-top: 50px;
   background-size: cover;
-  border-top: 1px solid #e6eaeb;
+  border-top: 1px solid #e9edee;
 }
 @media (max-width: 979px) {
   /* line 27, _caw_styles.scss */
@@ -202,7 +202,7 @@ body, .header, .site-main-menu, .main, .footer {
 .dropdown-menu {
   background: #fbfbf9;
   color: black;
-  border: 1px solid #e6eaeb;
+  border: 1px solid #e9edee;
   min-width: 190px;
   padding-bottom: 0.5em;
   padding-top: 0.5em;
@@ -245,7 +245,7 @@ body, .header, .site-main-menu, .main, .footer {
 .nav-collapse .dropdown-menu > .active-trail > a:hover,
 .nav-collapse .dropdown-menu > .active-trail > a:focus {
   color: black;
-  background: #e6eaeb;
+  background: #e9edee;
 }
 
 /* line 185, _caw_styles.scss */
@@ -271,7 +271,7 @@ body, .header, .site-main-menu, .main, .footer {
 .dropdown hr,
 .sidebar .block-menu-block hr {
   margin: 6px 0;
-  border-color: #e6eaeb;
+  border-color: #e9edee;
   border-top: 0px;
 }
 
@@ -662,8 +662,8 @@ h4, .content h4, body.cke_show_borders h4 {
 blockquote {
   text-align: center;
   background: none;
-  border-top: 1px solid #e6eaeb;
-  border-bottom: 1px solid #e6eaeb;
+  border-top: 1px solid #e9edee;
+  border-bottom: 1px solid #e9edee;
   padding: 20px 60px;
   margin: 3em 0em;
 }
@@ -764,20 +764,20 @@ table {
 /* line 573, _caw_styles.scss */
 th, td {
   padding: 0.5em;
-  border: 1px solid #e6eaeb;
+  border: 1px solid #e9edee;
   background: white;
 }
 
 /* line 578, _caw_styles.scss */
 thead th {
   color: black;
-  background: #e6eaeb;
+  background: #e9edee;
   font-weight: 600;
   text-transform: uppercase;
   padding: 0.5em;
-  border-top: 1px solid #e6eaeb;
-  border-left: 1px solid #e6eaeb;
-  border-right: 1px solid #e6eaeb;
+  border-top: 1px solid #e9edee;
+  border-left: 1px solid #e9edee;
+  border-right: 1px solid #e9edee;
 }
 
 /** LINKS ****************************/
@@ -1334,7 +1334,7 @@ iframe {
 /* default well blocks */
 /* line 999, _caw_styles.scss */
 .well {
-  background: #e6eaeb;
+  background: #e9edee;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -1465,9 +1465,9 @@ body.front .main-top {
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
-  -webkit-box-shadow: #e6eaeb 1px 1px 4px;
-  -moz-box-shadow: #e6eaeb 1px 1px 4px;
-  box-shadow: #e6eaeb 1px 1px 4px;
+  -webkit-box-shadow: #e9edee 1px 1px 4px;
+  -moz-box-shadow: #e9edee 1px 1px 4px;
+  box-shadow: #e9edee 1px 1px 4px;
   padding: 24px 28px;
 }
 
@@ -1535,9 +1535,9 @@ body.front .main-top {
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
-  -webkit-box-shadow: #e6eaeb 1px 1px 4px;
-  -moz-box-shadow: #e6eaeb 1px 1px 4px;
-  box-shadow: #e6eaeb 1px 1px 4px;
+  -webkit-box-shadow: #e9edee 1px 1px 4px;
+  -moz-box-shadow: #e9edee 1px 1px 4px;
+  box-shadow: #e9edee 1px 1px 4px;
 }
 
 @media (max-width: 979px) and (min-width: 768px) {
@@ -1658,7 +1658,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
 /* sweeteners isotope filter - same as well styles */
 /* line 1226, _caw_styles.scss */
 .view-sweeteners-isotope-page > .view-header {
-  background: #e6eaeb;
+  background: #e9edee;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
@@ -1862,7 +1862,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
 .front .main-top,
 .node-type-stanford-subsite .main-top,
 .page-node-233 .main-top {
-  background: #e6eaeb;
+  background: #e9edee;
   height: 370px;
   margin-bottom: 100px;
   margin-top: 40px;
@@ -2179,11 +2179,11 @@ a.sweetener-link:focus .sweetener-thumb:after {
 }
 /* line 1617, _caw_styles.scss */
 .field-name-field-landing-page-item .view-mode-stanford_medium_square {
-  border-color: #e6eaeb;
+  border-color: #e9edee;
 }
 /* line 1620, _caw_styles.scss */
 .field-name-field-landing-page-item .field-item:last-child .view-mode-stanford_medium_square {
-  border-bottom: 1px solid #e6eaeb;
+  border-bottom: 1px solid #e9edee;
   margin-bottom: 3em;
 }
 /* line 1625, _caw_styles.scss */
@@ -2218,7 +2218,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
 }
 /* line 1649, _caw_styles.scss */
 .field-name-field-landing-page-item .numbered-guide {
-  border-top: 1px solid #e6eaeb;
+  border-top: 1px solid #e9edee;
   margin-top: 1em;
   padding-top: 2em;
   padding-left: 5em;
@@ -2398,9 +2398,9 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 /* line 1776, _caw_styles.scss */
 .view-stanford-show-hide-faq-hierarchy .views-row {
   margin-bottom: 0.5em;
-  -webkit-box-shadow: #e6eaeb 1px 1px 4px;
-  -moz-box-shadow: #e6eaeb 1px 1px 4px;
-  box-shadow: #e6eaeb 1px 1px 4px;
+  -webkit-box-shadow: #e9edee 1px 1px 4px;
+  -moz-box-shadow: #e9edee 1px 1px 4px;
+  box-shadow: #e9edee 1px 1px 4px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -2440,9 +2440,9 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 /* line 1794, _caw_styles.scss */
 .block-views .view-cardinal-at-work-stanford-events-list .views-row {
   background: white;
-  -webkit-box-shadow: #e6eaeb 1px 1px 4px;
-  -moz-box-shadow: #e6eaeb 1px 1px 4px;
-  box-shadow: #e6eaeb 1px 1px 4px;
+  -webkit-box-shadow: #e9edee 1px 1px 4px;
+  -moz-box-shadow: #e9edee 1px 1px 4px;
+  box-shadow: #e9edee 1px 1px 4px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -2460,7 +2460,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 }
 /* line 1807, _caw_styles.scss */
 .block-views .view-cardinal-at-work-stanford-events-list .views-row .date-stacked {
-  background: #e6eaeb;
+  background: #e9edee;
   -webkit-border-radius: 4px 0 0 4px;
   -moz-border-radius: 4px 0 0 4px;
   -ms-border-radius: 4px 0 0 4px;
@@ -2728,12 +2728,12 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 /* line 2008, _caw_styles.scss */
 .calendar-calendar th.days,
 .calendar-calendar .mini td {
-  background: #e6eaeb;
+  background: #e9edee;
 }
 
 /* line 2011, _caw_styles.scss */
 .content-body .view-stanford-events-calendar .date-nav-wrapper {
-  background: #e6eaeb;
+  background: #e9edee;
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
