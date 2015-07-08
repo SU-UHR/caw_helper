@@ -1364,34 +1364,34 @@ iframe {
 /* well-nav blocks */
 /* footer blocks */
 /* line 1023, _caw_styles.scss */
-.main-lower .block {
+.site-footer .block {
   font-size: 0.9em;
 }
 /* line 1025, _caw_styles.scss */
-.main-lower .block h2 {
+.site-footer .block h2 {
   font-size: 1.3em;
   font-weight: 600;
 }
 /* line 1029, _caw_styles.scss */
-.main-lower .block h2, .main-lower .block img {
+.site-footer .block h2, .site-footer .block img {
   margin-left: -2px;
 }
 /* line 1032, _caw_styles.scss */
-.main-lower .block .content > .menu > li > a {
+.site-footer .block .content > .menu > li > a {
   font-weight: 400;
 }
 /* line 1036, _caw_styles.scss */
-.main-lower .block .content > .menu > li > a:hover,
-.main-lower .block .content > .menu > li > a:focus {
+.site-footer .block .content > .menu > li > a:hover,
+.site-footer .block .content > .menu > li > a:focus {
   text-decoration: underline;
 }
 /* line 1039, _caw_styles.scss */
-.main-lower .block li a.active {
+.site-footer .block li a.active {
   color: #8c1515;
 }
 /* line 1043, _caw_styles.scss */
-.main-lower .block li a.active:hover,
-.main-lower .block li a.active:focus {
+.site-footer .block li a.active:hover,
+.site-footer .block li a.active:focus {
   color: black;
 }
 
