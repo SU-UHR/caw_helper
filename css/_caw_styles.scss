@@ -975,31 +975,19 @@ iframe {
     padding-top: 0;
 }
 
-/* default block view mode styles */
-.block .view-mode-default {
-  @include border-radius(3px);
-  @include box-sizing(border-box);
-  padding: 24px 28px;
+/* default well blocks */
+.well {
   background: $gray-light;
+  @include box-sizing(border-box);
+  @include border-radius(3px);
+  color: $black;
+  padding: 24px 28px;
   a {
     color: $turq-med;
   }
   a:hover, a:focus {
     color: $turq-dark;
     text-decoration: underline;
-  }
-}
-
-/* default well blocks */
-.well {
-  background: $gray-light;
-  @include box-sizing(border-box);
-  @include border-radius(3px);
-  color: $gray-dark;
-  padding: 24px 28px;
-  h2 {
-    letter-spacing: 0.02em;
-    margin-bottom: 15px;
   }
   p:last-child,
   ul:last-child {
