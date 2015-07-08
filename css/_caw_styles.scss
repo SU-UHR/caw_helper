@@ -97,6 +97,7 @@ body, .header, .site-main-menu, .main, .footer {
   border-color: transparent;
   padding: .5em 30px .5em 1em;
   height: 35px;
+  width: 100%;
   @include box-shadow(inset 0 0 7px rgba(0,0,0,0.2));
   @include border-radius(6px);
   @include box-sizing(border-box);
@@ -308,7 +309,7 @@ body, .header, .site-main-menu, .main, .footer {
 /* subsite resources menus */
 .region-navigation .block.menu-resources {
   position: absolute;
-  right: 165px;
+  right: 185px;
   top: -84px;
   @media (max-width: 767px) {
     right: auto;
