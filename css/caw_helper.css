@@ -356,7 +356,7 @@ body, .header, .site-main-menu, .main, .footer {
 #block-bean-search-jobs-button {
   position: absolute;
   right: 0;
-  top: -6px;
+  top: -10px;
 }
 @media (max-width: 767px) {
   /* line 266, _caw_styles.scss */
