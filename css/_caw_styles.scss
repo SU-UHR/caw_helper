@@ -2,7 +2,7 @@
 html {
 }
 
-body, .header, .site-main-menu, .main {
+body, .header, .site-main-menu, .main, .footer {
   background: $beige;
 }
 
@@ -24,10 +24,11 @@ body, .header, .site-main-menu, .main {
     padding-top: 20px;
   }
 }
-#wrap {
+.footer {
   background-image: url('../img/caw-bkg.png');
   background-repeat: repeat-x;
-  background-position: center 105%;
+  background-position: center 78%;
+  padding-top: 50px;
 }
 .main-lower {
   margin-top: 80px;
