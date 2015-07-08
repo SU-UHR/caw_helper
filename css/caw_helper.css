@@ -1439,7 +1439,7 @@ iframe {
 /* line 1075, _caw_styles.scss */
 body.front .main-top {
   margin-top: 90px;
-  height: 648px;
+  height: 575px;
 }
 @media screen and (min-width: 980px) and (max-width: 1199px) {
   /* line 1075, _caw_styles.scss */
@@ -2187,7 +2187,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
 }
 /* line 1608, _caw_styles.scss */
 .field-name-field-landing-page-item .block .more-link {
-  margin-top: 0.75em;
+  margin-top: 1em;
 }
 /* line 1626, _caw_styles.scss */
 .field-name-field-landing-page-item .view-mode-stanford_medium_square {
