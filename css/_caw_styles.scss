@@ -186,15 +186,14 @@ body, .header, .site-main-menu, .main, .footer {
 	color: $black;
 	background: $gray-light;
 }
-.navbar .nav li.dropdown.active > .dropdown-toggle,
-.navbar .nav li.dropdown.active > .dropdown-toggle:hover,
-.navbar .nav li.dropdown.active > .dropdown-toggle:focus,
 .navbar .nav li.dropdown.open > .dropdown-toggle,
 .navbar .nav li.dropdown.open > .dropdown-toggle.active,
 .navbar .nav li.dropdown.open > .dropdown-toggle.active:focus,
 .navbar .nav li.dropdown.open > .dropdown-toggle:hover,
 .navbar .nav li.dropdown.open > .dropdown-toggle:focus,
-.navbar .nav li.dropdown.open.active > .dropdown-toggle {
+.navbar .nav li.dropdown.open.active > .dropdown-toggle,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle:hover,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle:focus {
 	color: $red;
   background: transparent;
   border-color: transparent;
