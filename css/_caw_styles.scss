@@ -1181,7 +1181,7 @@ a.sweetener-link {
     height: 45px;
     margin-top: -45px;
     position: relative;
-    @include background-image(linear-gradient(to bottom, rgba(63, 130, 137, 0), rgba(63, 130, 137, 1)));
+    @include background-image(linear-gradient(to bottom, rgba(40, 115, 122, 0), rgba(40, 115, 122, 1)));
   }
 }
 
@@ -1198,7 +1198,7 @@ a.sweetener-link:focus {
     opacity: .8;
   }
   .sweetener-thumb:after {
-    @include background-image(linear-gradient(to bottom, rgba(95, 154, 161, 0), rgba(95, 154, 161, 1)));
+    @include background-image(linear-gradient(to bottom, rgba(71, 122, 128, 0), rgba(71, 122, 128, 1)));
   }
 }
 

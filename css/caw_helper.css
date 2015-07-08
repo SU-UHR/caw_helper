@@ -1596,11 +1596,11 @@ a.sweetener-link .sweetener-thumb:after {
   height: 45px;
   margin-top: -45px;
   position: relative;
-  background-image: -webkit-gradient(linear, to bottom, to top, color-stop(0%, rgba(63, 130, 137, 0)), color-stop(100%, #3f8289));
-  background-image: -webkit-linear-gradient(to bottom, rgba(63, 130, 137, 0), #3f8289);
-  background-image: -moz-linear-gradient(to bottom, rgba(63, 130, 137, 0), #3f8289);
-  background-image: -o-linear-gradient(to bottom, rgba(63, 130, 137, 0), #3f8289);
-  background-image: linear-gradient(to bottom, rgba(63, 130, 137, 0), #3f8289);
+  background-image: -webkit-gradient(linear, to bottom, to top, color-stop(0%, rgba(40, 115, 122, 0)), color-stop(100%, #28737a));
+  background-image: -webkit-linear-gradient(to bottom, rgba(40, 115, 122, 0), #28737a);
+  background-image: -moz-linear-gradient(to bottom, rgba(40, 115, 122, 0), #28737a);
+  background-image: -o-linear-gradient(to bottom, rgba(40, 115, 122, 0), #28737a);
+  background-image: linear-gradient(to bottom, rgba(40, 115, 122, 0), #28737a);
 }
 
 /* line 1189, _caw_styles.scss */
@@ -1625,11 +1625,11 @@ a.sweetener-link:focus .sweetener-thumb img {
 /* line 1200, _caw_styles.scss */
 a.sweetener-link:hover .sweetener-thumb:after,
 a.sweetener-link:focus .sweetener-thumb:after {
-  background-image: -webkit-gradient(linear, to bottom, to top, color-stop(0%, rgba(95, 154, 161, 0)), color-stop(100%, #5f9aa1));
-  background-image: -webkit-linear-gradient(to bottom, rgba(95, 154, 161, 0), #5f9aa1);
-  background-image: -moz-linear-gradient(to bottom, rgba(95, 154, 161, 0), #5f9aa1);
-  background-image: -o-linear-gradient(to bottom, rgba(95, 154, 161, 0), #5f9aa1);
-  background-image: linear-gradient(to bottom, rgba(95, 154, 161, 0), #5f9aa1);
+  background-image: -webkit-gradient(linear, to bottom, to top, color-stop(0%, rgba(71, 122, 128, 0)), color-stop(100%, #477a80));
+  background-image: -webkit-linear-gradient(to bottom, rgba(71, 122, 128, 0), #477a80);
+  background-image: -moz-linear-gradient(to bottom, rgba(71, 122, 128, 0), #477a80);
+  background-image: -o-linear-gradient(to bottom, rgba(71, 122, 128, 0), #477a80);
+  background-image: linear-gradient(to bottom, rgba(71, 122, 128, 0), #477a80);
 }
 
 /* sweeteners isotope filter - same as well styles */
