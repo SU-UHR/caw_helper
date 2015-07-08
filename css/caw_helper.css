@@ -48,7 +48,7 @@ body, .header, .site-main-menu, .main, .footer {
 
 /* line 27, _caw_styles.scss */
 .footer {
-  background-image: url("../img/caw-bkg-short.png");
+  background-image: url("../img/caw-bkg-short.jpg");
   background-repeat: repeat-x;
   background-position: center center;
   padding-top: 50px;
@@ -58,7 +58,7 @@ body, .header, .site-main-menu, .main, .footer {
 @media (max-width: 979px) {
   /* line 27, _caw_styles.scss */
   .footer {
-    background-image: url("../img/caw-bkg-tall.png");
+    background-image: url("../img/caw-bkg-tall.jpg");
     background-size: inherit;
     background-position: center bottom;
   }
