@@ -1356,7 +1356,7 @@ a.sweetener-link:focus {
 .front .main-top,
 .node-type-stanford-subsite .main-top,
 .page-node-233 .main-top {
-  background: $gray-dark;
+  background: $gray-light;
   height: 370px;
   margin-bottom: 100px;
   margin-top: 40px;
@@ -1401,7 +1401,7 @@ a.sweetener-link:focus {
 }
 .view.carousel .carousel-caption.carousel-dark h2 a,
 .view.carousel .carousel-caption.carousel-dark .slide-caption a {
-  color: $white;
+  color: $black;
   font-weight: 300;
   display: block;
 }
@@ -1417,7 +1417,7 @@ a.sweetener-link:focus {
 }
 .view.carousel .carousel-caption.carousel-dark a.more-link,
 .view.carousel .carousel-caption.carousel-dark .more-link a {
-  color: $turq-light;
+  color: $turq-med;
   font-size: 1.5em;
   line-height: 1.3em;
   display: block;
@@ -1426,7 +1426,7 @@ a.sweetener-link:focus {
 .view.carousel .carousel-caption.carousel-dark .more-link a:hover,
 .view.carousel .carousel-caption.carousel-dark a.more-link:focus,
 .view.carousel .carousel-caption.carousel-dark .more-link a:focus {
-  color: $white;
+  color: $turq-dark;
   text-decoration: underline;
 }
 
@@ -1446,7 +1446,7 @@ a.sweetener-link:focus {
 }
 .view.carousel .carousel-indicators .active,
 .view.carousel .carousel-indicators li:hover {
-  background-color: $white;
+  background-color: $turq-dark;
   border: 0px;
 }
 .view.carousel .carousel-controls {
