@@ -717,6 +717,9 @@ ul.pager li a:hover, ul.pager li a:focus, ul.pager li.pager-current {
 }
 
 /** EXPOSED FORMS **********************/
+form {
+  margin-bottom: 0;
+}
 .views-exposed-form .views-exposed-widget .form-submit {
   background: $red;
   border: 0;
@@ -2006,6 +2009,9 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
 /** CALENDAR **********************************/
 .view-stanford-events-calendar .date-nav-wrapper {
   background: transparent;
+}
+.calendar-calendar .month-view table {
+  @include box-shadow(none);
 }
 .calendar-calendar th.days,
 .calendar-calendar .mini td {
