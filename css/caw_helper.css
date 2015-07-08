@@ -186,7 +186,7 @@ body, .header, .site-main-menu, .main, .footer {
   line-height: 1.3em;
   background: transparent;
   padding: 0 0.25em 0.25em;
-  margin-right: 1.4em;
+  margin-right: 1.2em;
   border-bottom: 1px solid transparent;
 }
 @media (max-width: 767px) {
