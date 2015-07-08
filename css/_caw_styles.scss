@@ -125,14 +125,12 @@ body, .header, .site-main-menu, .main, .footer {
   margin-bottom: 0;
 }
 .navbar .nav > li > a {
-  @include border-radius(0);
   color: $black;
   font-size: 1.2em;
   font-weight: 300;
   line-height: 1.3em;
   background: transparent;
   padding: 0 0.25em 0.25em;
-  border-radius: 4px;
   margin-right: 1.4em;
   border-bottom: 1px solid transparent;
   @media (max-width: 767px) {
@@ -146,7 +144,8 @@ body, .header, .site-main-menu, .main, .footer {
 	min-width: 190px;
 	padding-bottom: 0.5em;
   padding-top: 0.5em;
-  margin-top: -4px;
+  margin-left: -6px;
+  margin-top: -2px;
   @include border-radius(3px);
   @include  box-shadow(3px 3px 10px rgba(0, 0, 0, 0.3));
 }
@@ -184,7 +183,7 @@ body, .header, .site-main-menu, .main, .footer {
 .navbar .nav li.active-trail.dropdown > .dropdown-toggle:hover,
 .navbar .nav li.active-trail.dropdown > .dropdown-toggle:focus {
 	color: $black;
-	background: transparent;
+	background: $gray-light;
 }
 .navbar .nav li.dropdown.active > .dropdown-toggle,
 .navbar .nav li.dropdown.active > .dropdown-toggle:hover,
