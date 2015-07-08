@@ -88,7 +88,7 @@ body, .header, .site-main-menu, .main, .footer {
 }
 
 /* line 57, _caw_styles.scss */
-.header .site-logo img {
+#header #logo.site-logo img {
   max-width: 400px;
 }
 
