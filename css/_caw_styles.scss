@@ -449,6 +449,9 @@ body, .header, .site-main-menu, .main, .footer {
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li li a.active-trail {
   background: transparent;
 }
+.sidebar .block-menu-block hr {
+  border-color: $gray-light1;
+}
 
 /* Menu banner images for program/service subsections */
 .sidebar .block.menu-banner {
