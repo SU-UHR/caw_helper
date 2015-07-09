@@ -458,10 +458,9 @@ body, .header, .site-main-menu, .main, .footer {
 /* Menu banner images for program/service subsections */
 .sidebar .block.menu-banner {
   border-top: 0;
-  margin: 0;
+  margin: 0 0 -4px;
   padding-top: 0;
   position: relative;
-  @include  box-shadow(3px 3px 10px rgba(0, 0, 0, 0.2));
   img {
     @include border-radius(3px 3px 0 0);
   }
