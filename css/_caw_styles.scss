@@ -380,7 +380,7 @@ body, .header, .site-main-menu, .main, .footer {
   @include border-radius(3px);
   @include  box-shadow(3px 3px 10px rgba(0, 0, 0, 0.2));
 }
-.sidebar .block.block-menu h2 {
+.sidebar .block.block-menu-block h2 {
   margin-bottom: 0.5em;
 }
 .sidebar .block-menu h2,
