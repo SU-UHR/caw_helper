@@ -2062,8 +2062,9 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
     margin-top: 1em;
     margin-bottom: 1em;
   }
-  .view-cardinal-at-work-course-catalog-dates .views-row {
+  .view-cardinal-at-work-event-series-dates .views-row {
     border: none;
+    margin-bottom: 0;
   }
   .postcard-left > div:first-child {
     width: 70%;
@@ -2097,7 +2098,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
       span.date-display-single {
         display: list-item;
         list-style: outside none square;
-        margin-left: 1em;
+        margin-left: 1.1em;
         margin-top: 0.5em;
       }
     }
