@@ -1066,80 +1066,82 @@ iframe {
 }
 
 /* responsive footer blocks */
-@media (max-width: 979px) {
-  #block-bean-cardinal-at-work-tagline-footer {
-    width: 55%;
-    margin-right: 5%;
+##footer-content {
+  @media (max-width: 979px) {
+    #block-bean-cardinal-at-work-tagline-footer {
+      width: 55%;
+      margin-right: 5%;
+    }
+    #block-menu-menu-footer-news-events-menu {
+      width: 38.5%;
+    }
+    #block-bean-jumpstart-footer-social-media-0 {
+      width: 30%;
+      margin-left: 0;
+    }
+    #block-menu-menu-resources-menu {
+      width: 30%;
+      margin-right: 0;
+      clear: none;
+    }
+    #block-menu-menu-see-also {
+      margin-right: 0;
+    }
   }
-  #block-menu-menu-footer-news-events-menu {
-    width: 38.5%;
+  @media (max-width: 767px) {
+    #block-bean-cardinal-at-work-tagline-footer {
+      width: 57%;
+      margin-right: 3%;
+    }
+    #block-menu-menu-footer-news-events-menu {
+      width: 40%;
+    }
+    #block-bean-jumpstart-footer-social-media-0 {
+      width: 30%;
+      margin-right: 0;
+    }
+    #block-menu-menu-resources-menu {
+      width: 27%;
+      margin-right: 3%;
+    }
+    #block-menu-menu-see-also {
+      width: 30%;
+      margin-right: 0;
+      clear: none;
+    }
   }
-  #block-bean-jumpstart-footer-social-media-0 {
-    width: 30%;
-    margin-left: 0;
+  @media (max-width: 600px) {
+    #block-bean-cardinal-at-work-tagline-footer {
+      width: 100%;
+      margin-right: 0;
+      display: block;
+    }
+    #block-menu-menu-footer-news-events-menu,
+    #block-menu-menu-resources-menu {
+      width: 47%;
+      margin-right: 3%;
+    }
+    #block-bean-jumpstart-footer-social-media-0,
+    #block-menu-menu-see-also {
+      width: 50%;
+      margin-right: 0;
+    }
   }
-  #block-menu-menu-resources-menu {
-    width: 30%;
-    margin-right: 0;
-    clear: none;
-  }
-  #block-menu-menu-see-also {
-    margin-right: 0;
-  }
-}
-@media (max-width: 767px) {
-  #block-bean-cardinal-at-work-tagline-footer {
-    width: 57%;
-    margin-right: 3%;
-  }
-  #block-menu-menu-footer-news-events-menu {
-    width: 40%;
-  }
-  #block-bean-jumpstart-footer-social-media-0 {
-    width: 30%;
-    margin-right: 0;
-  }
-  #block-menu-menu-resources-menu {
-    width: 27%;
-    margin-right: 3%;
-  }
-  #block-menu-menu-see-also {
-    width: 30%;
-    margin-right: 0;
-    clear: none;
-  }
-}
-@media (max-width: 600px) {
-  #block-bean-cardinal-at-work-tagline-footer {
-    width: 100%;
-    margin-right: 0;
-    display: block;
-  }
-  #block-menu-menu-footer-news-events-menu,
-  #block-menu-menu-resources-menu {
-    width: 47%;
-    margin-right: 3%;
-  }
-  #block-bean-jumpstart-footer-social-media-0,
-  #block-menu-menu-see-also {
-    width: 50%;
-    margin-right: 0;
-  }
-}
-@media (max-width: 320px) {
-  #block-menu-menu-footer-news-events-menu {
-    width: 100%;
-  }
-  #block-bean-jumpstart-footer-social-media-0 {
-    width: 100%;
-    margin-bottom: 1em;
-  }
-  #block-menu-menu-resources-menu {
-    width: 100%;
-    margin-bottom: 1em;
-  }
-  #block-menu-menu-see-also {
-    width: 100%;
+  @media (max-width: 320px) {
+    #block-menu-menu-footer-news-events-menu {
+      width: 100%;
+    }
+    #block-bean-jumpstart-footer-social-media-0 {
+      width: 100%;
+      margin-bottom: 1em;
+    }
+    #block-menu-menu-resources-menu {
+      width: 100%;
+      margin-bottom: 1em;
+    }
+    #block-menu-menu-see-also {
+      width: 100%;
+    }
   }
 }
 
