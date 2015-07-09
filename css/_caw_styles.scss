@@ -378,7 +378,6 @@ body, .header, .site-main-menu, .main, .footer {
   margin-top: 0px;
   border-top: 0;
   @include border-radius(3px);
-  @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.3));
 }
 .sidebar .block.block-menu-block h2 {
   margin-bottom: 0.5em;
@@ -409,7 +408,7 @@ body, .header, .site-main-menu, .main, .footer {
 .sidebar .nav li a:focus,
 .sidebar .nav li a.active,
 .sidebar .nav li a.active-trail  {
-  background: $white;
+  background: $gray-light1;
   color: $black;
 }
 .sidebar .block-menu .content > .menu > li > a,
@@ -435,7 +434,7 @@ body, .header, .site-main-menu, .main, .footer {
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:focus,
 .sidebar .block-menu .content > .menu > li.expanded,
 .sidebar .block-menu-block .content > .menu > li.expanded {
-  background: $white;
+  background: $gray-light1;
 }
 .sidebar .block-menu .content > .menu > li li a,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li li a {
