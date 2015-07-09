@@ -378,7 +378,7 @@ body, .header, .site-main-menu, .main, .footer {
   margin-top: 0px;
   border-top: 0;
   @include border-radius(3px);
-  @include  box-shadow(3px 3px 10px rgba(0, 0, 0, 0.2));
+  @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.3));
 }
 .sidebar .block.block-menu-block h2 {
   margin-bottom: 0.5em;
