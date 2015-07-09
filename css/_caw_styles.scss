@@ -2178,6 +2178,10 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
 .calendar-calendar .mini td {
   background: $gray-light;
 }
+.calendar-calendar table.mini td.empty,
+.calendar-calendar .mini td.has-events {
+  background: $gray-light1;
+}
 .content-body .view-stanford-events-calendar .date-nav-wrapper {
   background: $gray-light;
   @include box-shadow(1px 1px 6px rgba(0, 0, 0, 0.25));
