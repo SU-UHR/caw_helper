@@ -1958,7 +1958,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
 .view.carousel .carousel-caption.carousel-dark .slide-caption a {
   font-size: 1.3em;
   line-height: 1.3em;
-  margin-bottom: 1em;
+  margin-bottom: 0em;
 }
 
 /* line 1444, _caw_styles.scss */
