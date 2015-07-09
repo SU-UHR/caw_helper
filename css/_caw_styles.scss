@@ -744,6 +744,9 @@ a.btn.btn-arrow-right:focus {
 }
 
 /** PAGER ******************************/
+.item-list .pager {
+  margin-top: 30px;
+}
 ul.pager li a,
 ul.pager li.pager-current {
   @include box-shadow($gray-med3 2px 2px 8px);
