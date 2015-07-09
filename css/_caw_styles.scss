@@ -1816,9 +1816,8 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
 }
 .program-banner {
   position: relative;
-  background: $white;
+  background: $gray-light;
   @include border-radius(3px);
-  @include box-shadow(1px 1px 6px rgba(0, 0, 0, 0.25));
 }
 /* for when it's on a program/service page */
 .node-type-stanford-program-service .program-banner {
@@ -1839,7 +1838,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
   position: absolute;
   right: 0;
   top: 0;
-  background: $white;
+  background: $gray-light;
   h1 {
     margin-left: 50px;
     margin-right: 50px;
@@ -1861,7 +1860,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
   max-height: 370px;
   position: relative;
   width: 55px;
-  @include background-image(linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)));
+  @include background-image(linear-gradient(to right, rgba(233, 237, 238, 0), rgba(233, 237, 238, 1)));
 }
 @media (max-width: 979px) {
   .program-banner-img img {
@@ -1882,7 +1881,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
     width: 100%;
     margin-top: -55px;
     margin-left: 0;
-    @include background-image(linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)));
+    @include background-image(linear-gradient(to bottom, rgba(233, 237, 238, 0), rgba(233, 237, 238, 1)));
   }
 }
 @media (max-width: 380px) {
