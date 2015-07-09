@@ -1348,29 +1348,20 @@ a.sweetener-link:focus {
 }
 
 /* sweeteners nodes */
-.node-type-stanford-sweetener .field.field-name-field-s-sweet-image.field-type-image.field-label-hidden {
+.node-type-stanford-sweetener {
+  .field.field-name-field-s-sweet-image.field-type-image.field-label-hidden {
     margin-bottom: 30px;
-}
-.node-type-stanford-sweetener .field.field-name-field-s-sweet-desc.field-type-text-long.field-label-hidden {
+  }
+  .field.field-name-field-s-sweet-desc.field-type-text-long.field-label-hidden {
     margin-bottom: 15px;
-}
-.node-type-stanford-sweetener .field.field-name-field-s-sweet-more-info.field-type-link-field.field-label-above,
-.node-type-stanford-sweetener .field.field-name-field-s-sweet-audience.field-type-taxonomy-term-reference.field-label-above {
+  }
+  .field.field-name-field-s-sweet-more-info.field-type-link-field.field-label-above,
+  .field.field-name-field-s-sweet-audience.field-type-taxonomy-term-reference.field-label-above {
     margin-bottom: 10px;
-}
-/* sweeteners node styles */
-
-.node-type-stanford-sweetener .field.field-name-field-s-sweet-image.field-type-image.field-label-hidden {
-    margin-bottom: 30px;
-}
-
-.node-type-stanford-sweetener .field.field-name-field-s-sweet-desc.field-type-text-long.field-label-hidden {
-    margin-bottom: 15px;
-}
-
-.node-type-stanford-sweetener .field.field-name-field-s-sweet-more-info.field-type-link-field.field-label-above,
-.node-type-stanford-sweetener .field.field-name-field-s-sweet-audience.field-type-taxonomy-term-reference.field-label-above {
-    margin-bottom: 10px;
+  }
+  .content-body .field.field-name-field-s-image-info {
+    margin-bottom: 20px;
+  }
 }
 
 /** CAROUSEL ****************************/
@@ -1909,6 +1900,9 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
   }
   .caption p {
     margin-bottom: 0;
+  }
+  .content-body .field.field-name-field-s-image-info {
+    margin-bottom: 20px;
   }
 }
 
