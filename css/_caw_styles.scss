@@ -1893,13 +1893,13 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
     font-size: 16px;
     text-transform: none;
     line-height: 1.4em;
-    margin-top: 0;
+    border-top: 1px solid $gray-light1;
+    margin-top: 1em;
+    padding-top: 1em;
+    display: block;
   }
   .field.field-name-field-s-news-categories.field-type-taxonomy-term-reference.field-label-above .field-label {
-    font-size: 1.3em;
     letter-spacing: normal;
-    line-height: 1.3em;
-    margin-bottom: 0.5em;
   }
   .field.field-name-field-s-news-categories.field-type-taxonomy-term-reference.field-label-above .field-items {
     font-weight: 300;
