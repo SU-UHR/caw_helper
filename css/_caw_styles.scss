@@ -1060,6 +1060,9 @@ iframe {
   li a.active:focus {
     color: $black;
   }
+  .menu li a {
+    padding-bottom: 0.2em;
+  }
 }
 
 /* responsive footer blocks */
