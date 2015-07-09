@@ -1120,27 +1120,23 @@ iframe {
     #block-menu-menu-resources-menu {
       width: 47%;
       margin-right: 3%;
+      clear: both;
     }
     #block-bean-jumpstart-footer-social-media-0,
     #block-menu-menu-see-also {
       width: 50%;
       margin-right: 0;
+      clear: none;
     }
   }
   @media (max-width: 320px) {
-    #block-menu-menu-footer-news-events-menu {
-      width: 100%;
-    }
-    #block-bean-jumpstart-footer-social-media-0 {
-      width: 100%;
-      margin-bottom: 1em;
-    }
-    #block-menu-menu-resources-menu {
-      width: 100%;
-      margin-bottom: 1em;
-    }
+    #block-menu-menu-footer-news-events-menu,
+    #block-bean-jumpstart-footer-social-media-0,
+    #block-menu-menu-resources-menu,
     #block-menu-menu-see-also {
       width: 100%;
+      clear: both;
+      margin-right: 0;
     }
   }
 }
