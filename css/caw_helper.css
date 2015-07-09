@@ -519,7 +519,7 @@ body, .header, .site-main-menu, .main, .footer {
 }
 
 /* line 383, _caw_styles.scss */
-.sidebar .block-menu h2 {
+.sidebar .block.block-menu h2 {
   margin-bottom: 0.5em;
 }
 
@@ -528,7 +528,7 @@ body, .header, .site-main-menu, .main, .footer {
 .sidebar .block-menu-block h2 a {
   color: #8c1515;
   padding: 0px 20px;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 0.02em;
   display: block;
 }
