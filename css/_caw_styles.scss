@@ -482,6 +482,18 @@ body, .header, .site-main-menu, .main, .footer {
   @include box-shadow(none);
 }
 
+/** RELATED CONTENT BLOCKS ****************************/
+#block-views-stanford-related-content-block {
+
+  .views-row {
+    margin-bottom: 0;
+  }
+}
+#block-views-stanford-related-content-block.block.well h2 {
+  font-weight: 300;
+  margin-bottom: 0.5em;
+}
+
 /** HEADERS ****************************/
 h1 {
   margin-bottom: 0.5em;
