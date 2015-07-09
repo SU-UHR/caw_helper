@@ -380,9 +380,12 @@ body, .header, .site-main-menu, .main, .footer {
   @include border-radius(3px);
   @include  box-shadow(3px 3px 10px rgba(0, 0, 0, 0.2));
 }
+.sidebar .block-menu h2 {
+  margin-bottom: 0.5em;
+}
 .sidebar .block-menu h2,
 .sidebar .block-menu-block h2 a {
-  color: $black;
+  color: $red;
   padding: 0px 20px;
   font-weight: 400;
   letter-spacing: 0.02em;
@@ -392,7 +395,7 @@ body, .header, .site-main-menu, .main, .footer {
 .sidebar .block-menu h2 a:focus,
 .sidebar .block-menu-block h2 a:hover,
 .sidebar .block-menu-block h2 a:focus {
-  color: $turq-med;
+  color: $black;
   text-decoration: none;
 }
 .sidebar .nav li a {
