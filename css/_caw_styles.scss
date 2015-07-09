@@ -88,6 +88,37 @@ body, .header, .site-main-menu, .main, .footer {
   }
 }
 
+/* Faculty Staff Help Center Subsite site title */
+.subsite-faculty-staff-help-center {
+  #site-title-first-line a,
+  #site-title-first-line a:hover,
+  #site-title-first-line a:focus {
+    color: #3f3c30;
+    font-size: 31px;
+    font-weight: 300;
+    letter-spacing: -0.04em;
+  }
+  #header #logo {
+    border-right: 1px solid $black;
+  }
+  #site-title-first-line {
+    margin-bottom: -11px;
+  }
+  @media (max-width: 480px) {
+    #header #logo.logo-mobile {
+      display: none;
+    }
+    .header {
+      padding-top: 0;
+    }
+    #site-title-first-line a,
+    #site-title-first-line a:hover,
+    #site-title-first-line a:focus {
+      font-size: 24px;
+    }
+  }
+}
+
 /** SEARCH ****************************/
 
 .nav-search {
