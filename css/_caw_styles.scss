@@ -1286,6 +1286,16 @@ a.sweetener-link:focus {
 }
 
 /* sweeteners carousel */
+@media (max-width: 480px) {
+  #block-bean-sweeteners-short-branding-bloc img {
+    max-width: 50%;
+  }
+}
+@media (max-width: 320px) {
+  #block-bean-sweeteners-short-branding-bloc img {
+    max-width: 100%;
+  }
+}
 .slick-dots li button::before {
   content: none;
 }
