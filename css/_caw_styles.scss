@@ -370,8 +370,8 @@ body, .header, .site-main-menu, .main, .footer {
 /** SIDEBAR MENUS ****************************/
 .sidebar .block.block-menu,
 .sidebar .block.block-menu-block {
-  background: $gray-dark;
-  color: $white;
+  background: $gray-light;
+  color: $black;
   padding-left: 0;
   padding-right: 0;
   padding-bottom: 1.5em;
@@ -382,7 +382,7 @@ body, .header, .site-main-menu, .main, .footer {
 }
 .sidebar .block-menu h2,
 .sidebar .block-menu-block h2 a {
-  color: $white;
+  color: $black;
   padding: 0px 20px;
   font-weight: 400;
   letter-spacing: 0.02em;
@@ -392,11 +392,11 @@ body, .header, .site-main-menu, .main, .footer {
 .sidebar .block-menu h2 a:focus,
 .sidebar .block-menu-block h2 a:hover,
 .sidebar .block-menu-block h2 a:focus {
-  color: $turq-light;
+  color: $turq-med;
   text-decoration: none;
 }
 .sidebar .nav li a {
-  color: $white;
+  color: $black;
 }
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:hover,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:focus,
@@ -406,8 +406,8 @@ body, .header, .site-main-menu, .main, .footer {
 .sidebar .nav li a:focus,
 .sidebar .nav li a.active,
 .sidebar .nav li a.active-trail  {
-  background: $gray-med1;
-  color: $white;
+  background: $white;
+  color: $black;
 }
 .sidebar .block-menu .content > .menu > li > a,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a,
@@ -432,7 +432,7 @@ body, .header, .site-main-menu, .main, .footer {
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li > a:focus,
 .sidebar .block-menu .content > .menu > li.expanded,
 .sidebar .block-menu-block .content > .menu > li.expanded {
-  background: $gray-med1;
+  background: $whtie;
 }
 .sidebar .block-menu .content > .menu > li li a,
 .sidebar .block-menu-block .menu-block-wrapper > .menu > li li a {
