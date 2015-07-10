@@ -675,7 +675,10 @@ a.btn:focus {
   background: $black;
   color: $white;
 }
-a.btn.btn-arrow-right {
+a.btn {
+  font-weight:300;
+  font-size: 1.1em;
+  line-height: 1.2em;
   @include box-shadow($gray-med3 2px 2px 8px);
 }
 a.btn.btn-arrow-right,
@@ -687,10 +690,8 @@ a.btn.btn-arrow-right:focus {
   background-position: calc(100% - 10px) center;
   padding-right: 30px;
   text-align: left;
-  font-weight:300;
-  font-size: 1.1em;
-  line-height: 1.2em;
 }
+a.btn:hover, a.btn:focus, .btn a:hover, .btn a:focus,
 a.btn.btn-arrow-right:hover,
 a.btn.btn-arrow-right:focus {
   @include box-shadow($gray-med3 4px 4px 8px);
