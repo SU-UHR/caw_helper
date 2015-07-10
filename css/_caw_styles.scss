@@ -1349,7 +1349,7 @@ a.sweetener-link {
 
 a.sweetener-link:hover,
 a.sweetener-link:focus {
-  background: $turq-med1;
+  background: $turq-dark;
   @include box-shadow(3px 3px 8px rgba(0, 0, 0, 0.25));
   text-decoration: none;
 
@@ -1360,7 +1360,7 @@ a.sweetener-link:focus {
     opacity: .8;
   }
   .sweetener-thumb:after {
-    @include background-image(linear-gradient(to bottom, rgba(71, 122, 128, 0), rgba(71, 122, 128, 1)));
+    @include background-image(linear-gradient(to bottom, rgba(0, 79, 91, 0), rgba(0, 79, 91, 1)));
   }
 }
 

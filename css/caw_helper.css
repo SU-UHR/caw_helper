@@ -1792,7 +1792,7 @@ a.sweetener-link .sweetener-thumb:after {
 /* line 1351, _caw_styles.scss */
 a.sweetener-link:hover,
 a.sweetener-link:focus {
-  background: #477a80;
+  background: #004f5b;
   -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
@@ -1811,11 +1811,11 @@ a.sweetener-link:focus .sweetener-thumb img {
 /* line 1362, _caw_styles.scss */
 a.sweetener-link:hover .sweetener-thumb:after,
 a.sweetener-link:focus .sweetener-thumb:after {
-  background-image: -webkit-gradient(linear, to bottom, to top, color-stop(0%, rgba(71, 122, 128, 0)), color-stop(100%, #477a80));
-  background-image: -webkit-linear-gradient(to bottom, rgba(71, 122, 128, 0), #477a80);
-  background-image: -moz-linear-gradient(to bottom, rgba(71, 122, 128, 0), #477a80);
-  background-image: -o-linear-gradient(to bottom, rgba(71, 122, 128, 0), #477a80);
-  background-image: linear-gradient(to bottom, rgba(71, 122, 128, 0), #477a80);
+  background-image: -webkit-gradient(linear, to bottom, to top, color-stop(0%, rgba(0, 79, 91, 0)), color-stop(100%, #004f5b));
+  background-image: -webkit-linear-gradient(to bottom, rgba(0, 79, 91, 0), #004f5b);
+  background-image: -moz-linear-gradient(to bottom, rgba(0, 79, 91, 0), #004f5b);
+  background-image: -o-linear-gradient(to bottom, rgba(0, 79, 91, 0), #004f5b);
+  background-image: linear-gradient(to bottom, rgba(0, 79, 91, 0), #004f5b);
 }
 
 /* sweeteners isotope filter - same as well styles */
