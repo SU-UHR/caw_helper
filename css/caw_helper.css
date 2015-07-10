@@ -1806,7 +1806,7 @@ a.sweetener-link:focus h3 {
 /* line 1359, _caw_styles.scss */
 a.sweetener-link:hover .sweetener-thumb img,
 a.sweetener-link:focus .sweetener-thumb img {
-  opacity: .8;
+  opacity: .9;
 }
 /* line 1362, _caw_styles.scss */
 a.sweetener-link:hover .sweetener-thumb:after,

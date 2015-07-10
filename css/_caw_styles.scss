@@ -1357,7 +1357,7 @@ a.sweetener-link:focus {
     color: $white;
   }
   .sweetener-thumb img {
-    opacity: .8;
+    opacity: .9;
   }
   .sweetener-thumb:after {
     @include background-image(linear-gradient(to bottom, rgba(0, 79, 91, 0), rgba(0, 79, 91, 1)));
