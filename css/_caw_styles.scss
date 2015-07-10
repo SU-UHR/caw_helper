@@ -181,7 +181,7 @@ body, .header, .site-main-menu, .main, .footer {
   margin-left: -6px;
   margin-top: 2px;
   @include border-radius(3px);
-  @include  box-shadow(3px 3px 10px rgba(0, 0, 0, 0.3));
+  @include  box-shadow(3px 3px 8px rgba(0, 0, 0, 0.3));
 }
 .nav-collapse .dropdown-menu a {
 	color: $black;
@@ -244,7 +244,7 @@ body, .header, .site-main-menu, .main, .footer {
 
 @media (max-width: 767px) {
   .nav-collapse.in {
-    @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.3));
+    @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.25));
     background: $white;
     @include border-radius(3px);
   }
@@ -611,7 +611,7 @@ ul, ol {
 table {
   width: 100%;
   margin-bottom: 1em;
-  @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.3));
+  @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.25));
 }
 th, td {
   padding: 0.5em;
@@ -737,7 +737,7 @@ a.btn.btn-arrow-right:focus {
 .main .border-shadow img,
 .views-row-lines img {
   @include border-radius(3px);
-  @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.3));
+  @include box-shadow(1px 1px 6px rgba(0, 0, 0, 0.25));
 }
 .views-row-lines img {
   margin-left: 7px;
@@ -838,7 +838,7 @@ iframe {
 .tile {
   background: $white;
   @include border-radius(4px);
-  @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.3));
+  @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.25));
 
   .tile-link {
     background: $white;
@@ -868,7 +868,7 @@ iframe {
   .tile-link:focus {
     text-decoration: none;
     opacity: 1;
-    @include box-shadow(3px 3px 8px rgba(0, 0, 0, 0.3));
+    @include box-shadow(3px 3px 8px rgba(0, 0, 0, 0.25));
 
     img {
       opacity: 0.8;
@@ -1232,7 +1232,7 @@ body.front .main-top {
   @include box-sizing(border-box);
   background: $white;
   @include border-radius(4px);
-  @include box-shadow($gray-light 1px 1px 4px);
+  @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.25));
   padding: 24px 28px;
 }
 .home-news > .content > .view-cardinal-at-work-news > .attachment,
@@ -1283,7 +1283,7 @@ body.front .main-top {
 #block-bean-homepage-about-block .postcard-content {
   background: $white;
   @include border-radius(4px);
-  @include box-shadow($gray-light 1px 1px 4px);
+  @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.25));
 }
 @media (max-width: 979px) and (min-width: 768px) {
   .row-fluid #block-bean-homepage-about-block.span4 {
@@ -1351,7 +1351,7 @@ a.sweetener-link {
 a.sweetener-link:hover,
 a.sweetener-link:focus {
   background: $turq-dark;
-  @include box-shadow(3px 3px 8px rgba(0, 0, 0, 0.25));
+  @include box-shadow(3px 3px 8px rgba(0, 0, 0, 0.3));
   text-decoration: none;
 
   h3 {
@@ -1369,7 +1369,6 @@ a.sweetener-link:focus {
 .view-sweeteners-isotope-page > .view-header {
   background: $gray-light;
   @include border-radius(3px);
-  @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.2));
   color: $gray-dark;
   font-size: 0.9em;
   padding: 24px 28px;
@@ -1930,7 +1929,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
 /** FAQ **********************/
 .view-stanford-show-hide-faq-hierarchy .views-row {
   margin-bottom: 0.5em;
-  @include box-shadow($gray-light 1px 1px 4px);
+  @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.25));
   @include border-radius(4px);
 }
 .view-stanford-show-hide-faq-hierarchy .views-row > div:first-child a.collapsed {
@@ -1948,7 +1947,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
 /* events blocks */
 .block-views .view-cardinal-at-work-stanford-events-list .views-row {
   background: $white;
-  @include box-shadow($gray-light 1px 1px 4px);
+  @include box-shadow(1px 1px 8px rgba(0, 0, 0, 0.25));
   @include border-radius(4px);
 
   .postcard-left > div {
