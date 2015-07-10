@@ -1598,7 +1598,7 @@ a.sweetener-link:focus {
   border-radius: 20px;
   height: 18px;
   width: 18px;
-  background-color: $gray-med2;
+  background-color: $gray-med3;
   border: 0px;
   margin-left: 10px;
 }
@@ -1626,15 +1626,15 @@ a.sweetener-link:focus {
 
 .view.carousel .carousel-controls .carousel-control.right:hover,
 .view.carousel .carousel-controls .carousel-control.right:focus {
-  background-image: url("../img/caw-arrow-right-hvr.png");
+  opacity: 1;
 }
 .view.carousel .carousel-controls .carousel-control.left:hover,
 .view.carousel .carousel-controls .carousel-control.left:focus {
-  background-image: url("../img/caw-arrow-left-hvr.png");
+  opacity: 1;
 }
 .view.carousel .carousel-control,
 .view.carousel .carousel-control:focus {
-  opacity: 1;
+  opacity: 0.75;
 }
 
 .carousel .edit-link a {

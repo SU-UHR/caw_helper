@@ -2143,7 +2143,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
   border-radius: 20px;
   height: 18px;
   width: 18px;
-  background-color: #888a91;
+  background-color: #909499;
   border: 0px;
   margin-left: 10px;
 }
@@ -2182,19 +2182,19 @@ a.sweetener-link:focus .sweetener-thumb:after {
 /* line 1628, _caw_styles.scss */
 .view.carousel .carousel-controls .carousel-control.right:hover,
 .view.carousel .carousel-controls .carousel-control.right:focus {
-  background-image: url("../img/caw-arrow-right-hvr.png");
+  opacity: 1;
 }
 
 /* line 1632, _caw_styles.scss */
 .view.carousel .carousel-controls .carousel-control.left:hover,
 .view.carousel .carousel-controls .carousel-control.left:focus {
-  background-image: url("../img/caw-arrow-left-hvr.png");
+  opacity: 1;
 }
 
 /* line 1636, _caw_styles.scss */
 .view.carousel .carousel-control,
 .view.carousel .carousel-control:focus {
-  opacity: 1;
+  opacity: 0.75;
 }
 
 /* line 1640, _caw_styles.scss */
