@@ -2132,7 +2132,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
 
 /* line 1591, _caw_styles.scss */
 .carousel .view-footer {
-  bottom: 95px;
+  bottom: 90px;
   position: absolute;
   right: 315px;
   width: 220px;
@@ -2228,7 +2228,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
 
   /* line 1660, _caw_styles.scss */
   .carousel .view-footer {
-    bottom: 50px;
+    bottom: 30px;
     right: 240px;
   }
 }
