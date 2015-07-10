@@ -333,9 +333,9 @@ body, .header, .site-main-menu, .main, .footer {
 
   /* line 249, _caw_styles.scss */
   .nav-collapse.in {
-    -webkit-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
-    -moz-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
-    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
     background: white;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -806,9 +806,9 @@ ul, ol {
 table {
   width: 100%;
   margin-bottom: 1em;
-  -webkit-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
-  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
 }
 
 /* line 619, _caw_styles.scss */
@@ -1128,9 +1128,9 @@ iframe {
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
-  -webkit-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
-  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
   /* gradient over image */
 }
 /* line 846, _caw_styles.scss */
@@ -1634,9 +1634,9 @@ body.front .main-top {
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
-  -webkit-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
-  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
   padding: 24px 28px;
 }
 
@@ -1704,9 +1704,9 @@ body.front .main-top {
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
-  -webkit-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
-  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 979px) and (min-width: 768px) {
@@ -2582,9 +2582,9 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 /* line 1933, _caw_styles.scss */
 .view-stanford-show-hide-faq-hierarchy .views-row {
   margin-bottom: 0.5em;
-  -webkit-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
-  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -2624,9 +2624,9 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
 /* line 1951, _caw_styles.scss */
 .block-views .view-cardinal-at-work-stanford-events-list .views-row {
   background: white;
-  -webkit-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
-  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
