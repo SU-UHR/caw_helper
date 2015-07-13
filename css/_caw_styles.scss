@@ -396,7 +396,6 @@ body, .header, .site-main-menu, .main, .footer {
   color: $red;
   padding: 0px 20px;
   font-weight: 300;
-  letter-spacing: 0.02em;
   display: block;
 }
 .sidebar .block-menu h2 a:hover,
@@ -499,7 +498,6 @@ body, .header, .site-main-menu, .main, .footer {
   }
 }
 #block-views-stanford-related-content-block.block.well h2 {
-  font-weight: 300;
   margin-bottom: 0.5em;
 }
 
@@ -515,6 +513,8 @@ h2, h3, h4 {
 }
 h2, .content h2, body.cke_show_borders h2, .well h2, #sidebar-second .well-sidebar-only h2 {
   margin-top: 1em;
+  font-size: 1.5em;
+  letter-spacing: -0.01em;
 }
 h3, .content h3, body.cke_show_borders h3 {
   margin-top: 1em;
@@ -657,6 +657,7 @@ a:focus {
 }
 h2 a {
   color: $red;
+  font-weight: 400;
 }
 h2 a:hover, h2 a:focus {
   color: $black;
@@ -1065,8 +1066,7 @@ iframe {
     border-top: 0;
   }
   h2 {
-    font-size: 1.3em;
-    font-weight: 600;
+    font-size: 1.5em;
     margin-bottom: 1em;
   }
 }
