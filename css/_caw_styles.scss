@@ -1578,7 +1578,7 @@ a.sweetener-link:focus {
 .view.carousel .carousel-block .carousel-caption.carousel-position-left {
   left: auto;
   right: 0;
-  padding: 90px 75px;
+  padding: 90px 0 90px 75px;
 }
 .view.carousel .carousel-caption.carousel-dark h2 a,
 .view.carousel .carousel-caption.carousel-dark .slide-caption a {
@@ -1612,7 +1612,7 @@ a.sweetener-link:focus {
 }
 
 .carousel .view-footer {
-  bottom: 90px;
+  bottom: 80px;
   position: absolute;
   right: 315px;
   width: 220px;

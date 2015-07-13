@@ -2119,7 +2119,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
 .view.carousel .carousel-block .carousel-caption.carousel-position-left {
   left: auto;
   right: 0;
-  padding: 90px 75px;
+  padding: 90px 0 90px 75px;
 }
 
 /* line 1584, _caw_styles.scss */
@@ -2164,7 +2164,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
 
 /* line 1614, _caw_styles.scss */
 .carousel .view-footer {
-  bottom: 90px;
+  bottom: 80px;
   position: absolute;
   right: 315px;
   width: 220px;
