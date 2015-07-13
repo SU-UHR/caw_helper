@@ -791,7 +791,7 @@ hr {
 
 /** LISTS ****************************/
 /* line 604, _caw_styles.scss */
-ul li {
+ul li, ol li {
   line-height: 1.4em;
   margin-bottom: 0.5em;
 }
