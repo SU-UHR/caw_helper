@@ -24,6 +24,12 @@ body, .header, .site-main-menu, .main, .footer {
     padding-top: 20px;
   }
 }
+.mc-content {
+  padding-right: 1em;
+  @media (max-width: 979px) {
+    padding-right: 0;
+  }
+}
 .footer {
   background-image: url('../img/caw-bkg-short.jpg');
   background-repeat: repeat-x;
