@@ -1093,7 +1093,8 @@ iframe {
     margin-bottom: 0;
   }
 }
-.block.well {
+.node-type-stanford-subsite .block.well,
+.front .block.well {
   margin-bottom: 60px;
 }
 .block.well h2 {
