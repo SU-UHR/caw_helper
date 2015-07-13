@@ -2416,8 +2416,8 @@ a.sweetener-link:focus .sweetener-thumb:after {
 /* line 1819, _caw_styles.scss */
 .field-name-field-landing-page-item .numbered-guide {
   border-top: 1px solid #e9edee;
-  margin-top: 1em;
-  padding-top: 2em;
+  margin-top: 0.5em;
+  padding-top: 1em;
   padding-left: 5em;
 }
 
