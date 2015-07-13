@@ -608,6 +608,11 @@ ul li {
 ul, ol {
   margin-bottom: 1.25em;
 }
+.block.well {
+  ul, ol {
+    margin-bottom: 1em;
+  }
+}
 
 /** TABLES ****************************/
 
