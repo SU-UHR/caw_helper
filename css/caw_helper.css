@@ -1987,7 +1987,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
 /* line 1484, _caw_styles.scss */
 .slick-dots {
   position: relative;
-  top: auto;
+  top: -2px;
   left: auto;
   right: auto;
   bottom: auto;
