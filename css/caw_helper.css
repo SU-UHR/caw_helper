@@ -1929,7 +1929,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
   }
 }
 /* line 1474, _caw_styles.scss */
-.slick-slide {
+.sweetener-carousel .slick-slide {
   overflow: hidden;
   padding: 4px 0px 0px 4px;
 }
