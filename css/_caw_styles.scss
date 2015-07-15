@@ -1165,8 +1165,13 @@ iframe {
 }
 
 /* shadow block */
-#block-bean-dividing-line img {
-  width: 100%;
+#block-bean-dividing-line {
+  p {
+    margin-bottom: 0;
+  }
+  img {
+    width: 100%;
+  }
 }
 
 /** FOOTER *********************************/
