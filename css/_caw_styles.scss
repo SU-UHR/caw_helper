@@ -1154,6 +1154,10 @@ iframe {
   @include border-radius(4px);
   @include box-shadow(1px 1px 6px rgba(0, 0, 0, 0.2));
 }
+.node-type-stanford-subsite .block.well.well-white, 
+.front .block.well.well-white {
+  margin-bottom: 30px
+}
 
 /* well-nav blocks */
 .well.well-nav a {
