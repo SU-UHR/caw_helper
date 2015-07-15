@@ -2148,12 +2148,13 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
   line-height: 1.4em;
   letter-spacing: normal;
 }
-.field-name-field-caw-course-bewell::before {
+.field-name-field-caw-course-bewell {
   background-image: url("../img/bewell-berry.png");
+  background-position: 0 center;
   background-repeat: no-repeat;
-  background-position: 0% center;
-  height: 100px;
-  width: 100px;
+  line-height: 30px;
+  min-height: 30px;
+  padding-left: 30px;
 }
 
 
