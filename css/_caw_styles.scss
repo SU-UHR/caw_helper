@@ -2036,6 +2036,17 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
 .view-stanford-show-hide-faq-hierarchy .views-row div.views-field-body {
   @include border-radius(0 0 4px 4px);
 }
+.view-stanford-show-hide-faq-hierarchy .views-row a.collapsed {
+  background: $white;
+}
+.view-stanford-show-hide-faq-hierarchy .views-row a.collapsed:hover,
+.view-stanford-show-hide-faq-hierarchy .views-row a.collapsed:active {
+  color: $red;
+  text-decoration: underline;
+}
+.view-stanford-show-hide-faq-hierarchy a.collapsed:hover h4 {
+  color: $red;
+}
 
 /** EVENTS *********************/
 
