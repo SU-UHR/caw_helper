@@ -4,7 +4,7 @@
   width: 220px !important;
 }
 
-/* line 10, wysiwyg_editor.scss */
+/* line 9, wysiwyg_editor.scss */
 .cke_panel_frame .highlight-block-right,
 .cke_panel_frame .highlight-block-left {
   margin: 0px;
@@ -13,7 +13,7 @@
   float: none;
   width: 100%;
 }
-/* line 18, wysiwyg_editor.scss */
+/* line 17, wysiwyg_editor.scss */
 .cke_panel_frame p.float-left,
 .cke_panel_frame p.float-right {
   float: none;
@@ -21,7 +21,7 @@
   padding: 0px;
   width: 100%;
 }
-/* line 26, wysiwyg_editor.scss */
+/* line 25, wysiwyg_editor.scss */
 .cke_panel_frame p.float-right,
 .cke_panel_frame .highlight-block-right {
   text-align: right;
