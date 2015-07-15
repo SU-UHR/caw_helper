@@ -600,6 +600,13 @@ hr {
 }
 
 /* Highlight blocks within the WYSIWYG */
+.highlight-block-right,
+.highlight-block-left {
+  @include box-sizing(border-box);
+  color: $gray-med4;
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
 .highlight-block-right {
   float: right;
   width: 16em;
@@ -618,6 +625,7 @@ hr {
 .highlight-block-left img {
   height: auto;
   width: 100%;
+  margin-bottom: 0.75em;
 }
 
 /** NEW TO CAW ****************************/
