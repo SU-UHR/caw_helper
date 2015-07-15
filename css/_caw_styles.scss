@@ -1415,15 +1415,30 @@ a.sweetener-link:focus {
 }
 .isotope-options label {
   display: inline-block;
+  @include box-sizing(border-box);
   margin-right: 1%;
-  min-width: 22%;
+  width: 32%;
   background: $white;
   @include border-radius(4px);
-  padding: 0.5em;
+  padding: 0.5em 0.5em 0.5em 38px;
+  vertical-align: top;
+  text-indent: -16px;
   -webkit-transition: background 0.3s ease;
   -moz-transition: background 0.3s ease;
   -o-transition: background 0.3s ease;
   transition: background 0.3s ease;
+
+  @media (max-width: 767px) {
+    width: 32%;
+  }
+  @media (max-width: 532px) {
+    width: 48%;
+  }
+  @media (max-width: 388px) {
+    width: 100%;
+    margin-right: 0;
+    display: block;
+  }
 }
 .isotope-options label:hover,
 .isotope-options label.hover,
