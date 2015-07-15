@@ -1915,7 +1915,7 @@ a.sweetener-link:focus .sweetener-thumb:after {
 @media (max-width: 767px) {
   /* line 1416, _caw_styles.scss */
   .isotope-options label {
-    width: 32%;
+    width: 31%;
   }
 }
 @media (max-width: 532px) {
