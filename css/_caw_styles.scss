@@ -46,6 +46,24 @@ body, .header, .site-main-menu, .main, .footer {
   margin-top: 80px;
 }
 
+/* band-aid for responsive sidebar bug */
+@media (max-width: 979px) and (min-width: 960px) {
+ .sidebar {
+  clear: both;
+   display: block;
+   width: 100%;
+ }
+  .sidebar .block {
+   width: 31.4917%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 2.76243%;
+  }
+  .mc-content {
+    width: 100%;
+  }
+}
+
 /** LOGO ****************************/
 
 #header #logo {
