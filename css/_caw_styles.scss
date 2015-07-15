@@ -404,6 +404,10 @@ body, .header, .site-main-menu, .main, .footer {
   margin-top: 0px;
   border-top: 0;
   @include border-radius(3px);
+
+  @media (max-width: 979px) {
+    margin-left: 0;
+  }
 }
 .sidebar .block.block-menu-block h2 {
   margin-bottom: 0.5em;
