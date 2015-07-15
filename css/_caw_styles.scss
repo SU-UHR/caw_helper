@@ -1422,6 +1422,10 @@ a.sweetener-link:focus {
   }
 }
 
+.slick-slide a.sweetener-link {
+  margin-right: 11px;
+}
+
 /* sweeteners isotope filter - same as well styles */
 .view-sweeteners-isotope-page > .view-header {
   background: $gray-light;
