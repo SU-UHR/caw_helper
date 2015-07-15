@@ -1086,7 +1086,7 @@ iframe {
   margin-top: 1em;
   padding: 1.5em 0 0 0;
   border-top: 1px solid $gray-light1;
-  @media (max-width: 767px) and (min-width: 480px) {
+  @media (max-width: 979px) and (min-width: 480px) {
     border-top: 0;
   }
   h2 {
