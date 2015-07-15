@@ -1149,6 +1149,12 @@ iframe {
   font-weight: 400;
 }
 
+.well.well-white {
+  background: $white;
+  @include border-radius(4px);
+  @include box-shadow(1px 1px 6px rgba(0, 0, 0, 0.2));
+}
+
 /* well-nav blocks */
 .well.well-nav a {
   font-weight: 400;
@@ -1297,13 +1303,6 @@ body.front .main-top {
 /* news double wide block */
 .home-news > h2 {
   font-size: 1.5em;
-}
-.home-news > .content {
-  @include box-sizing(border-box);
-  background: $white;
-  @include border-radius(4px);
-  @include box-shadow(1px 1px 6px rgba(0, 0, 0, 0.2));
-  padding: 24px 28px;
 }
 .home-news > .content > .view-cardinal-at-work-news > .attachment,
 .home-news > .content > .view-cardinal-at-work-news > .view-content {
