@@ -914,6 +914,10 @@ iframe {
     h2 {
       color: $red;
     }
+
+    .field:last-child h2 {
+      margin-bottom: 20px;
+    }
   }
 
   img {
