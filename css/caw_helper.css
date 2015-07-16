@@ -1236,7 +1236,7 @@ iframe {
 }
 /* line 918, _caw_styles.scss */
 .tile .tile-link .field:last-child h2 {
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 /* line 923, _caw_styles.scss */
 .tile img {
