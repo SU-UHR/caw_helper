@@ -1216,9 +1216,10 @@ iframe {
   -webkit-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+  padding-bottom: 20px;
   /* gradient over image */
 }
-/* line 908, _caw_styles.scss */
+/* line 909, _caw_styles.scss */
 .tile .tile-link {
   background: white;
   -webkit-border-radius: 4px;
@@ -1229,7 +1230,6 @@ iframe {
   margin-bottom: 0;
   height: 100%;
   display: block;
-  padding-bottom: 20px;
 }
 /* line 915, _caw_styles.scss */
 .tile .tile-link h2 {
