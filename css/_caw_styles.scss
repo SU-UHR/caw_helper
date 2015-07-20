@@ -194,6 +194,7 @@ body, .header, .site-main-menu, .main, .footer {
   }
 }
 .dropdown-menu {
+  z-index: 10001;
 	background: $beige;
 	color: $black;
   border: 1px solid $gray-light;
