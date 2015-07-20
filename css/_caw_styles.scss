@@ -266,6 +266,21 @@ body, .header, .site-main-menu, .main, .footer {
   border-bottom: 1px solid $red;
 }
 
+/* connect icons in menu */
+
+.menu-mlid-2083 a {
+  padding-left: 20px;
+  background-image: url("../img/social-facebook.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.menu-mlid-2085 a {
+  padding-left: 20px;
+  background-image: url("../img/social-youtube.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
 @media (max-width: 767px) {
   .nav-collapse .btn {
     font-weight: 300;
