@@ -2150,6 +2150,10 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
 
 /* event and course node styles */
 
+.page-node .content-body .field .field-label {
+  margin-top: 1em;
+}
+
 .node-type-stanford-event .field.field-name-field-stanford-event-datetime.field-type-datetime.field-label-hidden {
     margin-bottom: 0.25em;
 }
