@@ -268,17 +268,17 @@ body, .header, .site-main-menu, .main, .footer {
 
 /* connect icons in menu */
 
-.menu-mlid-2083 a {
-  padding-left: 20px;
+.nav-collapse .dropdown-menu li.menu-mlid-2083 a {
   background-image: url("../img/social-facebook.png");
+  background-position: 14px center;
   background-repeat: no-repeat;
-  background-position: left center;
+  padding-left: 39px;
 }
-.menu-mlid-2085 a {
-  padding-left: 20px;
+.nav-collapse .dropdown-menu li.menu-mlid-2085 a {
   background-image: url("../img/social-youtube.png");
+  background-position: 14px center;
   background-repeat: no-repeat;
-  background-position: left center;
+  padding-left: 39px;
 }
 
 @media (max-width: 767px) {
