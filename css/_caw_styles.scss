@@ -2194,7 +2194,11 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
   background-image: url("../img/bewell-berry.png");
   background-position: center;
   background-repeat: no-repeat;
+  display: inline-block;
   height: 30px;
+  margin-right: 5px;
+  margin-top: -5px;
+  vertical-align: middle;
   width: 30px;
 }
 
