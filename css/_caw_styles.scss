@@ -816,6 +816,10 @@ span.ext {
   margin-top: 7px;
 }
 
+.node .no-shadow img {
+  @include box-shadow(none);
+}
+
 /** PAGER ******************************/
 .item-list .pager {
   margin-top: 30px;
