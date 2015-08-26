@@ -3280,7 +3280,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   margin-bottom: 15px;
   margin-top: -15px;
 }
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   /* line 2447, _caw_styles.scss */
   .page-search .search-views-right, .page-search .search-views-left {
     width: 100%;
