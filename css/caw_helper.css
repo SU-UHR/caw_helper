@@ -3442,3 +3442,7 @@ https://sites.stanford.edu/caw/benefits-rewards/contact-us */
   position: relative;
   right: auto;
 }
+/* line 2575, _caw_styles.scss */
+.ie8 #block-stanford-gallery-tabs-stanford-gallery-tabs .view-display-id-gallery_tabs_list {
+  margin-top: 0;
+}
