@@ -2290,6 +2290,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
   }
 }
 
+.course-calendar,
 .view-s-cardinal-at-work-course-calendar,
 .view-cardinal-at-work-event-series-dates,
 .view-caw-help-center-calendar {
@@ -2312,12 +2313,14 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
     }
   }
 }
+.course-calendar.views-row-lines .views-row,
 .view-s-cardinal-at-work-course-calendar.views-row-lines .views-row,
 .view-cardinal-at-work-event-series-dates.views-row-lines .views-row,
 .view-caw-help-center-calendar.views-row-lines .views-row {
   margin-bottom: 0.5em;
   padding-bottom: 0.5em;
 }
+.course-calendar.views-row-lines .views-row-1,
 .view-s-cardinal-at-work-course-calendar.views-row-lines .views-row-1,
 .view-cardinal-at-work-event-series-dates.views-row-lines .views-row-1,
 .view-caw-help-center-calendar.views-row-lines .views-row-1 {
