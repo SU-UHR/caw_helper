@@ -2431,8 +2431,15 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
   .search-views-bottom a.active {
     color: $red;
   }
+  .views-exposed-form .views-exposed-widget.views-submit-button {
+    padding-top: 0.4em;
+    clear: none;
+  }
+  #block-views-exp-gotosolr-nodes-page {
+    margin-bottom: 15px;
+    margin-top: -15px;
+  }
 }
-
 
 /** PRINT STYLES ****************************/
 
