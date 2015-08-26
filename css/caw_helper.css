@@ -3427,3 +3427,13 @@ https://sites.stanford.edu/caw/benefits-rewards/contact-us */
   }
 }
 /** IE STYLES ****************************/
+/* line 2563, _caw_styles.scss */
+.ie8 .view-display-id-gallery_tabs_list .active-tab {
+  left: auto;
+  margin-right: 0;
+  padding: 35px;
+}
+/* line 2568, _caw_styles.scss */
+.ie8 .view-display-id-gallery_tabs_list .active-tab .su-gallery-tab-name, .ie8 .view-display-id-gallery_tabs_list .active-tab .su-gallery-tab-job-title, .ie8 .view-display-id-gallery_tabs_list .active-tab .su-gallery-tab-department {
+  margin-left: 0;
+}
