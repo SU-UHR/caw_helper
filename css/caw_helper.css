@@ -3273,6 +3273,60 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
   margin-top: -15px;
 }
 
+/** BENEFITS CONTACT PAGE -  ******************************
+https://sites.stanford.edu/caw/benefits-rewards/contact-us */
+/* line 2448, _caw_styles.scss */
+.page-node-5661 blockquote {
+  padding: 20px 30px;
+}
+/* line 2451, _caw_styles.scss */
+.page-node-5661 blockquote h3 {
+  text-align: center;
+  padding: 0 12px;
+  width: 13%;
+  display: inline-block;
+}
+/* line 2457, _caw_styles.scss */
+.page-node-5661 blockquote h3 img {
+  border: none;
+  display: block;
+  clear: both;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+/* line 2467, _caw_styles.scss */
+.page-node-5661 .content-row3 .block p {
+  font-size: 0.8em;
+}
+/* line 2471, _caw_styles.scss */
+.page-node-5661 .content-row3 .block p strong,
+.page-node-5661 .content-row3 .block p .btn {
+  font-size: 16px;
+}
+/* line 2474, _caw_styles.scss */
+.page-node-5661 .content-row3 .block p.float-left {
+  margin-bottom: 0;
+  margin-top: -3px;
+}
+/* line 2478, _caw_styles.scss */
+.page-node-5661 .content-row3 .block img {
+  width: 30px;
+  height: 30px;
+}
+/* line 2482, _caw_styles.scss */
+.page-node-5661 .content-row3 .block hr {
+  margin: 1em 0;
+}
+
 /** PRINT STYLES ****************************/
 @media print {
   @page {
@@ -3281,54 +3335,54 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
     font-size: 10pt;
 }
 
-  /* line 2452, _caw_styles.scss */
+  /* line 2496, _caw_styles.scss */
   p {
     font-size: .75em;
   }
 
-  /* line 2455, _caw_styles.scss */
+  /* line 2499, _caw_styles.scss */
   li {
     font-size: .75em;
   }
 
-  /* line 2458, _caw_styles.scss */
+  /* line 2502, _caw_styles.scss */
   h1 {
     font-size: 2em;
   }
 
-  /* line 2461, _caw_styles.scss */
+  /* line 2505, _caw_styles.scss */
   .summary {
     font-size: 1em;
   }
 
-  /* line 2464, _caw_styles.scss */
+  /* line 2508, _caw_styles.scss */
   h2 {
     font-size: 1.2em;
   }
 
-  /* line 2467, _caw_styles.scss */
+  /* line 2511, _caw_styles.scss */
   h3 {
     font-size: .9em;
   }
 
-  /* line 2470, _caw_styles.scss */
+  /* line 2514, _caw_styles.scss */
   h4 {
     font-size: .6em;
   }
 
-  /* line 2473, _caw_styles.scss */
+  /* line 2517, _caw_styles.scss */
   .mc-content, #sidebar-second.sidebar, .sidebar .block, .sidebar .block[class*="span"] {
     width: 100%;
     float: none;
     display: block;
   }
 
-  /* line 2478, _caw_styles.scss */
+  /* line 2522, _caw_styles.scss */
   #header, #global-header, #footer, #global-footer, #breadcrumb, #block-stanford-gallery-tabs-stanford-gallery-tabs, .region-admin-shortcuts, .node-type-stanford-subsite .region-main-top, .program-banner-img, .views-exposed-form, .block.block-menu-block, .menu-block, .menu-banner {
     display: none;
   }
 
-  /* line 2481, _caw_styles.scss */
+  /* line 2525, _caw_styles.scss */
   #main a:link:after, #main a:visited:after {
     content: " [" attr(href) "] ";
     font-size: 80%;
@@ -3336,7 +3390,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
     text-transform: none;
   }
 
-  /* line 2487, _caw_styles.scss */
+  /* line 2531, _caw_styles.scss */
   #wrap:after {
     content: "Your online destination for all employee-related information brought to you by University Human Resources: https://cardinalatwork.stanford.edu";
     font-weight: bold;
@@ -3346,7 +3400,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items .numbere
     margin-top: 10mm;
   }
 
-  /* line 2495, _caw_styles.scss */
+  /* line 2539, _caw_styles.scss */
   #wrap:before {
     content: "Page printed from Cardinal at Work";
     font-weight: bold;
