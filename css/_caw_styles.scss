@@ -2442,6 +2442,14 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
     margin-bottom: 15px;
     margin-top: -15px;
   }
+
+  @media (max-width: 400px) {
+    .search-views-right, .search-views-left {
+      width: 100%;
+      display: block;
+      text-align: left;
+    }
+  }
 }
 
 /** BENEFITS CONTACT PAGE -  ******************************
