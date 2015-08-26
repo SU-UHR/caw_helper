@@ -3475,12 +3475,13 @@ https://sites.stanford.edu/caw/benefits-rewards/contact-us */
 }
 /* line 2601, _caw_styles.scss */
 .ie8 #header #logo {
-  display: inline-block;
+  display: block;
   float: left;
+  width: 200px;
 }
-/* line 2605, _caw_styles.scss */
+/* line 2606, _caw_styles.scss */
 .ie8 #name-and-slogan {
-  display: inline-block;
+  display: block;
   float: left;
-  widht: auto;
+  widht: 200px;
 }

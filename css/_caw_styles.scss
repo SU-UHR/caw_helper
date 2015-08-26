@@ -2599,13 +2599,14 @@ https://sites.stanford.edu/caw/benefits-rewards/contact-us */
 
   /* subsite titles */
   #header #logo {
-    display: inline-block;
+    display: block;
     float: left;
+    width: 200px;
   }
   #name-and-slogan {
-    display: inline-block;
+    display: block;
     float: left;
-    widht: auto;
+    widht: 200px;
   }
 
 }
