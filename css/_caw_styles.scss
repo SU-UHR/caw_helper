@@ -2560,6 +2560,8 @@ https://sites.stanford.edu/caw/benefits-rewards/contact-us */
 /** IE STYLES ****************************/
 
 .ie8 {
+
+  /* home gallery */
   .view-display-id-gallery_tabs_list .active-tab {
     left: auto;
     margin-right: 0;
@@ -2607,6 +2609,11 @@ https://sites.stanford.edu/caw/benefits-rewards/contact-us */
     display: block;
     float: left;
     width: 200px;
+  }
+
+  /* carousel */
+  .carousel img {
+    width: 500px;
   }
 
 }
