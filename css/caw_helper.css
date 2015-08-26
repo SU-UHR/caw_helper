@@ -3430,6 +3430,7 @@ https://sites.stanford.edu/caw/benefits-rewards/contact-us */
 /* line 2562, _caw_styles.scss */
 .ie8 {
   /* search box */
+  /* menu buttons */
 }
 /* line 2563, _caw_styles.scss */
 .ie8 .view-display-id-gallery_tabs_list .active-tab {
@@ -3452,10 +3453,22 @@ https://sites.stanford.edu/caw/benefits-rewards/contact-us */
 }
 /* line 2580, _caw_styles.scss */
 .ie8 .nav-search {
-  margin-top: 100px;
   width: 165px;
 }
-/* line 2584, _caw_styles.scss */
+/* line 2583, _caw_styles.scss */
 .ie8 .nav-search input[type="text"] {
   width: 165px;
+  border: 1px solid #909499;
+}
+/* line 2589, _caw_styles.scss */
+.ie8 #block-bean-my-benefits-button, .ie8 #block-bean-search-jobs-button {
+  display: block;
+  float: none;
+  position: inherit;
+  right: auto;
+  top: auto;
+}
+/* line 2596, _caw_styles.scss */
+.ie8 .region-navigation .block {
+  float: none;
 }

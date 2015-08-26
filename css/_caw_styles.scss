@@ -2578,11 +2578,23 @@ https://sites.stanford.edu/caw/benefits-rewards/contact-us */
 
   /* search box */
   .nav-search {
-    margin-top: 100px;
     width: 165px;
   }
   .nav-search input[type="text"] {
     width: 165px;
+    border: 1px solid $gray-med3;
+  }
+
+  /* menu buttons */
+  #block-bean-my-benefits-button, #block-bean-search-jobs-button {
+    display: block;
+    float: none;
+    position: inherit;
+    right: auto;
+    top: auto;
+  }
+  .region-navigation .block {
+    float: none;
   }
 
 }
