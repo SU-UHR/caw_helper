@@ -3491,3 +3491,12 @@ https://sites.stanford.edu/caw/benefits-rewards/contact-us */
 .ie8 .carousel img {
   width: 500px;
 }
+/* line 2618, _caw_styles.scss */
+.ie8 .carousel .view-footer {
+  bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: inherit;
+  right: auto;
+  width: 220px;
+}
