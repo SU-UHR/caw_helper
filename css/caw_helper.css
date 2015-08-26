@@ -3427,6 +3427,10 @@ https://sites.stanford.edu/caw/benefits-rewards/contact-us */
   }
 }
 /** IE STYLES ****************************/
+/* line 2562, _caw_styles.scss */
+.ie8 {
+  /* search box */
+}
 /* line 2563, _caw_styles.scss */
 .ie8 .view-display-id-gallery_tabs_list .active-tab {
   left: auto;
@@ -3445,4 +3449,13 @@ https://sites.stanford.edu/caw/benefits-rewards/contact-us */
 /* line 2575, _caw_styles.scss */
 .ie8 #block-stanford-gallery-tabs-stanford-gallery-tabs .view-display-id-gallery_tabs_list {
   margin-top: 0;
+}
+/* line 2580, _caw_styles.scss */
+.ie8 .nav-search {
+  margin-top: 100px;
+  width: 165px;
+}
+/* line 2584, _caw_styles.scss */
+.ie8 .nav-search input[type="text"] {
+  width: 165px;
 }
