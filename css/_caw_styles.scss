@@ -79,6 +79,9 @@ body, .header, .site-main-menu, .main, .footer {
 }
 #header #logo.site-logo img {
   max-width: 400px;
+  @media (max-width: 400px) {
+    max-width: 100%;
+  }
 }
 
 /* site titles */
