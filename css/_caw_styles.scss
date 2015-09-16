@@ -824,7 +824,9 @@ span.ext {
   margin-top: 7px;
 }
 
-.node .no-shadow img {
+.node .no-shadow img,
+.block-bean .no-shadow img,
+.block-bean .view-mode-default .no-shadow img {
   @include box-shadow(none);
 }
 
