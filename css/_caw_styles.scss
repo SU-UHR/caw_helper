@@ -1326,6 +1326,9 @@ iframe {
 /** HOMEPAGE ******************************/
 #block-stanford-gallery-tabs-stanford-gallery-tabs {
   margin-top: -40px;
+  @media screen and (max-width: 767px) {
+    margin-top: 30px;
+  }
 }
 
 body.front .main-top {
@@ -1334,15 +1337,18 @@ body.front .main-top {
 
   @media screen and (min-width: 980px) and (max-width: 1199px) {
     height: auto;
+    margin-top: 0;
   }
 
   @media (min-width: 768px) and (max-width: 979px) {
-    height: 550px;
+    height: 610px;
     margin-bottom: 80px;
+    margin-top: 40px;
   }
 
   @media screen and (max-width: 767px) {
     height: auto;
+    margin-top: 0;
   }
 
 }
