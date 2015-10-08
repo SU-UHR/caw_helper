@@ -1773,7 +1773,7 @@ body.front .main-top {
 @media (min-width: 768px) and (max-width: 979px) {
   /* line 1336, _caw_styles.scss */
   body.front .main-top {
-    height: 610px;
+    height: 650px;
     margin-bottom: 80px;
     margin-top: 40px;
   }
