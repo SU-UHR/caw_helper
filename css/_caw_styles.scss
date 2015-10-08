@@ -2032,6 +2032,10 @@ a.sweetener-link:focus {
     padding: 90px 0 90px 75px;
 }
 
+.view.carousel .carousel-caption.carousel-dark {
+    color: $black;
+}
+
 .view.carousel .carousel-caption.carousel-dark h2 a,
 .view.carousel .carousel-caption.carousel-dark .slide-caption a {
     color: $black;
@@ -2559,7 +2563,7 @@ article.numbered-guide .field-name-field-landing-page-item .field-items,
     margin-bottom: 0.25em;
 }
 
-.node-type-stanford-event .field.field-name-field-s-event-fee.field-type-text.field-label-hidden {
+.page-node .content-body .field.field-name-field-s-event-map-link {
     margin-bottom: 1em;
 }
 
