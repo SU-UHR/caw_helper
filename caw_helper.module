@@ -174,5 +174,7 @@ function caw_helper_pathauto_alias_alter(&$alias, $context) {
  */
 function caw_helper_node_view_alter(&$build) {
   // We want to redirect users to the saml login rather than drupal's internal login for posting comments.
-  $build['links']['comment']['#links']['comment_forbidden']['title'] = l('Log in', '/saml_login', array('query' => array('destination' => 'node/' . $build['#node']->nid), 'fragment' => 'comment-form')) . ' to post comments.';
+  if (isset($build['links']['comment']['#links']['comment_forbidden'])) {
+    $build['links']['comment']['#links']['comment_forbidden']['title'] = l('Log in', '/saml_login', array('query' => array('destination' => 'node/' . $build['#node']->nid), 'fragment' => 'comment-form')) . ' to post comments.';
+  }
 }
