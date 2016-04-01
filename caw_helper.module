@@ -173,8 +173,12 @@ function caw_helper_pathauto_alias_alter(&$alias, $context) {
  * Implements hook_node_view_alter().
  */
 function caw_helper_node_view_alter(&$build) {
+  // Adding the btn class.
+  if (isset($build['links']['comment']['#links']['comment-add'])) {
+    $build['links']['comment']['#links']['comment-add']['attributes']['class'][] = 'btn';
+  }
   // We want to redirect users to the saml login rather than drupal's internal login for posting comments.
   if (isset($build['links']['comment']['#links']['comment_forbidden'])) {
-    $build['links']['comment']['#links']['comment_forbidden']['title'] = l('Log in to add a new comment', '/saml_login', array('query' => array('destination' => 'node/' . $build['#node']->nid), 'fragment' => 'comment-form'));
+    $build['links']['comment']['#links']['comment_forbidden']['title'] = l('Log in to add a new comment', '/saml_login', array('attributes' => array('class' => 'btn'), 'query' => array('destination' => 'node/' . $build['#node']->nid), 'fragment' => 'comment-form'));
   }
 }
