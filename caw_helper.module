@@ -182,3 +182,10 @@ function caw_helper_node_view_alter(&$build) {
     $build['links']['comment']['#links']['comment_forbidden']['title'] = l('Log in to add a new comment', '/saml_login', array('attributes' => array('class' => 'btn'), 'query' => array('destination' => 'node/' . $build['#node']->nid), 'fragment' => 'comment-form'));
   }
 }
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function caw_helper_form_comment_form_alter(&$form, &$form_state, $form_id) {
+  $form['actions']['submit']['#value'] = t("Submit");
+}
