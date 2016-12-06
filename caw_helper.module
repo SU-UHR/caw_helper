@@ -189,3 +189,15 @@ function caw_helper_node_view_alter(&$build) {
 function caw_helper_form_comment_form_alter(&$form, &$form_state, $form_id) {
   $form['actions']['submit']['#value'] = t("Submit");
 }
+
+/**
+ * Implements hook_search_api_solr_query_alter().
+ */
+function caw_helper_search_api_solr_query_alter(array &$call_args, SearchApiQueryInterface $query) {
+  // Boost stanford subsite and stanford page,
+  // stanford landing page and program service nodes in that order for Solr results.
+  $call_args['params']['bq'][] = '(ss_type:"stanford_subsite"^8)';
+  $call_args['params']['bq'][] = '(ss_type:"stanford_page"^6)';
+  $call_args['params']['bq'][] = '(ss_type:"stanford_landing_page"^4)';
+  $call_args['params']['bq'][] = '(ss_type:"stanford_program_service"^2)';
+}

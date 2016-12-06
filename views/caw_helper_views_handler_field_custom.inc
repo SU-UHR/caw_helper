@@ -151,7 +151,6 @@ class caw_helper_views_handler_field_custom extends views_handler_field_custom {
 
     // Empty check.
     if (isset($options['hide_if_field_empty']) && !empty($options['hide_if_field_empty'])) {
-      var_dump($options['hide_if_field_empty']);
       $keys = explode(",", $options['hide_if_field_empty']);
       foreach ($keys as $index => $field_name) {
         if (!isset($values->{$field_name}) || empty($values->{$field_name})) {
