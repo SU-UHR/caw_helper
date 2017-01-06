@@ -40,6 +40,10 @@ function caw_helper_theme_registry_alter(&$theme_registry) {
   if (isset($theme_registry['facetapi_count'])) {
     $theme_registry['facetapi_count']['function'] = "caw_helper_facetapi_count";
   }
+  if (isset($theme_registry['forward_email'])) {
+    $theme_registry['forward_email']['theme path'] = drupal_get_path('module', 'caw_helper');
+    $theme_registry['forward_email']['function'] = 'caw_helper_custom_forward_template';
+  }
 }
 
 
@@ -200,4 +204,45 @@ function caw_helper_search_api_solr_query_alter(array &$call_args, SearchApiQuer
   $call_args['params']['bq'][] = '(ss_type:"stanford_page"^6)';
   $call_args['params']['bq'][] = '(ss_type:"stanford_landing_page"^4)';
   $call_args['params']['bq'][] = '(ss_type:"stanford_program_service"^2)';
+}
+
+/**
+ * Custom theme_registry alter callback for forward contrib module function theme_forward_email($variables).
+ */
+function caw_helper_custom_forward_template(&$variables) {
+  $vars = $variables['vars'];
+  $output = '
+<html>
+  <body>
+    <table width="400" cellspacing="0" cellpadding="10" border="0">
+      <thead>
+        <tr><td><h1 style="font-family: Arial, Helvetica, sans-serif; font-size: 18px;">' . l($vars['logo'], 'forward/emailref', array('absolute' => TRUE, 'query' => array('path' => $vars['path']), 'html' => TRUE)) . '</h1></td></tr>
+        <tr><td><h1 style="font-family: Arial, Helvetica, sans-serif; font-size: 18px;">' . l($vars['site_name'], 'forward/emailref', array('absolute' => TRUE, 'query' => array('path' => $vars['path']), 'html' => TRUE)) . '</h1></td></tr>
+      </thead>
+      <tbody>
+        <tr><td><p style="height: 12px;"></p></td></tr>
+        <tr>
+          <td style="font-family: Arial, Helvetica, sans-serif; font-size: 12px;">' .
+            $vars['forward_message'];
+  if ($vars['message']) {
+    $output .= '<p>' . t('Message from Sender') . ':</p><p>' . $vars['message'] . '</p>';
+  }
+  $output .= '<h2 style="font-size: 14px;">' . l($vars['content']->title, 'forward/emailref', array('absolute' => TRUE, 'query' => array('path' => $vars['path']))) . '</h2>';
+  if (variable_get('node_submitted_' . $vars['content']->type)) {
+    $output .= '<p><em>'.((!empty($vars['content']->name)) ? t('by %author', array('%author' => $vars['content']->name)) : t('by %author', array('%author' => variable_get('anonymous' , 'Anonymous')))).'</em></p>';
+  }
+  $output .= '<div>' . $vars['content']->teaser . '</div><p style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #28737a;">' . l(t('Click here to read more on our site »'), 'forward/emailref', array('absolute' => TRUE, 'query' => array('path' => $vars['path']), 'attributes' => array('class' => array('more-link')))) . '</p>';
+  $output .= '
+          </td>
+        </tr>
+        <tr><td style="font-family: Arial, Helvetica, sans-serif; font-size: 12px;">' . $vars['dynamic_content'] . '</td></tr>
+        <tr><td style="font-family: Arial, Helvetica, sans-serif; font-size: 12px;">' . $vars['forward_ad_footer'] . '</td></tr>
+        <tr><td style="font-family: Arial, Helvetica, sans-serif; font-size: 12px;">' . $vars['forward_footer'] . '</td></tr>
+      </tbody>
+    </table>
+  </body>
+</html>
+  ';
+
+  return $output;
 }
