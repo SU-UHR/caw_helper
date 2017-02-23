@@ -251,7 +251,9 @@ function caw_helper_custom_forward_template(&$variables) {
  * Implements hook_ds_pre_render_alter().
  */
 function caw_helper_ds_pre_render_alter(&$layout_render_array, $context) {
-  if ($context['entity']->type == 'stanford_news_item' && isset($layout_render_array['ds_content'][0])) {
+  if ($context['entity']->type == 'stanford_news_item'
+      && isset($context['entity']->service_links_rendered)
+      && isset($layout_render_array['ds_content'][0])) {
     $links = array();
     $links['service_links_rendered']['#type'] = 'markup';
     $links['service_links_rendered']['#prefix'] = $context['entity']->service_links_rendered;
