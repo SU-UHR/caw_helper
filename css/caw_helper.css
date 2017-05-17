@@ -673,7 +673,7 @@ body,
 
 /* line 563, _caw_styles.scss */
 .sidebar .block-menu .content > .menu > li li a,
-.sidebar .block-menu-block .menu-block-wrapper > .menu > li li a {
+.sidebar .block-menu-block .menu-block-wrapper > .menu.nav > li li a {
   padding: 5px 20px;
   font-size: .9em;
   font-weight: 300;
@@ -682,11 +682,11 @@ body,
 
 /* line 575, _caw_styles.scss */
 .sidebar .block-menu .content > .menu > li li a:hover,
-.sidebar .block-menu-block .menu-block-wrapper > .menu > li li a:hover,
+.sidebar .block-menu-block .menu-block-wrapper > .menu.nav > li li a:hover,
 .sidebar .block-menu .content > .menu > li li a:focus,
-.sidebar .block-menu-block .menu-block-wrapper > .menu > li li a:focus,
+.sidebar .block-menu-block .menu-block-wrapper > .menu.nav > li li a:focus,
 .sidebar .block-menu .content > .menu > li li a.active-trail,
-.sidebar .block-menu-block .menu-block-wrapper > .menu > li li a.active-trail {
+.sidebar .block-menu-block .menu-block-wrapper > .menu.nav > li li a.active-trail {
   background: transparent;
 }
 
